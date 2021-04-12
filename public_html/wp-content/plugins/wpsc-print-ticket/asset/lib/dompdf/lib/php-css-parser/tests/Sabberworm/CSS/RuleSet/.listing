@@ -1,0 +1,4 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:48 .
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul 15 09:48 ..
+-rw-r--r--    1 1499       u1035-camd      10999 Jul 15 09:48 DeclarationBlockTest.php
+-rw-r--r--    1 1499       u1035-camd       3154 Jul 15 09:48 LenientParsingTest.php

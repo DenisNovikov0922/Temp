@@ -1,0 +1,1718 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-01 19:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: woofood-settings.php:36
+msgid "Settings"
+msgstr ""
+
+#: woofood-settings.php:38 woofood-settings.php:453
+msgid "Orders"
+msgstr ""
+
+#: woofood-settings.php:43
+msgid "Extra Options Management"
+msgstr ""
+
+#: woofood-settings.php:45
+msgid "Delivery Hours"
+msgstr ""
+
+#: woofood-settings.php:47
+msgid "Pickup Hours"
+msgstr ""
+
+#: woofood-settings.php:88
+msgid "WooFood Settings"
+msgstr ""
+
+#: woofood-settings.php:94 woofood-settings.php:248 woofood-settings.php:295
+#: woofood-settings.php:401 woofood-settings.php:460
+msgid "Settings Updated."
+msgstr ""
+
+#. WooFood License Number
+#: woofood-settings.php:103 woofood-settings.php:587
+msgid "License"
+msgstr ""
+
+#: woofood-settings.php:103
+msgid "Tweaks"
+msgstr ""
+
+#: woofood-settings.php:103
+msgid "Ajax"
+msgstr ""
+
+#: woofood-settings.php:103
+msgid "Checkout Fields"
+msgstr ""
+
+#: woofood-settings.php:103 inc/func/search_by_order_type.php:7
+#: inc/func/order_type.php:236 inc/func/extra_columns_order.php:25
+msgid "Delivery"
+msgstr ""
+
+#: woofood-settings.php:103 inc/func/search_by_order_type.php:7
+#: inc/func/order_type.php:236 inc/func/extra_columns_order.php:25
+msgid "Pickup"
+msgstr ""
+
+#: woofood-settings.php:103
+msgid "Distance Restrictions"
+msgstr ""
+
+#: woofood-settings.php:103
+msgid "Accept/Decline Orders"
+msgstr ""
+
+#: woofood-settings.php:103
+msgid "Force Disable"
+msgstr ""
+
+#: woofood-settings.php:103
+msgid "Shortcodes"
+msgstr ""
+
+#: woofood-settings.php:242
+msgid "Delivery  Hours"
+msgstr ""
+
+#: woofood-settings.php:289
+msgid "Pickup  Hours"
+msgstr ""
+
+#: woofood-settings.php:342 inc/func/multiple_addresses.php:113
+#: inc/func/multiple_addresses.php:302
+msgid "Loading..."
+msgstr ""
+
+#: woofood-settings.php:345
+msgid "Exra Options Management"
+msgstr ""
+
+#: woofood-settings.php:348 inc/func/extra_options-backup.php:1373
+#: inc/func/extra_options.php:1364
+msgid "Add New Extra Option Category"
+msgstr ""
+
+#: woofood-settings.php:395
+msgid "Push Notifications"
+msgstr ""
+
+#: woofood-settings.php:427
+msgid "Push Title"
+msgstr ""
+
+#: woofood-settings.php:428
+msgid "Push Message"
+msgstr ""
+
+#: woofood-settings.php:429
+msgid "Send Push Notifications"
+msgstr ""
+
+#: woofood-settings.php:469 woofood-settings.php:475
+msgid "Select Order Status"
+msgstr ""
+
+#: woofood-settings.php:474
+msgid "Select Order Status."
+msgstr ""
+
+#: woofood-settings.php:485 woofood-settings.php:491
+msgid "Update Every"
+msgstr ""
+
+#: woofood-settings.php:490
+msgid "Seconds "
+msgstr ""
+
+#: woofood-settings.php:493
+msgid "10"
+msgstr ""
+
+#: woofood-settings.php:494
+msgid "20"
+msgstr ""
+
+#: woofood-settings.php:495
+msgid "30"
+msgstr ""
+
+#: woofood-settings.php:496
+msgid "60"
+msgstr ""
+
+#: woofood-settings.php:503
+msgid "Refresh Orders"
+msgstr ""
+
+#. WooFood License Number
+#: woofood-settings.php:593
+msgid "WooFood License number"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:603 inc/func/delivery_time.php:191
+#: inc/func/delivery_time.php:204 inc/func/delivery_time.php:378
+#: inc/func/delivery_time.php:391
+msgid "Delivery Time"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:609
+msgid "Average Delivery Time"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:621
+msgid "Force Disable Delivery"
+msgstr ""
+
+#: woofood-settings.php:627 woofood-settings.php:642 woofood-settings.php:683
+#: woofood-settings.php:761 inc/func/product_availability.php:23
+msgid "Disable"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:636
+msgid "Force Disable Pickup"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:656
+msgid "Delivery Cost(Fee)"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:664
+msgid "Delivery Cost"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:675
+msgid "Force Disable Delivery Orders out of Delivery Hours"
+msgstr ""
+
+#: woofood-settings.php:712
+msgid "Enable Pickup Option"
+msgstr ""
+
+#: woofood-settings.php:720 woofood-settings.php:788 woofood-settings.php:813
+#: woofood-settings.php:842 woofood-settings.php:853 woofood-settings.php:925
+#: woofood-settings.php:976 woofood-settings.php:985 woofood-settings.php:1002
+#: woofood-settings.php:1024 woofood-settings.php:1044
+#: woofood-settings.php:1064 woofood-settings.php:1080
+#: woofood-settings.php:1096 woofood-settings.php:1115
+#: woofood-settings.php:1156 woofood-settings.php:1187
+msgid "Enable"
+msgstr ""
+
+#: woofood-settings.php:728
+msgid "Hide Address on Pickup"
+msgstr ""
+
+#: woofood-settings.php:737 inc/func/delivery_time.php:241
+#: inc/func/delivery_time.php:254 inc/func/delivery_time.php:428
+#: inc/func/delivery_time.php:441
+msgid "Pickup Time"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:743
+msgid "Average Pickup Time"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:753
+msgid "Force Disable Pickup Orders out of Pickup Hours"
+msgstr ""
+
+#: woofood-settings.php:771
+msgid "Enable Time To Deliver Option"
+msgstr ""
+
+#: woofood-settings.php:782
+msgid "Enable Date To Deliver Option"
+msgstr ""
+
+#: woofood-settings.php:796 woofood-settings.php:821
+msgid "Up to (Days)"
+msgstr ""
+
+#: woofood-settings.php:807
+msgid "Enable Date To Pickup Option"
+msgstr ""
+
+#: woofood-settings.php:834
+msgid "Enable Time To Pickup Option"
+msgstr ""
+
+#: woofood-settings.php:862 woofood-settings.php:881
+msgid "Disable 'Now' Time"
+msgstr ""
+
+#: woofood-settings.php:870 woofood-settings.php:889
+msgid "Enable 'ASAP' on  Time"
+msgstr ""
+
+#: woofood-settings.php:897
+msgid "Break Down Delivery Times every"
+msgstr ""
+
+#: woofood-settings.php:906
+msgid "Break Down Pickup Times every"
+msgstr ""
+
+#: woofood-settings.php:917
+msgid "Enable Avada Compatibility"
+msgstr ""
+
+#: woofood-settings.php:935
+msgid "Show Product Short Description"
+msgstr ""
+
+#: woofood-settings.php:942
+msgid "Hide Extra Category Name on Cart"
+msgstr ""
+
+#: woofood-settings.php:952
+msgid "Minutes Display Format"
+msgstr ""
+
+#: woofood-settings.php:959
+msgid "WooCommerce Product Add-ons Compatibility"
+msgstr ""
+
+#: woofood-settings.php:967
+msgid "How To Use WooFood Shortcodes"
+msgstr ""
+
+#: woofood-settings.php:994
+msgid "Format"
+msgstr ""
+
+#: woofood-settings.php:1013
+msgid "Enable Ajax"
+msgstr ""
+
+#: woofood-settings.php:1033
+msgid "Enable Upsell Products"
+msgstr ""
+
+#: woofood-settings.php:1053
+msgid "Enable Related Products"
+msgstr ""
+
+#: woofood-settings.php:1073
+msgid "Enable Doorbell"
+msgstr ""
+
+#: woofood-settings.php:1089
+msgid "Hide Country Field"
+msgstr ""
+
+#: woofood-settings.php:1107
+msgid "Hide Images"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:1127
+msgid "Minimum amount to delivery"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:1133
+msgid "Minimum Order amount"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:1148 woofood-settings.php:1179
+msgid "Maximum Number of Orders per Timeslot"
+msgstr ""
+
+#: woofood-settings.php:1165 woofood-settings.php:1196
+msgid "Number of Orders"
+msgstr ""
+
+#. WooFood Google API Key
+#: woofood-settings.php:1217
+msgid "Google API Keys  (Not Required for Postal Code)"
+msgstr ""
+
+#. WooFood Google API Key
+#: woofood-settings.php:1223
+msgid "Google API Key(Maps JavaScript API)"
+msgstr ""
+
+#. WooFood Google Distance Matrix API Key
+#: woofood-settings.php:1232
+msgid "Google API Key(Distance Matrix API)"
+msgstr ""
+
+#. WooFood maximum distance
+#: woofood-settings.php:1242
+msgid "Distance Restriction Mode"
+msgstr ""
+
+#. WooFood maximum distance
+#: woofood-settings.php:1248
+msgid "Restrict by "
+msgstr ""
+
+#. WooFood maximum distance
+#: woofood-settings.php:1259 woofood-settings.php:1265
+msgid "Store Address"
+msgstr ""
+
+#. WooFood Enable Accept/Decline
+#: woofood-settings.php:1277 woofood-settings.php:1283
+msgid "Enable Accept/Decline Orders"
+msgstr ""
+
+#. WooFood Enable Accept/Decline
+#: woofood-settings.php:1293
+msgid "Disable Accept/Decline when"
+msgstr ""
+
+#. WooFood Enable Accept/Decline
+#: woofood-settings.php:1302
+msgid "Minutes to Arrive (Comma seperated)"
+msgstr ""
+
+#. WooFood Enable Accept/Decline
+#: woofood-settings.php:1310
+msgid "Declined Order Redirect Page"
+msgstr ""
+
+#: woofood-settings.php:1320 woofood-settings.php:1740
+msgid "Monday"
+msgstr ""
+
+#: woofood-settings.php:1328 woofood-settings.php:1345
+#: woofood-settings.php:1363 woofood-settings.php:1386
+#: woofood-settings.php:1403 woofood-settings.php:1420
+#: woofood-settings.php:1445 woofood-settings.php:1462
+#: woofood-settings.php:1479 woofood-settings.php:1506
+#: woofood-settings.php:1523 woofood-settings.php:1540
+#: woofood-settings.php:1566 woofood-settings.php:1582
+#: woofood-settings.php:1599 woofood-settings.php:1624
+#: woofood-settings.php:1640 woofood-settings.php:1657
+#: woofood-settings.php:1683 woofood-settings.php:1700
+#: woofood-settings.php:1717 woofood-settings.php:1748
+#: woofood-settings.php:1765 woofood-settings.php:1783
+#: woofood-settings.php:1806 woofood-settings.php:1823
+#: woofood-settings.php:1840 woofood-settings.php:1865
+#: woofood-settings.php:1882 woofood-settings.php:1899
+#: woofood-settings.php:1926 woofood-settings.php:1943
+#: woofood-settings.php:1960 woofood-settings.php:1986
+#: woofood-settings.php:2002 woofood-settings.php:2019
+#: woofood-settings.php:2044 woofood-settings.php:2060
+#: woofood-settings.php:2077 woofood-settings.php:2103
+#: woofood-settings.php:2120 woofood-settings.php:2137
+msgid "from"
+msgstr ""
+
+#: woofood-settings.php:1336 woofood-settings.php:1353
+#: woofood-settings.php:1371 woofood-settings.php:1394
+#: woofood-settings.php:1411 woofood-settings.php:1428
+#: woofood-settings.php:1453 woofood-settings.php:1470
+#: woofood-settings.php:1487 woofood-settings.php:1514
+#: woofood-settings.php:1531 woofood-settings.php:1548
+#: woofood-settings.php:1574 woofood-settings.php:1590
+#: woofood-settings.php:1607 woofood-settings.php:1632
+#: woofood-settings.php:1648 woofood-settings.php:1665
+#: woofood-settings.php:1691 woofood-settings.php:1708
+#: woofood-settings.php:1725 woofood-settings.php:1756
+#: woofood-settings.php:1773 woofood-settings.php:1791
+#: woofood-settings.php:1814 woofood-settings.php:1831
+#: woofood-settings.php:1848 woofood-settings.php:1873
+#: woofood-settings.php:1890 woofood-settings.php:1907
+#: woofood-settings.php:1934 woofood-settings.php:1951
+#: woofood-settings.php:1968 woofood-settings.php:1994
+#: woofood-settings.php:2010 woofood-settings.php:2027
+#: woofood-settings.php:2052 woofood-settings.php:2068
+#: woofood-settings.php:2085 woofood-settings.php:2111
+#: woofood-settings.php:2128 woofood-settings.php:2145
+msgid "to"
+msgstr ""
+
+#: woofood-settings.php:1380 woofood-settings.php:1800
+msgid "Tuesday"
+msgstr ""
+
+#: woofood-settings.php:1439 woofood-settings.php:1859
+msgid "Wednesday"
+msgstr ""
+
+#: woofood-settings.php:1500 woofood-settings.php:1920
+msgid "Thursday"
+msgstr ""
+
+#: woofood-settings.php:1560 woofood-settings.php:1980
+msgid "Friday"
+msgstr ""
+
+#: woofood-settings.php:1618 woofood-settings.php:2038
+msgid "Saturday"
+msgstr ""
+
+#: woofood-settings.php:1677 woofood-settings.php:2097
+msgid "Sunday"
+msgstr ""
+
+#: woofood-settings.php:2157
+msgid "FireBase Server Key"
+msgstr ""
+
+#: woofood-settings.php:2165
+msgid "Key"
+msgstr ""
+
+#: woofood-settings.php:2174
+msgid "Notification Settings"
+msgstr ""
+
+#: woofood-settings.php:2181
+msgid "Order Completed Notification"
+msgstr ""
+
+#: woofood-settings.php:3559
+msgid "Enter your License number:"
+msgstr ""
+
+#: woofood-settings.php:3565
+msgid "Average Delivery Time in minutes:"
+msgstr ""
+
+#: woofood-settings.php:3570
+msgid "This will force disable delivery even if time is within delivery hours."
+msgstr ""
+
+#: woofood-settings.php:3576
+msgid "This will force disable pickup even if time is within pickup hours."
+msgstr ""
+
+#: woofood-settings.php:3581
+msgid "Average Pickup Time in minutes:"
+msgstr ""
+
+#: woofood-settings.php:3587
+msgid ""
+"Complete a delivery cost if any .Leave it empty ito disable it or to use "
+"default WooCommerce Shipping Methods"
+msgstr ""
+
+#: woofood-settings.php:3592
+msgid ""
+"Enabling this option will force the store to accept orders only when "
+"restaurant is opened (within Delivery Hours) .Pre-orders also will not be "
+"possible on times out of Delivery Hours"
+msgstr ""
+
+#: woofood-settings.php:3597
+msgid ""
+"Enabling this option will force the store to accept orders only when "
+"restaurant is opened (within Pickup Hours)"
+msgstr ""
+
+#: woofood-settings.php:3603
+msgid ""
+"This will override the  Average Delivery Time and will calculate the "
+"automatically based on Process Time field of each product:"
+msgstr ""
+
+#: woofood-settings.php:3608
+msgid "Customers must reach this amount to be able to checkout:"
+msgstr ""
+
+#: woofood-settings.php:3615 woofood-settings.php:3623
+msgid "You can enable to accept a maximum number of orders for each timeslot."
+msgstr ""
+
+#: woofood-settings.php:3631
+msgid "Enable this option for customers to be able to select pickup option:"
+msgstr ""
+
+#: woofood-settings.php:3641
+msgid ""
+"Enable this option for customers to be able to select a specific time to "
+"deliver the products based on Delivery/Pickup Hours"
+msgstr ""
+
+#: woofood-settings.php:3649
+msgid ""
+"Enable this option for customers to be able to select a specific date  to "
+"deliver the products based on Days store is opened"
+msgstr ""
+
+#: woofood-settings.php:3656
+msgid ""
+"Enable this option for customers to be able to select a specific date  to "
+"pickup the products based on Days store is opened"
+msgstr ""
+
+#: woofood-settings.php:3663
+msgid ""
+"Enable this option for customers to be able to select a specific time  to "
+"pickup the products based on Pickup Hours"
+msgstr ""
+
+#: woofood-settings.php:3670
+msgid ""
+"By selecting this option country field will be hidden . But first ensure "
+"that you have selected on <strong>WooCommerce -> Settings <strong> under "
+"<strong>General<strong> tab  on <strong>General options<strong> section the "
+"selling locations and on shipping locations Sell to specific countries and "
+"set your country "
+msgstr ""
+
+#: woofood-settings.php:3678
+msgid "Load Product in Pop-up using AJAX."
+msgstr ""
+
+#: woofood-settings.php:3686
+msgid "Enable Upsell Products in Pop-up"
+msgstr ""
+
+#: woofood-settings.php:3694
+msgid "Enable Related Products in Pop-up"
+msgstr ""
+
+#: woofood-settings.php:3702
+msgid "Enable Doorbell input field."
+msgstr ""
+
+#: woofood-settings.php:3710
+msgid "Hide Product Images on Product Pages, Cart and Archive "
+msgstr ""
+
+#: woofood-settings.php:3718
+msgid "Hide Extra Category Title above extra options  on cart "
+msgstr ""
+
+#: woofood-settings.php:3726
+msgid "Enable this to make visible the product short description after title"
+msgstr ""
+
+#: woofood-settings.php:3733
+msgid ""
+"We noticed that you are using Avada Theme. It is suggested to enable this "
+"feature."
+msgstr ""
+
+#: woofood-settings.php:3743
+msgid "How do you want minutes to get displayed?"
+msgstr ""
+
+#: woofood-settings.php:3750
+msgid ""
+"Enabling this option will add compatibility with WooCommerce Product Add-ons."
+" Do not enable it if you don't use it"
+msgstr ""
+
+#: woofood-settings.php:3761
+msgid "Here is a simple guide on how to use WooFood shortcodes"
+msgstr ""
+
+#: woofood-settings.php:3767
+msgid "WooFood Accordion All Product Categories"
+msgstr ""
+
+#: woofood-settings.php:3768
+msgid ""
+"This is the most common usage. It will display all of your product "
+"categories as accordion."
+msgstr ""
+
+#: woofood-settings.php:3769 woofood-settings.php:3778
+#: woofood-settings.php:3787
+msgid "Example Shortcode"
+msgstr ""
+
+#: woofood-settings.php:3776
+msgid "WooFood Accordion with Specific Category"
+msgstr ""
+
+#: woofood-settings.php:3777
+#, php-format
+msgid ""
+"Here you can notice that we are using %s attribute along with the category "
+"slug. You can set multiple categories by  comma."
+msgstr ""
+
+#: woofood-settings.php:3785
+msgid "WooFood Accordion with Custom Styling"
+msgstr ""
+
+#: woofood-settings.php:3786
+#, php-format
+msgid "You can use %s , %s, %s to change the styling of your accordions."
+msgstr ""
+
+#: woofood-settings.php:3794
+msgid "WooFood Accordion with Custom Product Selection Styling and Icon"
+msgstr ""
+
+#: woofood-settings.php:3795
+#, php-format
+msgid ""
+"On the following example we are using specific product ids(comma seperated) "
+"using the attribute %s and additionaly using the %s and %s  attributes  to "
+"set an icon and a title."
+msgstr ""
+
+#: woofood-settings.php:3797 inc/func/multiple_addresses.php:787
+msgid "Note:"
+msgstr ""
+
+#: woofood-settings.php:3797
+#, php-format
+msgid ""
+"You can use %s and %s attributes only if you are trying to display only one "
+"single product category or a custom product selection."
+msgstr ""
+
+#: woofood-settings.php:3804
+msgid "WooFood Availability Popup"
+msgstr ""
+
+#: woofood-settings.php:3805
+msgid ""
+"Using the following shortcode an availability checker popup will "
+"automatically open to all new users."
+msgstr ""
+
+#: woofood-settings.php:3823
+msgid ""
+"By enabling Accept/Decline feature you will have to manually Accept or "
+"Decline each order. Keep it disabled if you want to automatically accept "
+"orders. "
+msgstr ""
+
+#: woofood-settings.php:3837
+#, php-format
+msgid ""
+"Paste your API key below and click \"Save Changes\" in order to enable the "
+"address autocomplete dropdown on the WooCommerce checkout page. %1$s"
+msgstr ""
+
+#: woofood-settings.php:3841
+msgid "Click Here to read a small tutorial to setup it"
+msgstr ""
+
+#: woofood-settings.php:3850
+msgid ""
+"You should create 2 Google API Keys .On the first enable Maps Javascript API "
+"and set restrictions by referrer. On the second enable Distance Matrix API "
+"and GEOCoding  and set restrictions by IP .If you are using IPV6 set both "
+"IPV4 and IPV6 address on restrictionss."
+msgstr ""
+
+#: woofood-settings.php:3861
+msgid "Select how the Distance restrictions will be applied"
+msgstr ""
+
+#: woofood-settings.php:3867
+msgid ""
+"Your Store Address. Required both for Distance in km calculation and Design "
+"Area(Polygon)"
+msgstr ""
+
+#: woofood-settings.php:3872
+msgid "Type your FireBase Server Key.:"
+msgstr ""
+
+#: woofood-settings.php:3877
+msgid ""
+"Check Automatic Push Notifications you want to enable on Order Status Update:"
+msgstr ""
+
+#: woofood-settings.php:3886 woofood-settings.php:3951
+msgid "Monday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:3896 woofood-settings.php:3961
+msgid "Tuesday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:3905 woofood-settings.php:3970
+msgid "Wednesday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:3913 woofood-settings.php:3978
+msgid "Thursday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:3921 woofood-settings.php:3986
+msgid "Friday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:3930 woofood-settings.php:3995
+msgid "Saturday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:3938 woofood-settings.php:4003
+msgid "Sunday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:4040 woofood-settings.php:4055
+#: woofood-settings.php:4057 woofood-settings.php:4089
+msgid "From (Km)"
+msgstr ""
+
+#: woofood-settings.php:4040 woofood-settings.php:4058
+#: woofood-settings.php:4060 woofood-settings.php:4091
+#: woofood-settings.php:4092 woofood-settings.php:4094
+msgid "Up to (Km)"
+msgstr ""
+
+#: woofood-settings.php:4040 woofood-settings.php:4061
+#: woofood-settings.php:4063 woofood-settings.php:4095
+#: woofood-settings.php:4097
+msgid "Fee"
+msgstr ""
+
+#: woofood-settings.php:4040 woofood-settings.php:4098
+#: woofood-connection.php:525
+msgid "Delete"
+msgstr ""
+
+#: woofood-settings.php:4044
+msgid "Default(Fixed Fee)"
+msgstr ""
+
+#: woofood-settings.php:4045
+msgid "Distance Based"
+msgstr ""
+
+#: woofood-settings.php:4051
+msgid ""
+"Important:Be sure first that you have configured Google API Keys Correctly. "
+msgstr ""
+
+#: woofood-settings.php:4064 woofood-connection.php:827
+msgid "Add"
+msgstr ""
+
+#: woofood-settings.php:4208
+msgid "Delivery/Pickup Time is selected"
+msgstr ""
+
+#: woofood-settings.php:4214
+msgid "Delivery/Pickup Time is selected and Restaurant is Closed"
+msgstr ""
+
+#: woofood-settings.php:4238
+msgid ""
+"Complete minutes to arrive comma seperated like <strong>20,30,45,60,"
+"70</strong>. These values will be displayed when you are accepting an order "
+"to inform the customer in live mode the approximate delivery time. "
+msgstr ""
+
+#: woofood-settings.php:4285
+msgid ""
+"Select a page for Declined Orders. Customer will redirected to this page "
+"when you decline an order."
+msgstr ""
+
+#: woofood-settings.php:4431 woofood-settings.php:4452
+msgid "30 minutes"
+msgstr ""
+
+#: woofood-settings.php:4432 woofood-settings.php:4453
+msgid "60 minutes"
+msgstr ""
+
+#: woofood-settings.php:4433 woofood-settings.php:4454
+msgid "50 minutes"
+msgstr ""
+
+#: woofood-settings.php:4434 woofood-settings.php:4455
+msgid "40 minutes"
+msgstr ""
+
+#: woofood-settings.php:4435 woofood-settings.php:4456
+msgid "20 minutes"
+msgstr ""
+
+#: woofood-settings.php:4436 woofood-settings.php:4457
+msgid "10 minutes"
+msgstr ""
+
+#: woofood-settings.php:4437 woofood-settings.php:4458
+msgid "5 minutes"
+msgstr ""
+
+#: woofood-settings.php:4621
+msgid "Default(')"
+msgstr ""
+
+#: woofood-settings.php:4622 inc/func/delivery_time.php:476
+msgid "mins"
+msgstr ""
+
+#: woofood-settings.php:4623 inc/func/accept_decline_orders.php:207
+#: inc/func/delivery_time.php:477
+msgid "minutes"
+msgstr ""
+
+#: woofood-settings.php:4764
+msgid "Distance in km (Default)"
+msgstr ""
+
+#: woofood-settings.php:4765
+msgid "Design Area"
+msgstr ""
+
+#: woofood-settings.php:4766
+msgid "Limited by Postal Codes"
+msgstr ""
+
+#: woofood-settings.php:4808
+msgid "Clear Map"
+msgstr ""
+
+#: woofood-connection.php:524 woofood-connection.php:926
+msgid "Edit"
+msgstr ""
+
+#: woofood-connection.php:733
+msgid "Group Title"
+msgstr ""
+
+#: woofood-connection.php:738
+msgid "Type"
+msgstr ""
+
+#: woofood-connection.php:740
+msgid "Checkbox Multichoice"
+msgstr ""
+
+#: woofood-connection.php:741
+msgid "Limited Choice"
+msgstr ""
+
+#: woofood-connection.php:742
+msgid "Single Choice Radio"
+msgstr ""
+
+#: woofood-connection.php:743
+msgid "Single Choice Select"
+msgstr ""
+
+#: woofood-connection.php:759
+msgid "Style"
+msgstr ""
+
+#: woofood-connection.php:761
+msgid "Accordion(Default)"
+msgstr ""
+
+#: woofood-connection.php:762
+msgid "Flat"
+msgstr ""
+
+#: woofood-connection.php:768
+msgid "Maximum Options"
+msgstr ""
+
+#: woofood-connection.php:780
+msgid "Required"
+msgstr ""
+
+#: woofood-connection.php:785
+msgid "Minimum Options Required"
+msgstr ""
+
+#: woofood-connection.php:793
+msgid "Global Product Categories Enabled"
+msgstr ""
+
+#: woofood-connection.php:805
+msgid "Add New Extra"
+msgstr ""
+
+#: woofood-connection.php:813 woofood-connection.php:945
+msgid "Name"
+msgstr ""
+
+#: woofood-connection.php:817 woofood-connection.php:949
+msgid "Price"
+msgstr ""
+
+#: woofood-connection.php:889 woofood-connection.php:927
+msgid "Remove"
+msgstr ""
+
+#: woofood-connection.php:894 woofood-connection.php:959
+msgid "Save"
+msgstr ""
+
+#: woofood-connection.php:954
+msgid "Pre-checked"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:306 inc/func/extra_options-backup.php:313
+#: inc/func/extra_options-backup.php:566 inc/func/shortcode.php:399
+#: inc/func/shortcode.php:410 inc/func/shortcode.php:427
+#: inc/func/ajax_enabled.php:402 inc/func/extra_options.php:398
+#: inc/func/extra_options.php:405 inc/func/extra_options.php:767
+msgid "Select"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:668 inc/func/extra_options.php:808
+msgid "Additional Comments...."
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1049
+#: inc/func/extra_options-backup.php:1234
+#: inc/func/extra_options-backup.php:1236
+#: inc/func/extra_options-backup.php:1314
+#: inc/func/extra_options-backup.php:1316 inc/func/extra_options.php:1028
+#: inc/func/extra_options.php:1075 inc/func/extra_options.php:1286
+#: inc/func/extra_options.php:1288 inc/rest/v1/users.php:1575
+msgid "Additional Comments"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1365 inc/func/extra_options.php:1356
+msgctxt "taxonomy general name"
+msgid "Extra Option Categories"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1366 inc/func/extra_options.php:1357
+msgctxt "taxonomy singular name"
+msgid "Extra Option Category"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1367 inc/func/extra_options.php:1358
+msgid "Search Extra Option Categories"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1368 inc/func/extra_options.php:1359
+msgid "All Extra Option Categories"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1369 inc/func/extra_options.php:1360
+msgid "Parent Extra Option Category"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1371 inc/func/extra_options.php:1362
+msgid "Edit Extra Option Category"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1372 inc/func/extra_options.php:1363
+msgid "Update Extra Option Category"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1374 inc/func/extra_options.php:1365
+msgid "New Extra Option Category"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1375 inc/func/extra_options.php:1366
+msgid "Extra Option Categories"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1412 inc/func/extra_options.php:1403
+msgctxt "Post type singular name"
+msgid "Extra Option"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1413 inc/func/extra_options.php:1404
+msgctxt "Admin Menu text"
+msgid "Extra Options"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1414 inc/func/extra_options.php:1405
+msgctxt "Add New on Toolbar"
+msgid "Extra Option"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1415 inc/func/extra_options.php:1406
+msgid "Add Extra Option"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1416 inc/func/extra_options.php:1407
+msgid "Add New Extra Option"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1417 inc/func/extra_options.php:1408
+msgid "New Extra Option"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1418 inc/func/extra_options.php:1409
+msgid "Edit Extra Option"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1419 inc/func/extra_options.php:1410
+msgid "View Extra Option"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1420 inc/func/extra_options.php:1411
+msgid "All Extra Options"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1421 inc/func/extra_options.php:1412
+msgid "Search Extra Options"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1422 inc/func/extra_options.php:1413
+msgid "Parent Extra Options:"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1423 inc/func/extra_options.php:1414
+msgid "No Extra Options found."
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1424 inc/func/extra_options.php:1415
+msgid "No Extra Options found in Trash."
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1425 inc/func/extra_options.php:1416
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Extra Option Cover Image"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1426 inc/func/extra_options.php:1417
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1427 inc/func/extra_options.php:1418
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1428 inc/func/extra_options.php:1419
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1429 inc/func/extra_options.php:1420
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Extra Option archives"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1430 inc/func/extra_options.php:1421
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Extra Option"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1431 inc/func/extra_options.php:1422
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Extra Option"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1432 inc/func/extra_options.php:1423
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter books list"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1433 inc/func/extra_options.php:1424
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Extra Options list navigation"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1434 inc/func/extra_options.php:1425
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Extra Options list"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1529 inc/func/extra_options.php:1526
+msgid "Extra Option Name"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1530
+#: inc/func/extra_options-backup.php:1598
+#: inc/func/extra_options-backup.php:1627 inc/func/extra_options.php:1527
+#: inc/func/extra_options.php:1595 inc/func/extra_options.php:1624
+msgid "Extra Price"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:1607
+#: inc/func/extra_options-backup.php:1646 inc/func/extra_options.php:1604
+#: inc/func/extra_options.php:1643
+msgid "Visible As"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2103
+#: inc/func/extra_options-backup.php:2174 inc/func/extra_options.php:2190
+#: inc/func/extra_options.php:2261
+msgid "No Extra Category"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2111
+#: inc/func/extra_options-backup.php:2180 inc/func/extra_options.php:2198
+#: inc/func/extra_options.php:2267
+msgid "Select Extra Options Categories"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2114 inc/func/extra_options.php:2201
+msgid "Select Extra Option Categories you want to be visible on this product."
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2115
+#: inc/func/extra_options-backup.php:2184 inc/func/extra_options.php:2202
+#: inc/func/extra_options.php:2271
+msgid "Select Categories"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2183 inc/func/extra_options.php:2270
+msgid ""
+"Select Extra Option Categories you want to be visible on this variation."
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2242
+#: inc/func/extra_options-backup.php:2294 inc/func/extra_options.php:2329
+#: inc/func/extra_options.php:2381
+msgid "Extra Option Category Style"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2249 inc/func/extra_options.php:2336
+msgid "Select type of Extra Option Style."
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2254
+#: inc/func/extra_options-backup.php:2309 inc/func/extra_options.php:2341
+#: inc/func/extra_options.php:2396
+msgid "Extra Option Category Type"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2263 inc/func/extra_options.php:2350
+msgid ""
+"Select type of Extra Option Category. CheckBox Multichoice allow the user to "
+"select multiple options.CheckBox Limited Choicelimits the number of options "
+"that can be selected and Radio is the classic single choice"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2268
+#: inc/func/extra_options-backup.php:2325 inc/func/extra_options.php:2355
+#: inc/func/extra_options.php:2412
+msgid "Maximum Extra Options"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2272 inc/func/extra_options.php:2359
+msgid ""
+"Select Maximum Extra options can be selected. This applies only to Checkbox "
+"Limited-Choice only"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2303 inc/func/extra_options.php:2390
+msgid "Select type of Extra Option Style"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2320 inc/func/extra_options.php:2407
+msgid ""
+"Select type of Extra Option Category. CheckBox Multichoice allow the user to "
+"select multiple options.CheckBox Limited Choice limits the number of options "
+"that can be selected and Radio is the classic single choice"
+msgstr ""
+
+#: inc/func/extra_options-backup.php:2330 inc/func/extra_options.php:2417
+msgid ""
+"Select Maximum Extra options can be selected. This applies only to <strong>"
+"Checkbox Limited-Choice</strong>"
+msgstr ""
+
+#: inc/func/minimum_delivery.php:31 inc/func/minimum_delivery.php:40
+#, php-format
+msgid ""
+"You must have an order with a minimum of %s to place your order, your "
+"current order total is %s."
+msgstr ""
+
+#: inc/func/accept_decline_orders.php:207
+msgid "Your Order has been accepted!"
+msgstr ""
+
+#: inc/func/accept_decline_orders.php:207
+msgid "You will receive your order in approximately"
+msgstr ""
+
+#: inc/func/accept_decline_orders.php:214
+msgid "Your Order is waiting for acceptance !"
+msgstr ""
+
+#: inc/func/accept_decline_orders.php:225
+msgid "Your Order has been declined!"
+msgstr ""
+
+#: inc/func/accept_decline_orders.php:302
+msgid "Please wait while your order is getting accepted by restaurant!"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:27
+msgid "Change your Address"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:34 inc/func/multiple_addresses.php:187
+msgid "Previously Used Addresses"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:35 inc/func/multiple_addresses.php:188
+msgid "Select Address"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:60 inc/func/multiple_addresses.php:249
+msgid "First Name"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:63 inc/func/multiple_addresses.php:252
+msgid "Last Name"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:67 inc/func/multiple_addresses.php:256
+#: inc/func/order_list.php:127
+msgid "Address"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:71 inc/func/multiple_addresses.php:260
+msgid "City"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:75 inc/func/multiple_addresses.php:264
+msgid "Postal Code"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:84 inc/func/multiple_addresses.php:273
+#: inc/func/doorbell_field.php:11
+msgid "Name on Doorbell"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:96 inc/func/multiple_addresses.php:285
+msgid "Select Country"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:103 inc/func/multiple_addresses.php:172
+#: inc/func/multiple_addresses.php:292 inc/func/multiple_addresses.php:781
+msgid "Change Address"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:467 inc/func/multiple_addresses.php:630
+msgid "Address has been Changed."
+msgstr ""
+
+#: inc/func/multiple_addresses.php:496
+msgid "Session token has expired, please reload the page and try again"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:634
+msgid " is not Available from this Address ."
+msgstr ""
+
+#: inc/func/multiple_addresses.php:693
+#, php-format
+msgid "The nearest store to your location is: %s"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:781
+msgid "Address:"
+msgstr ""
+
+#: inc/func/multiple_addresses.php:787
+msgid "You have not completed your address yet."
+msgstr ""
+
+#: inc/func/multiple_addresses.php:787
+msgid "Complete your Address"
+msgstr ""
+
+#: inc/func/delivery_hours.php:59 inc/func/delivery_hours.php:73
+#: inc/func/delivery_hours.php:124
+msgid "Delivery Service is Currently Unavailable.."
+msgstr ""
+
+#: inc/func/delivery_hours.php:84 inc/func/delivery_hours.php:97
+#: inc/func/delivery_hours.php:139
+msgid "Pickup Service is Currently Unavailable.."
+msgstr ""
+
+#: inc/func/delivery_hours.php:117
+msgid "Delivery Service is Currently Available.."
+msgstr ""
+
+#: inc/func/delivery_hours.php:132
+msgid "Pickup Service is Currently Available.."
+msgstr ""
+
+#: inc/func/shortcode.php:414
+msgid "View"
+msgstr ""
+
+#: inc/func/shortcode.php:418 inc/func/shortcode.php:433
+msgid "Read More"
+msgstr ""
+
+#: inc/func/shortcode.php:423
+msgid "Add To Cart"
+msgstr ""
+
+#: inc/func/create_multiselect_field.php:47
+msgid "required"
+msgstr ""
+
+#: inc/func/create_multiselect_field.php:71
+msgid "Select some options"
+msgstr ""
+
+#: inc/func/search_by_order_type.php:22
+msgid "Filter by Type"
+msgstr ""
+
+#: inc/func/ajax_enabled.php:24
+msgid "Please wait.."
+msgstr ""
+
+#: inc/func/ajax_enabled.php:194
+msgid "You may also like"
+msgstr ""
+
+#: inc/func/ajax_enabled.php:539
+msgid "Product has been succesfully added to cart"
+msgstr ""
+
+#: inc/func/ajax_enabled.php:540
+msgid "Please select or fill all the required fields"
+msgstr ""
+
+#: inc/func/ajax_enabled.php:541
+msgid "Product has been removed from cart"
+msgstr ""
+
+#: inc/func/ajax_enabled.php:542
+#, php-format
+msgid "Please select at least %%options%% %%option_text%%"
+msgstr ""
+
+#: inc/func/ajax_enabled.php:543
+msgid "option"
+msgstr ""
+
+#: inc/func/ajax_enabled.php:544
+msgid "options"
+msgstr ""
+
+#: inc/func/ajax_enabled.php:562
+msgid "Related Products"
+msgstr ""
+
+#: inc/func/distance_check.php:118 inc/func/distance_check.php:229
+#: inc/func/distance_check.php:310 inc/func/distance_check.php:341
+msgid "Delivery Service is Not Available in your Area.."
+msgstr ""
+
+#: inc/func/distance_check.php:246
+msgid "Your Address seems to be invalid. Please check your address"
+msgstr ""
+
+#: inc/func/push_notifications.php:54
+msgid "Push has been Succesfully sent "
+msgstr ""
+
+#: inc/func/push_notifications.php:56
+msgid "Message ID:"
+msgstr ""
+
+#: inc/func/push_notifications.php:62 inc/func/push_notifications.php:149
+msgid ""
+"<div class=\"woofood_push_error\">Something went wrong!Please check your "
+"server key</div>"
+msgstr ""
+
+#: inc/func/extra_options.php:2159
+msgid "WooFood Extra Options"
+msgstr ""
+
+#: inc/func/date_to_deliver.php:104 inc/func/date_to_deliver.php:275
+#: inc/func/time_to_deliver.php:58 inc/func/time_to_deliver.php:238
+#: inc/func/time_to_deliver.php:416 inc/func/date_to_pickup.php:105
+#: inc/func/date_to_pickup.php:276
+msgid "Now"
+msgstr ""
+
+#: inc/func/date_to_deliver.php:109 inc/func/date_to_deliver.php:280
+#: inc/func/time_to_deliver.php:63 inc/func/time_to_deliver.php:243
+#: inc/func/time_to_deliver.php:421 inc/func/date_to_pickup.php:110
+#: inc/func/date_to_pickup.php:281
+msgid "ASAP"
+msgstr ""
+
+#: inc/func/date_to_deliver.php:235 inc/func/date_to_pickup.php:236
+msgid "Today"
+msgstr ""
+
+#: inc/func/date_to_deliver.php:483 inc/func/date_to_pickup.php:483
+msgid "No available dates"
+msgstr ""
+
+#: inc/func/date_to_deliver.php:486
+msgid "Date to Deliver"
+msgstr ""
+
+#: inc/func/order_buttons.php:22
+msgid "Order Accepted Succesfully"
+msgstr ""
+
+#: inc/func/order_buttons.php:42
+msgid "Order Completed Succesfully"
+msgstr ""
+
+#: inc/func/order_buttons.php:64
+msgid "Order Declined Succesfully"
+msgstr ""
+
+#: inc/func/order_type.php:55
+msgid "Address To Pickup"
+msgstr ""
+
+#: inc/func/order_type.php:210
+msgid "Time to Deliver "
+msgstr ""
+
+#: inc/func/order_type.php:215
+msgid "Time to Pickup "
+msgstr ""
+
+#: inc/func/availability_checker.php:21 inc/func/availability_checker.php:38
+msgid "Availability Checker"
+msgstr ""
+
+#: inc/func/availability_checker.php:81
+msgid "Type your postal code..."
+msgstr ""
+
+#: inc/func/availability_checker.php:84
+msgid "Type your address..."
+msgstr ""
+
+#: inc/func/availability_checker.php:103
+msgid "Check"
+msgstr ""
+
+#: inc/func/availability_checker.php:421
+#, php-format
+msgid " %s is available"
+msgstr ""
+
+#: inc/func/availability_checker.php:421
+msgid "Start Order"
+msgstr ""
+
+#: inc/func/availability_checker.php:428
+#, php-format
+msgid " %s is not available"
+msgstr ""
+
+#: inc/func/time_to_deliver.php:115 inc/func/time_to_deliver.php:296
+msgid "No Available hours"
+msgstr ""
+
+#: inc/func/time_to_deliver.php:118
+msgid "Time to Deliver"
+msgstr ""
+
+#: inc/func/time_to_deliver.php:183
+msgid "Time To Deliver"
+msgstr ""
+
+#: inc/func/time_to_deliver.php:300
+msgid "Time to Pickup"
+msgstr ""
+
+#: inc/func/doorbell_field.php:12
+msgctxt "placeholder"
+msgid "Name on Doorbell"
+msgstr ""
+
+#: inc/func/date_to_pickup.php:486
+msgid "Date to Pickup"
+msgstr ""
+
+#: inc/func/delivery_time.php:4
+msgid "Process Time(WooFood Field)"
+msgstr ""
+
+#: inc/func/delivery_time.php:22
+msgid "Process Time(minutes)"
+msgstr ""
+
+#: inc/func/delivery_time.php:178 inc/func/delivery_time.php:365
+msgid "Delivery Date"
+msgstr ""
+
+#: inc/func/delivery_time.php:228 inc/func/delivery_time.php:415
+msgid "Pickup Date"
+msgstr ""
+
+#. ID, should be a string.
+#: inc/func/product_availability.php:7
+msgid "Product Availability"
+msgstr ""
+
+#: inc/func/product_availability.php:31
+msgid ""
+"Checking Disable will make the product unvailable to purchased from "
+"customers."
+msgstr ""
+
+#: inc/func/delivery_fee.php:257 inc/func/delivery_fee.php:264
+#: inc/func/delivery_fee.php:277
+msgid "Delivery Fee"
+msgstr ""
+
+#: inc/func/extra_columns_order.php:7
+msgid "Order Type"
+msgstr ""
+
+#: inc/func/extra_columns_order.php:9
+msgid "Delivery Boy"
+msgstr ""
+
+#: inc/func/order_list.php:98
+msgid "Order ID"
+msgstr ""
+
+#: inc/func/order_list.php:102
+msgid "Order Date"
+msgstr ""
+
+#: inc/func/order_list.php:109
+msgid "Customer Details"
+msgstr ""
+
+#: inc/func/order_list.php:111
+msgid "Time to"
+msgstr ""
+
+#: inc/func/order_list.php:114
+msgid "Date to"
+msgstr ""
+
+#: inc/func/order_list.php:118
+msgid "Phone"
+msgstr ""
+
+#: inc/func/order_list.php:119
+msgid "Customer Notes"
+msgstr ""
+
+#: inc/func/order_list.php:124
+msgid "Email"
+msgstr ""
+
+#: inc/func/order_list.php:139
+msgid "Order Details"
+msgstr ""
+
+#: inc/func/order_list.php:144
+msgid "<b>Quantity:</b>"
+msgstr ""
+
+#: inc/func/order_list.php:168
+msgid "<b>Order Total:</b>"
+msgstr ""
+
+#: inc/func/order_list.php:172
+msgid "Order Status"
+msgstr ""
+
+#: inc/func/order_list.php:200
+msgid "Accept Order"
+msgstr ""
+
+#: inc/func/order_list.php:208
+msgid "Decline Order"
+msgstr ""
+
+#: inc/func/order_list.php:273
+msgid "Complete Order"
+msgstr ""
+
+#: inc/func/order_list.php:316
+msgid "Order Completed"
+msgstr ""
+
+#: inc/func/order_list.php:325
+msgid "Order Declined"
+msgstr ""
+
+#: inc/blocks/allcategories/index.php:28
+msgid "WooFood Blocks"
+msgstr ""
+
+#: inc/rest/v1/users.php:374
+msgid "Please wait while your order is getting accepted"
+msgstr ""
+
+#: inc/rest/v1/users.php:379 inc/rest/v1/users.php:1644
+msgid "Your Order has been accepted"
+msgstr ""
+
+#: inc/rest/v1/users.php:384
+msgid "Sorry, Your Order has been declined"
+msgstr ""
+
+#: inc/rest/v1/users.php:431
+msgid "Your Order has been cancelled"
+msgstr ""
+
+#: inc/rest/v1/users.php:569
+msgid "Reset Email has been sent succesfully!"
+msgstr ""
+
+#: inc/rest/v1/users.php:1219
+msgid "Address has been Successfully"
+msgstr ""
+
+#: inc/rest/v1/users.php:1223
+msgid "Sorry we cannot deliver to this address"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooFood for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Online Delivery Plugin for WooCommerce"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.wpslash.com/plugin/woofood/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPSlash"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.wpslash.com"
+msgstr ""

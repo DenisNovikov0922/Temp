@@ -1,0 +1,324 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-08 15:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: woofood-settings.php:58
+msgid "WooFood Settings"
+msgstr ""
+
+#: woofood-settings.php:64 woofood-settings.php:108
+msgid "Settings Updated."
+msgstr ""
+
+#: woofood-settings.php:102
+msgid "Delivery  Hours"
+msgstr ""
+
+#. WooFood License Number
+#: woofood-settings.php:156
+msgid "License"
+msgstr ""
+
+#. WooFood License Number
+#: woofood-settings.php:162
+msgid "WooFood License number"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:172 woofood-connection.php:722
+#: woofood-connection.php:765
+msgid "Delivery Time"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:178
+msgid "Average Delivery Time"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:187
+msgid "Automatic Delivery Time"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:193
+msgid "Enable Automatic Delivery Time"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:202
+msgid "Minimum amount to delivery"
+msgstr ""
+
+#. WooFood Delivery Time
+#: woofood-settings.php:208
+msgid "Minimum Order amount"
+msgstr ""
+
+#: woofood-settings.php:231
+msgid "Monday"
+msgstr ""
+
+#: woofood-settings.php:239 woofood-settings.php:256 woofood-settings.php:274
+#: woofood-settings.php:302 woofood-settings.php:319 woofood-settings.php:336
+#: woofood-settings.php:367 woofood-settings.php:384 woofood-settings.php:401
+#: woofood-settings.php:434 woofood-settings.php:451 woofood-settings.php:468
+#: woofood-settings.php:499 woofood-settings.php:515 woofood-settings.php:532
+#: woofood-settings.php:564 woofood-settings.php:580 woofood-settings.php:597
+#: woofood-settings.php:628 woofood-settings.php:645 woofood-settings.php:662
+msgid "from"
+msgstr ""
+
+#: woofood-settings.php:247 woofood-settings.php:264 woofood-settings.php:282
+#: woofood-settings.php:310 woofood-settings.php:327 woofood-settings.php:344
+#: woofood-settings.php:375 woofood-settings.php:392 woofood-settings.php:409
+#: woofood-settings.php:442 woofood-settings.php:459 woofood-settings.php:476
+#: woofood-settings.php:507 woofood-settings.php:523 woofood-settings.php:540
+#: woofood-settings.php:572 woofood-settings.php:588 woofood-settings.php:605
+#: woofood-settings.php:636 woofood-settings.php:653 woofood-settings.php:670
+msgid "to"
+msgstr ""
+
+#: woofood-settings.php:296
+msgid "Tuesday"
+msgstr ""
+
+#: woofood-settings.php:361
+msgid "Wednesday"
+msgstr ""
+
+#: woofood-settings.php:428
+msgid "Thursday"
+msgstr ""
+
+#: woofood-settings.php:493
+msgid "Friday"
+msgstr ""
+
+#: woofood-settings.php:558
+msgid "Saturday"
+msgstr ""
+
+#: woofood-settings.php:622
+msgid "Sunday"
+msgstr ""
+
+#: woofood-settings.php:1053
+msgid "Enter your License number:"
+msgstr ""
+
+#: woofood-settings.php:1059
+msgid "Average Delivery Time in minutes:"
+msgstr ""
+
+#: woofood-settings.php:1064
+msgid ""
+"This will override the  Average Delivery Time and will calculate the "
+"automatically based on Process Time field of each product:"
+msgstr ""
+
+#: woofood-settings.php:1069
+msgid "Customers must reach this amount to be able to checkout:"
+msgstr ""
+
+#: woofood-settings.php:1077
+msgid "Monday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:1087
+msgid "Tuesday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:1096
+msgid "Wednesday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:1104
+msgid "Thursday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:1112
+msgid "Friday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:1121
+msgid "Saturday Opening hours:"
+msgstr ""
+
+#: woofood-settings.php:1129
+msgid "Sunday Opening hours:"
+msgstr ""
+
+#: woofood-connection.php:84
+msgid "Select"
+msgstr ""
+
+#: woofood-connection.php:313
+msgctxt "Post type singular name"
+msgid "Extra Option"
+msgstr ""
+
+#: woofood-connection.php:314
+msgctxt "Admin Menu text"
+msgid "Extra Options"
+msgstr ""
+
+#: woofood-connection.php:315
+msgctxt "Add New on Toolbar"
+msgid "Extra Option"
+msgstr ""
+
+#: woofood-connection.php:316
+msgid "Add Extra Option"
+msgstr ""
+
+#: woofood-connection.php:317
+msgid "Add New Extra Option"
+msgstr ""
+
+#: woofood-connection.php:318
+msgid "New Extra Option"
+msgstr ""
+
+#: woofood-connection.php:319
+msgid "Edit Extra Option"
+msgstr ""
+
+#: woofood-connection.php:320
+msgid "View Extra Option"
+msgstr ""
+
+#: woofood-connection.php:321
+msgid "All Extra Options"
+msgstr ""
+
+#: woofood-connection.php:322
+msgid "Search Extra Options"
+msgstr ""
+
+#: woofood-connection.php:323
+msgid "Parent Extra Options:"
+msgstr ""
+
+#: woofood-connection.php:324
+msgid "No Extra Options found."
+msgstr ""
+
+#: woofood-connection.php:325
+msgid "No Extra Options found in Trash."
+msgstr ""
+
+#: woofood-connection.php:326
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Extra Option Cover Image"
+msgstr ""
+
+#: woofood-connection.php:327
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr ""
+
+#: woofood-connection.php:328
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr ""
+
+#: woofood-connection.php:329
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr ""
+
+#: woofood-connection.php:330
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Extra Option archives"
+msgstr ""
+
+#: woofood-connection.php:331
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Extra Option"
+msgstr ""
+
+#: woofood-connection.php:332
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Extra Option"
+msgstr ""
+
+#: woofood-connection.php:333
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter books list"
+msgstr ""
+
+#: woofood-connection.php:334
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Extra Options list navigation"
+msgstr ""
+
+#: woofood-connection.php:335
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Extra Options list"
+msgstr ""
+
+#: woofood-connection.php:372
+msgid "Extra Option Name"
+msgstr ""
+
+#: woofood-connection.php:373 woofood-connection.php:444
+#: woofood-connection.php:462
+msgid "Extra Price"
+msgstr ""
+
+#: woofood-connection.php:499
+msgid "Process Time(WooFood Field)"
+msgstr ""
+
+#: woofood-connection.php:517
+msgid "Process Time(minutes)"
+msgstr ""
+
+#: woofood-connection.php:878
+msgid "Delivery Service is Currently Unavailable.."
+msgstr ""
+
+#. Name of the plugin
+msgid "WooFood for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Online Delivery Plugin for WooCommerce"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.ramiotis.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Dimos Ramiotis"
+msgstr ""

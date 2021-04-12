@@ -1,0 +1,7 @@
+drwxr-xr-x    5 1499       u1035-camd       4096 Jul 15 09:49 .
+drwxr-xr-x   48 1499       u1035-camd       4096 Jul 20 09:03 ..
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul 15 09:49 asset
+-rw-r--r--    1 1499       u1035-camd       1986 Jul 15 09:49 class-wpsc-exp-install.php
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul 15 09:49 includes
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:49 lang
+-rw-r--r--    1 1499       u1035-camd       4172 Jul 15 09:49 wpsc-export-ticket.php

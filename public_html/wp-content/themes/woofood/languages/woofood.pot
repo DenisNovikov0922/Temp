@@ -1,0 +1,846 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooFood\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-08 19:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: functions.php:220
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:222
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:664 inc/parts/headers/default.php:42
+msgid "items in cart"
+msgstr ""
+
+#: functions.php:884
+#, php-format
+msgid "Join %s"
+msgstr ""
+
+#: functions.php:945 functions.php:970 functions.php:980
+msgid "Loading..."
+msgstr ""
+
+#: functions.php:945
+msgid "Sign up"
+msgstr ""
+
+#: functions.php:962
+msgid "username/email"
+msgstr ""
+
+#: functions.php:966
+msgid "password"
+msgstr ""
+
+#: functions.php:970 functions.php:988
+msgid "Login"
+msgstr ""
+
+#: functions.php:971
+msgid "Lost Password?"
+msgstr ""
+
+#: functions.php:983
+msgid "Login access is disabled"
+msgstr ""
+
+#: functions.php:987
+msgid "Don't have an account?"
+msgstr ""
+
+#: functions.php:987
+msgid "Sign Up"
+msgstr ""
+
+#: functions.php:988
+msgid "Already have an account?"
+msgstr ""
+
+#: functions.php:1007 functions.php:1089
+msgid "Session token has expired, please reload the page and try again"
+msgstr ""
+
+#: functions.php:1012 functions.php:1095
+msgid "Please fill all form fields"
+msgstr ""
+
+#: functions.php:1018
+msgid "Login successful, reloading page..."
+msgstr ""
+
+#: functions.php:1114
+msgid "Registration complete. You can order now."
+msgstr ""
+
+#: functions.php:1187
+msgid "First Name is required!"
+msgstr ""
+
+#: functions.php:1187
+msgid "Last Name is required!"
+msgstr ""
+
+#: functions.php:1187
+msgid "Address  is required!"
+msgstr ""
+
+#: functions.php:1187
+msgid "Phone is required!"
+msgstr ""
+
+#: functions.php:1187
+msgid "Email is required!"
+msgstr ""
+
+#: functions.php:1187
+msgid "Password is required!"
+msgstr ""
+
+#: functions.php:1187
+msgid "Postal Code is required!"
+msgstr ""
+
+#: functions.php:1210
+msgid "Login/Register"
+msgstr ""
+
+#: functions.php:1213
+msgid "Logout"
+msgstr ""
+
+#: functions.php:1235
+msgid "Your email address"
+msgstr ""
+
+#: functions.php:1236
+msgid "Password"
+msgstr ""
+
+#: functions.php:1237
+msgid "First Name"
+msgstr ""
+
+#: functions.php:1238
+msgid "Last Name"
+msgstr ""
+
+#: functions.php:1239
+msgid "Phone Number"
+msgstr ""
+
+#: functions.php:1240
+msgid "Address"
+msgstr ""
+
+#: functions.php:1241
+msgid "City"
+msgstr ""
+
+#: functions.php:1242
+msgid "Postal Code"
+msgstr ""
+
+#: functions.php:1252
+msgid "I accept the Privacy Policy in order to create an account"
+msgstr ""
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:51
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. 1: title.
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:50 comments.php:71
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:53 comments.php:74
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:54 comments.php:75
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:88
+msgid "Comments are closed."
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#. %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page with Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "WooFood Accordion Template Ready"
+msgstr ""
+
+#: inc/merlin-config.php:38
+msgid "WooFood Wizard"
+msgstr ""
+
+#. 1: Title Tag 2: Theme Name 3: Closing Title Tag
+#: inc/merlin-config.php:40
+#, php-format
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: inc/merlin-config.php:41
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/merlin-config.php:42
+msgid "Disable this wizard"
+msgstr ""
+
+#: inc/merlin-config.php:43
+msgid "Skip"
+msgstr ""
+
+#: inc/merlin-config.php:44
+msgid "Next"
+msgstr ""
+
+#: inc/merlin-config.php:45
+msgid "Start"
+msgstr ""
+
+#: inc/merlin-config.php:46
+msgid "Cancel"
+msgstr ""
+
+#: inc/merlin-config.php:47 inc/merlin-config.php:48 inc/merlin-config.php:49
+msgid "Install"
+msgstr ""
+
+#: inc/merlin-config.php:50
+msgid "Import"
+msgstr ""
+
+#: inc/merlin-config.php:51
+msgid "Activate"
+msgstr ""
+
+#: inc/merlin-config.php:52
+msgid "Later"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin-config.php:54
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin-config.php:56
+#, php-format
+msgid "%s is Activated"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin-config.php:58
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: inc/merlin-config.php:59
+msgid "Don't have a license yet? You can obtain one by clicking"
+msgstr ""
+
+#: inc/merlin-config.php:61
+msgid "License key"
+msgstr ""
+
+#: inc/merlin-config.php:62
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: inc/merlin-config.php:63
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: inc/merlin-config.php:64
+msgid "Need help?"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin-config.php:66
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/merlin-config.php:67
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: inc/merlin-config.php:68
+msgid ""
+"This wizard will set up your theme, install plugins, and import content. It "
+"is optional & should take only a few minutes."
+msgstr ""
+
+#: inc/merlin-config.php:69
+msgid ""
+"You may have already run this theme setup wizard. If you would like to "
+"proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: inc/merlin-config.php:70
+msgid "Install Child Theme"
+msgstr ""
+
+#: inc/merlin-config.php:71
+msgid "You're good to go!"
+msgstr ""
+
+#: inc/merlin-config.php:72
+msgid ""
+"Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: inc/merlin-config.php:73
+msgid ""
+"Your child theme has already been installed and is now activated, if it "
+"wasn't already."
+msgstr ""
+
+#: inc/merlin-config.php:74
+msgid "Learn about child themes"
+msgstr ""
+
+#: inc/merlin-config.php:75
+msgid ""
+"Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: inc/merlin-config.php:76
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: inc/merlin-config.php:77
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/merlin-config.php:78
+msgid "You're up to speed!"
+msgstr ""
+
+#: inc/merlin-config.php:79
+msgid ""
+"Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: inc/merlin-config.php:80
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press "
+"\"Next\" to continue the setup wizard."
+msgstr ""
+
+#: inc/merlin-config.php:81 inc/merlin-config.php:84
+msgid "Advanced"
+msgstr ""
+
+#: inc/merlin-config.php:82
+msgid "Import Content"
+msgstr ""
+
+#: inc/merlin-config.php:83
+msgid ""
+"Let's import content to your website, to help you get familiar with the "
+"theme."
+msgstr ""
+
+#: inc/merlin-config.php:85
+msgid "All done. Have fun!"
+msgstr ""
+
+#. Theme Author
+#: inc/merlin-config.php:87
+#, php-format
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: inc/merlin-config.php:88
+msgid "Extras"
+msgstr ""
+
+#: inc/merlin-config.php:89
+msgid "View your website"
+msgstr ""
+
+#: inc/merlin-config.php:90
+msgid "Explore WordPress"
+msgstr ""
+
+#: inc/merlin-config.php:91
+msgid "Get WooFood Support"
+msgstr ""
+
+#: inc/merlin-config.php:92
+msgid "Start Customizing"
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "We are Open!"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid "Accepting Delivery/Pickup Orders!"
+msgstr ""
+
+#: inc/customizer.php:23
+msgid "We are Closed!"
+msgstr ""
+
+#: inc/customizer.php:24
+msgid "Restaurant is currently closed"
+msgstr ""
+
+#: inc/customizer.php:329
+msgid "Upload Logo (replaces text)"
+msgstr ""
+
+#: inc/customizer.php:338 inc/customizer.php:387
+msgid "Header Style"
+msgstr ""
+
+#: inc/customizer.php:343
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer.php:358
+msgid "Enable Top Bar"
+msgstr ""
+
+#: inc/customizer.php:416
+msgid "Max Logo Width (px)"
+msgstr ""
+
+#: inc/customizer.php:445
+msgid "Header Padding (px)"
+msgstr ""
+
+#: inc/customizer.php:479
+msgid "Cart Icon"
+msgstr ""
+
+#: inc/customizer.php:517
+msgid "Menu Text Style"
+msgstr ""
+
+#: inc/customizer.php:524
+msgid "Bold"
+msgstr ""
+
+#: inc/customizer.php:528
+msgid "Italic"
+msgstr ""
+
+#: inc/customizer.php:532
+msgid "All Caps"
+msgstr ""
+
+#: inc/customizer.php:536
+msgid "Underline"
+msgstr ""
+
+#: inc/customizer.php:566
+msgid "Menu Font Size (px)"
+msgstr ""
+
+#: inc/customizer.php:596
+msgid "Menu Spacing (px)"
+msgstr ""
+
+#: inc/customizer.php:614
+msgid "Menu Align"
+msgstr ""
+
+#: inc/customizer.php:621
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:622
+msgid "Center"
+msgstr ""
+
+#: inc/customizer.php:623
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:640
+msgid "Select Style"
+msgstr ""
+
+#: inc/customizer.php:672
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer.php:684
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer.php:700
+msgid "Left Column(Restaurant is Opened)"
+msgstr ""
+
+#: inc/customizer.php:713
+msgid "Right Column(Restaurant is Opened)"
+msgstr ""
+
+#: inc/customizer.php:728
+msgid "Left Column(Restaurant is Closed)"
+msgstr ""
+
+#: inc/customizer.php:741
+msgid "Right Column(Restaurant is Closed)"
+msgstr ""
+
+#: inc/customizer.php:759
+msgid "Left Column"
+msgstr ""
+
+#: inc/customizer.php:779
+msgid "Right Column"
+msgstr ""
+
+#: inc/customizer.php:788
+msgid "Social & Contact Details"
+msgstr ""
+
+#: inc/customizer.php:804
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:824
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer.php:843
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/customizer.php:862
+msgid "Youtube URL"
+msgstr ""
+
+#: inc/customizer.php:881
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/customizer.php:900
+msgid "Contact Email"
+msgstr ""
+
+#: inc/customizer.php:918
+msgid "Contact Phone"
+msgstr ""
+
+#: inc/customizer.php:936
+msgid "Contact Address"
+msgstr ""
+
+#: inc/customizer.php:944
+msgid "Login/Register Modal"
+msgstr ""
+
+#: inc/customizer.php:959
+msgid "Auto Show PopUp"
+msgstr ""
+
+#: inc/customizer.php:960
+msgid "If enabled the modal will automatically appear not not logged in users"
+msgstr ""
+
+#: inc/customizer.php:977
+msgid "First Name (Required)"
+msgstr ""
+
+#: inc/customizer.php:978 inc/customizer.php:996 inc/customizer.php:1015
+#: inc/customizer.php:1035 inc/customizer.php:1054 inc/customizer.php:1073
+#: inc/customizer.php:1091
+msgid "If enabled the field will be required"
+msgstr ""
+
+#: inc/customizer.php:995
+msgid "Last Name (Required)"
+msgstr ""
+
+#: inc/customizer.php:1014
+msgid "Email(Required)"
+msgstr ""
+
+#: inc/customizer.php:1034
+msgid "City(Required)"
+msgstr ""
+
+#: inc/customizer.php:1053
+msgid "Postal Code(Required)"
+msgstr ""
+
+#: inc/customizer.php:1072
+msgid "Phone(Required)"
+msgstr ""
+
+#: inc/customizer.php:1090
+msgid "GDPR Enabled Checkbox"
+msgstr ""
+
+#: inc/customizer.php:1114
+msgid "Menu Bar Background Color"
+msgstr ""
+
+#: inc/customizer.php:1134
+msgid "Menu Text Color"
+msgstr ""
+
+#: inc/customizer.php:1153
+msgid "Menu Text Hover Color"
+msgstr ""
+
+#: inc/customizer.php:1170
+msgid "Menu Text Active Color"
+msgstr ""
+
+#: inc/customizer.php:1187
+msgid "Menu Background Color"
+msgstr ""
+
+#: inc/customizer.php:1204
+msgid "Menu Background Hover Color"
+msgstr ""
+
+#: inc/customizer.php:1222
+msgid "Menu Background Active Color"
+msgstr ""
+
+#: inc/customizer.php:1240
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/customizer.php:1258
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer.php:1275
+msgid "Widget Text Color"
+msgstr ""
+
+#: inc/customizer.php:1292
+msgid "Widget Background Color"
+msgstr ""
+
+#: inc/customizer.php:1311
+msgid " Button Background Color"
+msgstr ""
+
+#: inc/customizer.php:1330
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/customizer.php:1348
+msgid " Accordion FrontPage Panel Background Color"
+msgstr ""
+
+#: inc/customizer.php:1367
+msgid "Accordion FrontPage Panel Text Color"
+msgstr ""
+
+#: inc/customizer.php:1386
+msgid "Footer Details"
+msgstr ""
+
+#: inc/customizer.php:1401
+msgid "Footer Left"
+msgstr ""
+
+#: inc/customizer.php:1418
+msgid "Footer Right"
+msgstr ""
+
+#: inc/customizer.php:1440
+msgid "Theme Styles"
+msgstr ""
+
+#: inc/customizer.php:1455
+msgid "Select Theme Style"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:35
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:59
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:62
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:72
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:89 template-parts/content-page.php:35
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content.php:45
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:34
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1489
+msgid "WooFood Theme and Plugin has been succesfully activated"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1490
+msgid "Theme is already active on other url"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1491
+msgid "License Key is Invalid"
+msgstr ""
+
+#: inc/parts/headers/logo-center.php:16
+msgid "Search...."
+msgstr ""
+
+#: inc/parts/headers/top-bar.php:72
+msgid "Delivery"
+msgstr ""
+
+#: inc/parts/headers/top-bar.php:77
+msgid "Pickup"
+msgstr ""
+
+#. Name of the theme
+msgid "WooFood"
+msgstr ""
+
+#. Description of the theme
+msgid "WooFood Online Delivery Theme"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.wpslash.com/plugin/woofood/"
+msgstr ""
+
+#. Author of the theme
+msgid "WPSlash"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.wpslash.com"
+msgstr ""

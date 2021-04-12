@@ -1,0 +1,117 @@
+/**************************************************************************/
+/**************************************************************************/
+/* BUTTONS */
+/**************************************************************************/
+/**************************************************************************/
+
+.wp-core-ui .button:not(.wp-color-result):not(.button-primary), 
+.wp-core-ui .button-secondary, 
+.tablenav-pages-navspan,
+.tablenav .tablenav-pages a,
+#save-action input, 
+#preview-action a.button,
+.wrap .page-title-action.button-secondary,
+.wp-core-ui .button.button-small, 
+.wp-core-ui .button-group.button-small .button,
+#wpwrap .avia_button.avia_button_inactive,
+.components-button.is-default,
+.components-button.is-secondary {
+	background: #dde1ea!important;
+	border: 1px solid #dde1ea!important;
+	box-shadow: none!important;
+	border-radius: 2px!important;
+	color: #555!important;
+	font-weight: 500!important;
+	text-shadow: none!important
+}
+
+.wp-core-ui .button:not(.wp-color-result):not(.button-primary):hover,
+.wp-core-ui .button:hover, 
+.wp-core-ui .button-secondary:hover, 
+.tablenav-pages-navspan:hover,
+.tablenav .tablenav-pages a:hover,
+#save-action input:hover, 
+#preview-action a.button:hover,
+.wp-core-ui .button.button-small:hover, 
+.wp-core-ui .button-group.button-small .button:hover,
+#wpwrap .avia_button.avia_button_inactive:hover,
+.components-button.is-default:hover,
+.components-button.is-secondary:hover {
+	background: #eaedf3!important;
+}
+
+.wp-core-ui .button:not(.wp-color-result):not(.button-primary):focus, 
+.wp-core-ui .button-secondary:focus, 
+.tablenav-pages-navspan:focus,
+.tablenav .tablenav-pages a:focus,
+#save-action input:focus, 
+#preview-action a.button:focus,
+.wrap .page-title-action.button-secondary:focus,
+.wp-core-ui .button.button-small:focus, 
+.wp-core-ui .button-group.button-small .button:focus,
+#wpwrap .avia_button.avia_button_inactive:focus,
+.components-button.is-secondary:focus {
+	background: #eaedf3!important;
+}
+
+.wrap .add-new-h2, 
+.wrap .add-new-h2:active, 
+.wrap .page-title-action, 
+.wrap .page-title-action:active,
+#minor-publishing-actions input, 
+#major-publishing-actions input:not(.delete), 
+#minor-publishing-actions .preview,
+.wp-core-ui .button-primary,
+.wp-core-ui button.button.button-primary
+.wp-core-ui input.button.button-primary,
+button.button.button-hero,
+.wp-core-ui .button-primary[disabled],
+#wpwrap .avia_button,
+.split-page-title-action a, 
+.split-page-title-action a:active, 
+.split-page-title-action .expander:after,
+.components-button.is-primary,
+.components-button.is-primary.is-busy {
+	background-color: @wpatThemeColor!important;
+	border: 1px solid @wpatThemeColor!important;
+	color: #fff!important;
+	font-weight: 600!important;
+	border-radius: 2px;
+	text-shadow: none!important
+}
+
+.wp-core-ui .button-primary {
+	box-shadow: none!important
+}
+
+.wp-core-ui .button-primary[disabled] {
+	color: rgba(255,255,255,0.5)!important
+}
+
+.wrap .add-new-h2:hover, 
+.wrap .add-new-h2:active:hover, 
+.wrap .page-title-action:hover, 
+.wrap .page-title-action:active:hover,
+#minor-publishing-actions input:hover, 
+#major-publishing-actions input:not(.delete):hover, 
+#minor-publishing-actions .preview:hover,
+.wp-core-ui .button-primary:hover,
+.wp-core-ui button.button.button-primary:hover,
+.wp-core-ui input.button.button-primary:hover,
+button.button.button-hero:hover,
+.split-page-title-action a:hover, 
+.split-page-title-action:hover .expander:after,
+.components-button.is-primary:hover,
+.components-button.is-primary.is-busy:hover {
+	background: lighten(@wpatThemeColor, 10%)!important;
+}
+
+.wp-core-ui .button-primary[disabled], 
+.wp-core-ui .button-primary:disabled, 
+.wp-core-ui .button-primary-disabled, 
+.wp-core-ui .button-primary.disabled {
+	background: lighten(@wpatThemeColor, 20%)!important;
+	border: 1px solid lighten(@wpatThemeColor, 5%)!important;
+	color: rgba(255,255,255,0.75)!important;
+	cursor: not-allowed;
+}

@@ -1,0 +1,10 @@
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul  2 09:10 ..
+-rw-r--r--    1 1499       u1035-camd          8 Jul  2 09:10 .gitignore
+-rw-r--r--    1 1499       u1035-camd      18320 Jul  2 09:10 collect-logo.png
+-rw-r--r--    1 1499       u1035-camd        788 Jul  2 09:10 composer.json
+-rw-r--r--    1 1499       u1035-camd      56168 Jul  2 09:10 composer.lock
+-rw-r--r--    1 1499       u1035-camd        625 Jul  2 09:10 phpunit.xml
+-rw-r--r--    1 1499       u1035-camd       1839 Jul  2 09:10 readme.md
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul  2 09:10 src
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul  2 09:10 tests

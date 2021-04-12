@@ -1,0 +1,93 @@
+.form-table tr{
+
+  float:left;
+}
+
+.form-table tr th{
+
+  width: auto;
+}
+
+.form-table input[type=text]{
+
+  width:100px;
+}
+.woofood_multistore_store_list
+{
+	display: block;
+width: 100%;
+flex-direction: row;
+flex: 1;
+}
+.woofood_multistore_list_item
+{
+	display: flex;
+flex-direction: row;
+flex: 1;
+padding: 10px;
+justify-content: flex-start;
+flex-direction: row;
+margin: auto;
+border: 1px solid #cacaca;
+background: white;
+margin-bottom: 3px;
+}
+.woofood_multistore_list_item_title
+{
+	justify-content: flex-start;
+margin: auto;
+flex-direction: row;
+margin-left: 0px;
+}
+.woofood_multistore_list_item_actions
+{
+justify-items: flex-end;
+display: flex;
+margin: auto;
+justify-content: flex-end;
+margin-right: 0px;
+}
+.woofood_multistore_list_item_actions .button
+{
+	flex-direction: row;
+justify-content: flex-end;
+justify-self: flex-end;
+margin: auto;
+flex-direction: row;
+margin-right: 17px;
+}
+.woofood_multistore_list_item_settings
+{
+	display: none;
+background: white;
+padding: 18px;
+border: 1px solid #cacaca;
+border-top: 0px;
+}
+.woofood_multistore_list_item_settings.show
+{
+		display: block;
+
+}
+.woofood_multistore_list_item_settings_field
+{
+	display: flex;
+flex-direction: column;
+padding: 3px;
+flex-wrap: wrap;
+}
+.woofood_multistore_list_item_settings_footer
+{
+	display: flex;
+padding: 20px;
+flex-direction: row;
+justify-content: flex-end;
+border-top: 1px solid #eee;
+margin-top: 10px;
+}
+.woofood_multistore_new
+{
+	background: white;
+padding: 11px;
+border-bottom: 1px solid #eee;
+}

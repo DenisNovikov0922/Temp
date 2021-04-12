@@ -1,0 +1,10 @@
+body { 
+   direction: rtl; 
+   unicode-bidi: embed; 
+}
+.dropdown-menu.row [class*='col'] {
+	left: 0 !important;
+}
+.dropdown-menu.row [class*='col'] .dropdown-menu.row [class*='col'] {
+    left: -200px !important;
+}

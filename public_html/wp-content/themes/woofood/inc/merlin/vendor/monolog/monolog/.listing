@@ -1,0 +1,10 @@
+drwxr-xr-x    5 1499       u1035-camd       4096 Jun  1 13:49 .
+drwxr-xr-x    3 1499       u1035-camd       4096 Jun  1 13:49 ..
+-rw-r--r--    1 1499       u1035-camd      19217 Jun  1 13:49 CHANGELOG.md
+-rw-r--r--    1 1499       u1035-camd       1063 Jun  1 13:49 LICENSE
+-rw-r--r--    1 1499       u1035-camd       4047 Jun  1 13:49 README.md
+-rw-r--r--    1 1499       u1035-camd       2535 Jun  1 13:49 composer.json
+drwxr-xr-x    2 1499       u1035-camd       4096 Jun  1 13:49 doc
+-rw-r--r--    1 1499       u1035-camd        460 Jun  1 13:49 phpunit.xml.dist
+drwxr-xr-x    3 1499       u1035-camd       4096 Jun  1 13:49 src
+drwxr-xr-x    3 1499       u1035-camd       4096 Jun  1 13:49 tests

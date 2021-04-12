@@ -1,0 +1,807 @@
+[29-Nov-2020 12:57:38 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[29-Nov-2020 12:57:38 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[29-Nov-2020 12:57:39 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[29-Nov-2020 12:57:39 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[29-Nov-2020 13:02:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wphave_admin_envato_purchase_code() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/wphave-admin/inc/init/setup.php:72
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/wphave-admin/inc/pages/setup.php(219): wphave_admin_get_purchase_theme_details()
+#1 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): wphave_admin_purchase_code_page('')
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/customer/www/staging-ed.it/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/customer/www/staging-ed.it/public_html/wp-admin/admin.php(259): do_action('tools_page_wpha...')
+#5 /home/customer/www/staging-ed.it/public_html/wp-admin/tools.php(40): require_once('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/wphave-admin/inc/init/setup.php on line 72
+[29-Nov-2020 13:02:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wphave_admin_envato_purchase_code() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/wphave-admin/inc/init/setup.php:72
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/wphave-admin/inc/pages/setup.php(219): wphave_admin_get_purchase_theme_details()
+#1 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): wphave_admin_purchase_code_page('')
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/customer/www/staging-ed.it/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/customer/www/staging-ed.it/public_html/wp-admin/admin.php(259): do_action('tools_page_wpha...')
+#5 /home/customer/www/staging-ed.it/public_html/wp-admin/tools.php(40): require_once('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/wphave-admin/inc/init/setup.php on line 72
+[29-Nov-2020 20:17:35 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[30-Nov-2020 00:34:58 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[30-Nov-2020 00:34:58 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[30-Nov-2020 00:34:58 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[30-Nov-2020 00:34:58 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[30-Nov-2020 00:34:58 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[30-Nov-2020 00:34:58 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[30-Nov-2020 00:34:58 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[30-Nov-2020 00:34:58 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[30-Nov-2020 00:34:58 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[30-Nov-2020 00:34:58 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[30-Nov-2020 00:35:18 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[30-Nov-2020 00:35:18 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[30-Nov-2020 00:35:18 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[30-Nov-2020 00:35:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[30-Nov-2020 00:35:18 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[30-Nov-2020 00:35:18 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[30-Nov-2020 00:35:18 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[30-Nov-2020 00:35:18 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[30-Nov-2020 00:35:18 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[30-Nov-2020 00:35:18 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[01-Dec-2020 14:57:42 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[01-Dec-2020 14:57:42 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[01-Dec-2020 14:57:44 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[01-Dec-2020 14:57:44 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[01-Dec-2020 14:57:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php:2033) in /home/customer/www/staging-ed.it/public_html/wp-includes/functions.php on line 6274
+[01-Dec-2020 14:57:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php:2033) in /home/customer/www/staging-ed.it/public_html/wp-admin/includes/misc.php on line 1310
+[01-Dec-2020 14:58:18 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[01-Dec-2020 14:58:18 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[01-Dec-2020 14:58:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php:2033) in /home/customer/www/staging-ed.it/public_html/wp-includes/functions.php on line 6274
+[01-Dec-2020 14:58:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php:2033) in /home/customer/www/staging-ed.it/public_html/wp-admin/includes/misc.php on line 1310
+[01-Dec-2020 14:58:56 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[01-Dec-2020 14:58:56 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[01-Dec-2020 14:58:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php:2033) in /home/customer/www/staging-ed.it/public_html/wp-includes/functions.php on line 6274
+[01-Dec-2020 14:58:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php:2033) in /home/customer/www/staging-ed.it/public_html/wp-admin/includes/misc.php on line 1310
+[06-Dec-2020 23:22:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/supportcandy/includes/class-wpsc-install.php on line 1147
+[07-Dec-2020 01:12:16 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[07-Dec-2020 01:12:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[07-Dec-2020 01:12:16 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[07-Dec-2020 01:12:16 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[07-Dec-2020 01:12:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[09-Dec-2020 10:44:18 UTC] [Loco.warning] "Questo NON è un file di traduzione. La modifica manuale delle stringhe sorgente non è consigliata." in src/error/AdminNotices.php:93
+[10-Dec-2020 09:27:53 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[10-Dec-2020 09:27:53 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php on line 2033
+[10-Dec-2020 09:27:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/staging-ed.it/public_html/wp-includes/wp-db.php:2033) in /home/customer/www/staging-ed.it/public_html/wp-includes/pluggable.php on line 1296
+[16-Dec-2020 14:18:12 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 57
+[16-Dec-2020 14:18:13 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 57
+[16-Dec-2020 14:18:13 UTC] WC_Log_Handler_File::get_log_file_path was called incorrectly. Questo metodo non deve essere chiamato prima di plugins_loaded. Backtrace: WooCommerce->log_errors, WC_Logger->critical, WC_Logger->log, WC_Log_Handler_File->handle, WC_Log_Handler_File->add, WC_Log_Handler_File->should_rotate, WC_Log_Handler_File::get_log_file_path, wc_doing_it_wrong. This message was added in version 3.0.
+[16-Dec-2020 14:18:13 UTC] WC_Log_Handler_File::get_log_file_path was called incorrectly. Questo metodo non deve essere chiamato prima di plugins_loaded. Backtrace: WooCommerce->log_errors, WC_Logger->critical, WC_Logger->log, WC_Log_Handler_File->handle, WC_Log_Handler_File->add, WC_Log_Handler_File->open, WC_Log_Handler_File::get_log_file_path, wc_doing_it_wrong. This message was added in version 3.0.
+[16-Dec-2020 14:18:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 54
+[16-Dec-2020 14:19:39 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, null given in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 53
+[16-Dec-2020 14:21:29 UTC] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 54
+[16-Dec-2020 14:23:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php:52
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): wf_date_checkout_admin_order_meta(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(513): do_action('woocommerce_adm...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/customer/www/staging-ed.it/public_html/wp-admin/includes/template.php(1389): WC_Meta_Box_Order_Data::output(Object(WP_Post), Array)
+#5 /home/customer/www/staging-ed.it/public_html/wp-admin/edit-form-adva in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 52
+[16-Dec-2020 14:26:23 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 52
+[16-Dec-2020 14:26:23 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 52
+[16-Dec-2020 14:26:23 UTC] WC_Log_Handler_File::get_log_file_path was called incorrectly. Questo metodo non deve essere chiamato prima di plugins_loaded. Backtrace: WooCommerce->log_errors, WC_Logger->critical, WC_Logger->log, WC_Log_Handler_File->handle, WC_Log_Handler_File->add, WC_Log_Handler_File->should_rotate, WC_Log_Handler_File::get_log_file_path, wc_doing_it_wrong. This message was added in version 3.0.
+[16-Dec-2020 14:26:23 UTC] WC_Log_Handler_File::get_log_file_path was called incorrectly. Questo metodo non deve essere chiamato prima di plugins_loaded. Backtrace: WooCommerce->log_errors, WC_Logger->critical, WC_Logger->log, WC_Log_Handler_File->handle, WC_Log_Handler_File->add, WC_Log_Handler_File->open, WC_Log_Handler_File::get_log_file_path, wc_doing_it_wrong. This message was added in version 3.0.
+[16-Dec-2020 14:26:36 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 52
+[16-Dec-2020 14:26:45 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 52
+[16-Dec-2020 14:26:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php:52
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): wf_date_checkout_admin_order_meta(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(513): do_action('woocommerce_adm...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/customer/www/staging-ed.it/public_html/wp-admin/includes/template.php(1389): WC_Meta_Box_Order_Data::output(Object(WP_Post), Array)
+#5 /home/customer/www/staging-ed.it/public_html/wp-admin/edit-form-adva in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 52
+[16-Dec-2020 14:27:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php:52
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): wf_date_checkout_admin_order_meta(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(513): do_action('woocommerce_adm...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/customer/www/staging-ed.it/public_html/wp-admin/includes/template.php(1389): WC_Meta_Box_Order_Data::output(Object(WP_Post), Array)
+#5 /home/customer/www/staging-ed.it/public_html/wp-admin/edit-form-adva in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/doorbell_field.php on line 52
+[16-Dec-2020 15:09:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/extra_columns_order.php on line 74
+[16-Dec-2020 15:10:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/extra_columns_order.php on line 74
+[16-Dec-2020 15:10:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/extra_columns_order.php on line 74
+[16-Dec-2020 15:10:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/extra_columns_order.php on line 74
+[16-Dec-2020 15:13:49 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/extra_columns_order.php on line 68
+[20-Dec-2020 14:18:30 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[20-Dec-2020 14:18:30 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Dec-2020 14:18:30 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[20-Dec-2020 14:18:30 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[22-Dec-2020 10:39:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:39:46 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:43:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:43:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_product_thumbnails' not found or invalid function name in /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php on line 287
+[22-Dec-2020 10:53:43 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/ajax_enabled.php on line 149
+[22-Dec-2020 10:53:43 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/woofood-plugin/inc/func/ajax_enabled.php on line 149
+[11-Jan-2021 09:45:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/supportcandy/includes/class-wpsc-install.php on line 1147
+[11-Jan-2021 09:51:15 UTC] PHP Warning:  sprintf(): Too few arguments in /home/customer/www/staging-ed.it/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[15-Jan-2021 11:35:48 UTC] PHP Warning:  include_once(ic-commerce-multisite-reporting-dashboard.php): failed to open stream: No such file or directory in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php on line 206
+[15-Jan-2021 11:35:48 UTC] PHP Warning:  include_once(): Failed opening 'ic-commerce-multisite-reporting-dashboard.php' for inclusion (include_path='.:/usr/local/php73/pear') in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php on line 206
+[15-Jan-2021 11:35:48 UTC] PHP Fatal error:  Uncaught Error: Class 'IC_Commerce_Mutlisite_Reporting_Dashboard' not found in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php:207
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): IC_Commerce_Mutlisite_Reporting_Init->add_page('')
+#1 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/customer/www/staging-ed.it/public_html/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#4 {main}
+  thrown in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php on line 207
+[15-Jan-2021 11:41:31 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 125
+[15-Jan-2021 11:44:39 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 125
+[15-Jan-2021 12:24:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 491
+[15-Jan-2021 12:24:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 1021
+[15-Jan-2021 12:24:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 491
+[15-Jan-2021 12:24:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 1021
+[15-Jan-2021 12:24:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 491
+[15-Jan-2021 12:24:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 1021
+[15-Jan-2021 12:24:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 491
+[15-Jan-2021 12:24:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 1021
+[15-Jan-2021 12:25:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 125
+[15-Jan-2021 12:26:46 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 125
+[15-Jan-2021 13:46:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 259
+[15-Jan-2021 13:47:43 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.wp_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM wp_postmeta pm1 INNER JOIN wp_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[15-Jan-2021 14:12:33 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pm1.post_id in ('select ID from wp_posts where post_date>='2020-01-01' and post_' at line 1 per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_postmeta pm1 INNER JOIN ndx_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method_title' WHERE pm1.meta_key = '_order_total' pm1.post_id in ('select ID from wp_posts where post_date>='2020-01-01' and post_date <= '2021-01-15' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[15-Jan-2021 14:14:09 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pm1.post_id in ('select ID from ndx_posts where post_date>='2020-11-01' and post' at line 1 per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_postmeta pm1 INNER JOIN ndx_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method_title' WHERE pm1.meta_key = '_order_total' pm1.post_id in ('select ID from ndx_posts where post_date>='2020-11-01' and post_date <= '2021-01-15' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[15-Jan-2021 16:44:17 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 259
+[15-Jan-2021 16:44:57 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 259
+[15-Jan-2021 16:46:11 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 259
+[18-Jan-2021 11:23:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/supportcandy/includes/class-wpsc-install.php on line 1147
+[18-Jan-2021 13:30:00 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-19' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 10:34:14 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:01:45 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 858
+[19-Jan-2021 11:03:45 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 857
+[19-Jan-2021 11:03:49 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 857
+[19-Jan-2021 11:04:38 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 857
+[19-Jan-2021 11:05:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 857
+[19-Jan-2021 11:05:45 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 857
+[19-Jan-2021 11:08:01 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:08:46 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 858
+[19-Jan-2021 11:09:16 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 857
+[19-Jan-2021 11:11:52 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:12:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 630
+[19-Jan-2021 11:13:49 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:14:53 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 858
+[19-Jan-2021 11:15:28 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 858
+[19-Jan-2021 11:16:18 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 858
+[19-Jan-2021 11:17:03 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 882
+[19-Jan-2021 11:17:25 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 977
+[19-Jan-2021 11:19:19 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:19:42 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:19:46 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:20:27 UTC] PHP Parse error:  syntax error, unexpected ''summary_' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 851
+[19-Jan-2021 11:21:27 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:21:32 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:21:38 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:21:57 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-01' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:22:09 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-01' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:22:57 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-01' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:24:30 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 858
+[19-Jan-2021 11:25:04 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 882
+[19-Jan-2021 11:25:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 553
+[19-Jan-2021 11:26:13 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-01' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:26:17 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-01' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:26:20 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-01' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:26:43 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:26:49 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:26:50 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:26:51 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:27:00 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:27:46 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:27:49 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:27:51 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:28:58 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 767
+[19-Jan-2021 11:29:28 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 791
+[19-Jan-2021 11:29:57 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:30:00 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:30:37 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:32:14 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 859
+[19-Jan-2021 11:32:36 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:32:39 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:32:43 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:33:38 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:33:42 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:33:45 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:33:52 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:34:23 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:34:26 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:34:28 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:35:34 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 859
+[19-Jan-2021 11:35:37 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 859
+[19-Jan-2021 11:35:51 UTC] PHP Parse error:  syntax error, unexpected ''s' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 597
+[19-Jan-2021 11:35:54 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 859
+[19-Jan-2021 11:35:56 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 859
+[19-Jan-2021 11:36:21 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:36:24 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:36:51 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:36:54 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:37:32 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:37:36 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:38:01 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:38:04 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:38:47 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:38:50 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:40:07 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('toplevel_page_multi_site_reporting'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->add_page, IC_Commerce_Mutlisite_Reporting_Dashboard->init
+[19-Jan-2021 11:40:11 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-02' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:40:53 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-12-01' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:43:06 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-12-01' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:43:22 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-01' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 11:43:33 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_1_postmeta' doesn't exist per la query SELECT SUM(pm1.meta_value) as ptotal, count(pm1.meta_value) as total_orders, pm2.meta_value as pmethod FROM ndx_1_postmeta pm1 INNER JOIN ndx_1_postmeta pm2 ON pm1.post_id = pm2.post_id AND pm2.meta_key = '_payment_method' WHERE pm1.meta_key = '_order_total' and pm1.post_id in (select ID from ndx_1_posts where post_date>='2020-01-01' and post_date <= '2021-01-20' ) GROUP BY pm2.meta_value fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data
+[19-Jan-2021 15:40:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/supportcandy/includes/class-wpsc-install.php on line 1147
+[19-Jan-2021 15:40:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/supportcandy/includes/class-wpsc-install.php on line 1147
+[19-Jan-2021 15:40:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/supportcandy/includes/class-wpsc-install.php on line 1147
+[19-Jan-2021 19:32:17 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postme' at line 20 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' ,postmeta4.meta_value AS  customer_user FROM ndx_posts as posts
+			LEFT JOIN  ndx_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_postmeta as postmeta6 ON postmeta6.post_id=posts.ID
+            LEFT JOIN  ndx_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' limit 5 AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postmeta2.meta_value
+			Order By OrderCount DESC
+			LIMIT 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[19-Jan-2021 19:32:17 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postme' at line 20 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' ,postmeta4.meta_value AS  customer_user FROM ndx_2_posts as posts
+			LEFT JOIN  ndx_2_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_2_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_2_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_2_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_2_postmeta as postmeta6 ON postmeta6.post_id=posts.ID
+            LEFT JOIN  ndx_2_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' limit 5 AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postmeta2.meta_value
+			Order By OrderCount DESC
+			LIMIT 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[19-Jan-2021 19:32:17 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postme' at line 20 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' ,postmeta4.meta_value AS  customer_user FROM ndx_3_posts as posts
+			LEFT JOIN  ndx_3_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_3_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_3_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_3_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_3_postmeta as postmeta6 ON postmeta6.post_id=posts.ID
+            LEFT JOIN  ndx_3_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' limit 5 AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postmeta2.meta_value
+			Order By OrderCount DESC
+			LIMIT 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[19-Jan-2021 19:32:17 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postme' at line 20 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' ,postmeta4.meta_value AS  customer_user FROM ndx_4_posts as posts
+			LEFT JOIN  ndx_4_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_4_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_4_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_4_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_4_postmeta as postmeta6 ON postmeta6.post_id=posts.ID
+            LEFT JOIN  ndx_4_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' limit 5 AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postmeta2.meta_value
+			Order By OrderCount DESC
+			LIMIT 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[19-Jan-2021 19:32:17 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postme' at line 20 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' ,postmeta4.meta_value AS  customer_user FROM ndx_5_posts as posts
+			LEFT JOIN  ndx_5_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_5_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_5_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_5_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_5_postmeta as postmeta6 ON postmeta6.post_id=posts.ID
+            LEFT JOIN  ndx_5_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' limit 5 AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postmeta2.meta_value
+			Order By OrderCount DESC
+			LIMIT 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[19-Jan-2021 19:32:17 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postme' at line 20 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' ,postmeta4.meta_value AS  customer_user FROM ndx_6_posts as posts
+			LEFT JOIN  ndx_6_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_6_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_6_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_6_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_6_postmeta as postmeta6 ON postmeta6.post_id=posts.ID
+            LEFT JOIN  ndx_6_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' limit 5 AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postmeta2.meta_value
+			Order By OrderCount DESC
+			LIMIT 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[19-Jan-2021 19:32:17 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postme' at line 20 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' ,postmeta4.meta_value AS  customer_user FROM ndx_7_posts as posts
+			LEFT JOIN  ndx_7_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_7_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_7_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_7_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_7_postmeta as postmeta6 ON postmeta6.post_id=posts.ID
+            LEFT JOIN  ndx_7_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' limit 5 AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-19' GROUP BY  postmeta2.meta_value
+			Order By OrderCount DESC
+			LIMIT 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[19-Jan-2021 19:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'IC_Commerce_Mutlisite_Reporting_Dashboard' not found in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php:43
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action('')
+#1 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/customer/www/staging-ed.it/public_html/wp-admin/admin-ajax.php(176): do_action('wp_ajax_icmsrep...')
+#4 {main}
+  thrown in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php on line 43
+[19-Jan-2021 19:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'IC_Commerce_Mutlisite_Reporting_Dashboard' not found in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php:207
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): IC_Commerce_Mutlisite_Reporting_Init->add_page('')
+#1 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/customer/www/staging-ed.it/public_html/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#4 {main}
+  thrown in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php on line 207
+[19-Jan-2021 19:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'IC_Commerce_Mutlisite_Reporting_Dashboard' not found in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php:207
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): IC_Commerce_Mutlisite_Reporting_Init->add_page('')
+#1 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/customer/www/staging-ed.it/public_html/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#4 {main}
+  thrown in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php on line 207
+[20-Jan-2021 10:02:48 UTC] PHP Fatal error:  Uncaught Error: Class 'IC_Commerce_Mutlisite_Reporting_Dashboard' not found in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php:207
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): IC_Commerce_Mutlisite_Reporting_Init->add_page('')
+#1 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/customer/www/staging-ed.it/public_html/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#4 {main}
+  thrown in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php on line 207
+[20-Jan-2021 10:31:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 148
+[20-Jan-2021 10:31:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 148
+[20-Jan-2021 10:31:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 148
+[20-Jan-2021 10:31:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 148
+[20-Jan-2021 10:31:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 148
+[20-Jan-2021 10:31:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 148
+[20-Jan-2021 10:31:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 148
+[20-Jan-2021 10:46:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 191
+[20-Jan-2021 10:46:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 148
+[20-Jan-2021 10:46:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 191
+[20-Jan-2021 10:46:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 191
+[20-Jan-2021 10:46:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 191
+[20-Jan-2021 10:46:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 191
+[20-Jan-2021 10:46:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 191
+[20-Jan-2021 10:46:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-functions.php on line 191
+[20-Jan-2021 10:46:58 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 10:50:36 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC' at line 11 per la query 
+			SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+			,postmeta2.meta_value AS 'BillingCountry'
+			,Count(*) AS 'OrderCount', order_currency.meta_value 	AS order_currency
+			FROM ndx_posts as posts
+			LEFT JOIN  ndx_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_postmeta as postmeta2 ON postmeta2.post_id=posts.ID LEFT JOIN  ndx_postmeta as order_currency ON order_currency.post_id = posts.ID
+			WHERE
+			posts.post_type			=	'shop_order'  
+			AND postmeta1.meta_key	=	'_order_total' 
+			AND postmeta2.meta_key	=	'_billing_country' AND order_currency.meta_key = '_order_currency' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' LIMIT 5
+			GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC 						
+			LIMIT 20 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_billing_country
+[20-Jan-2021 10:50:36 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC' at line 11 per la query 
+			SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+			,postmeta2.meta_value AS 'BillingCountry'
+			,Count(*) AS 'OrderCount', order_currency.meta_value 	AS order_currency
+			FROM ndx_2_posts as posts
+			LEFT JOIN  ndx_2_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_2_postmeta as postmeta2 ON postmeta2.post_id=posts.ID LEFT JOIN  ndx_2_postmeta as order_currency ON order_currency.post_id = posts.ID
+			WHERE
+			posts.post_type			=	'shop_order'  
+			AND postmeta1.meta_key	=	'_order_total' 
+			AND postmeta2.meta_key	=	'_billing_country' AND order_currency.meta_key = '_order_currency' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' LIMIT 5
+			GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC 						
+			LIMIT 20 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_billing_country
+[20-Jan-2021 10:50:36 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC' at line 11 per la query 
+			SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+			,postmeta2.meta_value AS 'BillingCountry'
+			,Count(*) AS 'OrderCount', order_currency.meta_value 	AS order_currency
+			FROM ndx_3_posts as posts
+			LEFT JOIN  ndx_3_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_3_postmeta as postmeta2 ON postmeta2.post_id=posts.ID LEFT JOIN  ndx_3_postmeta as order_currency ON order_currency.post_id = posts.ID
+			WHERE
+			posts.post_type			=	'shop_order'  
+			AND postmeta1.meta_key	=	'_order_total' 
+			AND postmeta2.meta_key	=	'_billing_country' AND order_currency.meta_key = '_order_currency' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' LIMIT 5
+			GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC 						
+			LIMIT 20 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_billing_country
+[20-Jan-2021 10:50:36 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC' at line 11 per la query 
+			SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+			,postmeta2.meta_value AS 'BillingCountry'
+			,Count(*) AS 'OrderCount', order_currency.meta_value 	AS order_currency
+			FROM ndx_4_posts as posts
+			LEFT JOIN  ndx_4_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_4_postmeta as postmeta2 ON postmeta2.post_id=posts.ID LEFT JOIN  ndx_4_postmeta as order_currency ON order_currency.post_id = posts.ID
+			WHERE
+			posts.post_type			=	'shop_order'  
+			AND postmeta1.meta_key	=	'_order_total' 
+			AND postmeta2.meta_key	=	'_billing_country' AND order_currency.meta_key = '_order_currency' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' LIMIT 5
+			GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC 						
+			LIMIT 20 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_billing_country
+[20-Jan-2021 10:50:36 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC' at line 11 per la query 
+			SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+			,postmeta2.meta_value AS 'BillingCountry'
+			,Count(*) AS 'OrderCount', order_currency.meta_value 	AS order_currency
+			FROM ndx_5_posts as posts
+			LEFT JOIN  ndx_5_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_5_postmeta as postmeta2 ON postmeta2.post_id=posts.ID LEFT JOIN  ndx_5_postmeta as order_currency ON order_currency.post_id = posts.ID
+			WHERE
+			posts.post_type			=	'shop_order'  
+			AND postmeta1.meta_key	=	'_order_total' 
+			AND postmeta2.meta_key	=	'_billing_country' AND order_currency.meta_key = '_order_currency' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' LIMIT 5
+			GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC 						
+			LIMIT 20 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_billing_country
+[20-Jan-2021 10:50:36 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC' at line 11 per la query 
+			SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+			,postmeta2.meta_value AS 'BillingCountry'
+			,Count(*) AS 'OrderCount', order_currency.meta_value 	AS order_currency
+			FROM ndx_6_posts as posts
+			LEFT JOIN  ndx_6_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_6_postmeta as postmeta2 ON postmeta2.post_id=posts.ID LEFT JOIN  ndx_6_postmeta as order_currency ON order_currency.post_id = posts.ID
+			WHERE
+			posts.post_type			=	'shop_order'  
+			AND postmeta1.meta_key	=	'_order_total' 
+			AND postmeta2.meta_key	=	'_billing_country' AND order_currency.meta_key = '_order_currency' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' LIMIT 5
+			GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC 						
+			LIMIT 20 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_billing_country
+[20-Jan-2021 10:50:36 UTC] WordPress errore sul database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC' at line 11 per la query 
+			SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+			,postmeta2.meta_value AS 'BillingCountry'
+			,Count(*) AS 'OrderCount', order_currency.meta_value 	AS order_currency
+			FROM ndx_7_posts as posts
+			LEFT JOIN  ndx_7_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_7_postmeta as postmeta2 ON postmeta2.post_id=posts.ID LEFT JOIN  ndx_7_postmeta as order_currency ON order_currency.post_id = posts.ID
+			WHERE
+			posts.post_type			=	'shop_order'  
+			AND postmeta1.meta_key	=	'_order_total' 
+			AND postmeta2.meta_key	=	'_billing_country' AND order_currency.meta_key = '_order_currency' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' LIMIT 5
+			GROUP BY  postmeta2.meta_value ,order_currency.meta_value
+			Order By Total DESC 						
+			LIMIT 20 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_billing_country
+[20-Jan-2021 10:50:36 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 11:08:31 UTC] WordPress errore sul database Undeclared variable: postmeta4 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' LIMIT 5 ,postmeta4.meta_value AS  customer_user FROM ndx_posts as posts
+			LEFT JOIN  ndx_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_postmeta as postmeta6 ON postmeta6.post_id=posts.ID LEFT JOIN  ndx_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' GROUP BY  postmeta2.meta_value
+			Order By total DESC
+			limit 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[20-Jan-2021 11:08:31 UTC] WordPress errore sul database Undeclared variable: postmeta4 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' LIMIT 5 ,postmeta4.meta_value AS  customer_user FROM ndx_2_posts as posts
+			LEFT JOIN  ndx_2_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_2_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_2_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_2_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_2_postmeta as postmeta6 ON postmeta6.post_id=posts.ID LEFT JOIN  ndx_2_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' GROUP BY  postmeta2.meta_value
+			Order By total DESC
+			limit 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[20-Jan-2021 11:08:31 UTC] WordPress errore sul database Undeclared variable: postmeta4 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' LIMIT 5 ,postmeta4.meta_value AS  customer_user FROM ndx_3_posts as posts
+			LEFT JOIN  ndx_3_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_3_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_3_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_3_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_3_postmeta as postmeta6 ON postmeta6.post_id=posts.ID LEFT JOIN  ndx_3_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' GROUP BY  postmeta2.meta_value
+			Order By total DESC
+			limit 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[20-Jan-2021 11:08:31 UTC] WordPress errore sul database Undeclared variable: postmeta4 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' LIMIT 5 ,postmeta4.meta_value AS  customer_user FROM ndx_4_posts as posts
+			LEFT JOIN  ndx_4_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_4_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_4_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_4_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_4_postmeta as postmeta6 ON postmeta6.post_id=posts.ID LEFT JOIN  ndx_4_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' GROUP BY  postmeta2.meta_value
+			Order By total DESC
+			limit 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[20-Jan-2021 11:08:31 UTC] WordPress errore sul database Undeclared variable: postmeta4 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' LIMIT 5 ,postmeta4.meta_value AS  customer_user FROM ndx_5_posts as posts
+			LEFT JOIN  ndx_5_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_5_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_5_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_5_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_5_postmeta as postmeta6 ON postmeta6.post_id=posts.ID LEFT JOIN  ndx_5_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' GROUP BY  postmeta2.meta_value
+			Order By total DESC
+			limit 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[20-Jan-2021 11:08:31 UTC] WordPress errore sul database Undeclared variable: postmeta4 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' LIMIT 5 ,postmeta4.meta_value AS  customer_user FROM ndx_6_posts as posts
+			LEFT JOIN  ndx_6_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_6_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_6_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_6_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_6_postmeta as postmeta6 ON postmeta6.post_id=posts.ID LEFT JOIN  ndx_6_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' GROUP BY  postmeta2.meta_value
+			Order By total DESC
+			limit 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[20-Jan-2021 11:08:31 UTC] WordPress errore sul database Undeclared variable: postmeta4 per la query SELECT SUM(ROUND(postmeta1.meta_value,2)) AS 'Total' 
+					,postmeta2.meta_value AS 'BillingEmail'
+					,postmeta3.meta_value AS 'FirstName'
+					,postmeta5.meta_value AS 'LastName'
+					,postmeta6.meta_value AS 'CompanyName'
+					,CONCAT(postmeta3.meta_value, ' ',postmeta5.meta_value) AS billing_name
+					,Count(postmeta2.meta_value) AS 'OrderCount' LIMIT 5 ,postmeta4.meta_value AS  customer_user FROM ndx_7_posts as posts
+			LEFT JOIN  ndx_7_postmeta as postmeta1 ON postmeta1.post_id=posts.ID
+			LEFT JOIN  ndx_7_postmeta as postmeta2 ON postmeta2.post_id=posts.ID
+			LEFT JOIN  ndx_7_postmeta as postmeta3 ON postmeta3.post_id=posts.ID
+			LEFT JOIN  ndx_7_postmeta as postmeta5 ON postmeta5.post_id=posts.ID
+			LEFT JOIN  ndx_7_postmeta as postmeta6 ON postmeta6.post_id=posts.ID LEFT JOIN  ndx_7_postmeta as postmeta4 ON postmeta4.post_id=posts.ID 
+			WHERE  
+				posts.post_type='shop_order'  
+				AND postmeta1.meta_key='_order_total' 
+				AND postmeta2.meta_key='_billing_email'  
+				AND postmeta3.meta_key='_billing_first_name'
+				AND postmeta5.meta_key='_billing_last_name'
+				AND postmeta6.meta_key='_billing_company' AND postmeta4.meta_key='_customer_user' AND DATE(posts.post_date) BETWEEN '2020-01-02' AND '2021-01-20' GROUP BY  postmeta2.meta_value
+			Order By total DESC
+			limit 5 fatta da do_action('wp_ajax_icmsreporting_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action, IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data, IC_Commerce_Mutlisite_Reporting_Dashboard->get_top_customer_list
+[20-Jan-2021 11:16:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 662
+[20-Jan-2021 11:16:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 729
+[20-Jan-2021 11:16:23 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 11:17:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 662
+[20-Jan-2021 11:17:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 729
+[20-Jan-2021 11:17:27 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 11:17:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 662
+[20-Jan-2021 11:17:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 729
+[20-Jan-2021 11:17:36 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 11:17:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 662
+[20-Jan-2021 11:17:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 729
+[20-Jan-2021 11:17:53 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 11:22:37 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 1187
+[20-Jan-2021 11:22:49 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 1187
+[20-Jan-2021 11:24:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 662
+[20-Jan-2021 11:24:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 729
+[20-Jan-2021 11:24:54 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 11:24:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 945
+[20-Jan-2021 11:26:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 662
+[20-Jan-2021 11:26:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 729
+[20-Jan-2021 11:26:25 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 11:31:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function print_array() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php:1186
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php(496): IC_Commerce_Mutlisite_Reporting_Dashboard->get_site_wise_sales('total', Array, '2020-01-02', '2021-01-20')
+#1 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php(45): IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data(Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action('')
+#3 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/staging-ed.it/public_h in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 1186
+[20-Jan-2021 11:31:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 662
+[20-Jan-2021 11:31:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 729
+[20-Jan-2021 11:31:42 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 11:34:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 662
+[20-Jan-2021 11:34:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 729
+[20-Jan-2021 11:34:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 11:34:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 945
+[20-Jan-2021 11:40:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 662
+[20-Jan-2021 11:40:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 729
+[20-Jan-2021 11:40:49 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 11:40:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 945
+[20-Jan-2021 11:47:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 662
+[20-Jan-2021 11:47:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 729
+[20-Jan-2021 11:47:17 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 11:47:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 945
+[20-Jan-2021 12:11:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function print_() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php:907
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php(761): IC_Commerce_Mutlisite_Reporting_Dashboard->get_grid('site_wise_sales', Array, 'Site not found.', 'EUR')
+#1 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php(45): IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data(Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action('')
+#3 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/staging-ed.it/public_html/wp-in in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 12:11:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function print_() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php:907
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php(761): IC_Commerce_Mutlisite_Reporting_Dashboard->get_grid('site_wise_sales', Array, 'Site not found.', 'EUR')
+#1 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-init.php(45): IC_Commerce_Mutlisite_Reporting_Dashboard->get_dashboard_data(Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(287): IC_Commerce_Mutlisite_Reporting_Init->call_ajax_action('')
+#3 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/staging-ed.it/public_html/wp-in in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 907
+[20-Jan-2021 12:12:53 UTC] PHP Parse error:  syntax error, unexpected 'style' (T_STRING) in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 912
+[20-Jan-2021 12:12:56 UTC] PHP Parse error:  syntax error, unexpected 'style' (T_STRING) in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 912
+[28-Jan-2021 09:30:56 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[02-Feb-2021 09:54:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/ic-commerce-multisite-reporting/includes/ic-commerce-multisite-reporting-dashboard.php on line 908
+[02-Feb-2021 11:25:36 UTC] PHP Parse error:  syntax error, unexpected '$dryrun' (T_VARIABLE), expecting ')' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/DSGN-Super-Admin-Add/dsgn-super-admin-add.php on line 121
+[02-Feb-2021 11:25:39 UTC] PHP Parse error:  syntax error, unexpected '$dryrun' (T_VARIABLE), expecting ')' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/DSGN-Super-Admin-Add/dsgn-super-admin-add.php on line 121
+[02-Feb-2021 11:25:39 UTC] PHP Parse error:  syntax error, unexpected '$dryrun' (T_VARIABLE), expecting ')' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/DSGN-Super-Admin-Add/dsgn-super-admin-add.php on line 121
+[02-Feb-2021 11:33:40 UTC] PHP Parse error:  syntax error, unexpected '$dryrun' (T_VARIABLE), expecting ')' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/DSGN-Super-Admin-Add/dsgn-super-admin-add.php on line 121
+[02-Feb-2021 11:33:42 UTC] PHP Parse error:  syntax error, unexpected '$dryrun' (T_VARIABLE), expecting ')' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/DSGN-Super-Admin-Add/dsgn-super-admin-add.php on line 121
+[02-Feb-2021 11:33:43 UTC] PHP Parse error:  syntax error, unexpected '$dryrun' (T_VARIABLE), expecting ')' in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/DSGN-Super-Admin-Add/dsgn-super-admin-add.php on line 121
+[04-Feb-2021 11:50:31 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 15:44:01 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 15:46:31 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 15:50:28 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 15:51:28 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 15:55:25 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 15:57:15 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 15:59:50 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:07:39 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:10:05 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:11:17 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:12:01 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:12:59 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:13:16 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:14:26 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:14:53 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:16:42 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:19:41 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:21:02 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:34:18 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:39:27 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[04-Feb-2021 16:41:07 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[01-Mar-2021 16:02:07 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[01-Mar-2021 16:04:03 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[01-Mar-2021 16:27:51 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_11_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_11_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[01-Mar-2021 16:28:31 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_11_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_11_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[01-Mar-2021 16:48:13 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_11_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_11_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[01-Mar-2021 16:48:28 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_11_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_11_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[01-Mar-2021 16:49:15 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_11_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_11_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[01-Mar-2021 16:53:01 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_11_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_11_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[01-Mar-2021 16:54:34 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_11_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_11_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[01-Mar-2021 16:57:17 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_11_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_11_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[03-Mar-2021 14:11:54 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[03-Mar-2021 14:28:34 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[03-Mar-2021 14:28:37 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_11_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_11_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[26-Mar-2021 10:04:46 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[29-Mar-2021 14:50:17 UTC] WordPress errore sul database Table 'db6zpu2fhjf9we.ndx_3_usermeta' doesn't exist per la query SELECT DISTINCT meta_key FROM ndx_3_usermeta WHERE 1 fatta da do_action('admin_page_rm_field_add'), WP_Hook->do_action, WP_Hook->apply_filters, RM_Main_Controller->run, RM_Field_Controller->add, RM_User_Services->get_user_meta_dropdown, RM_DBManager::get_all_user_meta
+[29-Mar-2021 15:00:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/supportcandy/includes/EDD_SL_Plugin_Updater.php on line 356

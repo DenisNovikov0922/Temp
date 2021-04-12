@@ -1,0 +1,241 @@
+body .editor-styles-wrapper {
+	background: #F7F9FC;
+}
+body div:first-child + .editor-block-list__layout {
+	background: #fff;
+	border-top: 1px solid #EAEDF2;
+	padding-top: 5rem;
+}
+.wp-block, .wp-block.editor-post-title__block {
+    max-width: 670px;
+}
+.wp-block[data-align=wide] {
+  max-width: 708px;
+  margin: 0 auto !important;
+}
+body .editor-post-title__block .editor-post-title__input {
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.wp-block-cover p, .wp-block-cover-image p {
+	color: inherit !important
+}
+
+.wp-block-image img, .wp-block-gallery .blocks-gallery-image, .wp-block-gallery .blocks-gallery-item, .wp-block-cover, .wp-block-cover-image {
+    border-radius: 0.625rem !important;
+    overflow: hidden;
+}
+
+.wp-block-quote, .wp-block-freeform.block-library-rich-text__tinymce blockquote {
+    padding: 3em;
+    border-radius: 0;
+}
+.wp-block-quote p, .wp-block-freeform.block-library-rich-text__tinymce blockquote p {
+    font-size: 1.6rem !important;
+    font-style: italic;
+	color: #2568EF !important;
+}
+.wp-block-quote cite, .wp-block-freeform.block-library-rich-text__tinymce blockquote cite {
+    font-weight: 700;
+}
+.wp-block[data-align=full] {
+    max-width: 772px;
+    margin: 0 auto !important;
+}
+.wp-block-heading h1,
+.wp-block h1,
+.wp-block-heading h2,
+.wp-block h2,
+.wp-block-heading h3,
+.wp-block h3,
+.wp-block-heading h4,
+.wp-block h4,
+.wp-block-heading h5,
+.wp-block h5,
+.wp-block-heading h6,
+.wp-block h6,
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.5 !important;
+  color: #2C3038 !important;
+}
+.block-editor-block-list__block[data-type="core/paragraph"] p {
+  line-height: 1.5 !important;
+  color: #555A64;
+}
+.wp-block-heading h1,
+.wp-block h1 {
+  font-size: 2.5rem !important; 
+}
+
+.wp-block-heading h2,
+.wp-block h2 {
+  font-size: 2rem !important; 
+}
+
+.wp-block-heading h3,
+.wp-block h3 {
+  font-size: 1.75rem !important; 
+}
+
+.wp-block-heading h4,
+.wp-block h4 {
+  font-size: 1.5rem !important; 
+}
+
+.wp-block-heading h5,
+.wp-block h5 {
+  font-size: 1.25rem !important; 
+}
+
+.wp-block-heading h6,
+.wp-block h6 {
+  font-size: 1rem !important; 
+}
+.wp-block .mce-content-body table, .wp-block-table {
+  border: border: 2px solid #e9ecef !important;
+  border-collapse: collapse;
+  background: #fff;
+  margin-bottom: 28px;
+}
+.wp-block .mce-content-body th, 
+.wp-block .mce-content-body td  {
+  border: 2px solid #e9ecef !important;
+  padding: 0.75rem;
+  text-align: left;
+}
+.wp-block-table th,
+.wp-block-table td {
+  border: 2px solid #e9ecef !important;
+  padding: 0.25rem;
+}
+.wp-block .mce-content-body thead th, .wp-block-table thead th {
+  background: #0099FF !important;
+  color: #fff !important;
+  font-weight: 700;
+}
+.wp-block code, .wp-block-freeform.block-library-rich-text__tinymce code {
+    font-size: 87.5%;
+    color: #e83e8c;
+    word-break: break-word;
+    background: transparent;
+}
+.editor-styles-wrapper ol li, .editor-styles-wrapper ol ol, .editor-styles-wrapper ol ul, .editor-styles-wrapper ul li, .editor-styles-wrapper ul ol, .editor-styles-wrapper ul ul, .wp-block-freeform.block-library-rich-text__tinymce ol li, .wp-block-freeform.block-library-rich-text__tinymce ul li {
+  margin-bottom: 0.75rem !important;
+}
+.block-editor ul, .block-editor ul {
+  margin-bottom: 28px;
+}
+.editor-styles-wrapper .block-library-list ol, .editor-styles-wrapper .block-library-list ul, .wp-block-freeform.block-library-rich-text__tinymce ol, .wp-block-freeform.block-library-rich-text__tinymce ul {
+    margin-top: 0.75rem;
+    margin-left: 0;
+}
+.wp-block-pullquote.alignleft { 
+  float: left; 
+  margin: 0 30px 30px 0 !important;
+  clear: left;
+  padding: 3em;
+}
+.wp-block-pullquote.alignright { 
+  float: right; 
+  margin: 0 0 30px 30px !important;
+  clear: right;
+  padding: 3em;
+}
+.wp-block-pullquote.alignleft p, .wp-block-pullquote.alignright p {
+    font-size: 20px !important;
+    font-style: italic;
+}
+.wp-block-pullquote.alignleft blockquote, .wp-block-pullquote.alignright blockquote {
+  margin: 0;
+}
+.wp-block-pullquote {
+	border: none;
+}
+.wp-block-pullquote blockquote>.block-editor-rich-text p {
+    font-size: 1.4em;
+    font-style: italic;
+    line-height: 1.6;
+	color: #2568EF;
+}
+.editor-post-title__block .editor-post-title__input {
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.editor-styles-wrapper p {
+    word-wrap: normal;
+}
+.editor-styles-wrapper [data-block] {
+    margin-top: 0px;
+}
+.article a, .block-editor-rich-text__editable a, .wp-block-freeform.block-library-rich-text__tinymce a, .editor-styles-wrapper li a {
+    font-weight: 500;
+}
+.wp-block-verse pre, pre.wp-block-verse {
+    padding: 0;
+    overflow: auto;
+    white-space: nowrap;
+    overflow: auto;
+    display: block;
+    font-size: 87.5%;
+    color: #212529;
+}
+.wp-block-verse  {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 1em;
+}
+.wp-block .mce-content-body dt {
+    font-weight: 500;
+}
+.wp-block .mce-content-body dd {
+    margin-bottom: .5rem;
+    margin-left: 0;
+}
+.wp-block .mce-content-body address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit;
+}
+.wp-block .mce-content-body kbd {
+    padding: 0.2rem 0.4rem;
+    font-size: 87.5%;
+    color: #fff;
+    background-color: #212529;
+    border-radius: 0.2rem;
+}
+.wp-block mark {
+	color: inherit;
+	padding: 0;
+	background: none;
+	background-image: linear-gradient(120deg, rgba(255, 193, 7, 0.4) 0%, rgba(255, 193, 7, 0.4) 100%);
+	background-repeat: no-repeat;
+	background-size: 100% .3em;
+	background-position: 0 80%;
+	position: relative;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.wp-block pre,
+.wp-block .wp-block-code,
+.wp-block .wp-block-code textarea {
+	background: #2C3038;
+	color: #e83e8c;
+	border-radius: 0.3125rem;
+	padding: 2.25rem;
+}
+.wp-block .wp-block-code textarea {
+	padding: 0;
+}
+.wp-block p {
+	font-weight: 500;
+}

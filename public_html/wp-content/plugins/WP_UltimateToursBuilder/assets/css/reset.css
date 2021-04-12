@@ -1,0 +1,114 @@
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+
+.wutb div,.wutb  span,.wutb  object,.wutb  iframe,.wutb  h1,.wutb  h2,.wutb  h3,.wutb  h4,.wutb  h5,.wutb  h6,.wutb  p,.wutb  blockquote,.wutb  pre,.wutb  abbr,.wutb  address,.wutb  cite,.wutb  code,.wutb  del,.wutb  dfn,.wutb  em,.wutb  img,.wutb  ins,.wutb  kbd,.wutb  q,.wutb  samp,.wutb  small,.wutb  strong,.wutb  sub,.wutb  sup,.wutb  var,.wutb  b,.wutb  i,.wutb  dl,.wutb  dt,.wutb  dd,.wutb  ol,.wutb  ul,.wutb  li,.wutb  fieldset,.wutb  form,.wutb  label,.wutb  legend,.wutb  table,.wutb  caption,.wutb  tbody,.wutb  tfoot,.wutb  thead,.wutb  tr,.wutb  th,.wutb  td,.wutb  article,.wutb  aside,.wutb  figure,.wutb  footer,.wutb  header,.wutb  menu,.wutb  nav,.wutb  section,.wutb  time,.wutb  mark,.wutb  audio,.wutb  video,.wutb  details,.wutb  summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+.wutb article,.wutb  aside,.wutb  figure,.wutb  footer,.wutb  header,.wutb  nav,.wutb  section,.wutb  details,.wutb  summary {display: block;}
+
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+
+/* Apply a natural box layout model to all elements: http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+.wutb *,.wutb  *:before,.wutb  *:after {box-sizing: border-box; }
+
+/* Responsive images and other embedded objects
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+   If this default setting for images is causing issues,.wutb  you might want to replace it with a .responsive class instead. */
+.wutb img,#wutb_bootstraped
+object,#wutb_bootstraped
+embed {max-width: 100%;}
+
+/* force a vertical scrollbar to prevent a jumpy page */
+.wutb html {overflow-y: scroll;}
+
+/* we use a lot of ULs that aren't bulleted.
+	don't forget to restore the bullets within content. */
+.wutb ul {list-style: none;}
+
+.wutb blockquote,.wutb  q {quotes: none;}
+
+.wutb blockquote:before,#wutb_bootstraped
+blockquote:after,#wutb_bootstraped
+q:before,#wutb_bootstraped
+q:after {content: ''; content: none;}
+
+.wutb a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+.wutb del {text-decoration: line-through;}
+
+.wutb abbr[title],.wutb  dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+/* tables still need cellspacing="0" in the markup */
+.wutb table {border-collapse: collapse; border-spacing: 0;}
+.wutb th {font-weight: bold; vertical-align: bottom;}
+.wutb td {font-weight: normal; vertical-align: top;}
+
+.wutb hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+.wutb input,.wutb  select {vertical-align: middle;}
+
+.wutb pre {
+    white-space: pre; /* CSS2 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3 (and 2.1 as well,.wutb  actually) */
+    word-wrap: break-word; /* IE */
+}
+
+.wutb input[type="radio"] {vertical-align: text-bottom;}
+.wutb input[type="checkbox"] {vertical-align: bottom;}
+.wutb .ie7 input[type="checkbox"] {vertical-align: baseline;}
+.wutb .ie6 input {vertical-align: text-bottom;}
+
+.wutb select,.wutb  input,.wutb  textarea {font: 99% sans-serif;}
+
+.wutb table {font-size: inherit; font: 100%;}
+
+.wutb small {font-size: 85%;}
+
+.wutb strong {font-weight: bold;}
+
+.wutb td,.wutb  td img {vertical-align: top;}
+
+/* Make sure sup and sub don't mess with your line-heights http://gist.github.com/413930 */
+.wutb sub,.wutb  sup {font-size: 75%; line-height: 0; position: relative;}
+.wutb sup {top: -0.5em;}
+.wutb sub {bottom: -0.25em;}
+
+/* standardize any monospaced elements */
+.wutb pre,.wutb  code,.wutb  kbd,.wutb  samp {font-family: monospace, sans-serif;}
+
+/* hand cursor on clickable elements */
+.wutb .clickable,#wutb_bootstraped
+label,#wutb_bootstraped
+input[type=button],#wutb_bootstraped
+input[type=submit],#wutb_bootstraped
+input[type=file],#wutb_bootstraped
+button {cursor: pointer;}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+.wutb button,.wutb  input,.wutb  select,.wutb  textarea {margin: 0;}
+
+/* make buttons play nice in IE */
+.wutb button,#wutb_bootstraped
+input[type=button] {width: auto; overflow: visible;}
+
+/* scale images in IE7 more attractively */
+.wutb .ie7 img {-ms-interpolation-mode: bicubic;}
+
+/* prevent BG image flicker upon hover
+   (commented out as usage is rare,.wutb  and the filter syntax messes with some pre-processors)
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache",.wutb  false,.wutb  true));}
+*/
+
+/* let's clear some floats */
+.wutb .clearfix:before,.wutb  .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.wutb .clearfix:after { clear: both; }
+.wutb .clearfix { zoom: 1; }
+

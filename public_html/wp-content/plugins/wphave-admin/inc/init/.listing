@@ -1,0 +1,7 @@
+drwxr-xr-x    3 1499       u1035-camd       4096 Jun  3 10:50 .
+drwxr-xr-x    7 1499       u1035-camd       4096 Jun  3 10:50 ..
+drwxr-xr-x    2 1499       u1035-camd       4096 Jun  3 10:50 _notes
+-rw-r--r--    1 1499       u1035-camd       7577 Jun  3 10:50 setup-config.php
+-rw-r--r--    1 1499       u1035-camd      46131 Jun  3 10:50 setup-functions.php
+-rw-r--r--    1 1499       u1035-camd      29613 Jun  3 10:50 setup.php
+-rw-r--r--    1 1499       u1035-camd       1495 Jun  3 10:50 update.php

@@ -1,0 +1,9 @@
+2021-03-18T17:57:49+00:00 CRITICAL Uncaught Error: Call to undefined function codex_merged_email_data() in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/registrationmagic-premium-v4.6.1.2/services/class_rm_email_service.php:1659
+Stack trace:
+#0 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(292): RM_Email_Service::send_activation_link(13)
+#1 /home/customer/www/staging-ed.it/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/customer/www/staging-ed.it/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/registrationmagic-premium-v4.6.1.2/public/models/class_rm_frontend_form_reg.php(129): do_action('rm_user_registe...', 13)
+#4 /home/customer/www/staging-ed.it/public_html/wp-content/plugins/registrationmagic-premium-v4.6.1.2/public/controllers/class_rm_front_form_controller.php(244): RM_Frontend_Form_Reg->post_sub_proc(Array, Array)
+#5 /home/customer/www/staging-ed.it/public_html/wp in /home/customer/www/staging-ed.it/public_html/wp-content/plugins/registrationmagic-premium-v4.6.1.2/services/class_rm_email_service.php alla riga 1659
+

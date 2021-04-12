@@ -1,0 +1,13 @@
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul 15 09:48 .
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul 15 09:48 ..
+-rw-r--r--    1 1499       u1035-camd        346 Jul 15 09:48 .travis.yml
+-rw-r--r--    1 1499       u1035-camd       3035 Jul 15 09:48 CONTRIBUTING.md
+-rw-r--r--    1 1499       u1035-camd      24352 Jul 15 09:48 LICENSE.LGPL
+-rw-r--r--    1 1499       u1035-camd       6842 Jul 15 09:48 README.md
+-rw-r--r--    1 1499       u1035-camd          5 Jul 15 09:48 VERSION
+-rw-r--r--    1 1499       u1035-camd       1048 Jul 15 09:48 autoload.inc.php
+-rw-r--r--    1 1499       u1035-camd       1247 Jul 15 09:48 composer.json
+drwxr-xr-x    8 1499       u1035-camd       4096 Jul 15 09:48 lib
+-rw-r--r--    1 1499       u1035-camd       4821 Jul 15 09:48 phpcs.xml
+-rw-r--r--    1 1499       u1035-camd        493 Jul 15 09:48 phpunit.xml.dist
+drwxr-xr-x   11 1499       u1035-camd       4096 Jul 15 09:48 src

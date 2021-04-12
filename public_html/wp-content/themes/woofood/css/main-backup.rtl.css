@@ -1,0 +1,241 @@
+/*Theme Name: WooFood
+Theme URI: http://underscores.me/
+Author: Dimos Ramiotis
+Author URI: https://www.ramiotis.com
+Description: WooFood Online Delivery Theme
+Version: 1.0.0
+Text Domain: woofood
+Tags:*/
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+body{
+
+	position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.main{
+height: 100%;
+}
+
+.container{
+
+	max-width:1440px;
+}
+
+/*    __  ___
+   /  |/  /__  ____  __  __
+  / /|_/ / _ \/ __ \/ / / /
+ / /  / /  __/ / / / /_/ /
+/_/  /_/\___/_/ /_/\__,_/
+*/
+
+.navbar-default .navbar-toggle{
+
+	border: none;
+width: 40px;
+position: relative;
+
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+cursor: pointer;
+float: right;
+
+
+
+
+}
+
+.navbar-default .navbar-toggle:hover{
+background-color: rgba(221, 221, 221, 0)
+}
+
+.navbar-toggle span {
+	display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #cc0000;
+  border-radius: 9px;
+  opacity: 1;
+  right: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.navbar-toggle span:nth-child(1) {
+  top: 0px;
+}
+
+.navbar-toggle span:nth-child(2) {
+  top: 12px;
+}
+
+.navbar-toggle span:nth-child(3) {
+  top: 24px;
+}
+
+.navbar-toggle.open span:nth-child(1) {
+  top: 12px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.navbar-toggle.open span:nth-child(2) {
+  opacity: 0;
+  right: -60px;
+}
+
+.navbar-toggle.open span:nth-child(3) {
+  top: 12px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+
+
+
+.navbar-default .navbar-toggle .icon-bar{
+
+	background-color:#000000;
+}
+.navbar-brand{
+
+	padding: 0px;
+}
+
+.navbar-brand>img{
+
+	max-width:230px;
+}
+.navbar-default{
+
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+
+background:#cc0000;
+color:white;
+
+}
+/*    __  ___      _          _____ __        ___
+   /  |/  /___ _(_)___     / ___// /___  __/ (_)___  ____ _
+  / /|_/ / __ `/ / __ \    \__ \/ __/ / / / / / __ \/ __ `/
+ / /  / / /_/ / / / / /   ___/ / /_/ /_/ / / / / / / /_/ /
+/_/  /_/\__,_/_/_/ /_/   /____/\__/\__, /_/_/_/ /_/\__, /
+
+                                  /____/          /____/*/
+.widget-title{
+padding: 1rem;
+background: #cc0000;
+color: white;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+
+margin-top: 0px;
+margin-bottom: 10px
+}
+
+
+.btn-primary {
+	background:#cc0000;
+	border-color:#cc0000;
+}
+
+
+/*    ______            __
+   / ____/___  ____  / /____  _____
+  / /_  / __ \/ __ \/ __/ _ \/ ___/
+ / __/ / /_/ / /_/ / /_/  __/ /
+/_/    \____/\____/\__/\___/_/
+*/
+
+.footer{
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+width:100%;
+background-color: #000000;
+text-align: center;
+padding: 1rem;
+color: white;
+}
+.footer-bottom{
+
+	background:#cc0000;
+}
+.footer-bottom-right{
+	text-align:left;
+}
+.footer-bottom-left{
+	text-align:right;
+}
+
+
+
+
+
+
+
+.navbar-inverse {
+            background-color: #f8f8f8;
+            border-color: #ddd;
+        }
+        .navbar-inverse .navbar-toggle, .navbar-collapse {
+            border-color: #ddd !important;
+            
+        }
+         .navbar-nav>li>a:hover {
+            color: #333 !important;
+        }
+      .navbar-toggle, .navbar-toggle:hover {
+            background-color:#bfbfbf !important;
+             margin-right:20px;
+        }
+       
+      @media screen and (max-width: 768px) {
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              right:0;
+              transition:right .4s;
+          }
+          .side-collapse-container.out{
+              right:200px;
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              right:0;
+              width:200px;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+       
+      }

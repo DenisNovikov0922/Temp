@@ -1,0 +1,72 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Login Captcha\n"
+"POT-Creation-Date: 2019-05-04 09:05+0300\n"
+"PO-Revision-Date: 2020-12-16 08:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: Polski\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: pl_PL\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Loco-Version: 2.4.6; wp-5.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: simple-login-captcha.php:44
+msgid "Blocked this month:"
+msgstr "Zablokowane w tym miesiącu:"
+
+#: simple-login-captcha.php:46
+msgid "Passed this month:"
+msgstr "Przepuszczone w tym miesiącu:"
+
+#: simple-login-captcha.php:48
+msgid "Statistics"
+msgstr "Statystyki"
+
+#: simple-login-captcha.php:71
+msgid "Security Code:"
+msgstr "Kod bezpieczeństwa:"
+
+#: simple-login-captcha.php:81
+msgid "Your browser does not support JavaScript!"
+msgstr "Twoja przeglądarka nie obsługuje JavaScript!"
+
+#: simple-login-captcha.php:86
+msgid "Enter the security code:"
+msgstr "Przepisz kod bezpieczeństwa:"
+
+#: simple-login-captcha.php:109 simple-login-captcha.php:117
+#: simple-login-captcha.php:131 simple-login-captcha.php:139
+msgid "ERROR"
+msgstr "BŁĄD"
+
+#: simple-login-captcha.php:110
+msgid "Missing request ID."
+msgstr "Brak ID żądania."
+
+#: simple-login-captcha.php:118
+msgid "Please enter the security code."
+msgstr "Proszę wpisać kod bezpieczeństwa."
+
+#: simple-login-captcha.php:132
+msgid "Invalid or expired request."
+msgstr "Złe lub stare żądanie."
+
+#: simple-login-captcha.php:140
+msgid "This is not the correct security code."
+msgstr "Niewłaściwy kod bezpieczeństwa."

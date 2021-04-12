@@ -1,0 +1,25 @@
+.woofood_distance_based_fees
+{
+  display:none;
+  width:100%;
+}
+.woofood_distance_based_fees.show
+{
+  display:block;
+
+}
+#woofood_delivery_fee.hidden
+{
+  display:none;
+}
+.woofood_distance_based_notes
+{
+      padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    background: #4da3c3;
+    color: white;
+    width: auto;
+    border-radius: 5px;
+}

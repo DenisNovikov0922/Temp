@@ -1,0 +1,9 @@
+drwxr-xr-x    7 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x   12 1499       u1035-camd       4096 Jul  2 09:10 ..
+-rw-r--r--    1 1499       u1035-camd      48892 Jul  2 09:10 class_rm_admin.php
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 controllers
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 css
+-rw-r--r--    1 1499       u1035-camd         26 Jul  2 09:10 index.php
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 js
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 models
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul  2 09:10 views

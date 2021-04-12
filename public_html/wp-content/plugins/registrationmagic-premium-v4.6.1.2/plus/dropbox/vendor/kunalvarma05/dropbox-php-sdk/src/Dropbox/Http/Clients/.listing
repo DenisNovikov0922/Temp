@@ -1,0 +1,5 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul  2 09:10 ..
+-rw-r--r--    1 1499       u1035-camd       3271 Jul  2 09:10 DropboxGuzzleHttpClient.php
+-rw-r--r--    1 1499       u1035-camd       1097 Jul  2 09:10 DropboxHttpClientFactory.php
+-rw-r--r--    1 1499       u1035-camd        746 Jul  2 09:10 DropboxHttpClientInterface.php

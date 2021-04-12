@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpsc-canned-reply\n"
+"POT-Creation-Date: 2020-02-17 09:21+0530\n"
+"PO-Revision-Date: 2020-02-17 09:21+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../www/custom/plugins/canned-reply\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/canned_reply.php:10 includes/admin/register_post_type.php:10
+msgid "Canned Reply"
+msgstr ""
+
+#: includes/admin/register_post_type.php:11
+#: includes/admin/register_post_type.php:13
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/register_post_type.php:12
+msgid "All Items"
+msgstr ""
+
+#: includes/admin/register_post_type.php:14
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/register_post_type.php:15
+msgid "New"
+msgstr ""
+
+#: includes/admin/register_post_type.php:16
+msgid "View"
+msgstr ""
+
+#: includes/admin/register_post_type.php:17
+msgid "Search"
+msgstr ""
+
+#: includes/admin/register_post_type.php:18
+msgid "No items found"
+msgstr ""
+
+#: includes/admin/register_post_type.php:19
+msgid "No items found in trash"
+msgstr ""
+
+#: includes/admin/register_post_type.php:20
+msgid "Parent Item"
+msgstr ""
+
+#: includes/admin/register_post_type.php:43
+msgid "Search Categories"
+msgstr ""
+
+#: includes/admin/register_post_type.php:44
+msgid "All Categories"
+msgstr ""
+
+#: includes/admin/register_post_type.php:45
+msgid "Parent Category"
+msgstr ""
+
+#: includes/admin/register_post_type.php:46
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/admin/register_post_type.php:47
+msgid "Edit Category"
+msgstr ""
+
+#: includes/admin/register_post_type.php:48
+msgid "Update Category"
+msgstr ""
+
+#: includes/admin/register_post_type.php:49
+msgid "Add New Category"
+msgstr ""
+
+#: includes/admin/register_post_type.php:50
+msgid "New Category Name"
+msgstr ""
+
+#: includes/admin/register_post_type.php:51
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/wpsc_canned_reply.php:8
+msgid "Visible All Agents"
+msgstr ""
+
+#: includes/admin/wpsc_submit_canned_reply_post.php:14
+msgid "Add Canned Reply"
+msgstr ""
+
+#: includes/ajax/get_canned_reply.php:38
+msgid "Tag"
+msgstr ""
+
+#: includes/ajax/get_canned_reply.php:39
+#: includes/ajax/submit_canned_reply_post.php:20
+msgid "Category"
+msgstr ""
+
+#: includes/ajax/get_canned_reply.php:40
+msgid "Actions"
+msgstr ""
+
+#: includes/ajax/get_canned_reply.php:59
+msgid "Uncategorized"
+msgstr ""
+
+#: includes/ajax/get_canned_reply.php:125
+#: includes/ajax/submit_canned_reply_post.php:71
+msgid "Close"
+msgstr ""
+
+#: includes/ajax/submit_canned_reply_post.php:16
+msgid "Canned Reply Title"
+msgstr ""
+
+#: includes/ajax/submit_canned_reply_post.php:17
+msgid "canned reply title"
+msgstr ""
+
+#: includes/ajax/submit_canned_reply_post.php:22
+msgid "All"
+msgstr ""
+
+#: includes/ajax/submit_canned_reply_post.php:72
+msgid "Submit"
+msgstr ""
+
+#: wpsc-canned-reply.php:53
+msgid "Support Candy"
+msgstr ""

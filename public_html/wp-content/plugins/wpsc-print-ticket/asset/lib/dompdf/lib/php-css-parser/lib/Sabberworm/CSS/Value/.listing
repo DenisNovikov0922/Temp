@@ -1,0 +1,11 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:48 .
+drwxr-xr-x    9 1499       u1035-camd       4096 Jul 15 09:48 ..
+-rw-r--r--    1 1499       u1035-camd        898 Jul 15 09:48 CSSFunction.php
+-rw-r--r--    1 1499       u1035-camd        717 Jul 15 09:48 CSSString.php
+-rw-r--r--    1 1499       u1035-camd       1152 Jul 15 09:48 Color.php
+-rw-r--r--    1 1499       u1035-camd        181 Jul 15 09:48 PrimitiveValue.php
+-rw-r--r--    1 1499       u1035-camd        203 Jul 15 09:48 RuleValueList.php
+-rw-r--r--    1 1499       u1035-camd       1999 Jul 15 09:48 Size.php
+-rw-r--r--    1 1499       u1035-camd        567 Jul 15 09:48 URL.php
+-rw-r--r--    1 1499       u1035-camd        563 Jul 15 09:48 Value.php
+-rw-r--r--    1 1499       u1035-camd       1203 Jul 15 09:48 ValueList.php

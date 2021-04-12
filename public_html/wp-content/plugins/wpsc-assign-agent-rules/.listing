@@ -1,0 +1,8 @@
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul 15 09:50 .
+drwxr-xr-x   48 1499       u1035-camd       4096 Jul 20 09:03 ..
+-rw-r--r--    1 1499       u1035-camd       3576 Jul 15 09:50 class-wpsc-caa-install.php
+-rw-r--r--    1 1499       u1035-camd        326 Jul 15 09:50 class-wpsc-caa-uninstall.php
+-rw-r--r--    1 1499       u1035-camd       2298 Jul 15 09:50 class-wpsc-caa.php
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:50 includes
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:50 lang
+-rw-r--r--    1 1499       u1035-camd       4619 Jul 15 09:50 wpsc-assign-agent-rules.php

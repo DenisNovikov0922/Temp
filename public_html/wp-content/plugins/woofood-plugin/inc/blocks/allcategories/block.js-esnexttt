@@ -1,0 +1,59 @@
+/**
+ * WooFood All Categories block
+ */
+const { __ } = wp.i18n;
+const { registerBlockType } = wp.blocks;
+const { RichText } = wp.editor;
+const ServerSideRender = wp.components;
+
+//const AllCategoriesIcon = '/block-icon';
+
+
+
+var AllCategoriesEdit = ({ className, attributes }) => {
+/*  const {
+    tabs,
+    blockMargin,
+    titleBackgroundColor,
+    titleTextColor,
+    borderColor,
+    collapseOthers,
+  } = attributes;*/
+
+ 
+ /* var response_export = "";
+jQuery.post(ajaxurl, {
+  action: "woofood_accordion_categories_callback_admin",
+}, function(response) {
+  response_export = 'dddddd';
+  jQuery('.'+props.className ).html(response);
+});*/
+
+  return (
+   <ServerSideRender
+                block="woofood/basic-01"
+               // attributes={attributes}
+            >
+            </ServerSideRender>
+  );
+
+  /*return wp.element.createElement(
+        'div', // Tag type.
+        { className: className }, // The class="wp-block-gb-basic-01" : The class name is generated using the block's name prefixed with wp-block-, replacing the / namespace separator with a single -.
+        '' // Content inside the tag.
+      );*/
+};
+
+registerBlockType('woofood/basic-01', {
+  title: __('WooFood Accordion All Categories'),
+  description: __('Display all categories'),
+  icon: '',
+  category: 'common',
+  keywords: [__('accordion'), __('woofood')],
+
+   edit:AllCategoriesEdit,
+   save({attributes, className}) {
+        //gutenberg will save attributes we can use in server-side callback
+       return null;
+    },
+});

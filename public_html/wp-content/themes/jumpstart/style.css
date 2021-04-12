@@ -1,0 +1,684 @@
+/*
+Theme Name: Jumpstart
+Theme URI: http://www.tommusrhodus.com/jumpstart-wordpress-theme/
+Version: 1.1.0
+Description: Jumpstart WordPress Theme
+Author: Tom Rhodes
+Author URI: http://www.tommusrhodus.com/
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: custom-background, threaded-comments, translation-ready, custom-menu
+Text Domain: jumpstart
+*/
+
+/* General */
+* {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+}
+html {
+	overflow-x: hidden;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.sticky-top {
+	top: 5rem;
+}
+footer .widget {
+	margin-bottom: 50px;
+}
+footer img {
+	max-width: 100%;
+	height: auto;
+}
+footer .textwidget {
+	padding-top: 0.9rem;
+}
+@media (min-width: 992px) {
+  .sticky-lg-top {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 1020; }
+  [class*='sticky-lg'][class*='-top'][class*='col'] {
+    top: 6.5rem; } 
+}
+.admin-bar .navbar[data-sticky="top"].scrolled, .admin-bar .side-menu {
+    top: 32px !important;
+}
+.admin-bar .sticky-top {
+  top: 2.5rem;
+}
+.has-sticky-nav .sticky-top {
+  top: 7.5rem;
+  z-index: 500;
+}
+.admin-bar.has-sticky-nav .sticky-top {
+  top: 8rem;
+  z-index: 500;
+}
+img {
+	height: auto;
+}
+.card-img-top {
+	height: auto;
+    width: 100%;
+}
+svg.bg-white path {
+    fill: #fff !important;
+}
+.navbar[data-sticky="top"].scrolled .navbar-brand {
+	color: #2c3038;
+}
+section:not(.pb-0) + .up-5vw {
+  margin-top: -5vw;
+}
+article.article  ul, .comment-content ul {
+    list-style: square;
+    list-style-position: inside;
+    margin-bottom: 40px;
+    padding-left: 2rem;
+}
+article.article ol, .comment-content ol {
+    list-style: decimal;
+    list-style-position: inside;
+    margin-bottom: 40px;
+    padding-left: 2rem;
+}
+article.article ul ul,
+.comment-content ul ul, 
+article.article ol ol, 
+.comment-content ol ol, 
+article.articlet ul ol, 
+article.article ol ul, 
+article.article ul ol {
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+.comment-content ul ul {
+	margin-bottom: 0.5em;
+}
+.comment-content li {
+    margin-top: 0.5em !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    border-left: inherit !important;
+}
+/* Overriding Elementor CSS */
+@media (min-width: 768px) {
+  .card .avatar:not(.avatar-sm) {
+      height: 4.5rem !important;
+  }
+}
+.elementor img.avatar {
+	border-radius: 50%;
+}
+.card .avatar, .rounded .avatar, .avatar.round, .avatar.avatar-xl {
+  border-radius: 50% !important;
+}
+img.col-xl-5 {
+    max-width: 41.66667% !important;
+}
+.elementor-widget:not(:last-child) {
+    margin-bottom: 0;
+}
+.one-post-only > .post {
+  flex: 0 0 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.h-md-100, .h-md-100 .elementor-widget-wrap, .h-md-100 .elementor-widget-container, .h-md-100 .min-vh-50 {
+  height: 100%;
+}
+.rotated-180 {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.img-max-32, .img-max-32 img {
+  max-height: 32px;
+  width: auto;
+}
+.bg-gradient-overlay > .elementor-background-overlay {
+  background: linear-gradient(to right,#2568ef,#ff564f)!important;
+}
+div.wpcf7 .ajax-loader {
+    position: absolute;
+}
+span.wpcf7-list-item {
+    margin: 0;
+    margin-right: 10px;
+}
+.layer-2 {
+  z-index: 2;
+}
+footer caption {
+	color: #fff;
+}
+footer .form-group .custom-select + .icon {
+	top: 1.5rem;
+}
+[id^="post"] .text-white a.lead {
+	color: #fff;
+}
+[id^="post"] .text-white .text-muted {
+	color: rgba(255, 255, 255, .75) !important;
+}
+[id^="post"] .text-white .badge-danger {
+		color: #fff;
+		background-color: #bd2130;
+}
+.comments-title:first-child {
+	margin-top: 6rem;
+}
+
+/* PRELOADER */
+@keyframes hideLoader {
+  0% {
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    width: 0;
+    height: 0;
+  }
+}
+body>div.loader {
+  position: fixed;
+  background: white;
+  width: 100%;
+  height: 100%;
+  z-index: 1071;
+  opacity: 0;
+  transition: opacity .5s ease;
+  overflow: hidden;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body:not(.loaded)>div.loader {
+  opacity: 1;
+}
+body:not(.loaded) {
+  overflow: hidden;
+}
+body.loaded>div.loader {
+  animation: hideLoader .5s linear .5s forwards;
+}
+.loading-animation {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background-color: #2568ef;
+  border-radius: 100%;
+  animation: pulse 1s infinite ease-in-out
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0
+  }
+}
+.side-menu .nav-link {
+  padding: 0.25rem 0;
+}
+.side-menu .h6 a[href="#"] {
+  pointer-events: none;
+  cursor: default;
+  opacity: 1;
+}
+
+/* Gallery Styling */
+.gallery-columns-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.gallery-columns-3 > figure {
+    width: 33.33333%;
+    padding-right: 12px;
+    padding-left: 12px;
+    float: left;
+    overflow: hidden;
+    margin: 0 0 24px 0;
+}
+.gallery-columns-3 > figure img {
+    border-radius: 0.625rem !important;
+}  
+[data-jarallax-video] .elementor-background-video-container {
+    display: none !important;
+}
+
+/* Log in */
+#loginform {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: left;
+}
+.modal-content #loginform {
+    max-width: none;
+    margin: 2rem auto;
+}
+#loginform p {
+    margin-bottom: 0;
+}
+#loginform .login-username label,
+#loginform .login-password label {
+    display: none;
+}
+#loginform input {
+    margin-bottom: 10px;
+}
+#loginform .login-submit {
+    position: relative;
+    top: -36px;
+}
+#loginform .input {
+    display: block;
+    width: 100%;
+    height: calc(2.375rem + 2px);
+    padding: 0.4375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dee2e6;
+    border-radius: 0.3125rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+#loginform .input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.05);
+}
+#loginform .btn {
+    margin-bottom: 1rem;
+}
+#loginform .login-remember {
+    position: relative;
+    top: 65px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #adb5bd;
+}
+.btn-dark svg * {
+  fill: #fff !important;
+}
+.widget .nav .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+}
+.d-flex.flex-sm-row.form-group .wpcf7-form-control-wrap input.d-flex {
+    width: calc(100% - 5px);
+}
+.elementor-shape-bottom {
+    z-index: 5 !important;
+}
+.form-group .custom-select + .icon {
+    top: 0.75rem;
+}
+.article-comments .children {
+    list-style: none;
+    padding-left: 0;
+}
+#wp-comment-cookies-consent {
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+.elementor-widget-text-editor label {
+    font-weight: 600;
+}
+img.bg-image {
+    height: 100%;
+}
+.blend-mode-multiply {
+    mix-blend-mode: multiply;
+}
+
+/* WP Styles */
+.gallery-caption { 
+  margin: 20px 0; 
+  max-width: 100%; 
+  text-align: center; 
+  z-index: 999; 
+}
+.gallery-columns-3 figure {
+  float: left;
+  width: 33.3333%;
+  padding: 0 15px 0 0;
+  margin: 0 0 1.5em 0;
+}
+.gallery-columns-4 figure {
+  float: left;
+  width: 25%;
+  padding: 0 15px 0 0;
+  margin: 0 0 1.5em 0;
+}
+.gallery-columns-2 figure {
+  float: left;
+  width: 50%;
+  padding: 0 15px 0 0;
+  margin: 0 0 1.5em 0;
+}
+
+div[class^='gallery-columns-'], div[class*=' gallery-columns-']{
+	display: flex;
+	flex-flow: row wrap;
+}
+.wp-caption-text, 
+.gallery-caption-text { 
+  margin: 6px 0;
+  font-size: 0.75rem;
+  text-align: center;
+  margin-top: 0.75rem;
+  line-height: 120%;
+  padding-left: 0;
+  width: 100%;
+}
+.wp-block-image {
+    margin: 40px 0;
+}
+.wp-caption {
+    max-width: 100%;
+}
+.wp-caption figcaption {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+.wp-caption.alignnone figcaption {
+    text-align: left;
+}
+.screen-reader-text,
+p:empty {
+  display: none;
+}
+.bypostauthor {
+    visibility: visible;
+}
+.alignleft,
+.aligncenter:not(.size-full),
+.alignright,
+.alignnone {
+  margin-bottom: 25px;
+}
+.alignnone {
+  display: block;
+}
+.alignleft, .wp-block-pullquote.alignleft { 
+  float: left; 
+  margin: 0 30px 30px 0 !important;
+  clear: left;
+}
+.alignright, .wp-block-pullquote.right { 
+  float: right; 
+  margin: 0 0 30px 30px !important;
+  clear: right;
+}
+.aligncenter { 
+  display: block; 
+  margin-right: auto; 
+  margin-left: auto; 
+  text-align: center; 
+}
+.wp-audio-shortcode {
+	margin-bottom: 1em;
+}
+.single-post-meta {
+	flex-wrap: wrap;
+}
+.justify-content-between .badge-pill + .badge-pill {
+	margin-right: auto !important;
+}
+.justify-content-between .badge-pill + .badge-pill + .badge-pill {
+	margin-right: auto !important;
+}
+
+/* GUTENBERG STYLING */
+.wp-block-gallery {
+    padding-left: 0 !important;
+    display: flex;
+    clear: both;
+}
+.wp-block-gallery .blocks-gallery-image figcaption, .wp-block-gallery .blocks-gallery-item figcaption {
+    overflow-x: hidden;
+}
+.wp-block-cover.aligncenter {
+  clear: both;
+}
+.post__content .wp-block-gallery {
+    margin-left: 0;
+    display: flex;
+    margin: 30px 0;
+}
+iframe {
+    max-width: 100%;
+}
+.wp-block-latest-posts.is-grid {
+    margin-left: 0;
+}
+.wp-block-pullquote {
+    border-bottom: none;
+    border-top: none;
+    padding: 20px 0;
+}
+.wp-block-pullquote.is-style-solid-color blockquote {
+  border-left: none;
+  max-width: 90%;
+}
+.wp-block-pullquote blockquote {
+  border: none;
+  padding: 25px 50px;
+  margin: 0;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+    border-left: 4px solid #000;
+    padding: 20px 50px;
+    padding-left: 1em;
+    text-align: left;
+}
+article > [class^="wp-block-"] {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+article > [class^="wp-block-"]:first-child {
+    margin-top: 0px;
+}
+.wp-block-cover.alignfull, 
+.wp-block-cover.alignwide, 
+.wp-block-gallery.alignwide,
+.wp-block-gallery.alignnone {
+  display: flex;
+}
+.wp-block-categories-list.aligncenter,
+.wp-block-categories-list.aligncenter li,
+.wp-block-categories-list.aligncenter ul {
+  list-style: none;
+  padding: 0 !important;
+}
+.wp-block-separator + h1 {
+  margin-bottom: 2rem;
+}
+.wp-block-image img, .wp-block-gallery .blocks-gallery-image, .wp-block-gallery .blocks-gallery-item, .wp-block-cover, .wp-block-cover-image {
+    border-radius: 0.625rem !important;
+    overflow: hidden;
+}
+.wp-block-quote p, .wp-block-freeform.block-library-rich-text__tinymce blockquote p {
+    font-size: 1.6rem !important;
+    font-style: italic;
+}
+.wp-block-quote, .wp-block-freeform.block-library-rich-text__tinymce blockquote {
+  padding: 3em !important;
+}
+.wp-block-image.alignfull,
+.wp-block-image.alignwide,
+.article .alignwide,
+.article .alignfull {
+  margin-left: -60px !important;
+  margin-right: -60px !important;
+  max-width: 772px !important;
+}
+@media only screen and ( min-width: 950px ) {
+    .wp-block-image.alignwide,
+    .article .alignwide,
+    .article .alignfull {
+        margin-left  : -125px !important;
+        margin-right : -125px !important;
+        max-width    : calc(100% + 250px) !important;
+		width: calc(100% + 250px) !important;
+    }
+}
+.page .wp-block-image.alignfull,
+.page .wp-block-image.alignwide,
+.alignwide,
+.alignfull {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	max-width: 100% !important;
+}
+.aligncenter img {
+	margin: 0 auto;
+	display: block;
+}
+figure.aligncenter {
+	width: 100% !important;
+}
+table,table th, table td {
+	border: 1px solid #EAEDF2;
+}
+table.job-manager-jobs, table.job-manager-jobs th, table.job-manager-jobs td {
+	border: none;
+}
+table th {
+	padding: 1rem;
+}
+article.article ul.blocks-gallery-grid,
+ul.blocks-gallery-grid {
+	padding-left: 0;
+}
+.elementor-widget-tommusrhodus-card-block .media h5.mb-0 * {
+    margin-bottom: 0;
+}
+.h-100 .elementor-widget-container {
+  height: 100% !important; 
+}
+.flickity-page-dots {
+	bottom: 1.25rem;
+}
+.elementor-widget-tommusrhodus-blog-block .elementor-widget-container > .bg-light.py-5 {
+  background-color: transparent !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+input[type="checkbox"].form-control {
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+.order-1 {
+  order: 1 !important;
+}
+.order-2 {
+  order: 2 !important; 
+}
+.order-3 {
+  order: 3 !important; 
+}
+.order-4 {
+  order: 4 !important; 
+}
+.order-5 {
+  order: 5 !important; 
+}
+.order-6 {
+  order: 6 !important; 
+}
+@media all and (max-width: 767px) {
+  .order-xs-1 {
+    order: 1 !important;
+  }
+  .order-xs-2 {
+    order: 2 !important; 
+  }
+  .order-xs-3 {
+    order: 3 !important; 
+  }
+  .order-xs-4 {
+    order: 4 !important; 
+  }
+  .order-xs-5 {
+    order: 5 !important; 
+  }
+  .order-xs-6 {
+    order: 6 !important; 
+  }
+  .hidden-xs {
+    display: none !important; 
+  }
+  .elementor-inner {
+    overflow: hidden;
+  }
+  .bg-light + .pagination-wrapper {
+  	padding-left: 12px;
+  	padding-right: 12px;
+  }
+  .image-left-text-right .col-sm-4.mb-3.mb-sm-0 {
+    max-width: 160px;
+    align-self: start;
+  }  
+  div.lead br {
+    display: none;
+  }
+  .testimonial-cell {
+    text-align: center;
+  }
+  .h-md-100, .h-md-100 .elementor-widget-wrap, .h-md-100 .elementor-widget-container, .h-md-100 .min-vh-50 {
+    height: auto !important;
+  }
+}
+
+@media all and ( min-width: 992px ) {
+	.hover-menu.loaded .navbar-container li:hover > a + div {
+	    display: block;
+	    top: 56px;
+	}
+	.hover-menu.loaded .navbar-container li:hover > a + div.row {
+	    display: flex;
+	    top: 56px;
+	}
+	.hover-menu.loaded .navbar-container .dropdown .dropdown:hover > a + div.row {
+		display: flex;
+		left: 100% !important;
+	}
+	.hover-menu .navbar {
+		padding: 0;
+	}
+	.hover-menu .navbar-container .navbar-expand-lg .navbar-nav .nav-link {
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	}
+}
+
+.divider.divider-side.custom-divider:first-child {
+	left: -72px;
+	width: 72px;
+}
+li.d-flex h6 + div {
+    text-align: right;
+}

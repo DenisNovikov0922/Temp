@@ -1,0 +1,3247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wphave - Admin\n"
+"POT-Creation-Date: 2019-10-29 10:52+0100\n"
+"PO-Revision-Date: 2019-10-29 12:26+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wphave-admin.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/db-widgets/db-widget-count-comments.php:26
+#: inc/db-widgets/db-widget-count-comments.php:32
+msgid "Approved"
+msgstr "Genehmigt"
+
+#: inc/db-widgets/db-widget-count-comments.php:27
+#: inc/db-widgets/db-widget-count-comments.php:33
+#: inc/db-widgets/db-widget-count-pages.php:27
+#: inc/db-widgets/db-widget-count-pages.php:33
+#: inc/db-widgets/db-widget-count-posts.php:27
+#: inc/db-widgets/db-widget-count-posts.php:33
+#: inc/db-widgets/db-widget-count-recipes.php:27
+#: inc/db-widgets/db-widget-count-recipes.php:33
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: inc/db-widgets/db-widget-count-comments.php:28
+#: inc/db-widgets/db-widget-count-comments.php:34
+msgid "Spam"
+msgstr "Spam"
+
+#: inc/db-widgets/db-widget-count-comments.php:29
+#: inc/db-widgets/db-widget-count-comments.php:35
+msgid "Trash"
+msgstr "Papierkorb"
+
+#: inc/db-widgets/db-widget-count-comments.php:51
+#: inc/db-widgets/db-widget-count-comments.php:84
+msgid "Comments"
+msgstr "Kommentare"
+
+#: inc/db-widgets/db-widget-count-pages.php:26
+#: inc/db-widgets/db-widget-count-pages.php:32
+#: inc/db-widgets/db-widget-count-posts.php:26
+#: inc/db-widgets/db-widget-count-posts.php:32
+#: inc/db-widgets/db-widget-count-recipes.php:26
+#: inc/db-widgets/db-widget-count-recipes.php:32
+msgid "Draft"
+msgstr "Entwurf"
+
+#: inc/db-widgets/db-widget-count-pages.php:28
+#: inc/db-widgets/db-widget-count-pages.php:34
+#: inc/db-widgets/db-widget-count-posts.php:28
+#: inc/db-widgets/db-widget-count-posts.php:34
+#: inc/db-widgets/db-widget-count-recipes.php:28
+#: inc/db-widgets/db-widget-count-recipes.php:34
+msgid "Private"
+msgstr "Privat"
+
+#: inc/db-widgets/db-widget-count-pages.php:29
+#: inc/db-widgets/db-widget-count-pages.php:35
+#: inc/db-widgets/db-widget-count-posts.php:29
+#: inc/db-widgets/db-widget-count-posts.php:35
+#: inc/db-widgets/db-widget-count-recipes.php:29
+#: inc/db-widgets/db-widget-count-recipes.php:35
+msgid "Future"
+msgstr "Geplant"
+
+#: inc/db-widgets/db-widget-count-pages.php:51
+msgid "Published Pages"
+msgstr "Veröffentlichte Seiten"
+
+#: inc/db-widgets/db-widget-count-pages.php:84 inc/settings.php:35
+msgid "Pages"
+msgstr "Seiten"
+
+#: inc/db-widgets/db-widget-count-posts.php:51
+msgid "Published Posts"
+msgstr "Veröffentlichte Beiträge"
+
+#: inc/db-widgets/db-widget-count-posts.php:84
+msgid "Posts"
+msgstr "Beiträge"
+
+#: inc/db-widgets/db-widget-count-recipes.php:51
+msgid "Published Recipes"
+msgstr "Veröffentlichte Rezepte"
+
+#: inc/db-widgets/db-widget-count-recipes.php:84
+msgid "Recipes"
+msgstr "Rezepte"
+
+#: inc/db-widgets/db-widget-memory.php:95
+msgid "WP PHP Limit"
+msgstr "WP PHP Limit"
+
+#: inc/db-widgets/db-widget-memory.php:99
+#: inc/db-widgets/db-widget-memory.php:111
+#: inc/db-widgets/db-widget-memory.php:123
+#: inc/db-widgets/db-widget-system.php:56
+#: inc/db-widgets/db-widget-system.php:70 inc/footer.php:141
+#: inc/pages/constants.php:129 inc/pages/constants.php:145
+#: inc/pages/server-info.php:131 inc/pages/server-info.php:1267
+#: inc/pages/wp.php:145 inc/pages/wp.php:156
+msgid "Unlimited"
+msgstr "Unbegrenzt"
+
+#: inc/db-widgets/db-widget-memory.php:107
+msgid "WP PHP Limit (WP Admin only)"
+msgstr "WP PHP Limit (WP Admin only)"
+
+#: inc/db-widgets/db-widget-memory.php:119
+msgid "Server PHP Limit"
+msgstr "Server PHP Limit"
+
+#: inc/db-widgets/db-widget-memory.php:133
+msgid ""
+"Your Server PHP Memory Limit is unlimited. A defined memory limit helps "
+"prevent poorly written scripts for eating up all available memory on a "
+"server."
+msgstr ""
+"Das Server PHP Speicher Limit is unbegrenzt. Ein definiertes Speicher Limit "
+"kann vorbeugend helfen, dass schlecht geschriebene Skripte den gesamten "
+"Speicher des Servers verbrauchen."
+
+#: inc/db-widgets/db-widget-memory.php:140
+msgid "WordPress <strong>can not</strong> change the PHP ini value at runtime."
+msgstr ""
+"WordPress kann die PHP ini Werte <strong>nicht</strong> zur Laufzeit ändern."
+
+#: inc/db-widgets/db-widget-memory.php:142
+msgid "WordPress can change the PHP ini value at runtime."
+msgstr "WordPress kann die PHP ini Werte zur Laufzeit ändern."
+
+#: inc/db-widgets/db-widget-memory.php:175 inc/footer.php:374
+msgid "WP Memory Usage"
+msgstr "WP Speicherauslastung"
+
+#: inc/db-widgets/db-widget-recent-comments.php:56
+msgid "Approve"
+msgstr "Genehmigen"
+
+#: inc/db-widgets/db-widget-recent-comments.php:59
+msgid "Unapprove"
+msgstr "Nicht genehmigen"
+
+#: inc/db-widgets/db-widget-recent-comments.php:75 inc/layout.php:215
+#: inc/layout.php:217 inc/pages/transient-manager.php:967
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: inc/db-widgets/db-widget-recent-comments.php:84
+msgid "on"
+msgstr "ein"
+
+#: inc/db-widgets/db-widget-recent-comments.php:123
+msgid "Recent Comments"
+msgstr "Neuste Kommentare"
+
+#: inc/db-widgets/db-widget-recent-pages.php:69
+#: inc/db-widgets/db-widget-recent-posts.php:69
+#: inc/db-widgets/db-widget-recent-recipes.php:69
+msgid "No comments"
+msgstr "Keine Kommentare"
+
+#: inc/db-widgets/db-widget-recent-pages.php:69
+#: inc/db-widgets/db-widget-recent-posts.php:69
+#: inc/db-widgets/db-widget-recent-recipes.php:69
+msgid "One comment"
+msgstr "Ein Kommentar"
+
+#: inc/db-widgets/db-widget-recent-pages.php:69
+#: inc/db-widgets/db-widget-recent-posts.php:69
+#: inc/db-widgets/db-widget-recent-recipes.php:69
+#, php-format
+msgid "% comments"
+msgstr "% Kommentare"
+
+#: inc/db-widgets/db-widget-recent-pages.php:105
+msgid "Recent Pages"
+msgstr "Neuste Seiten"
+
+#: inc/db-widgets/db-widget-recent-posts.php:105
+msgid "Recent Posts"
+msgstr "Neuste Beiträge"
+
+#: inc/db-widgets/db-widget-recent-recipes.php:105
+msgid "Recent Recipes"
+msgstr "Neueste Rezepte"
+
+#: inc/db-widgets/db-widget-search-engine-notice.php:37
+msgid "Your website is currently not visible to search engines!"
+msgstr "Deine Webseite ist zur Zeit für Suchmaschinen nicht sichtbar!"
+
+#: inc/db-widgets/db-widget-search-engine-notice.php:66
+msgid "Search Engine Visibility"
+msgstr "Suchmaschinen Sichtbarkeit"
+
+#: inc/db-widgets/db-widget-system.php:38 inc/pages/wp.php:102
+#: inc/settings.php:83
+msgid "WP Version"
+msgstr "WP Version"
+
+#: inc/db-widgets/db-widget-system.php:42 inc/pages/server-info.php:1255
+#: inc/pages/wp.php:106 inc/settings.php:81
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: inc/db-widgets/db-widget-system.php:46 inc/pages/constants.php:959
+#: inc/pages/wp.php:110
+msgid "MySQL Version"
+msgstr "MySQL Version"
+
+#: inc/db-widgets/db-widget-system.php:50 inc/pages/wp.php:126
+msgid "PHP Memory Server-Limit"
+msgstr "PHP Speicher Server-Limit"
+
+#: inc/db-widgets/db-widget-system.php:54 inc/pages/wp.php:153
+msgid "PHP Memory Server-Usage"
+msgstr "PHP Speicher Server-Auslastung"
+
+#: inc/db-widgets/db-widget-system.php:56
+#: inc/db-widgets/db-widget-system.php:58
+#: inc/db-widgets/db-widget-system.php:70
+#: inc/db-widgets/db-widget-system.php:72 inc/pages/server-info.php:1267
+#: inc/pages/server-info.php:1270 inc/pages/wp.php:145 inc/pages/wp.php:148
+#: inc/pages/wp.php:156 inc/pages/wp.php:159
+msgid "of"
+msgstr "von"
+
+#: inc/db-widgets/db-widget-system.php:64 inc/pages/wp.php:114
+msgid "PHP Memory WP-Limit"
+msgstr "PHP Memory WP-Limit"
+
+#: inc/db-widgets/db-widget-system.php:68 inc/pages/wp.php:142
+msgid "PHP Memory WP-Usage"
+msgstr "PHP Memory WP-Usage"
+
+#: inc/db-widgets/db-widget-system.php:78 inc/pages/server-info.php:1275
+#: inc/pages/wp.php:164
+msgid "PHP Max Upload Size (WP)"
+msgstr "PHP Max Upload Size (WP)"
+
+#: inc/db-widgets/db-widget-system.php:81
+msgid "Full System Information"
+msgstr "Alle System Informationen"
+
+#: inc/db-widgets/db-widget-system.php:112 inc/pages/server-info.php:1091
+#: inc/settings.php:88
+msgid "System Info"
+msgstr "System Info"
+
+#: inc/db-widgets/db-widget-user.php:259 inc/db-widgets/db-widget-user.php:267
+#: inc/footer.php:254
+msgid "N/A"
+msgstr "N/A"
+
+#: inc/db-widgets/db-widget-user.php:280 inc/db-widgets/db-widget-user.php:282
+#: inc/db-widgets/db-widget-user.php:285 inc/db-widgets/db-widget-user.php:287
+msgid "is"
+msgstr "ist"
+
+#: inc/db-widgets/db-widget-user.php:280 inc/db-widgets/db-widget-user.php:282
+msgid "logged out"
+msgstr "Ausgeloggt"
+
+#: inc/db-widgets/db-widget-user.php:285 inc/db-widgets/db-widget-user.php:287
+msgid "logged in"
+msgstr "Eingeloggt"
+
+#: inc/db-widgets/db-widget-user.php:293 inc/db-widgets/db-widget-user.php:295
+msgid "Last Login"
+msgstr "Letzter Login"
+
+#: inc/db-widgets/db-widget-user.php:293 inc/db-widgets/db-widget-user.php:295
+msgid "Last Logout"
+msgstr "Letzter Logout"
+
+#: inc/db-widgets/db-widget-user.php:432
+msgid "User Activities"
+msgstr "Benutzer Aktivitäten"
+
+#: inc/footer.php:30
+#, php-format
+msgid "This admin theme was designed by %1$s."
+msgstr "Dieses Admin-Theme wurde von %1$s entworfen."
+
+#: inc/footer.php:299 inc/footer.php:301
+msgid "IP"
+msgstr "IP"
+
+#: inc/footer.php:315 inc/footer.php:317
+msgid "PHP"
+msgstr "PHP"
+
+#: inc/footer.php:333 inc/footer.php:335
+msgid "WP"
+msgstr "WP"
+
+#: inc/footer.php:371
+msgid " of "
+msgstr " von "
+
+#: inc/footer.php:372 inc/settings.php:78
+msgid "Memory Usage"
+msgstr "Speichernutzung"
+
+#: inc/footer.php:375
+msgid " of"
+msgstr " von"
+
+#: inc/footer.php:392 inc/footer.php:394 inc/settings.php:79
+msgid "WP Memory Limit"
+msgstr "WP Speicher Limit"
+
+#: inc/footer.php:410 inc/footer.php:412 inc/settings.php:80
+msgid "Memory Available"
+msgstr "Speicher verfügbar"
+
+#: inc/helper.php:357
+msgid "You have no permissions to access this page!"
+msgstr "Du hast keine Berechtigungen zum Zugriff auf diese Seite."
+
+#: inc/init/setup.php:37
+msgid "Try again"
+msgstr "Erneut versuchen"
+
+#: inc/init/setup.php:38 inc/pages/error-log.php:159
+msgid "Done"
+msgstr "Erledigt"
+
+#: inc/init/setup.php:39
+msgid "Unlocked"
+msgstr "Freigeschaltet"
+
+#: inc/init/setup.php:40
+msgid "Checking"
+msgstr "Überprüfung"
+
+#: inc/init/setup.php:41
+msgid "Unlocking"
+msgstr "Freischalten"
+
+#: inc/init/setup.php:42
+msgid "Will be reset"
+msgstr "Wird zurückgesetzt"
+
+#: inc/init/setup.php:61
+msgid "Invalid Purchase Code"
+msgstr "Ungültiger Kaufcode"
+
+#: inc/init/setup.php:151
+msgid "Enter your purchase code here"
+msgstr "Gib deinen Kaufcode hier ein"
+
+#: inc/init/setup.php:153
+#, php-format
+msgid ""
+"This plugin is not activated. Please enter your Envato purchase code to "
+"enable the plugin settings. %1$s"
+msgstr ""
+"Dieses Plugin ist nicht aktiviert. Bitte gib deinen Envato-Kaufcode ein, um "
+"die Plugin-Einstellungen zu aktivieren. %1$s"
+
+#: inc/init/setup.php:255
+msgid "You are using a personally issued license."
+msgstr "Du benutzt eine persönlich ausgestellte Lizenz."
+
+#: inc/init/setup.php:286 inc/init/setup.php:349 inc/init/setup.php:449
+msgid "Something went wrong"
+msgstr "Etwas ist schief gelaufen"
+
+#: inc/init/setup.php:660
+msgid "Connection to Envato server successfull"
+msgstr "Verbindung zum Envato Server erfolgreich"
+
+#: inc/init/setup.php:665
+msgid "Connection to Envato server failed"
+msgstr "Verbindung zum Envato Server fehlgeschlagen"
+
+#: inc/init/setup.php:678
+msgid "Connection to license server successfull"
+msgstr "Verbindung zum Lizenzserver erfolgreich"
+
+#: inc/init/setup.php:683
+msgid "Connection to license server failed"
+msgstr "Verbindung zum Lizenzserver fehlgeschlagen"
+
+#: inc/init/setup.php:701
+msgid "License successfully verified"
+msgstr "Lizenz erfolgreich verifiziert"
+
+#: inc/init/setup.php:719
+msgid "License has been successfully updated"
+msgstr "Lizenz wurde erfolgreich aktualisiert"
+
+#: inc/init/setup.php:732
+msgid "License installing failed"
+msgstr "Lizenzinstallation fehlgeschlagen"
+
+#: inc/init/setup.php:737
+msgid "License has been successfully installed"
+msgstr "Lizenz wurde erfolgreich installiert"
+
+#: inc/init/setup.php:753
+msgid "License unlocking failed"
+msgstr "Lizenzfreischaltung fehlgeschlagen"
+
+#: inc/init/setup.php:758
+msgid "License has been successfully unlocked"
+msgstr "Lizenz wurde erfolgreich freigeschaltet"
+
+#: inc/init/setup.php:777
+msgid "The license table was found and the license was reset."
+msgstr "Die Lizenztabelle wurde gefunden und die Lizenz wurde zurückgesetzt."
+
+#: inc/init/setup.php:786
+msgid ""
+"License table not found. Please contact the author of the plugin and ask him "
+"to unlock the license manually."
+msgstr ""
+"Lizenztabelle nicht gefunden. Bitte kontaktiere den Autor des Plugins und "
+"bitte ihn, die Lizenz manuell freizuschalten."
+
+#: inc/init/setup.php:842
+msgid "Activation succesfull"
+msgstr "Aktivierung erfolgreich"
+
+#: inc/init/setup.php:844
+msgid "Activation denied"
+msgstr "Aktivierung verweigert"
+
+#: inc/init/setup.php:848
+msgid "License has been unlocked"
+msgstr "Lizenz wurde freigeschaltet"
+
+#: inc/init/setup.php:852
+msgid "Plugin Activation for"
+msgstr "Plugin Aktivierung für"
+
+#: inc/init/setup.php:856
+msgid "Domain"
+msgstr "Domain"
+
+#: inc/init/setup.php:857
+msgid "Status"
+msgstr "Status"
+
+#: inc/init/setup.php:859 inc/pages/setup.php:148 inc/pages/setup.php:157
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/init/setup.php:860 inc/pages/setup.php:149
+msgid "Buyer"
+msgstr "Käufer"
+
+#: inc/init/setup.php:861 inc/pages/setup.php:150 inc/pages/setup.php:158
+msgid "License"
+msgstr "Lizenz"
+
+#: inc/init/setup.php:862 inc/pages/setup.php:151
+msgid "Purchase Count"
+msgstr "Kaufanzahl"
+
+#: inc/init/setup.php:863 inc/pages/setup.php:152
+msgid "Sold at"
+msgstr "Gekauft am"
+
+#: inc/init/setup.php:864 inc/pages/setup.php:153
+msgid "Support until"
+msgstr "Support bis"
+
+#: inc/layout.php:153 inc/layout.php:266
+msgid "Home"
+msgstr "Home"
+
+#: inc/layout.php:157
+msgid "My Sites"
+msgstr "Meine Seiten"
+
+#: inc/layout.php:161
+msgid "Logout"
+msgstr "Ausloggen"
+
+#: inc/layout.php:215 inc/layout.php:217
+msgid "Howdy"
+msgstr "Howdy"
+
+#: inc/layout.php:259
+msgid "No image selected."
+msgstr "Kein Bild ausgewählt."
+
+#: inc/layout.php:327 inc/layout.php:359
+msgid "Image"
+msgstr "Bild"
+
+#: inc/layout.php:343
+msgid "No Thumbnail"
+msgstr "Kein Miniaturbild"
+
+#: inc/layout.php:418 inc/layout.php:485 inc/pages/multisite-sync.php:578
+#: inc/pages/transient-manager.php:939
+msgid "ID"
+msgstr "ID"
+
+#: inc/layout.php:557
+msgid "Current Blog ID"
+msgstr "Aktuelle Blog ID"
+
+#: inc/layout.php:628 inc/pages/ex-import.php:258 inc/pages/ex-import.php:281
+msgid "Options"
+msgstr "Optionen"
+
+#: inc/layout.php:639 inc/pages/transient-manager.php:25
+#: inc/pages/transient-manager.php:26 inc/pages/transient-manager.php:817
+#: inc/settings.php:91
+msgid "Transient Manager"
+msgstr "Transient Manager"
+
+#: inc/layout.php:649 inc/pages/ex-import.php:25 inc/pages/ex-import.php:26
+#: inc/pages/ex-import.php:234
+msgid "Im-/Export"
+msgstr "Im- / Export"
+
+#: inc/layout.php:660 inc/pages/multisite-sync.php:29
+#: inc/pages/multisite-sync.php:30 inc/settings.php:93
+msgid "Multisite Sync"
+msgstr "Multisite Sync"
+
+#: inc/layout.php:678 inc/pages/setup.php:25 inc/pages/setup.php:26
+msgid "Activation"
+msgstr "Aktivierung"
+
+#: inc/notices.php:85
+#, php-format
+msgid ""
+"%3$s <strong style=\"color:#4d820c\">Hey you! I'm Martin, the plugin author "
+"of WP Admin Theme CD.</strong> Do you like this plugin? Please show your "
+"appreciation and rate the plugin. Help me to develop a powerful plugin that "
+"will benefit you for a long time. %2$s %2$s %2$s %2$s %2$s <a href=\"%1$s\" "
+"target=\"_blank\">Rate now!</a>"
+msgstr ""
+"%3$s <strong style=\"color:#4d820c\">Hey du! Ich bin Martin, der Plugin-"
+"Autor von wphave - Admin.</strong> Gefällt dir dieses Plugin? Bitte zeige "
+"deine Wertschätzung und bewerte das Plugin. Hilf mir dabei, ein "
+"leistungsstarkes Plugin zu entwickeln, von dem du lange Zeit profitieren "
+"wirst. %2$s %2$s %2$s %2$s %2$s <a href=\"%1$s\" target=\"_blank\">Jetzt "
+"bewerten!</a>"
+
+#: inc/notices.php:96
+msgid "Dismiss this notice."
+msgstr "Diesen Hinweis ausblenden."
+
+#: inc/notices.php:237
+#, php-format
+msgid ""
+"The plugin \"%1$s\" has detected that the deprecated plugin \"%2$s\" is "
+"still installed. Please deactivate and uninstall this plugin to avoid "
+"conflicts!"
+msgstr ""
+"Das Plugin \"%1$s\" hat festgestellt, dass das veraltete Plugin \"%2$s\" "
+"noch installiert ist. Bitte deaktiviere und deinstalliere dieses Plugin, um "
+"Konflikte zu vermeiden!"
+
+#: inc/notices.php:266
+msgid ""
+"This plugin is not activated. Please enter your Envato purchase code to "
+"enable the plugin settings."
+msgstr ""
+"Dieses Plugin ist nicht aktiviert. Bitte gib deinen Envato-Kaufcode ein, um "
+"die Plugin-Einstellungen zu aktivieren."
+
+#: inc/pages/constants.php:25 inc/pages/constants.php:26 inc/pages/wp.php:25
+#: inc/pages/wp.php:26 inc/pages/wp.php:78 inc/settings.php:89
+#: inc/side-menu.php:89
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/pages/constants.php:68 inc/pages/error-log.php:393
+#: inc/pages/multisite-sync.php:319 inc/pages/server-info.php:1080
+#: inc/pages/wp.php:67 inc/settings.php:1445 inc/settings.php:1533
+#: inc/settings.php:1724 inc/settings.php:2046
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: inc/pages/constants.php:69 inc/pages/constants.php:157
+#: inc/pages/error-log.php:390 inc/pages/multisite-sync.php:320
+#: inc/pages/server-info.php:1081 inc/pages/wp.php:68 inc/settings.php:1442
+#: inc/settings.php:1530 inc/settings.php:1721 inc/settings.php:2049
+#: inc/settings.php:2748
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: inc/pages/constants.php:70 inc/pages/server-info.php:1082
+#: inc/pages/wp.php:69
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/pages/constants.php:71 inc/pages/server-info.php:1083
+#: inc/pages/wp.php:70
+msgid "No"
+msgstr "Nein"
+
+#: inc/pages/constants.php:72 inc/pages/server-info.php:1084
+#: inc/pages/wp.php:71
+msgid "Defined"
+msgstr "Definiert"
+
+#: inc/pages/constants.php:73 inc/pages/server-info.php:1085
+#: inc/pages/wp.php:72
+msgid "Not defined"
+msgstr "Nicht definiert"
+
+#: inc/pages/constants.php:74 inc/pages/server-info.php:1086
+#: inc/pages/wp.php:73
+msgid "Please enter this security key in the wp-confiq.php file"
+msgstr "Bitte gib diesen Sicherheits-Schlüssel in der wp-confiq.php Datei ein"
+
+#: inc/pages/constants.php:79 inc/settings.php:90 inc/side-menu.php:101
+msgid "Constants"
+msgstr "Konstanten"
+
+#: inc/pages/constants.php:90 inc/pages/server-info.php:1102
+#: inc/pages/wp.php:89 inc/side-menu.php:101
+msgid "Overview"
+msgstr "Übersicht"
+
+#: inc/pages/constants.php:92
+msgid ""
+"Use the following constants to manage important settings of your WordPress "
+"installation in the <code>wp-config.php</code> file. Learn more about <a "
+"href=\"https://wordpress.org/support/article/editing-wp-config-php/\" target="
+"\"_blank\">here</a>"
+msgstr ""
+"Verwende die folgenden Konstanten, um wichtige Einstellungen deiner "
+"WordPress-Installation in der Datei <code>wp-config.php</code> einzustellen. "
+"Erfahre mehr darüber <a href=\"https://wordpress.org/support/article/editing-"
+"wp-config-php/\" target=\"_blank\">hier</a>"
+
+#: inc/pages/constants.php:97 inc/pages/constants.php:952
+#: inc/pages/constants.php:1082 inc/pages/server-info.php:1111
+#: inc/pages/wp.php:96 inc/pages/wp.php:187
+msgid "Info"
+msgstr "Info"
+
+#: inc/pages/constants.php:98 inc/pages/constants.php:953
+#: inc/pages/constants.php:1083 inc/pages/server-info.php:1112
+#: inc/pages/wp.php:97 inc/pages/wp.php:188
+msgid "Result"
+msgstr "Ergebnis"
+
+#: inc/pages/constants.php:99 inc/pages/constants.php:954
+#: inc/pages/constants.php:1084
+msgid "Example"
+msgstr "Beispiel"
+
+#: inc/pages/constants.php:104
+msgid "WP Language"
+msgstr "WP Language"
+
+#: inc/pages/constants.php:115
+msgid "WP Force SSL Admin"
+msgstr "WP Force SSL Admin"
+
+#: inc/pages/constants.php:126
+msgid "WP PHP Memory Limit"
+msgstr "WP PHP Memory Limit"
+
+#: inc/pages/constants.php:133 inc/pages/constants.php:149
+msgid "defined limit"
+msgstr "definiertes Limit"
+
+#: inc/pages/constants.php:136 inc/pages/server-info.php:135
+#, php-format
+msgid "The WP PHP Memory Limit is less than the %s Server PHP Memory Limit"
+msgstr ""
+"Das WP PHP Speicher Limit ist niedriger als das %s Server PHP Speicher Limit"
+
+#: inc/pages/constants.php:142
+msgid "WP PHP Max Memory Limit"
+msgstr "WP PHP Max Speicher Limit"
+
+#: inc/pages/constants.php:154
+msgid "WP Post Revisions"
+msgstr "WP Beitrags-Revisionen"
+
+#: inc/pages/constants.php:165
+msgid "WP Autosave Interval"
+msgstr "WP Intervall für automatische Speicherung"
+
+#: inc/pages/constants.php:168 inc/pages/constants.php:177
+#: inc/pages/constants.php:474 inc/pages/server-info.php:1288
+msgid "Seconds"
+msgstr "Sekunden"
+
+#: inc/pages/constants.php:174
+msgid "WP Mail Interval"
+msgstr "WP Mail Intervall"
+
+#: inc/pages/constants.php:185
+msgid "WP Empty Trash"
+msgstr "WP Papierkorb leeren"
+
+#: inc/pages/constants.php:196
+msgid "WP Media Trash"
+msgstr "WP Medien Papierkorb"
+
+#: inc/pages/constants.php:207
+msgid "WP Cleanup Image Edits"
+msgstr "WP Bildbearbeitungen aufräumen"
+
+#: inc/pages/constants.php:218
+msgid "WP Multisite"
+msgstr "WP Multisite"
+
+#: inc/pages/constants.php:229
+msgid "WP Main Site Domain"
+msgstr "WP Hauptwebseiten Domain"
+
+#: inc/pages/constants.php:240
+msgid "WP Main Site Path"
+msgstr "WP Hauptwebseiten Pfad"
+
+#: inc/pages/constants.php:251
+msgid "WP Main Site ID"
+msgstr "WP Hauptwebseiten ID"
+
+#: inc/pages/constants.php:262
+msgid "WP Main Site Blog ID"
+msgstr "WP Hauptwebseiten Blog ID"
+
+#: inc/pages/constants.php:273
+msgid "WP Allow Subdomain Install"
+msgstr "WP Erlaube Installation unter Subdomain"
+
+#: inc/pages/constants.php:284
+msgid "WP Allow Subdirectory Install"
+msgstr "WP Erlaube Installation in Unterverzeichnis"
+
+#: inc/pages/constants.php:295
+msgid "WP Site Specific Upload Directory"
+msgstr "WP Spezifisches Upload Verzeichnis"
+
+#: inc/pages/constants.php:306
+msgid "WP Upload Base Directory"
+msgstr "WP Upload Hauptverzeichnis"
+
+#: inc/pages/constants.php:317
+msgid "WP Load Sunrise"
+msgstr "WP Load Sunrise"
+
+#: inc/pages/constants.php:328
+msgid "WP Debug Mode"
+msgstr "WP Debug Modus"
+
+#: inc/pages/constants.php:339
+msgid "WP Debug Log"
+msgstr "WP Debug Log"
+
+#: inc/pages/constants.php:350
+msgid "WP Debug Display"
+msgstr "WP Debug Anzeige"
+
+#: inc/pages/constants.php:361
+msgid "WP Script Debug"
+msgstr "WP Skript Debug"
+
+#: inc/pages/constants.php:372
+msgid "WP Save Queries"
+msgstr "WP Queries speichern"
+
+#: inc/pages/constants.php:383
+msgid "WP Automatic Updates"
+msgstr "WP Automatische Updates"
+
+#: inc/pages/constants.php:394
+msgid "WP Core Updates"
+msgstr "WP Core Updates"
+
+#: inc/pages/constants.php:399
+msgid "Only for minor updates"
+msgstr "Nur für Updates von Nebenversionen"
+
+#: inc/pages/constants.php:407
+msgid "WP Default Theme Updates"
+msgstr "WP Standard Theme Updates"
+
+#: inc/pages/constants.php:418
+msgid "WP Plugin and Theme Editor"
+msgstr "WP Plugin und Theme Editor"
+
+#: inc/pages/constants.php:429
+msgid "WP Plugin and Theme Updates"
+msgstr "WP Plugin und Theme Updates"
+
+#: inc/pages/constants.php:440
+msgid "WP Default Theme"
+msgstr "WP Standard Theme"
+
+#: inc/pages/constants.php:449
+msgid "WP Alternate Cron"
+msgstr "WP Alternativer Cron"
+
+#: inc/pages/constants.php:460
+msgid "WP Cron"
+msgstr "WP Cron"
+
+#: inc/pages/constants.php:471
+msgid "WP Cron Lock Timeout"
+msgstr "WP Cron Lock Zeitverzögerung"
+
+#: inc/pages/constants.php:482
+msgid "WP Cache"
+msgstr "WP Cache"
+
+#: inc/pages/constants.php:493
+msgid "WP Concatenate Admin JS/CSS"
+msgstr "WP Verkettung von Admin JS/CSS"
+
+#: inc/pages/constants.php:498 inc/pages/constants.php:512
+#: inc/pages/constants.php:526 inc/pages/constants.php:540
+msgid "Not available if WP Script Debug is true"
+msgstr "Nicht verfügbar wenn WP Skript Debug aktiv ist"
+
+#: inc/pages/constants.php:507
+msgid "WP Compress Admin JS"
+msgstr "WP Admin JS komprimieren"
+
+#: inc/pages/constants.php:521
+msgid "WP Compress Admin CSS"
+msgstr "WP Admin CSS komprimieren"
+
+#: inc/pages/constants.php:535
+msgid "WP Enforce GZip Admin JS/CSS"
+msgstr "WP GZip für Admin JS/CSS erzwingen"
+
+#: inc/pages/constants.php:549
+msgid "WP Allow unfiltered HTML"
+msgstr "WP Erlaube ungefiltertes HTML"
+
+#: inc/pages/constants.php:552
+msgid "for all users"
+msgstr "für alle Nutzer"
+
+#: inc/pages/constants.php:554
+msgid "for users with administrator or editor roles"
+msgstr "für Nutzer mit Administrator oder Editor Rollen"
+
+#: inc/pages/constants.php:560
+msgid "WP Allow unfiltered Uploads"
+msgstr "WP Erlaube ungefilterte Uploads"
+
+#: inc/pages/constants.php:571
+msgid "WP Block External URL Requests"
+msgstr "WP Blockiere externe URL Anfragen"
+
+#: inc/pages/constants.php:576
+msgid "Accessible Hosts"
+msgstr "Zugängliche Hosts"
+
+#: inc/pages/constants.php:585
+msgid "WP Redirect Nonexistent Blogs"
+msgstr "WP Redirect nicht vorhandener Blogs"
+
+#: inc/pages/constants.php:596
+msgid "WP Cookie Domain"
+msgstr "WP Cookie Domain"
+
+#: inc/pages/constants.php:607
+msgid "WP Cookie Hash"
+msgstr "WP Cookie Hash"
+
+#: inc/pages/constants.php:618
+msgid "WP Auth Cookie"
+msgstr "WP Auth Cookie"
+
+#: inc/pages/constants.php:629
+msgid "WP Secure Auth Cookie"
+msgstr "WP Secure Auth Cookie"
+
+#: inc/pages/constants.php:640
+msgid "WP Cookie Path"
+msgstr "WP Cookie Pfad"
+
+#: inc/pages/constants.php:651
+msgid "WP Site Cookie Path"
+msgstr "WP Cookie Hauptpfad"
+
+#: inc/pages/constants.php:662
+msgid "WP Admin Cookie Path"
+msgstr "WP Admin Cookie Pfad"
+
+#: inc/pages/constants.php:673
+msgid "WP Plugins Cookie Path"
+msgstr "WP Plugins Cookie Pfad"
+
+#: inc/pages/constants.php:684
+msgid "WP Logged In Cookie"
+msgstr "WP Eingeloggt Cookie"
+
+#: inc/pages/constants.php:695
+msgid "WP Test Cookie"
+msgstr "WP Test Cookie"
+
+#: inc/pages/constants.php:706
+msgid "WP User Cookie"
+msgstr "WP Benutzer Cookie"
+
+#: inc/pages/constants.php:717
+msgid "WP Directory Permission"
+msgstr "WP Verzeichnisberechtigung"
+
+#: inc/pages/constants.php:728
+msgid "WP File Permission"
+msgstr "WP Dateiberechtigungen"
+
+#: inc/pages/constants.php:739
+msgid "WP FTP Method"
+msgstr "WP FTP Methode"
+
+#: inc/pages/constants.php:750
+msgid "WP FTP Base"
+msgstr "WP FTP-Basispfad"
+
+#: inc/pages/constants.php:761
+msgid "WP FTP Content Dir"
+msgstr "WP FTP Content Dir"
+
+#: inc/pages/constants.php:772
+msgid "WP FTP Plugin Dir"
+msgstr "WP FTP Plugin Dir"
+
+#: inc/pages/constants.php:783
+msgid "WP SSH Public Key"
+msgstr "WP SSH Public Key"
+
+#: inc/pages/constants.php:794
+msgid "WP SSH Private Key"
+msgstr "WP SSH Private Key"
+
+#: inc/pages/constants.php:805
+msgid "WP FTP Username"
+msgstr "WP FTP Benutzername"
+
+#: inc/pages/constants.php:816
+msgid "WP FTP Password"
+msgstr "WP FTP Passwort"
+
+#: inc/pages/constants.php:827
+msgid "WP FTP Host"
+msgstr "WP FTP Host"
+
+#: inc/pages/constants.php:838
+msgid "WP FTP SSL"
+msgstr "WP FTP SSL"
+
+#: inc/pages/constants.php:849 inc/pages/wp.php:172
+msgid "WP Site URL"
+msgstr "WP Site URL"
+
+#: inc/pages/constants.php:860
+msgid "WP Home"
+msgstr "WP Home"
+
+#: inc/pages/constants.php:871
+msgid "WP Uploads Path"
+msgstr "WP Uploads Pfad"
+
+#: inc/pages/constants.php:883
+msgid "WP Template Path"
+msgstr "WP Template Pfad"
+
+#: inc/pages/constants.php:890
+msgid "WP Stylesheet Path"
+msgstr "WP Stylesheet Pfad"
+
+#: inc/pages/constants.php:897
+msgid "WP Content Path"
+msgstr "WP Content Pfad"
+
+#: inc/pages/constants.php:904
+msgid "WP Content URL"
+msgstr "WP Content URL"
+
+#: inc/pages/constants.php:911
+msgid "WP Plugin Path"
+msgstr "WP Plugin Pfad"
+
+#: inc/pages/constants.php:918
+msgid "WP Plugin URL"
+msgstr "WP Plugin URL"
+
+#: inc/pages/constants.php:925
+msgid "WP Language Path"
+msgstr "WP Sprachdatei Pfad"
+
+#: inc/pages/constants.php:932
+msgid "WP Temporary Files Path"
+msgstr "WP Temporäre Dateien Pfad"
+
+#: inc/pages/constants.php:945
+msgid "Database"
+msgstr "Datenbank "
+
+#: inc/pages/constants.php:947
+msgid ""
+"Use the following constants to manage important database settings of your "
+"WordPress installation in the <code>wp-config.php</code> file. Learn more "
+"about <a href=\"https://wordpress.org/support/article/editing-wp-config-php/"
+"#configure-database-settings\" target=\"_blank\">here</a>"
+msgstr ""
+"Verwende die folgenden Konstanten, um wichtige Datenbankeinstellungen deiner "
+"WordPress-Installation in der Datei <code>wp-config.php</code> "
+"einzustellen . Erfahre mehr darüber <a href=\"https://wordpress.org/support/"
+"article/editing-wp-config-php/#configure-database-settings\" target=\"_blank"
+"\">hier</a>"
+
+#: inc/pages/constants.php:963
+msgid "DB Name"
+msgstr "DB Name"
+
+#: inc/pages/constants.php:968
+msgid "DB User"
+msgstr "DB Benutzer"
+
+#: inc/pages/constants.php:973
+msgid "DB Host"
+msgstr "DB Host"
+
+#: inc/pages/constants.php:978
+msgid "DB Password"
+msgstr "DB Passwort"
+
+#: inc/pages/constants.php:983
+msgid "DB Charset"
+msgstr "DB Charset"
+
+#: inc/pages/constants.php:988
+msgid "DB Collate"
+msgstr "DB Collate"
+
+#: inc/pages/constants.php:999
+msgid "WP Allow DB Repair"
+msgstr "WP Erlaube Datenbank Reparatur"
+
+#: inc/pages/constants.php:1010
+msgid "WP Disallow Upgrade Global Tables"
+msgstr "WP Verbiete Upgrade von globalen Tabellen"
+
+#: inc/pages/constants.php:1021
+msgid "WP Custom User Table"
+msgstr "WP Benutzerdefinierte Benutzer Tabelle"
+
+#: inc/pages/constants.php:1032
+msgid "WP Custom User Meta Table"
+msgstr "WP Benutzerdefinierte Benutzer Meta Tabelle"
+
+#: inc/pages/constants.php:1043
+msgid "WP Display Database Errors"
+msgstr "WP Datenbank Fehler anzeigen"
+
+#: inc/pages/constants.php:1054
+msgid "WP Database Error Log File"
+msgstr "WP Datenbank Fehler Log Datei"
+
+#: inc/pages/constants.php:1065
+msgid "Table Prefix"
+msgstr "Tabellenpräfix"
+
+#: inc/pages/constants.php:1069
+msgid "Table Base Prefix"
+msgstr "Tabellenhauptpräfix"
+
+#: inc/pages/constants.php:1070
+msgid "defined"
+msgstr "definiert"
+
+#: inc/pages/constants.php:1075
+msgid "Security Keys"
+msgstr "Sicherheitsschlüssel"
+
+#: inc/pages/constants.php:1077
+msgid ""
+"Use the following constants to set the security keys for your WordPress "
+"installation in the <code>wp-config.php</code> file. Learn more about <a "
+"href=\"https://wordpress.org/support/article/editing-wp-config-php/#security-"
+"keys\" target=\"_blank\">here</a>"
+msgstr ""
+"Verwende die folgenden Konstanten, um die Sicherheitsschlüssel für deine "
+"WordPress-Installation in der Datei <code>wp-config.php</code> einzustellen. "
+"Erfahre mehr darüber <a href=\"https://wordpress.org/support/article/editing-"
+"wp-config-php/#security-keys\" target=\"_blank\">hier</a>"
+
+#: inc/pages/constants.php:1089
+msgid "WP Auth Key"
+msgstr "WP Auth Key"
+
+#: inc/pages/constants.php:1100
+msgid "WP Secure Auth Key"
+msgstr "WP Secure Auth Key"
+
+#: inc/pages/constants.php:1111
+msgid "WP Logged In Key"
+msgstr "WP Logged In Key"
+
+#: inc/pages/constants.php:1122
+msgid "WP Nonce Key"
+msgstr "WP Nonce Key"
+
+#: inc/pages/constants.php:1133
+msgid "WP Auth Salt"
+msgstr "WP Auth Salt"
+
+#: inc/pages/constants.php:1144
+msgid "WP Secure Auth Salt"
+msgstr "WP Secure Auth Salt"
+
+#: inc/pages/constants.php:1155
+msgid "WP Logged In Auth Salt"
+msgstr "WP Logged In Auth Salt"
+
+#: inc/pages/constants.php:1166
+msgid "WP Nonce Salt"
+msgstr "WP Nonce Salt"
+
+#: inc/pages/error-log.php:25 inc/pages/error-log.php:26
+#: inc/pages/error-log.php:320 inc/settings.php:94 inc/side-menu.php:161
+msgid "Error Log"
+msgstr "Fehler Log"
+
+#: inc/pages/error-log.php:100
+msgid "debug.log file not found!"
+msgstr "debug.log Datei nicht gefunden!"
+
+#: inc/pages/error-log.php:108
+msgid "File content is empty. No errors logged."
+msgstr "Der Dateiinhalt ist leer. Keine Fehler protokolliert."
+
+#: inc/pages/error-log.php:157
+msgid "Will be updated"
+msgstr "Wird aktualisiert"
+
+#: inc/pages/error-log.php:158
+msgid "Will be cleared"
+msgstr "Wird gelöscht"
+
+#: inc/pages/error-log.php:334
+msgid ""
+"You have to set and enable \"WP_DEBUG\" and \"WP_DEBUG_LOG\" in your \"wp-"
+"config.php\" file, to show the error log here!"
+msgstr ""
+"Du musst \"WP_DEBUG\" und \"WP_DEBUG_LOG\" in deiner \"wp-config.php\" Datei "
+"einstellen und aktivieren, um das Fehlerprotokoll hier anzuzeigen!"
+
+#: inc/pages/error-log.php:339
+msgid ""
+"Note that debugging (the process of finding and resolving issues in "
+"software) is disabled by default in WordPress and should not be enabled on "
+"live websites. However it can be enabled temporarily to troubleshoot issues."
+msgstr ""
+"Beachte, dass das Debuggen (das Auffinden und Beheben von Problemen in der "
+"Software) in WordPress standardmäßig deaktiviert ist und auf Live-Websites "
+"nicht aktiviert werden sollte. Es kann jedoch vorübergehend aktiviert "
+"werden, um Probleme zu beheben."
+
+#: inc/pages/error-log.php:341
+msgid "Learn more about debugging in WordPress."
+msgstr "Lerne mehr über die Fehlerbehebung in WordPress."
+
+#: inc/pages/error-log.php:401
+msgid "Custom path"
+msgstr "Benutzerdefinierter Pfad"
+
+#: inc/pages/error-log.php:410 inc/pages/transient-manager.php:896
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: inc/pages/error-log.php:414
+msgid "Clear file content"
+msgstr "Dateiinhalt löschen"
+
+#: inc/pages/error-log.php:418
+msgid "Debug log file was found at:"
+msgstr "Debug log Datei wurde gefunden unter:"
+
+#: inc/pages/ex-import.php:157
+msgid "Please upload a file to import."
+msgstr "Bitte lade zum importieren eine Datei hoch."
+
+#: inc/pages/ex-import.php:166
+msgid "Please upload a valid .json file."
+msgstr "Bitte eine gültige .json-Datei hochladen."
+
+#: inc/pages/ex-import.php:174
+msgid "Your uploaded file is too large."
+msgstr "Die hochgeladene Datei ist zu groß."
+
+#: inc/pages/ex-import.php:191
+msgid "All options are restored successfully."
+msgstr "Alle Optionen sind erfolgreich wiederhergestellt."
+
+#: inc/pages/ex-import.php:258
+msgid "Export"
+msgstr "Exportieren"
+
+#: inc/pages/ex-import.php:262
+msgid ""
+"When you click the Export button, the system will generate a JSON file for "
+"you to save on your computer."
+msgstr ""
+"Wenn du auf den Exportieren-Button klickst, wird das System eine JSON Datei "
+"generieren und auf deinem Computer speichern."
+
+#: inc/pages/ex-import.php:263
+msgid ""
+"This backup file contains all \"wphave - Admin\" configuration and setting "
+"options from this WordPress installation."
+msgstr ""
+"Diese Sicherungsdatei enthält alle Konfigurations- und Einstellungsoptionen "
+"für \"wphave-Admin\" aus dieser WordPress-Installation."
+
+#: inc/pages/ex-import.php:269
+msgid ""
+"After exporting, you can either use the JSON file to restore your settings "
+"on this site again or another WordPress site."
+msgstr ""
+"Nach dem exportieren kannst du die JSON Datei nutzen um bestimmte "
+"Einstellungen wiederherzustellen oder die selben Optionen für andere "
+"WordPress Seiten zu importieren."
+
+#: inc/pages/ex-import.php:276
+msgid "Export all options"
+msgstr "Exportiere alle Optionen"
+
+#: inc/pages/ex-import.php:281
+msgid "Import"
+msgstr "Importieren"
+
+#: inc/pages/ex-import.php:285
+msgid "Click the Browse button and choose a JSON file."
+msgstr "Klicke den Durchsuchen-Button und wähle eine JSON Datei aus."
+
+#: inc/pages/ex-import.php:294
+msgid "Press the Import button restore all options."
+msgstr "Klicke den Importieren-Button um alle Optionen wiederherzustellen."
+
+#: inc/pages/ex-import.php:300
+msgid "Import options"
+msgstr "Importiere Optionen"
+
+#: inc/pages/htaccess-file.php:25 inc/pages/htaccess-file.php:26
+msgid "htaccess"
+msgstr "htaccess"
+
+#: inc/pages/htaccess-file.php:104
+msgid ".htaccess file not found!"
+msgstr ".htaccess Datei nicht gefunden!"
+
+#: inc/pages/htaccess-file.php:112 inc/pages/php-ini-file.php:112
+#: inc/pages/robots-txt-file.php:112
+msgid "File content is empty."
+msgstr "Dateiinhalt ist leer."
+
+#: inc/pages/htaccess-file.php:151 inc/settings.php:95 inc/side-menu.php:125
+msgid ".htaccess"
+msgstr ".htaccess"
+
+#: inc/pages/htaccess-file.php:164
+msgid ".htaccess file"
+msgstr ".htaccess Datei"
+
+#: inc/pages/htaccess-file.php:169 inc/pages/php-ini-file.php:165
+#: inc/pages/robots-txt-file.php:165
+#, php-format
+msgid ""
+"For security reasons you can only read the %1$s file! Please connect to your "
+"server and modify the file in a file editor."
+msgstr ""
+"Aus Sicherheitsgründen kannst du nur die %1$s-Datei lesen! Bitte stelle eine "
+"Verbindung zu deinem Server her und ändere die Datei in einem Datei-Editor."
+
+#: inc/pages/htaccess-file.php:173
+msgid ""
+"The .htaccess is a distributed configuration file, and is how Apache server "
+"handles configuration changes on a per-directory basis."
+msgstr ""
+"Die .htaccess Datei ist eine verteilte Konfigurationsdatei und behandelt "
+"Konfigurationsänderungen auf Verzeichnisbasis."
+
+#: inc/pages/htaccess-file.php:175
+msgid "Learn more about the .htaccess file in WordPress."
+msgstr "Lerne mehr über die .htaccess Datei in WordPress."
+
+#: inc/pages/htaccess-file.php:188
+msgid ".htaccess file was found at:"
+msgstr ".htaccess Datei gefunden unter:"
+
+#: inc/pages/multisite-sync.php:279
+#, php-format
+msgid "Your selected blog(s) with ID \"%1$s\" has been updated."
+msgstr "Deine ausgewählten Blogs mit der ID \"%1$s\" wurden aktualisiert."
+
+#: inc/pages/multisite-sync.php:281
+#, php-format
+msgid "All network sites with ID \"%1$s\" has been updated."
+msgstr "Alle Netzwerkseiten mit der ID \"%1$s\" wurden aktualisiert."
+
+#: inc/pages/multisite-sync.php:283
+msgid "No permission."
+msgstr "Keine Berechtigung."
+
+#: inc/pages/multisite-sync.php:285
+msgid "Please enter a blog id."
+msgstr "Bitte gib eine Blog ID ein."
+
+#: inc/pages/multisite-sync.php:287
+msgid "Wrong characters entered. Only numbers and commas are allowed."
+msgstr "Falsche Zeichen eingegeben. Es sind nur Zahlen und Kommas erlaubt."
+
+#: inc/pages/multisite-sync.php:289
+msgid "Something went wrong."
+msgstr "Etwas ist schief gelaufen."
+
+#: inc/pages/multisite-sync.php:297
+msgid "Share Options"
+msgstr "Optionen teilen"
+
+#: inc/pages/multisite-sync.php:301
+msgid "Update your admin theme options for all network websites together."
+msgstr ""
+"Aktualisiere zugleich deine Admin Theme Optionen für alle Netzwerkseiten."
+
+#: inc/pages/multisite-sync.php:303
+msgid "You will share the following options from Blog ID"
+msgstr "Du wirst die folgenden Optionen teilen, von Blog ID"
+
+#: inc/pages/multisite-sync.php:303 inc/pages/multisite-sync.php:578
+msgid "Blog Name"
+msgstr "Blog Name"
+
+#: inc/pages/multisite-sync.php:303
+msgid "for all network blogs"
+msgstr "für alle Netzwerk Blogs"
+
+#: inc/pages/multisite-sync.php:309
+msgid "Option"
+msgstr "Optionen"
+
+#: inc/pages/multisite-sync.php:310 inc/pages/transient-manager.php:855
+#: inc/pages/transient-manager.php:937
+msgid "Value"
+msgstr "Wert"
+
+#: inc/pages/multisite-sync.php:317 inc/settings.php:1491 inc/settings.php:1588
+#: inc/settings.php:1616 inc/settings.php:1644 inc/settings.php:1672
+#: inc/settings.php:1782 inc/settings.php:1810 inc/settings.php:1846
+#: inc/settings.php:1882 inc/settings.php:1918 inc/settings.php:1954
+#: inc/settings.php:2170 inc/settings.php:2222 inc/settings.php:2250
+#: inc/settings.php:2278 inc/settings.php:2306 inc/settings.php:2334
+#: inc/settings.php:2362
+msgid "Visible"
+msgstr "Sichtbar"
+
+#: inc/pages/multisite-sync.php:318 inc/settings.php:1494 inc/settings.php:1591
+#: inc/settings.php:1619 inc/settings.php:1647 inc/settings.php:1675
+#: inc/settings.php:1785 inc/settings.php:1813 inc/settings.php:1849
+#: inc/settings.php:1885 inc/settings.php:1921 inc/settings.php:1957
+#: inc/settings.php:2173 inc/settings.php:2225 inc/settings.php:2253
+#: inc/settings.php:2281 inc/settings.php:2309 inc/settings.php:2337
+#: inc/settings.php:2365
+msgid "Hidden"
+msgstr "Versteckt"
+
+#: inc/pages/multisite-sync.php:321
+msgid "Not selected"
+msgstr "Nicht ausgewählt"
+
+#: inc/pages/multisite-sync.php:322
+msgid "Not added"
+msgstr "Nicht hinzugefügt"
+
+#: inc/pages/multisite-sync.php:323 inc/pages/setup.php:85
+#: inc/settings.php:2425 inc/settings.php:2453 inc/settings.php:2483
+#: inc/settings.php:2526 inc/settings.php:2566 inc/settings.php:2604
+#: inc/settings.php:2639 inc/settings.php:2679 inc/settings.php:2718
+#: inc/settings.php:2778
+msgid "Activated"
+msgstr "Aktiviert"
+
+#: inc/pages/multisite-sync.php:324 inc/pages/setup.php:83
+#: inc/settings.php:2422 inc/settings.php:2450 inc/settings.php:2523
+#: inc/settings.php:2563
+msgid "Deactivated"
+msgstr "Deaktiviert"
+
+#: inc/pages/multisite-sync.php:350 inc/pages/multisite-sync.php:352
+#: inc/pages/multisite-sync.php:371 inc/pages/multisite-sync.php:373
+#: inc/pages/multisite-sync.php:448 inc/pages/multisite-sync.php:450
+#: inc/settings.php:1473 inc/settings.php:1568 inc/settings.php:1703
+#: inc/settings.php:2114
+msgid "Pixel"
+msgstr "Pixel"
+
+#: inc/pages/multisite-sync.php:533
+msgid "Update only specific network blogs"
+msgstr "Aktualisiere nur bestimmte Netzwerkblogs"
+
+#: inc/pages/multisite-sync.php:538
+msgid "You can update only a specific network sites by entering the ID."
+msgstr ""
+"Du kannst nur bestimmte Netzwerkseiten aktualisieren, indem du die ID "
+"eingibst."
+
+#: inc/pages/multisite-sync.php:539
+msgid "Please separate several IDs with commas."
+msgstr "Bitte trenne mehrere IDs durch Kommas."
+
+#: inc/pages/multisite-sync.php:544
+msgid "Blog ID(s)"
+msgstr "Blog ID(s)"
+
+#: inc/pages/multisite-sync.php:552
+msgid "Update specific network blog(s)"
+msgstr "Aktualisiere nur bestimmte Netzwerkblogs"
+
+#: inc/pages/multisite-sync.php:552
+msgid "Are you sure you want to run the update for the entered blog ID(s)?"
+msgstr ""
+"Bist du dir sicher das du alle Blogs mit der angegebenen ID updaten möchtest?"
+
+#: inc/pages/multisite-sync.php:557 inc/pages/multisite-sync.php:585
+msgid "Update all network blogs"
+msgstr "Alle Netzwerk Blogs updaten"
+
+#: inc/pages/multisite-sync.php:562
+msgid "You will update the following network sites"
+msgstr "Du wirst die folgenden Netzwerk Seiten updaten"
+
+#: inc/pages/multisite-sync.php:585
+msgid "Are you sure you want to run the update for all blogs?"
+msgstr "Bist du dir sicher das du alle Blogs updaten möchtest?"
+
+#: inc/pages/php-ini-file.php:25 inc/pages/php-ini-file.php:26
+#: inc/pages/php-ini-file.php:151 inc/settings.php:96 inc/side-menu.php:137
+msgid "php.ini"
+msgstr "php.ini"
+
+#: inc/pages/php-ini-file.php:104
+msgid "php.ini file not found!"
+msgstr "php.ini Datei nicht gefunden!"
+
+#: inc/pages/php-ini-file.php:169
+msgid ""
+"To affect your custom configuration in the php.ini file, you have to save "
+"the file in the \"../wp-admin\" folder."
+msgstr ""
+"Um deine benutzerdefinierte Konfiguration in der Datei php.ini zu "
+"beeinflussen, musst du die Datei im Verzeichnis \"../wp-admin\" speichern."
+
+#: inc/pages/php-ini-file.php:173
+msgid ""
+"The PHP configuration file, php.ini, is the final and most immediate way to "
+"affect PHP's functionality. The php.ini file is read each time PHP is "
+"initialized."
+msgstr ""
+"Die PHP-Konfigurationsdatei php.ini ist die letzte und unmittelbarste "
+"Möglichkeit, die Funktionalität von PHP zu beeinflussen. Die Datei php.ini "
+"wird bei jeder Initialisierung von PHP gelesen."
+
+#: inc/pages/php-ini-file.php:175
+msgid "Learn more about the php.ini file."
+msgstr "Lerne mehr über die php.ini Datei."
+
+#: inc/pages/php-ini-file.php:188
+msgid "php.ini file was found at:"
+msgstr "php.ini Datei gefunden unter:"
+
+#: inc/pages/robots-txt-file.php:25 inc/pages/robots-txt-file.php:26
+#: inc/pages/robots-txt-file.php:151 inc/settings.php:97 inc/side-menu.php:149
+msgid "robots.txt"
+msgstr "robots.txt"
+
+#: inc/pages/robots-txt-file.php:104
+msgid "robots.txt file not found!"
+msgstr "robots.txt Datei nicht gefunden!"
+
+#: inc/pages/robots-txt-file.php:169
+msgid ""
+"To affect your custom configuration in the robots.txt file, you have to save "
+"the file in the \"root\" folder of your WordPress installation."
+msgstr ""
+"Um deine benutzerdefinierte Konfiguration in der robots.txt-Datei zu "
+"beeinflussen, musst du die Datei im \"Root\"-Verzeichnis deiner WordPress-"
+"Installation speichern."
+
+#: inc/pages/robots-txt-file.php:173
+msgid ""
+"Search Engines read a file at yourdomain.com/robots.txt to get information "
+"on what they should and shouldn’t check. Adding entries to robots.txt to "
+"help SEO is popular misconception. Google says you are welcome to use robots."
+"txt to block parts of your site but these days prefers you don’t."
+msgstr ""
+"Suchmaschinen lesen eine Datei unter yourdomain.com/robots.txt, um "
+"Informationen darüber zu erhalten, was sie überprüfen sollten und was nicht. "
+"Das Hinzufügen von Einträgen zu robots.txt, um SEO zu unterstützen, ist ein "
+"weit verbreitetes Missverständnis. Google sagt, Sie können gerne robots.txt "
+"verwenden, um Teile Ihrer Website zu blockieren, aber heutzutage bevorzugen "
+"Sie dies nicht."
+
+#: inc/pages/robots-txt-file.php:175
+msgid "Learn more about the robots.txt file in WordPress."
+msgstr "Lerne mehr über die robots.txt Datei in WordPress."
+
+#: inc/pages/robots-txt-file.php:188
+msgid "robots.txt file was found at:"
+msgstr "robots.txt Datei gefunden unter:"
+
+#: inc/pages/server-info.php:171
+#, php-format
+msgid "%s - Recommend  PHP version of 7.3. See: %s"
+msgstr "%s - Empfohlene PHP-Version von 7.3. Siehe: %s"
+
+#: inc/pages/server-info.php:171 inc/pages/server-info.php:268
+msgid "WordPress Requirements"
+msgstr "WordPress Anforderungen"
+
+#: inc/pages/server-info.php:268
+#, php-format
+msgid "%s - We recommend a minimum MySQL version of 5.6. See: %s"
+msgstr "%s - Wir empfehlen eine minimale MySQL Version of 5.6. Siehe: %s"
+
+#: inc/pages/server-info.php:411
+msgid "Days"
+msgstr "Tage"
+
+#: inc/pages/server-info.php:411
+msgid "Hours"
+msgstr "Stunden"
+
+#: inc/pages/server-info.php:411
+msgid "Minutes"
+msgstr "Minuten"
+
+#: inc/pages/server-info.php:1038 inc/pages/server-info.php:1039
+#: inc/side-menu.php:113
+msgid "Server"
+msgstr "Server"
+
+#: inc/pages/server-info.php:1104
+msgid ""
+"Interesting information about your web server. You can also use <a href="
+"\"http://linfo.sourceforge.net/\" target=\"_blank\">linfo</a> or <a href="
+"\"https://phpsysinfo.github.io/phpsysinfo/\" target=\"_blank\">phpsysinfo</"
+"a> to get more information about the web server"
+msgstr ""
+"Interessante Informationen über deinen Webserver. Du kannst auch <a href="
+"\"http://linfo.sourceforge.net/\" target=\"_blank\">linfo</a> oder <a href="
+"\"https://phpsysinfo.github.io/phpsysinfo/\" target=\"_blank\">phpsysinfo</"
+"a> nutzen um weitere Informationen über deinen Webserver zu erhalten"
+
+#: inc/pages/server-info.php:1106
+msgid ""
+"In the most cases you can modify some server settings like \"PHP Memory Limit"
+"\" or \"PHP Post Max Size\" by upload and modify a <code>php.ini</code> file "
+"in the WordPress <code>/wp-admin/</code> folder. Learn more about <a href="
+"\"https://www.wpbeginner.com/wp-tutorials/how-to-increase-the-maximum-file-"
+"upload-size-in-wordpress/\" target=\"_blank\">here</a>"
+msgstr ""
+"In den meisten Fällen kannst du einige Servereinstellungen wie \"PHP Memory "
+"Limit\" oder \"PHP Post Max Size\", durch das Hochladen und Anpassen der "
+"<code>php.ini</code> Datei in den WordPress <code>/wp-admin/</code> Ordner "
+"ändern. Erfahre mehr daüber <a href=\"https://www.wpbeginner.com/wp-"
+"tutorials/how-to-increase-the-maximum-file-upload-size-in-wordpress/\" "
+"target=\"_blank\">hier</a>"
+
+#: inc/pages/server-info.php:1117
+msgid "OS"
+msgstr "Betriebsystem"
+
+#: inc/pages/server-info.php:1118
+msgid "Bit OS"
+msgstr "Bit Betriebsystem"
+
+#: inc/pages/server-info.php:1121
+msgid "Software"
+msgstr "Software"
+
+#: inc/pages/server-info.php:1125 inc/settings.php:82
+msgid "IP Address"
+msgstr "IP Adresse"
+
+#: inc/pages/server-info.php:1129
+msgid "Web Port"
+msgstr "Web Port"
+
+#: inc/pages/server-info.php:1133
+msgid "Date / Time (WP)"
+msgstr "Datum / Uhrzeit (WP)"
+
+#: inc/pages/server-info.php:1137
+msgid "Timezone (WP)"
+msgstr "Zeitzone (WP)"
+
+#: inc/pages/server-info.php:1141
+msgid "Default Timezone is UTC"
+msgstr "Standard Zeitzone ist UTC"
+
+#: inc/pages/server-info.php:1145
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr "Standardzeitzone ist %s - sie sollte UTC sein"
+
+#: inc/pages/server-info.php:1152
+msgid "Protocol"
+msgstr "Protokoll"
+
+#: inc/pages/server-info.php:1156
+msgid "Administrator"
+msgstr "Administrator"
+
+#: inc/pages/server-info.php:1160
+msgid "CGI Version"
+msgstr "CGI Version"
+
+#: inc/pages/server-info.php:1164
+msgid "CPU Total"
+msgstr "CPU Gesamt"
+
+#: inc/pages/server-info.php:1165
+msgid "Cores"
+msgstr "Kerne"
+
+#: inc/pages/server-info.php:1168
+msgid "CPU Usage"
+msgstr "CPU Auslastung"
+
+#: inc/pages/server-info.php:1172
+msgid "CPU Load Average"
+msgstr "CPU Durchschnittliche Ladezeit"
+
+#: inc/pages/server-info.php:1176
+msgid "Disk Space"
+msgstr "Festplattenspeicher"
+
+#: inc/pages/server-info.php:1180
+msgid "Total"
+msgstr "Gesamt"
+
+#: inc/pages/server-info.php:1180
+msgid "Free"
+msgstr "Frei"
+
+#: inc/pages/server-info.php:1180
+msgid "Used"
+msgstr "Belegt"
+
+#: inc/pages/server-info.php:1187
+msgid "Disk Space Usage"
+msgstr "Festplattenspeicherbenutzung"
+
+#: inc/pages/server-info.php:1202
+msgid "Memory (RAM) Total"
+msgstr "Arbeitsspeicher (RAM) Gesamt"
+
+#: inc/pages/server-info.php:1213
+msgid "Memory (RAM) Free"
+msgstr "Arbeitsspeicher (RAM) Frei"
+
+#: inc/pages/server-info.php:1224
+msgid "Memory (RAM) Usage"
+msgstr "Arbeitsspeicher (RAM) Belegt"
+
+#: inc/pages/server-info.php:1241
+msgid "Memcached"
+msgstr "Memcached"
+
+#: inc/pages/server-info.php:1251
+msgid "Uptime"
+msgstr "Laufzeit"
+
+#: inc/pages/server-info.php:1260
+msgid "PHP Memory Limit (WP)"
+msgstr "PHP Speicher Limit (WP)"
+
+#: inc/pages/server-info.php:1264
+msgid "PHP Memory Usage"
+msgstr "PHP Speicherauslastung"
+
+#: inc/pages/server-info.php:1279
+msgid "PHP Post Max Size"
+msgstr "PHP Post Max Size"
+
+#: inc/pages/server-info.php:1283
+msgid "PHP Max Input Vars"
+msgstr "PHP Max Input Vars"
+
+#: inc/pages/server-info.php:1287
+msgid "PHP Max Execution Time"
+msgstr "PHP Max Execution Time"
+
+#: inc/pages/server-info.php:1291
+msgid "PHP Extensions"
+msgstr "PHP Erweiterungen"
+
+#: inc/pages/server-info.php:1295
+msgid "GD Library"
+msgstr "GD Bibliothek"
+
+#: inc/pages/server-info.php:1299 inc/pages/wp.php:200 inc/pages/wp.php:258
+msgid "Version"
+msgstr "Version"
+
+#: inc/pages/server-info.php:1306
+msgid "cURL Version"
+msgstr "cURL Version"
+
+#: inc/pages/server-info.php:1310
+msgid "SUHOSIN Installed"
+msgstr "SUHOSIN installiert"
+
+#: inc/pages/server-info.php:1316
+msgid "PHP Error Log File Location"
+msgstr "Fehler-Protokolldatei"
+
+#: inc/pages/server-info.php:1339
+#, php-format
+msgid ""
+"Your server does not have the %s class enabled - some gateway plugins which "
+"use SOAP may not work as expected."
+msgstr ""
+"Der Server verfügt nicht über eine lauffähige Version der %s Klasse - einige "
+"Gateway Plugins, welche SOAP nutzen, funktionieren unter Umständen nicht "
+"korrekt."
+
+#: inc/pages/server-info.php:1349
+#, php-format
+msgid ""
+"Your server does not have the %s class enabled - HTML/Multipart emails, and "
+"also some extensions, will not work without DOMDocument."
+msgstr ""
+"Der Server verfügt nicht über eine lauffähige Version der %s Klasse - HTML/"
+"Multipart E-Mails und einige Erweiterungen, funktionieren unter Umständen "
+"nicht korrekt."
+
+#: inc/pages/server-info.php:1359
+#, php-format
+msgid ""
+"Your server does not support the %s function - this is required to use the "
+"GeoIP database from MaxMind."
+msgstr ""
+"Der Server verfügt nicht über eine lauffähige %s Funktion - dies wird "
+"vorausgesetzt um die GeoIP Datenbank von MaxMind zu nutzen."
+
+#: inc/pages/server-info.php:1369
+#, php-format
+msgid ""
+"Your server does not support the %s functions - this is required for better "
+"character encoding. Some fallbacks will be used instead for it."
+msgstr ""
+"Der Server verfügt nicht über lauffähige %s Funktionen - dies wird für "
+"bessere Zeichenkodierung vorausgesetzt. Einige Fallbacks werden stattdessen "
+"dafür genutzt."
+
+#: inc/pages/setup.php:102
+msgid "Plugin Activation"
+msgstr "Plugin-Aktivierung"
+
+#: inc/pages/setup.php:115
+msgid ""
+"You will need your Envato item purchase code to activate this plugin. If you "
+"do not activate this plugin, you will not be able to access the plugin "
+"settings page."
+msgstr ""
+"Du benötigst deinen Envato-Kaufcode, um dieses Plugin zu aktivieren. Wenn du "
+"dieses Plugin nicht aktivierst, kannst du nicht auf die Plugin-"
+"Einstellungsseite zugreifen."
+
+#: inc/pages/setup.php:117
+msgid "How to find your purchase code?"
+msgstr "Wie kannst du deinen Kaufcode finden?"
+
+#: inc/pages/setup.php:130
+msgid "Enter your Purchase Code"
+msgstr "Gibt deinen Kaufcode ein"
+
+#: inc/pages/setup.php:137
+msgid "E-mail address"
+msgstr "E-Mail Adresse"
+
+#: inc/pages/setup.php:144
+msgid "License Details"
+msgstr "Lizenzdetails"
+
+#: inc/pages/setup.php:164
+msgid "Verify and install license"
+msgstr "Verifizieren und Lizenz installieren"
+
+#: inc/pages/setup.php:167
+msgid "Unlock license"
+msgstr "Lizenz freischalten"
+
+#: inc/pages/setup.php:171
+msgid "Request to unlock the plugin license for"
+msgstr "Anfrage zur Freischaltung der Plugin-Lizenz für"
+
+#: inc/pages/setup.php:171
+msgid "Please unlock my purchase code for the following domain:"
+msgstr "Bitte entsperre meinen Kaufcode für die folgende Domain:"
+
+#: inc/pages/setup.php:171
+msgid "Purchase code:"
+msgstr "Kaufcode:"
+
+#: inc/pages/setup.php:171
+msgid "contact the author"
+msgstr "kontaktiere den Autor"
+
+#: inc/pages/setup.php:172
+#, php-format
+msgid ""
+"In some cases unlocking the license is not possible. Therefore, you can "
+"reset the license key. If you can not reactivate after resetting the "
+"license, %1$s of the plugin to manually unlock the license."
+msgstr ""
+"In einigen Fällen ist das Entsperren der Lizenz nicht möglich. Daher kannst "
+"du den Lizenzschlüssel manuell zurücksetzen. Wenn du nach dem Zurücksetzen "
+"der Lizenz nicht reaktivieren kannst, %1$s des Plugins, um die Lizenz "
+"manuell zu entsperren."
+
+#: inc/pages/setup.php:175
+msgid "Reset license"
+msgstr "Lizenz zurücksetzen"
+
+#: inc/pages/setup.php:182
+msgid ""
+"You have five attempts to enter the purchase code. Otherwise, your website "
+"will be blocked to avoid too many server requests."
+msgstr ""
+"Du hast fünf Versuche, den Kaufcode einzugeben. Andernfalls wird die Website "
+"blockiert, um zu viele Serveranfragen zu vermeiden."
+
+#: inc/pages/setup.php:184
+msgid "Contact the theme author for help."
+msgstr "Wende dich an den Autor des Themes, um Hilfe zu erhalten."
+
+#: inc/pages/setup.php:190
+msgid ""
+"Why do you have to enter a purchase code? The license verification protects "
+"this premium plugin against unauthorized use without a license or multiple "
+"use with only one license purchased."
+msgstr ""
+"Warum musst Du einen Kaufcode eingeben? Die Lizenzüberprüfung schützt dieses "
+"Premium-Plugin vor unberechtigter Verwendung ohne Lizenz oder mehrfacher "
+"Verwendung mit nur einer erworbenen Lizenz."
+
+#: inc/pages/setup.php:192
+msgid "Read more about the Envato Licenses."
+msgstr "Lese mehr über die Envato-Lizenzen."
+
+#: inc/pages/setup.php:202
+msgid "You do not have a plugin license? Then you can buy one anytime."
+msgstr "Du hast keine Plugin Lizenz? Dann kannst du jederzeit eine erwerben."
+
+#: inc/pages/setup.php:204
+msgid "Get a license."
+msgstr "Erhalte eine Lizenz."
+
+#: inc/pages/setup.php:209
+#, php-format
+msgid "How would you like to update the %1$s plugin in the future?"
+msgstr "Wie möchtest du das %1$s plugin in Zukunft aktualisieren?"
+
+#: inc/pages/setup.php:213
+#, php-format
+msgid ""
+"There are two ways to update this plugin when a new version is released. In "
+"the first way, you can install updates manually after receiving an email "
+"notification from Envato about a new version. In the second and recommended "
+"way, you can update this plugin automatically by installing the %1$s."
+msgstr ""
+"Es gibt zwei Möglichkeiten, dieses Plugin zu aktualisieren, sobald eine neue "
+"Version veröffentlicht wurde. Zunächst kannst du Updates manuell "
+"installieren, nachdem du von Envato eine E-Mail-Benachrichtigung über eine "
+"neue Version erhalten hast. Als zweite und empfohlene Möglichkeit, kannst du "
+"dieses Plugin automatisch aktualisieren, indem du %1$s installierst."
+
+#: inc/pages/setup.php:218
+#, php-format
+msgid ""
+"To activate automatic updates for the %1$s plugin, follow the instructions "
+"on %2$s."
+msgstr ""
+"Um automatische Updates für das %1$s Plugin zu aktivieren, befolge die "
+"folgenden Anweisungen auf %2$s."
+
+#: inc/pages/setup.php:221
+msgid "Recommended WordPress Developer Plugins"
+msgstr "Empfohlene WordPress Entwickler Plugins"
+
+#: inc/pages/setup.php:224
+msgid ""
+"Enable debugging of database queries, PHP errors, hooks and actions, block "
+"editor blocks, enqueued scripts and stylesheets, HTTP API calls, and more."
+msgstr ""
+"Ermögliche das Debuggen von Datenbankabfragen, PHP-Fehlern, Hooks und "
+"Aktionen, Blockeditor-Blöcken, Skripten und Stylesheets in der "
+"Warteschlange, HTTP-API-Aufrufen und vielem mehr."
+
+#: inc/pages/setup.php:225
+msgid ""
+"Adds a debug menu to the admin bar that shows query, cache, and other "
+"helpful debugging information."
+msgstr ""
+"Fügt der Admin-Leiste ein Debug-Menü hinzu, das Informationen zu Abfrage, "
+"Cache und anderen hilfreichen Debugging-Funktionen enthält."
+
+#: inc/pages/setup.php:226
+msgid ""
+"Regenerate all thumbnail sizes for one or more images that have been "
+"uploaded to your media library."
+msgstr ""
+"Generiere alle Bildgrößen für ein oder mehrere Bilder neu, welche unter "
+"Medien hochgeladen wurden."
+
+#: inc/pages/setup.php:227
+msgid ""
+"This plugin allows you to quickly swap between user accounts in WordPress at "
+"the click of a button."
+msgstr ""
+"Mit diesem Plugin kannst Du per Knopfdruck schnell zwischen Benutzerkonten "
+"in WordPress wechseln."
+
+#: inc/pages/setup.php:228
+msgid "Easily add and manage 301 redirections to prevent 404 errors."
+msgstr ""
+"Füge ganz einfach 301 Umleitungen hinzu und verwalte diese, um 404-Fehler zu "
+"vermeiden."
+
+#: inc/pages/setup.php:229
+msgid "Protect your WordPress website against spam comments."
+msgstr "Schütze deine WordPress Website vor Spam-Kommentaren."
+
+#: inc/pages/setup.php:230
+msgid "Speed up your website loading time with WordPress caching."
+msgstr "Beschleunige die Ladezeit deiner Website mit WordPress-Caching."
+
+#: inc/pages/setup.php:231
+msgid ""
+"Lazy Load by WP Rocket displays images and/or iframes on a page only when "
+"they are visible to the user."
+msgstr ""
+"Lazy Load von WP Rocket lädt Bilder und / oder iframes auf einer Seite nur "
+"dann, wenn sie für den Benutzer sichtbar sind."
+
+#: inc/pages/setup.php:232
+msgid "Much faster load time for images in browsers that supports webp."
+msgstr ""
+"Deutlich schnellere Ladezeit für Bilder in Browsern, die webp unterstützen."
+
+#: inc/pages/setup.php:233
+msgid "Backup your WordPress website in regular intervals."
+msgstr "Sichere deine WordPress Website in regelmäßigen Abständen."
+
+#: inc/pages/setup.php:234
+msgid "Protect your WordPress website against brute force login attacks."
+msgstr "Schütze deine WordPress Website vor Brute-Force-Login-Angriffen."
+
+#: inc/pages/setup.php:242
+msgid "This plugin can be used in combination with this theme for free."
+msgstr ""
+"Dieses Plugin kann in Kombination mit diesem Theme kostenlos verwendet "
+"werden."
+
+#: inc/pages/setup.php:246
+msgid ""
+"This plugin can be used on other multisite instances without the need for an "
+"additional license."
+msgstr ""
+"Dieses Plugin kann auf anderen Multisite Instanzen verwendet werden, ohne "
+"dass eine zusätzliche Lizenz erforderlich ist."
+
+#: inc/pages/setup.php:248
+msgid ""
+"Entering the purchase code is required to access the settings. Please enter "
+"the purchase code on the main page of this multisite."
+msgstr ""
+"Die Eingabe des Kaufcodes ist erforderlich, um auf die Einstellungen "
+"zugreifen zu können. Bitte gib den Kaufcode im Hauptblog dieser Multisite "
+"ein."
+
+#: inc/pages/setup.php:266
+msgid "Get to know my WordPress themes."
+msgstr "Lerne meine WordPress-Themes kennen."
+
+#: inc/pages/setup.php:278
+msgid "Hey, I'm Martin, the plugin author from CreativeDive."
+msgstr "Hey, ich bin Martin, der Plugin-Autor von CreativeDive."
+
+#: inc/pages/setup.php:281
+msgid ""
+"This plugin already includes more than 1000 hours of work to redesign a "
+"impressive WordPress backend for users like you. Great new features are "
+"planned for the future."
+msgstr ""
+"Dieses Plugin beinhaltet bereits mehr als 1000 Stunden Arbeit, um ein "
+"beeindruckendes WordPress-Backend für Benutzer wie dich neu zu gestalten. "
+"Für die Zukunft sind großartige neue Funktionen geplant."
+
+#: inc/pages/setup.php:285
+msgid ""
+"Help me to develop a powerful plugin that will benefit you for a long time."
+msgstr ""
+"Hilf mir, ein leistungsstarkes Plugin zu entwickeln, von dem du lange Zeit "
+"profitieren wirst."
+
+#: inc/pages/setup.php:289
+msgid "Please show your appreciation and rate the plugin."
+msgstr "Bitte zeige deine Wertschätzung und bewerte das Plugin."
+
+#: inc/pages/setup.php:301
+msgid "Thank you and best regards, Martin."
+msgstr "Vielen Dank und beste Grüße, Martin."
+
+#: inc/pages/setup.php:305
+msgid "Rate now!"
+msgstr "Jetzt bewerten!"
+
+#: inc/pages/transient-manager.php:368
+msgid "Does not expire"
+msgstr "Läuft nicht ab"
+
+#: inc/pages/transient-manager.php:372
+msgid "Expired"
+msgstr "Abgelaufen"
+
+#: inc/pages/transient-manager.php:830
+msgid "Edit Transient"
+msgstr "Transient bearbeiten"
+
+#: inc/pages/transient-manager.php:839 inc/pages/transient-manager.php:936
+#: inc/pages/wp.php:196 inc/pages/wp.php:257
+msgid "Name"
+msgstr "Name"
+
+#: inc/pages/transient-manager.php:847 inc/pages/transient-manager.php:938
+msgid "Expires In"
+msgstr "Läuft ab in "
+
+#: inc/pages/transient-manager.php:871
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: inc/pages/transient-manager.php:881
+msgid "All Transients"
+msgstr "Alle Transients"
+
+#: inc/pages/transient-manager.php:887
+msgid "Expired Transients"
+msgstr "Abgelaufene Transients"
+
+#: inc/pages/transient-manager.php:900
+msgid "Search"
+msgstr "Suchen"
+
+#: inc/pages/transient-manager.php:903
+msgid "Search Transients"
+msgstr "Transients suchen"
+
+#: inc/pages/transient-manager.php:914
+msgid "Delete Expired Transients"
+msgstr "Abgelaufene Transients löschen"
+
+#: inc/pages/transient-manager.php:922
+msgid "Delete Transients with an Expiration"
+msgstr "Lösche Transients mit Ablaufzeitraum"
+
+#: inc/pages/transient-manager.php:929
+msgid "Transient"
+msgstr "Transient"
+
+#: inc/pages/transient-manager.php:971
+msgid "Delete"
+msgstr "Löschen"
+
+#: inc/pages/transient-manager.php:989
+msgid "No transients found"
+msgstr "Keine Transients gefunden"
+
+#: inc/pages/transient-manager.php:1004
+msgid "Delete All Transients"
+msgstr "Lösche alle Transients"
+
+#: inc/pages/transient-manager.php:1010
+#, php-format
+msgid "%d Transient"
+msgid_plural "%d Transients"
+msgstr[0] "%d Transient"
+msgstr[1] "%d Transients"
+
+#: inc/pages/wp.php:91
+msgid ""
+"First, you can see the most important information about your WordPress "
+"installation at a glance. Learn more about the <a href=\"https://wordpress."
+"org/about/requirements/\" target=\"_blank\">requirements</a>"
+msgstr ""
+"Zunächst, kannst du hier die wichtigsten Informationen über deine WordPress "
+"Installation im Überblick sehen. Lerne mehr über die <a href=\"https://"
+"wordpress.org/about/requirements/\" target=\"_blank\">Anforderungen</a>"
+
+#: inc/pages/wp.php:119 inc/pages/wp.php:135
+#, php-format
+msgid ""
+"%s - For better performance, we recommend setting memory to at least 64MB. "
+"See: %s"
+msgstr ""
+"%s - Für bessere Performance, empfehlen wir die Speichereinstellung nicht "
+"geringer als 64MB zu setzen. Siehe: %s"
+
+#: inc/pages/wp.php:119 inc/pages/wp.php:135
+msgid "Increasing memory allocated to PHP"
+msgstr "Erhöhung des Speichers für PHP"
+
+#: inc/pages/wp.php:168
+msgid "WP Home URL"
+msgstr "WP Home URL"
+
+#: inc/pages/wp.php:176
+msgid "Document Root"
+msgstr "Document Root"
+
+#: inc/pages/wp.php:182
+msgid "Current Theme"
+msgstr "Aktuelles Theme"
+
+#: inc/pages/wp.php:206
+msgid "Author URL"
+msgstr "Autor URL"
+
+#: inc/pages/wp.php:210
+msgid "Image Sizes"
+msgstr "Bildgrößen"
+
+#: inc/pages/wp.php:214
+msgid "WooCommerce Compatibility"
+msgstr "WooCommerce Kompatibilität"
+
+#: inc/pages/wp.php:224
+msgid "Child Theme"
+msgstr "Child Theme"
+
+#: inc/pages/wp.php:226
+#, php-format
+msgid ""
+"If you're want to modifying a theme, it safe to create a child theme.  See: "
+"<a href=\"%s\" target=\"_blank\">How to create a child theme</a>"
+msgstr ""
+"Wenn du ein Theme anpassen möchtest, ist es sicherer eine Untertheme zu "
+"erstellen. Siehe: <a href=\"%s\" target=\"_blank\">Wie man ein Untertheme "
+"erstellt</a>"
+
+#: inc/pages/wp.php:232
+msgid "Parent Theme Name"
+msgstr "Haupttheme Name"
+
+#: inc/pages/wp.php:236
+msgid "Parent Theme Version"
+msgstr "Haupttheme Version"
+
+#: inc/pages/wp.php:240
+#, php-format
+msgid "%s is available"
+msgstr "%s ist verfügbar"
+
+#: inc/pages/wp.php:245
+msgid "Parent Theme Author URL"
+msgstr "Haupttheme Autor URL"
+
+#: inc/pages/wp.php:252
+msgid "Active Plugins"
+msgstr "Aktive Plugins"
+
+#: inc/pages/wp.php:259
+msgid "Author"
+msgstr "Autor"
+
+#: inc/pages/wp.php:283
+msgid "Visit plugin homepage"
+msgstr "Plugin Homepage besuchen"
+
+#: inc/pages/wp.php:306
+#, php-format
+msgctxt "Version info"
+msgid "%s is available"
+msgstr "%s ist verfügbar"
+
+#: inc/pages/wp.php:310
+msgid "Network enabled"
+msgstr "Netzwerk aktiviert"
+
+#: inc/pages/wp.php:316
+#, php-format
+msgctxt "by author"
+msgid "%s"
+msgstr "%s"
+
+#: inc/settings.php:28
+msgid "Design"
+msgstr "Design"
+
+#: inc/settings.php:29
+msgid "Menu"
+msgstr "Menü"
+
+#: inc/settings.php:30 inc/settings.php:62
+msgid "Toolbar"
+msgstr "Toolbar"
+
+#: inc/settings.php:31
+msgid "View"
+msgstr "Ansicht"
+
+#: inc/settings.php:32
+msgid "Login Page"
+msgstr "Login Seite"
+
+#: inc/settings.php:33
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: inc/settings.php:34
+msgid "Media"
+msgstr "Medien"
+
+#: inc/settings.php:36
+msgid "Multisite"
+msgstr "Multisite"
+
+#: inc/settings.php:37
+msgid "Optimization & Security"
+msgstr "Optimierung & Sicherheit"
+
+#: inc/settings.php:38
+msgid "Meta Boxes"
+msgstr "Meta Boxen"
+
+#: inc/settings.php:39
+msgid "Dashboard Widgets"
+msgstr "Dashboard Widgets"
+
+#: inc/settings.php:40
+msgid "Widgets"
+msgstr "Widgets"
+
+#: inc/settings.php:41
+msgid "Frontend"
+msgstr "Frontend"
+
+#: inc/settings.php:46
+msgid "User Box"
+msgstr "Benutzer Box"
+
+#: inc/settings.php:47
+msgid "Logo Box"
+msgstr "Logo Box"
+
+#: inc/settings.php:48
+msgid "Company Box Logo"
+msgstr "Unternehmens Box Logo"
+
+#: inc/settings.php:49
+msgid "Company Box Logo Size"
+msgstr "Unternehmens Box Logo Größe"
+
+#: inc/settings.php:50
+msgid "Thumbnails"
+msgstr "Miniaturbilder"
+
+#: inc/settings.php:51
+msgid "Post/Page IDs"
+msgstr "Beiträge/Seiten IDs"
+
+#: inc/settings.php:52
+msgid "Contextual Help"
+msgstr "Kontexthilfe"
+
+#: inc/settings.php:53
+msgid "Screen Options"
+msgstr "Anzeigeoptionen"
+
+#: inc/settings.php:54
+msgid "Menu Width"
+msgstr "Menü Breite"
+
+#: inc/settings.php:55
+msgid "Accordion Menu"
+msgstr "Accordion Menü"
+
+#: inc/settings.php:56
+msgid "Boxed Layout"
+msgstr "Eingerahmtes Layout"
+
+#: inc/settings.php:57
+msgid "Spacing Max Width"
+msgstr "Maximale Breite"
+
+#: inc/settings.php:58
+msgid "Credits"
+msgstr "Danksagung"
+
+#: inc/settings.php:59
+msgid "Credits Text"
+msgstr "Text der Danksagung"
+
+#: inc/settings.php:60
+msgid "Google Font"
+msgstr "Google Font"
+
+#: inc/settings.php:61
+msgid "Custom Web Font Weight"
+msgstr "Benutzerdefinierte Web Schrift-Stärke"
+
+#: inc/settings.php:63
+msgid "Toolbar Comments Menu"
+msgstr "Toolbar Kommentar-Menü"
+
+#: inc/settings.php:64
+msgid "Toolbar New Content Menu"
+msgstr "Toolbar Neuer Inhalt Menü"
+
+#: inc/settings.php:65
+msgid "Toolbar Customize Link"
+msgstr "Toolbar Anpassen Link"
+
+#: inc/settings.php:66
+msgid "Toolbar Search"
+msgstr "Toolbar Suche"
+
+#: inc/settings.php:67
+msgid "Toolbar WP Icon"
+msgstr "Toolbar WP Icon"
+
+#: inc/settings.php:68
+msgid "Custom Toolbar Icon"
+msgstr "Benutzerdefiniertes Toolbar Icon"
+
+#: inc/settings.php:69
+msgid "Toolbar Color"
+msgstr "Toolbar Farbe"
+
+#: inc/settings.php:70
+msgid "Theme Color"
+msgstr "Theme Farben"
+
+#: inc/settings.php:71
+msgid "Background Gradient Start Color"
+msgstr "Hintergrundverlauf Startfarbe"
+
+#: inc/settings.php:72
+msgid "Background Gradient End Color"
+msgstr "Hintergrundverlauf Endfarbe"
+
+#: inc/settings.php:73
+msgid "Customized Login Page"
+msgstr "Benutzerdefinierte Login Seite"
+
+#: inc/settings.php:74
+msgid "Login Title"
+msgstr "Login Titel"
+
+#: inc/settings.php:75
+msgid "Login Logo"
+msgstr "Login Logo"
+
+#: inc/settings.php:76
+msgid "Login Logo Size"
+msgstr "Login Logo Größe"
+
+#: inc/settings.php:77
+msgid "Login Background Image"
+msgstr "Login Hintergrundbild"
+
+#: inc/settings.php:84
+msgid "Admin CSS"
+msgstr "Admin CSS"
+
+#: inc/settings.php:85
+msgid "Login CSS"
+msgstr "Login CSS"
+
+#: inc/settings.php:86
+msgid "SVG Support"
+msgstr "SVG Unterstützung"
+
+#: inc/settings.php:87
+msgid "ICO Support"
+msgstr "ICO Unterstützung"
+
+#: inc/settings.php:88 inc/settings.php:89 inc/settings.php:90
+#: inc/settings.php:91 inc/settings.php:92 inc/settings.php:93
+#: inc/settings.php:94 inc/settings.php:95 inc/settings.php:96
+#: inc/settings.php:97
+msgid "Page"
+msgstr "Seite"
+
+#: inc/settings.php:92
+msgid "Im- / Export"
+msgstr "Im- / Export"
+
+#: inc/settings.php:98
+msgid "Network Theme Options"
+msgstr "Netzwerk Theme Optionen"
+
+#: inc/settings.php:99
+msgid "Network Plugin Access"
+msgstr "Netzwerk Plugin Zugang"
+
+#: inc/settings.php:100
+msgid "WP Version Meta-Tag"
+msgstr "WP Version Meta-Tag"
+
+#: inc/settings.php:101
+msgid "WP Emoji"
+msgstr "WP Emoji"
+
+#: inc/settings.php:102
+msgid "WP RSS Feed"
+msgstr "WP RSS Feed"
+
+#: inc/settings.php:103
+msgid "WP RSD"
+msgstr "WP RSD"
+
+#: inc/settings.php:104
+msgid "WP Wlwmanifest"
+msgstr "WP Wlwmanifest"
+
+#: inc/settings.php:105
+msgid "WP Shortlink"
+msgstr "WP Shortlink"
+
+#: inc/settings.php:106
+msgid "WP REST API"
+msgstr "WP REST API"
+
+#: inc/settings.php:107
+msgid "WP oEmbed"
+msgstr "WP oEmbed"
+
+#: inc/settings.php:108
+msgid "WP XML-RPC / X-Pingback"
+msgstr "WP XML-RPC / X-Pingback"
+
+#: inc/settings.php:109
+msgid "WP Heartbeat"
+msgstr "WP Heartbeat"
+
+#: inc/settings.php:110
+msgid "WP Rel Links"
+msgstr "WP Rel Links"
+
+#: inc/settings.php:111
+msgid "WP Self Pingbacks"
+msgstr "WP Self Pingbacks"
+
+#: inc/settings.php:112
+msgid "Custom Fields Meta Box"
+msgstr "Benutzerdefinierte Felder Meta Box"
+
+#: inc/settings.php:113
+msgid "Comments Status Meta Box"
+msgstr "Kommentarstatus Meta Box"
+
+#: inc/settings.php:114
+msgid "Comments Meta Box"
+msgstr "Kommentare Meta Box"
+
+#: inc/settings.php:115
+msgid "Author Meta Box"
+msgstr "Autor Meta Box"
+
+#: inc/settings.php:116
+msgid "Categories Meta Box"
+msgstr "Kategorien Meta Box"
+
+#: inc/settings.php:117
+msgid "Post Format Meta Box"
+msgstr "Post Format Meta Box"
+
+#: inc/settings.php:118
+msgid "Page Parent Meta Box"
+msgstr "Seiteneltern Meta Box"
+
+#: inc/settings.php:119
+msgid "Post Excerpt Meta Box"
+msgstr "Beitragsauszug Meta Box"
+
+#: inc/settings.php:120
+msgid "Post Image Meta Box"
+msgstr "Beitragsbild Meta Box"
+
+#: inc/settings.php:121
+msgid "Revisions Meta Box"
+msgstr "Revisions Meta Box"
+
+#: inc/settings.php:122
+msgid "Slug Meta Box"
+msgstr "Slug Meta Box"
+
+#: inc/settings.php:123
+msgid "Tags Meta Box"
+msgstr "Tags Meta Box"
+
+#: inc/settings.php:124
+msgid "Trackbacks Meta Box"
+msgstr "Trackbacks Meta Box"
+
+#: inc/settings.php:125
+msgid "Qick Draft Widget"
+msgstr "Schnell-Entwurf Widget"
+
+#: inc/settings.php:126
+msgid "At the Glance Widget"
+msgstr "Im Überblick Widget"
+
+#: inc/settings.php:127
+msgid "Activity Widget"
+msgstr "Aktivitäten Widget"
+
+#: inc/settings.php:128
+msgid "WP Events & News Widget"
+msgstr "WP Veranstaltungen & News Widget"
+
+#: inc/settings.php:129
+msgid "Welcome Widget"
+msgstr "Willkommen Widget"
+
+#: inc/settings.php:130
+msgid "WPAT User Activities Widget"
+msgstr "WPAT Benutzer Aktivitäten Widget"
+
+#: inc/settings.php:131
+msgid "WPAT System Info Widget"
+msgstr "WPAT System Info Widget"
+
+#: inc/settings.php:132
+msgid "WPAT Post Count Widget"
+msgstr "WPAT Beitragsanzahl Widget"
+
+#: inc/settings.php:133
+msgid "WPAT Page Count Widget"
+msgstr "WPAT Seitenanzahl Widget"
+
+#: inc/settings.php:134
+msgid "WPAT Comment Count Widget"
+msgstr "WPAT Kommentaranzahl Widget"
+
+#: inc/settings.php:135
+msgid "WPAT Recent Posts Widget"
+msgstr "WPAT Neuste Beiträge Widget"
+
+#: inc/settings.php:136
+msgid "WPAT Recent Pages Widget"
+msgstr "WPAT Neuste Seiten Widget"
+
+#: inc/settings.php:137
+msgid "WPAT Recent Comments Widget"
+msgstr "WPAT Neuste Kommentare Widget"
+
+#: inc/settings.php:138
+msgid "WPAT Memory Usage Widget"
+msgstr "WPAT Speicherauslastung Widget"
+
+#: inc/settings.php:139
+msgid "Pages Widget"
+msgstr "Pages Widget"
+
+#: inc/settings.php:140
+msgid "Calendar Widget"
+msgstr "Calendar Widget"
+
+#: inc/settings.php:141
+msgid "Archives Widget"
+msgstr "Archives Widget"
+
+#: inc/settings.php:142
+msgid "Meta Widget"
+msgstr "Meta Widget"
+
+#: inc/settings.php:143
+msgid "Search Widget"
+msgstr "Search Widget"
+
+#: inc/settings.php:144
+msgid "Text Widget"
+msgstr "Text Widget"
+
+#: inc/settings.php:145
+msgid "Categories Widget"
+msgstr "Categories Widget"
+
+#: inc/settings.php:146
+msgid "Recent Posts Widget"
+msgstr "Recent Posts Widget"
+
+#: inc/settings.php:147
+msgid "Recent Comments Widget"
+msgstr "Recent Comments Widget"
+
+#: inc/settings.php:148
+msgid "RSS Widget"
+msgstr "RSS Widget"
+
+#: inc/settings.php:149
+msgid "Tag Cloud Widget"
+msgstr "Tag Cloud Widget"
+
+#: inc/settings.php:150
+msgid "Navigation Menu Widget"
+msgstr "Navigation Menu Widget"
+
+#: inc/settings.php:151
+msgid "Image Widget"
+msgstr "Image Widget"
+
+#: inc/settings.php:152
+msgid "Audio Widget"
+msgstr "Audio Widget"
+
+#: inc/settings.php:153
+msgid "Video Widget"
+msgstr "Video Widget"
+
+#: inc/settings.php:154
+msgid "Gallery Widget"
+msgstr "Gallery Widget"
+
+#: inc/settings.php:155
+msgid "Custom HTML Widget"
+msgstr "Custom HTML Widget"
+
+#: inc/settings.php:156
+msgid "Header Code"
+msgstr "Header Code"
+
+#: inc/settings.php:157
+msgid "Footer Code"
+msgstr "Footer Code"
+
+#: inc/settings.php:158
+msgid "Meta Referrer Policy"
+msgstr "Meta Referrer Policy"
+
+#: inc/settings.php:218
+msgid "Remove the WordPress Version Meta-Tag from wp head."
+msgstr "Entferne das WordPress Version Meta-Tag vom wp head."
+
+#: inc/settings.php:219
+msgid ""
+"Show the version number of your currently installed WordPress in the source "
+"code."
+msgstr ""
+"Zeigt die Versionsnummer vom aktuell installierten WordPress im Quellcode an."
+
+#: inc/settings.php:223
+msgid "Remove the WordPress Emoticons from your source code."
+msgstr "Entferne die WordPress Emoticons vom Quellcode."
+
+#: inc/settings.php:224
+msgid "Display a textual portrayals like \";-)\" as a emoticon icon."
+msgstr "Zeigt Textzeichen wie \";-)\" als ein Emoticon Icon an."
+
+#: inc/settings.php:228
+msgid ""
+"Disable the RSS feed functionality and remove the WordPress page and "
+"comments RSS feed links from wp head."
+msgstr ""
+"Deaktiviere die RSS-Feed-Funktionalität und entferne die WordPress-Seiten "
+"und Kommentar RSS-Feed Links von wp head."
+
+#: inc/settings.php:229
+msgid ""
+"RSS (Really Simple Syndication) is a type of web feed which allows users to "
+"access updates to online content in a standardized, computer-readable format."
+msgstr ""
+"RSS (Really Simple Syndication) ist eine Art von Web-Feed, welcher es "
+"Benutzern ermöglicht auf aktualisierte Online-Inhalte in einem "
+"standardisierten, computerlesbaren Format zuzugreifen."
+
+#: inc/settings.php:233
+msgid "Remove the RSD link from wp head."
+msgstr "Entferne den RSD Link vom wp head."
+
+#: inc/settings.php:234
+msgid ""
+"Really Simple Discovery (RSD) is an XML format and a publishing convention "
+"for making services exposed by a blog, or other web software, discoverable "
+"by client software."
+msgstr ""
+"Really Simple Discovery (RSD) ist ein XML Format, welches für die "
+"Bereitstellung von Diensten, die von einem Blog oder einer anderen Web-"
+"Software benötigt werden."
+
+#: inc/settings.php:238
+msgid "Remove the Wlwmanifest link from wp head."
+msgstr "Entferne den Wlwmanifest Link vom wp head."
+
+#: inc/settings.php:239
+msgid "Needed to enable tagging support for Windows Live Writer."
+msgstr ""
+"Erforderlich, um Tagging-Unterstützung für Windows Live Writer zu aktivieren."
+
+#: inc/settings.php:243
+msgid "Remove the shortlink link from wp head."
+msgstr "Entferne den Shortlink Link vom wp head."
+
+#: inc/settings.php:244
+msgid "Shortlink is a shorten version of a web page’s URL."
+msgstr "Ein Shortlink ist eine kurze Version einer Webseiten-URL."
+
+#: inc/settings.php:248
+msgid "Disable the REST API and remove the wp json link from wp head."
+msgstr "Deaktiviere die REST API und entferne den wp json Link vom wp head."
+
+#: inc/settings.php:249
+msgid ""
+"The API makes it super easy to retrieve data using GET requests, which is "
+"useful for those building apps with WordPress."
+msgstr ""
+"Die API macht es super einfach, Daten mit GET-Anfragen abzurufen, was für "
+"die Erstellung von Anwendungen, die mit WordPress arbeiten, nützlich ist."
+
+#: inc/settings.php:253
+msgid "Disable wp embed and remove the oEmbed links from wp head."
+msgstr "Deaktiviere wp Embed und entferne die oEmbed Links vom wp head."
+
+#: inc/settings.php:254
+msgid ""
+"oEmbed feature which allows others to embed your WordPress posts into their "
+"own site by adding the post URL."
+msgstr ""
+"Die oEmbed-Funktion ermöglicht es anderen, fremde WordPress-Beiträge in ihre "
+"eigene Website einzubetten, indem sie die Post-URL hinzufügen."
+
+#: inc/settings.php:258
+msgid "Disable remote access."
+msgstr "Deaktiviere Remote-Zugriff."
+
+#: inc/settings.php:259
+msgid ""
+"XML-RPC is a remote procedure call which uses XML to encode its calls and "
+"HTTP as a transport mechanism. If you want to access and publish to your "
+"blog remotely, then you need XML-RPC enabled. XML-RPC protocol is used by "
+"WordPress as API for Pingbacks and third-party applications, such as mobile "
+"apps, inter-blog communication and popular plugins like JetPack."
+msgstr ""
+"XML-RPC ist ein Remoteprozeduraufruf, der XML verwendet, um seine Anrufe und "
+"HTTP als Transportmechanismus zu kodieren. Wenn du auf deinem Blog remote "
+"zugreifen und sie veröffentlichen möchtest, muss XML-RPC aktiviert sein. XML-"
+"RPC-Protokoll wird von WordPress als API für Pingbacks und "
+"Drittanbieteranwendungen wie mobile Apps, Inter-Blog-Kommunikation und "
+"beliebte Plugins wie JetPack verwendet."
+
+#: inc/settings.php:263
+msgid "Stop the heartbeat updates."
+msgstr "Stoppe Heartbeat Updates."
+
+#: inc/settings.php:264
+msgid ""
+"The Heartbeat API is a simple server polling API built in to WordPress, "
+"allowing near-real-time frontend updates. The heartbeat API allows for "
+"regular communication between the users browser and the server. One of the "
+"original motivations was to allow for locking posts and warning users when "
+"more than one user is attempting to edit a post, or warning the user when "
+"their log-in has expired."
+msgstr ""
+"Die Heartbeat-API ist eine einfache Server-Polling-API, die in WordPress "
+"integriert ist und so Echtzeit-Frontend-Updates ermöglicht. Die Heartbeat-"
+"API ermöglicht eine regelmäßige Kommunikation zwischen dem Browser und dem "
+"Server. Einer der ursprünglichen Motivationen war, Warnmeldungen zuzulassen, "
+"wenn mehr als ein Benutzer versucht, einen Beitrag zu bearbeiten oder den "
+"Benutzer zu warnen, wenn seine Anmeldung abgelaufen ist."
+
+#: inc/settings.php:268
+msgid ""
+"Remove the post rel index / start / parent / prev / next links from wp head."
+msgstr ""
+"Entferne die Beitrags rel index / start / parent / prev / next links vom wp "
+"head."
+
+#: inc/settings.php:269
+msgid ""
+"This feature display the URL of the index, start, parent, previous and next "
+"post in the source code."
+msgstr ""
+"Diese Funktion zeigt die URL des Index-, Start-, Eltern-, vorherigen und "
+"nächsten Beitrags im Quellcode an."
+
+#: inc/settings.php:273
+msgid "Disable WordPress self pingbacks / trackbacks."
+msgstr "Deaktiviere WordPress self pingbacks / trackbacks."
+
+#: inc/settings.php:274
+msgid ""
+"This will allow you to disable self-pingbacks (messages and comments), which "
+"are linking back to your own blog."
+msgstr ""
+"Das erlaubt dir self-pingbacks (Nachrichten and Kommentare) zu deaktivieren, "
+"wenn sie zurück zu deiner eigenen Seite verlinken."
+
+#: inc/settings.php:282
+msgid "Remove the Custom Fields Box for posts and pages."
+msgstr "Entferne die benutzerdefinierte Felder Box für Beiträge und Seiten."
+
+#: inc/settings.php:287
+msgid "Remove the Discussion Box for posts and pages."
+msgstr "Entferne die Diskussions Box für Beiträge und Seiten."
+
+#: inc/settings.php:292
+msgid "Remove the Comments Box for posts and pages."
+msgstr "Entferne die Kommentare Box für Beiträge und Seiten."
+
+#: inc/settings.php:297
+msgid "Remove the Author Box for posts and pages."
+msgstr "Entferne die Autor Box für Beiträge und Seiten."
+
+#: inc/settings.php:302
+msgid "Remove the Category Box for posts."
+msgstr "Entferne die Kategorie Box für Beiträge."
+
+#: inc/settings.php:307
+msgid "Remove the Post Format Box for posts."
+msgstr "Entferne die Post Format Box für Beiträge."
+
+#: inc/settings.php:312
+msgid "Remove the Page Attributes Box for pages."
+msgstr "Entferne die Seiten Attribute Box für Seiten."
+
+#: inc/settings.php:317
+msgid "Remove the Excerpt Box for posts."
+msgstr "Entferne die Auszug Box für Beiträge."
+
+#: inc/settings.php:322
+msgid "Remove the Featured Image Box for posts and pages."
+msgstr "Entferne die Bild Box für Beiträge und Seiten."
+
+#: inc/settings.php:327
+msgid "Remove the Revisions Box for posts and pages."
+msgstr "Entferne die Revisionen Box für Beiträge und Seiten."
+
+#: inc/settings.php:332
+msgid "Remove the Slug Box for posts and pages."
+msgstr "Entferne die Slug Box für Beiträge und Seiten."
+
+#: inc/settings.php:333
+msgid ""
+"Caution: Disabling the slug box does not allow you to customize the post or "
+"page URL."
+msgstr ""
+"Achtung: Wenn du die Slug-Box deaktivierst, kannst du die Beitrags- oder "
+"Seiten-URL nicht mehr anpassen."
+
+#: inc/settings.php:337
+msgid "Remove the Tags Box for posts."
+msgstr "Entferne die Schlagwörter Box für Beiträge."
+
+#: inc/settings.php:342
+msgid "Remove the Send Trackbacks Box for posts and pages."
+msgstr "Entferne die Trackbacks Box für Beiträge und Seiten."
+
+#: inc/settings.php:351
+msgid "Add custom code to the frontend header."
+msgstr "Füge dem Frontend-Header benutzerdefinierten Code hinzu."
+
+#: inc/settings.php:352
+msgid "Will be inserted into the wp_head hook."
+msgstr "Wird in den wp_head Hook eingefügt."
+
+#: inc/settings.php:356
+msgid "Add custom code to the frontend footer."
+msgstr "Füge dem Frontend-Footer benutzerdefinierten Code hinzu."
+
+#: inc/settings.php:357
+msgid "Will be inserted into the wp_footer hook."
+msgstr "Wird in den wp_footer Hook eingefügt."
+
+#: inc/settings.php:361
+msgid "Add the meta referrer tag and select your value."
+msgstr "Füge das Metatag Referrer hinzu und wähle einen Wert."
+
+#: inc/settings.php:362
+msgid ""
+"If you use SSL for your website, analytics tools like Google Analytics can "
+"not see the referrer by default. For example, if you select \"Origin\", your "
+"referrer will be visible again."
+msgstr ""
+"Wenn du SSL für deine Website verwendest, können Analysetools wie Google "
+"Analytics den Verweis standardmäßig nicht sehen. Wenn du beispielsweise "
+"\"Origin\" auswählst, wird dein Referrer wieder angezeigt."
+
+#: inc/settings.php:402
+msgid "Welcome Back."
+msgstr "Willkommen zurück."
+
+#. Plugin Name of the plugin/theme
+#: inc/settings.php:631 inc/settings.php:632
+msgid "wphave - Admin"
+msgstr "wphave - Admin"
+
+#: inc/settings.php:744 inc/settings.php:834
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: inc/settings.php:747
+msgid "You have no permissions to change this options!"
+msgstr "Du hast keine Berechtigungen um diese Optionen zu ändern!"
+
+#: inc/settings.php:757 inc/settings.php:760 inc/settings.php:804
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: inc/settings.php:813
+msgid "Are you sure to restore all options?"
+msgstr "Bist du sicher, dass da alle Optionen wiederherstellen möchtest?"
+
+#: inc/settings.php:888
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: inc/settings.php:1206
+msgid "Invalid Color for"
+msgstr "Ungültiger Farbcode für"
+
+#: inc/settings.php:1206 inc/settings.php:1230
+msgid "with the value"
+msgstr "mit dem Wert"
+
+#: inc/settings.php:1206
+msgid "The old value has been restored."
+msgstr "Der alte Wert wurde wiederhergestellt."
+
+#: inc/settings.php:1230
+msgid "has been updated."
+msgstr "wurde aktualisiert."
+
+#: inc/settings.php:1240
+msgid "All fields has been restored."
+msgstr "Alle Felder wurden wiederhergestellt."
+
+#: inc/settings.php:1249
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: inc/settings.php:1392
+msgid "Select a custom theme color."
+msgstr "Wähle eine benutzerdefinierte Designfarbe."
+
+#: inc/settings.php:1413
+msgid "Start Color"
+msgstr "Startfarbe"
+
+#: inc/settings.php:1419
+msgid "End Color"
+msgstr "Endfarbe"
+
+#: inc/settings.php:1423
+msgid "Select a custom background gradient color."
+msgstr "Wähle eine individuelle Hintergrundverlaufsfarbe."
+
+#: inc/settings.php:1451 inc/settings.php:1539 inc/settings.php:1730
+#: inc/settings.php:2431 inc/settings.php:2459
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: inc/settings.php:1456 inc/settings.php:1707 inc/settings.php:1796
+msgid ""
+"This option may affect the design of some WordPress plugins. If you use "
+"plugins with fixed positioned containers, this option is not recommended."
+msgstr ""
+"Diese Option kann sich auf das Design einiger WordPress-Plugins auswirken. "
+"Wenn du Plugins mit fest positionierten Containern verwendest, wird diese "
+"Option nicht empfohlen."
+
+#: inc/settings.php:1466
+msgid "Max Width"
+msgstr "Maximale Breite"
+
+#: inc/settings.php:1500 inc/settings.php:1597 inc/settings.php:1625
+#: inc/settings.php:1653 inc/settings.php:1681 inc/settings.php:1791
+#: inc/settings.php:1823 inc/settings.php:1859 inc/settings.php:1895
+#: inc/settings.php:1931 inc/settings.php:1967 inc/settings.php:2179
+#: inc/settings.php:2231 inc/settings.php:2259 inc/settings.php:2287
+#: inc/settings.php:2315 inc/settings.php:2343 inc/settings.php:2371
+msgid "Hide"
+msgstr "Verstecken"
+
+#: inc/settings.php:1505
+msgid "Show the currently logged in username and avatar above the menu items."
+msgstr ""
+"Den aktuell angemeldeten Benutzernamen und Avatar über den Menüpunkten "
+"anzeigen."
+
+#: inc/settings.php:1544
+msgid "Show a logo box instead of the user box."
+msgstr "Anstelle der Benutzer Box eine Logo Box anzeigen."
+
+#: inc/settings.php:1548
+msgid "The user box must be enabled."
+msgstr "Die Benutzer Box muss aktiviert sein."
+
+#: inc/settings.php:1554
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/settings.php:1558 inc/settings.php:1999 inc/settings.php:2104
+#: inc/settings.php:2147
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#: inc/settings.php:1561 inc/settings.php:2107
+msgid "Logo Size"
+msgstr "Logo Größe"
+
+#: inc/settings.php:1602
+msgid ""
+"Display a thumbnail column before the title for post and page table lists"
+msgstr ""
+"Zeige eine Miniaturbild-Spalte für Beitrag und Seiten Tabellen Listen an"
+
+#: inc/settings.php:1630
+msgid "Display a IDs column for post and page table lists"
+msgstr "Zeige eine ID-Spalte für Beitrag und Seiten Tabellen Listen an"
+
+#: inc/settings.php:1658
+msgid "Hide the contextual help at the top right side"
+msgstr "Verstecke die Kontexthilfe auf der oberen rechten Seite."
+
+#: inc/settings.php:1686
+msgid "Hide the screen options at the top right side"
+msgstr "Verstecke die Ansichtsoptionen auf der oberen rechten Seite."
+
+#: inc/settings.php:1735
+msgid "Use an accordion menu instead of the default menu."
+msgstr "Verwende anstelle des Standardmenüs ein Akkordeonmenü."
+
+#: inc/settings.php:1753
+msgid "Font-Family"
+msgstr "Font-Family"
+
+#: inc/settings.php:1762
+msgid "Font-Weight"
+msgstr "Font-Weight"
+
+#: inc/settings.php:1768
+#, php-format
+msgid ""
+"Please separate %1$s in Font-Name and Font-Weight like this example: [Font-"
+"Family = \"Roboto\"] and [Font-Weight = \"400,400i,700\"]."
+msgstr ""
+"Bitte trenne %1$s in Schriftname und Schriftbreite wie in diesem Beispiel: "
+"[Schriftfamilie = \"Roboto\"] und [Schriftbreite = \"400,400i, 700\"]."
+
+#: inc/settings.php:1828
+msgid "Remove the WordPress Comments Menu from the upper toolbar"
+msgstr "Entferne das WordPress Kommentar-Menü von der oberen Toolbar"
+
+#: inc/settings.php:1864
+msgid "Remove the WordPress New Content Menu from the upper toolbar"
+msgstr "Entferne das WordPress Neuer Inhalt-Menü von der oberen Toolbar"
+
+#: inc/settings.php:1900
+msgid "Remove the WordPress Customize Link from the upper frontend toolbar"
+msgstr "Entferne den WordPress Anpassen Link von der oberen Frontend Toolbar"
+
+#: inc/settings.php:1936
+msgid "Remove the WordPress Search from the upper frontend toolbar"
+msgstr "Entferne die WordPress Suche von der oberen Frontend Toolbar"
+
+#: inc/settings.php:1972
+msgid "Remove the WordPress Menu and Icon from the upper toolbar"
+msgstr "Entferne das WordPress Menu und Icon von der oberen Toolbar"
+
+#: inc/settings.php:2004
+msgid "Upload a custom icon instead of the WordPress icon"
+msgstr "Lade ein benutzerdefiniertes Icon anstelle des WordPress Icons hoch"
+
+#: inc/settings.php:2008
+msgid "Recommended image size is 26 x 26px."
+msgstr "Empfohlene Bildgröße is 26 x 26px."
+
+#: inc/settings.php:2055 inc/settings.php:2497 inc/settings.php:2536
+#: inc/settings.php:2576 inc/settings.php:2613 inc/settings.php:2648
+#: inc/settings.php:2692 inc/settings.php:2727 inc/settings.php:2787
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: inc/settings.php:2060
+msgid ""
+"It is useful if you have an other login plugin installed. This is preventing "
+"conflicts with other plugins"
+msgstr ""
+"Es ist nützlich wenn du ein anderes Login Plugin installiert hast. Dies "
+"verhindert Konflikte mit anderen Plugins."
+
+#: inc/settings.php:2120
+msgid "Upload an image for your WordPress login page"
+msgstr "Lade ein Bild für deine WordPress Login Seite hoch"
+
+#: inc/settings.php:2152
+msgid "Upload a background image for your WordPress login page"
+msgstr "Lade ein Hintergrundbild für deine WordPress Login Seite hoch"
+
+#: inc/settings.php:2184
+msgid "Remove the credits note from the footer"
+msgstr "Entferne die Credits-Erwähnung vom Footer"
+
+#: inc/settings.php:2208
+msgid "Enter a custom credits text."
+msgstr "Gib einen benutzerdefinierten Text für die Danksagung ein."
+
+#: inc/settings.php:2236
+msgid "Display the currently memory usage of your WordPress installation"
+msgstr "Zeige den aktuellen Speicherverbrauch deiner WordPress Installation an"
+
+#: inc/settings.php:2264
+msgid "Display the memory limit of your WordPress installation"
+msgstr "Zeige das Speicher-Limit deiner WordPress Installation an"
+
+#: inc/settings.php:2292
+msgid "Display the available server memory for your WordPress installation"
+msgstr ""
+"Zeige den verfügbaren Serverspeicher für deine WordPress Installation an"
+
+#: inc/settings.php:2320
+msgid "Display the PHP version of your server"
+msgstr "Zeige die PHP Version des Servers an"
+
+#: inc/settings.php:2348
+msgid "Display the IP address of your server"
+msgstr "Zeige die IP Adresse des Servers an"
+
+#: inc/settings.php:2376
+msgid "Display the installed WordPress version"
+msgstr "Display the installed WordPress version"
+
+#: inc/settings.php:2392
+msgid ""
+"Add custom CSS for the Wordpress admin theme. To overwrite some classes, use "
+"\"!important\". Like this example \"border-right: 3px!important\""
+msgstr ""
+"Füge benutzerdefiniertes CSS für das WordPress Admin Theme hinzu. Um einige "
+"Klassen zu überschreiben, benutze \"!important\". Wie dieses Beispiel "
+"\"border-right: 3px!important\" zeigt"
+
+#: inc/settings.php:2408
+msgid ""
+"Add custom CSS for the Wordpress login page. To overwrite some classes, use "
+"\"!important\". Like this example \"border-right: 3px!important\""
+msgstr ""
+"Füge benutzerdefiniertes CSS für die WordPress Login Seite hinzu. Um einige "
+"Klassen zu überschreiben, benutze \"!important\". Wie dieses Beispiel "
+"\"border-right: 3px!important\" zeigt"
+
+#: inc/settings.php:2436
+msgid "Allow the upload of SVG files"
+msgstr "Erlaube den Upload von SVG Dateien"
+
+#: inc/settings.php:2464
+msgid "Allow the upload of ICO files"
+msgstr "Erlaube den Upload von ICO Dateien"
+
+#: inc/settings.php:2486 inc/settings.php:2607 inc/settings.php:2642
+#: inc/settings.php:2682 inc/settings.php:2721 inc/settings.php:2781
+msgid "Removed"
+msgstr "Entfernt"
+
+#: inc/settings.php:2505 inc/settings.php:2546 inc/settings.php:2586
+msgid "Activate multisite support for WordPress to use this option"
+msgstr ""
+"Aktiviere die Multisite Unterstützung für WordPress, um diese Option zu "
+"nutzen."
+
+#: inc/settings.php:2541
+msgid ""
+"Disable the permissions to change WP Admin Theme options for all other "
+"network sites"
+msgstr ""
+"Deaktiviere die Berechtigungen, um WP Admin Theme-Optionen für alle anderen "
+"Netzwerk-Sites zu ändern"
+
+#: inc/settings.php:2581
+msgid "Disable the full access to this plugin for all other network sites."
+msgstr ""
+"Deaktiviere den vollständigen Zugriff auf dieses Plugin für alle anderen "
+"Netzwerkseiten."
+
+#: inc/settings.php:2700
+msgid ""
+"System info dashboad widget can not be activated, if the plugin system info "
+"page is deactivated"
+msgstr ""
+"System Info Dashboad Widget kann nicht aktiviert werden, wenn die Plugin "
+"System Info Seite deaktiviert ist"
+
+#: inc/side-menu.php:48
+msgid "Debug &amp; Settings"
+msgstr "Debug &amp; Einstellungen"
+
+#: inc/side-menu.php:89 inc/side-menu.php:113
+msgid "Information"
+msgstr "Information"
+
+#: inc/side-menu.php:125 inc/side-menu.php:137 inc/side-menu.php:149
+msgid "File"
+msgstr "Datei"
+
+#: inc/wp.php:266
+msgid "No feed available, please visit our"
+msgstr "Kein Feed verfügbar, bitte besuche unsere"
+
+#: inc/wp.php:266
+msgid "homepage"
+msgstr "Homepage"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wphave.com"
+msgstr "https://wphave.com"
+
+#. Description of the plugin/theme
+msgid "The WordPress admin theme."
+msgstr "Das WordPress Admin Theme."
+
+#. Author of the plugin/theme
+msgid "Martin Jost"
+msgstr "Martin Jost"

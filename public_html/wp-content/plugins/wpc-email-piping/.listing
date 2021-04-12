@@ -1,0 +1,10 @@
+drwxr-xr-x    5 1499       u1035-camd       4096 Jul 15 09:50 .
+drwxr-xr-x   48 1499       u1035-camd       4096 Jul 20 09:03 ..
+-rw-r--r--    1 1499       u1035-camd       5074 Jul 15 09:50 class-wpsc-ep-function.php
+-rw-r--r--    1 1499       u1035-camd       3228 Jul 15 09:50 class-wpsc-ep-install.php
+-rw-r--r--    1 1499       u1035-camd         75 Jul 15 09:50 composer.json
+-rw-r--r--    1 1499       u1035-camd       2183 Jul 15 09:50 composer.lock
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul 15 09:50 includes
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:50 lang
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul 15 09:50 vendor
+-rw-r--r--    1 1499       u1035-camd       7426 Jul 15 09:50 wpsc-email-piping.php

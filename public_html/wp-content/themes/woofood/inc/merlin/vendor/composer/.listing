@@ -1,0 +1,10 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jun  1 13:49 .
+drwxr-xr-x    6 1499       u1035-camd       4096 Jun  1 13:49 ..
+-rw-r--r--    1 1499       u1035-camd      13420 Jun  1 13:49 ClassLoader.php
+-rw-r--r--    1 1499       u1035-camd       1070 Jun  1 13:49 LICENSE
+-rw-r--r--    1 1499       u1035-camd        147 Jun  1 13:49 autoload_classmap.php
+-rw-r--r--    1 1499       u1035-camd        149 Jun  1 13:49 autoload_namespaces.php
+-rw-r--r--    1 1499       u1035-camd        384 Jun  1 13:49 autoload_psr4.php
+-rw-r--r--    1 1499       u1035-camd       1762 Jun  1 13:49 autoload_real.php
+-rw-r--r--    1 1499       u1035-camd       1230 Jun  1 13:49 autoload_static.php
+-rw-r--r--    1 1499       u1035-camd       6288 Jun  1 13:49 installed.json

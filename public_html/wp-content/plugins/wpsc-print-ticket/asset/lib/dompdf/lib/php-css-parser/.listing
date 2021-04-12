@@ -1,0 +1,11 @@
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul 15 09:48 .
+drwxr-xr-x    8 1499       u1035-camd       4096 Jul 15 09:48 ..
+-rw-r--r--    1 1499       u1035-camd        137 Jul 15 09:48 .travis.yml
+-rw-r--r--    1 1499       u1035-camd       6677 Jul 15 09:48 CHANGELOG.md
+-rw-r--r--    1 1499       u1035-camd     100906 Jul 15 09:48 Doxyfile
+-rw-r--r--    1 1499       u1035-camd      21554 Jul 15 09:48 README.md
+-rw-r--r--    1 1499       u1035-camd        514 Jul 15 09:48 composer.json
+-rw-r--r--    1 1499       u1035-camd      46135 Jul 15 09:48 composer.lock
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul 15 09:48 lib
+-rw-r--r--    1 1499       u1035-camd        335 Jul 15 09:48 phpunit.xml
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul 15 09:48 tests

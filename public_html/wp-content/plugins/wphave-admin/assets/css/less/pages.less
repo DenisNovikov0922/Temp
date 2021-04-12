@@ -1,0 +1,635 @@
+/**************************************************************************/
+/**************************************************************************/
+/* TAXONOMIES - ADMIN PAGES */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat #edittag {
+    max-width: 1200px;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* HEALTH CHECK - ADMIN PAGE */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat .health-check-accordion {
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.08);	
+}
+
+.wpat .health-check-accordion,
+.wpat .health-check-accordion-heading {
+	border-color: #dde1ea;
+}
+
+.wpat.site-health table.widefat {
+	border: 0;
+	box-shadow: none;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* MEDIA - ADMIN PAGE */
+/**************************************************************************/
+/**************************************************************************/
+
+.attachments-browser .media-toolbar, 
+.manage-menus,
+.wp-filter {
+	background: none;
+	box-shadow: none;
+	border: none;
+	padding: 0px;
+}
+
+.media-frame.mode-grid .attachments-browser .attachments {
+    margin: 0px -10px;
+}
+
+.wp-core-ui .attachment {
+	padding: 10px
+}
+
+.wp-core-ui .attachment-preview {
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+	background: #fff;
+	transition: all 0.5s;
+}
+
+.wp-core-ui .attachment-preview:hover {
+	transform: rotate(1deg) scale(1.05);
+	transition: all 0.5s;
+	box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.26);
+}
+
+.wp-core-ui .attachment .thumbnail:after {
+	border: 6px solid #fff;
+	box-shadow: none;
+}
+
+.media-frame-menu {
+	z-index: 999;
+}
+
+.media-menu {
+	box-shadow: 10px 0px 20px rgba(0,0,0,0.05);
+}
+
+.media-menu, 
+.media-modal-content, 
+.media-sidebar {
+	background-color: #f8f9fb!important;
+	border-color: #dde1ea!important;
+}
+
+.media-frame, 
+.media-frame .attachments-browser, 
+.media-frame-content, 
+.attachments-browser .attachments {
+	overflow: visible!important
+}
+
+.media-modal .media-frame {
+	overflow: hidden!important
+}
+
+.media-modal .media-frame .attachments-browser, 
+.media-modal .media-frame-content, 
+.media-modal .attachments-browser .attachments {
+	overflow: auto!important
+}
+
+.media-modal .media-frame-toolbar .media-toolbar {
+	padding-right: 15px
+}
+
+.media-modal .media-frame .attachments-browser .media-toolbar {
+	padding: 0px 20px;
+	border-bottom: 1px solid #dde1ea!important;
+}
+
+.media-modal .media-frame .attachments-browser .attachments {
+	padding: 20px
+}
+
+.media-modal .media-frame .media-frame-title h1 {
+	padding: 0px 20px
+}
+
+
+.media-modal .media-frame .media-router {
+	padding: 0px 20px
+}
+
+.media-modal .media-frame .media-router .active, 
+.media-router > a.active:last-child {
+	border-color: #dde1ea!important;
+}
+
+.media-modal .media-frame .media-frame-content {
+	border-color: #dde1ea!important;
+}
+
+.media-modal .media-selection .attachment-preview .thumbnail:after {
+	border: 0px
+}
+
+.media-modal .media-selection .attachment {
+	padding: 0px!important
+}
+
+.media-modal .media-frame .media-frame-toolbar {
+	bottom: 57px
+}
+
+.wp-core-ui .attachment.details .check, 
+.wp-core-ui .attachment.selected .check:focus, 
+.wp-core-ui .media-frame.mode-grid .attachment.selected .check {
+	background-color: @wpatThemeColor!important
+}
+
+.wp-core-ui .attachment.details {
+    box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 7px @wpatThemeColor!important;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* THEMES - ADMIN PAGE */
+/**************************************************************************/
+/**************************************************************************/
+
+@media (min-width: 960px) {
+	
+	.wpat .theme-browser .theme .theme-name {
+		height: 24px;
+		padding: 12px;
+		line-height: 1.6;
+	}
+	
+}
+
+.wpat .theme-browser .theme.active {
+	border-color: @wpatThemeColor;
+}
+
+.wpat .theme-browser .theme.active .theme-name {
+	background-color: @wpatThemeColor;
+	box-shadow: none;
+}
+
+.wpat .theme-browser .theme.active .theme-actions {
+	background: rgba(49,49,49,0.2);
+	box-shadow: none;
+}
+
+.wpat .theme-browser .theme h2 {
+	color: #23282d;
+}
+
+.wpat .theme-browser .theme.active h2 {
+	color: #fff;
+}
+
+.wpat .theme:not(.active) {
+	opacity: 0.5;
+}
+
+.wpat .theme:not(.active):hover {
+	opacity: 1;
+}
+
+.wpat .theme-browser .theme.add-new-theme a:hover:after, 
+.wpat .theme-browser .theme.add-new-theme a:focus:after {
+	background-color: @wpatThemeColor;
+}
+
+.wpat .theme-browser .theme.add-new-theme a:hover span:after, 
+.wpat .theme-browser .theme.add-new-theme a:focus span:after {
+    color: @wpatThemeColor;
+}
+
+.wpat .theme-overlay .theme-backdrop {
+	background: rgba( 0, 0, 0, 0.6 );
+}
+
+@media (min-width: 960px) {
+
+	.wpat .theme-overlay .theme-backdrop {
+		position: fixed;
+		left: @wpatMenuLeftWidth;
+	}
+	
+	.wpat .theme-overlay .theme-wrap {
+		left: calc(@wpatMenuLeftWidthDiff + 70);
+	}
+
+}
+
+.wpat .theme-overlay .theme-actions {
+	background: #f8f9fb;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WIDGETS - ADMIN PAGE */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat div#widgets-right .sidebars-column-1, 
+.wpat div#widgets-right .sidebars-column-2 {
+    max-width: 100%;
+}
+
+.wpat div#widgets-right .widgets-holder-wrap:not(.closed) .widgets-sortables {
+	padding-bottom: 5px;
+}
+
+@media (min-width: 1250px) {
+	
+	.wpat div#widgets-right .widgets-holder-wrap .widgets-sortables {
+		padding: 15px;
+	}
+
+	.wpat #widgets-left .widgets-sortables {
+		padding: 0px;
+	}
+
+	.wpat #widgets-right .sidebar-name h2, 
+	.wpat #widgets-right .sidebar-name h3 {
+		padding: 5px 0px;
+	}
+
+	.wpat #widgets-right .sidebar-description,
+	.wpat #widgets-left .sidebar-description {
+		margin: 10px 0px 20px 0px;
+	}
+
+	.wpat #widgets-right .widgets-holder-wrap .description {
+		padding: 0px;
+	}
+
+	.wpat #widgets-right .widgets-sortables h2 {
+		margin: 0px;
+	}
+
+	.wpat #widgets-right .widgets-sortables .sidebar-name .handlediv {
+		margin: 0px;
+		padding: 0px;
+		width: 30px;
+		height: 30px;
+	}
+
+	.wpat #widgets-right .widgets-sortables .sidebar-name .sidebar-name-arrow:before {
+		padding: 4px;
+	}
+
+	.wpat #widgets-left #available-widgets .widget {
+		width: 48%;
+	}
+
+}
+
+.wpat #widgets-left .widget .widget-top,
+.wpat #widgets-right .widget .widget-top {
+    background: #f8f9fb;
+    border: 1px solid #dde1ea;
+}
+
+.wpat .widget.widget-in-question .widget-top {
+    border: 1px solid #dde1ea;
+}
+
+.wpat #widgets-right .widget.open .widget-top,
+.wpat #widgets-left #available-widgets .widget:hover .widget-top {
+	background-color: @wpatThemeColor;
+    border: 1px solid @wpatThemeColor;
+	color: #fff;
+}
+
+.wpat #widgets-right .widget.open .widget-top h3,
+.wpat #widgets-left #available-widgets .widget:hover .widget-top h3 {
+	color: #fff;
+}
+
+.wpat #widgets-right .widget.open .widget-top h3 span {
+	color: rgba(255,255,255,0.6);
+}
+
+@media (min-width: 1250px) {
+
+	.wpat #widgets-left #available-widgets .widget:not(.widget-in-question) {
+		margin-bottom: 20px;
+	}
+
+	.wpat #widgets-left #available-widgets .widget:not(.widget-in-question) .widget-description {
+		display: none;
+		position: absolute;
+		top: 90%;
+		right: 20px;
+		left: 20px;
+		z-index: 2;
+		background: #fff;
+		border-radius: 3px;
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.08);
+	}
+
+	.wpat #widgets-left #available-widgets .widget:not(.widget-in-question) .widget-description:before {
+		content: '';
+		position: absolute;
+		bottom: 100%;
+		left: 50%;
+		margin-left: -4px;
+		border: solid 8px transparent;
+		border-bottom-color: #fff;
+	}
+
+	.wpat #widgets-left #available-widgets .widget:not(.widget-in-question):hover .widget-description {
+		display: block;
+	}
+	
+}
+
+.wpat #widgets-right .widgets-holder-wrap.closed {
+	background: rgba(255,255,255,0.6);
+}
+
+.wpat #widgets-right .widgets-holder-wrap .widgets-sortables h2 {
+	color: #23282d;
+}
+
+.wpat #widgets-right .widgets-holder-wrap.closed:hover .widgets-sortables h2 {
+	color: @wpatThemeColor;
+}
+
+.wpat #widgets-right .widget:not(.open) .widget-top:hover {
+	background: #fff;
+    border: 1px solid @wpatThemeColor;
+}
+
+.wpat #widgets-right .widget:not(.open) .widget-top:hover h3 {
+	color: @wpatThemeColor;
+}
+
+.wpat #widgets-left.chooser #available-widgets .widget-in-question {
+	padding: 10px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.08);
+	margin-bottom: 20px;
+}
+
+.wpat #widgets-left .widgets-chooser ul,
+.wpat #widgets-left .widgets-chooser li {
+	border-color: #dde1ea;
+	box-shadow: none;
+    font-size: 12px;
+}
+
+.wpat #widgets-left .widgets-chooser li.widgets-chooser-selected {
+	background-color: @wpatThemeColor;
+}
+
+.wpat #widgets-left .widgets-chooser-actions button {
+	height: 28px!;
+	padding: 0px 10px;
+	font-size: 13px;
+}
+
+.wpat #widgets-right .widget.open .toggle-indicator {
+    color: #fff;
+}
+
+.wpat #widgets-left .inactive-sidebar .widget .widget-top {
+	background: #fdfaf1;
+	border: 1px solid #e8d49e;
+}
+
+.wpat .remove-inactive-widgets {
+	margin-top: 40px
+}
+
+.wpat.widgets_access .widget-control-edit {
+    background: #edeff5;
+    border-left: 1px solid #dde1ea;
+}
+
+.wpat.widgets_access #widgets-left .widget-control-edit:hover,
+.wpat.widgets_access #widgets-right .widget-control-edit:hover {
+    background: lighten(@wpatThemeColor, 8%);
+	color: #fff;
+    outline: 1px solid @wpatThemeColor;
+}
+
+.wpat .editwidget .widget-inside {
+    padding: 15px;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* MENUS - ADMIN PAGE */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat #menu-management {
+	background: none;
+}
+
+.wpat #menu-management .menu-edit {
+	border: 6px solid #fff;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.08);
+}
+
+.wpat #menu-management #nav-menu-header {
+    border-bottom: 1px solid #dde1ea;
+	background: #f8f9fb;
+}
+
+.wpat #menu-management #nav-menu-footer {
+    border-top: 1px solid #dde1ea;
+	background: #f8f9fb;
+}
+
+@media (min-width: 960px) {
+	
+	.wpat #menu-management #nav-menu-header,
+	.wpat #menu-management #nav-menu-footer {
+		padding: 0px 15px;
+	}
+	
+	.wpat.nav-menus-php .delete-action {
+		line-height: 2.5;
+	}
+	
+}
+
+.wpat #menu-management #post-body {
+	padding: 15px;
+    border-bottom: 0;
+}
+
+.wpat #menu-management #post-body h3 {
+	color: @wpatThemeColor;
+}
+
+.wpat #menu-management #post-body h3:first-of-type {
+	margin-top: 0px;
+}
+
+.wpat #menu-management .menu li.menu-item-edit-active .menu-item-handle {
+	background-color: @wpatThemeColor;
+	border-color: @wpatThemeColor;
+	color: #fff;
+	box-shadow: none;
+}
+
+.wpat #menu-management .menu li .menu-item-handle .item-type,
+.wpat #menu-management .menu li .menu-item-handle .is-submenu {
+	color: rgba(0,0,0,0.4)!important;
+}
+
+.wpat #menu-management .menu li.menu-item-edit-active .menu-item-handle .item-type,
+.wpat #menu-management .menu li.menu-item-edit-active .menu-item-handle .is-submenu {
+	color: rgba(255,255,255,0.6)!important;
+}
+
+.wpat #menu-management .menu-item-edit-active .menu-item-settings {
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.08);
+}
+
+.wpat #menu-management .metabox-holder h3:hover {
+	background: #f8f9fb;
+}
+
+.wpat #menu-management .menu-item-bar .menu-item-handle:hover {
+	background: #fff;
+	border: 1px solid @wpatThemeColor;
+	color: @wpatThemeColor;
+}
+
+.wpat #menu-management .menu-item-edit-active .item-edit:hover {
+	color: #fff;
+}
+
+.wpat #menu-management .menu-settings {
+    border-top: 1px solid #e9eaec;
+    margin-top: 15px;
+	padding-top: 15px;
+}
+
+.wpat #menu-settings-column .accordion-section .accordion-section-title {
+	background: #fff;
+}
+
+.wpat #menu-settings-column .accordion-section:hover .accordion-section-title {
+	background: #f8f9fb;
+	color: @wpatThemeColor;
+}
+
+.wpat #menu-settings-column .accordion-section.open .accordion-section-title {
+	background: @wpatThemeColor;
+	border-bottom: 1px solid @wpatThemeColor;
+	color: #fff;
+}
+
+@media (min-width: 960px) {
+	
+	.wpat #menu-settings-column .accordion-section .accordion-section-content .inside {
+		margin: 0px;
+	}
+	
+}
+
+.wpat #menu-management .item-edit:hover {
+	color: @wpatThemeColor;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* PLUGINS - ADMIN PAGE  */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat .wp-list-table.plugins .column-description.desc,
+.wpat .wp-list-table.plugins .column-description.desc p {
+	color: #737373;	
+}
+
+.wpat .wp-list-table.plugins .column-description.desc a {
+	color: #4e5d79;	
+}
+
+.wpat .wp-list-table.plugins tr.inactive:hover {
+	background: #fdfdfd;
+}
+
+.wpat .wp-list-table.plugins tr.active .plugin-title strong {
+	color: @wpatThemeColor;
+}
+
+.wpat .plugins .active th.check-column, 
+.wpat .plugin-update-tr.active td {
+	border-left-color: @wpatThemeColor;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* MULTISITE */
+/**************************************************************************/
+/**************************************************************************/
+
+#myblogs .form-table {
+	margin: 0px!important
+}
+
+.my-sites li {
+	margin: 0px 20px 20px 0px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.08);
+	border: 1px solid #dde1ea!important;
+	border-radius: 3px;
+	background: #fff!important
+}
+
+.my-sites.striped li:after {
+	background: none!important
+}
+
+.network-admin .nav-tab-wrapper {
+	margin-bottom: 30px!important
+}
+
+#network_dashboard_right_now form input {
+	width: 100%;
+	margin: 0px 0px 10px 0px!important
+}
+
+#network_dashboard_right_now .youhave {
+	margin-top: 0px!important
+}
+
+#network_dashboard_right_now p .button {
+    vertical-align: middle!important;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* DASHBOARD - ADMIN PAGE */
+/**************************************************************************/
+/**************************************************************************/
+
+@media (min-width: 960px) {
+
+	.wpat #dashboard_quick_press.postbox .inside,
+	.wpat #woocommerce_network_orders.postbox .inside {
+		padding-bottom: 1px;
+	}
+
+	.wpat #dashboard_activity .activity-block {
+		margin: 0px -15px;
+	}
+
+	.wpat #dashboard_activity .subsubsub {
+		margin: 0px -12px;
+	}
+	
+}

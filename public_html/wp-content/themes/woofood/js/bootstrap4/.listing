@@ -1,0 +1,10 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jun  1 13:49 .
+drwxr-xr-x   10 1499       u1035-camd       4096 Jun  1 13:49 ..
+-rw-r--r--    1 1499       u1035-camd     212345 Jun  1 13:49 bootstrap.bundle.js
+-rw-r--r--    1 1499       u1035-camd     358832 Jun  1 13:49 bootstrap.bundle.js.map
+-rw-r--r--    1 1499       u1035-camd      70966 Jun  1 13:49 bootstrap.bundle.min.js
+-rw-r--r--    1 1499       u1035-camd     294126 Jun  1 13:49 bootstrap.bundle.min.js.map
+-rw-r--r--    1 1499       u1035-camd     123765 Jun  1 13:49 bootstrap.js
+-rw-r--r--    1 1499       u1035-camd     211967 Jun  1 13:49 bootstrap.js.map
+-rw-r--r--    1 1499       u1035-camd      51039 Jun  1 13:49 bootstrap.min.js
+-rw-r--r--    1 1499       u1035-camd     176087 Jun  1 13:49 bootstrap.min.js.map

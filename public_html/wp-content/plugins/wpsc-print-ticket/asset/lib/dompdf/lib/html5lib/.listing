@@ -1,0 +1,8 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:48 .
+drwxr-xr-x    8 1499       u1035-camd       4096 Jul 15 09:48 ..
+-rw-r--r--    1 1499       u1035-camd       4484 Jul 15 09:48 Data.php
+-rw-r--r--    1 1499       u1035-camd      10519 Jul 15 09:48 InputStream.php
+-rw-r--r--    1 1499       u1035-camd       1204 Jul 15 09:48 Parser.php
+-rw-r--r--    1 1499       u1035-camd     115767 Jul 15 09:48 Tokenizer.php
+-rw-r--r--    1 1499       u1035-camd     196356 Jul 15 09:48 TreeBuilder.php
+-rw-r--r--    1 1499       u1035-camd     182163 Jul 15 09:48 named-character-references.ser

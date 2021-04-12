@@ -1,0 +1,174 @@
+/**************************************************************************/
+/**************************************************************************/
+/* WPHAVE ADMIN -> CUSTOM ADMIN CSS BY USER */
+/**************************************************************************/
+/**************************************************************************/
+
+.woocommerce-layout__header .woocommerce-layout__header-breadcrumbs {
+    display: none !important;
+}
+
+.woocommerce-layout__activity-panel-tabs .woocommerce-layout__activity-panel-tab {
+    background-color: transparent !important;
+    color: #2d32aa;
+}
+
+.woocommerce-layout__header {
+    background: transparent !important;
+    border-bottom: 0px !important;
+}
+
+.woocommerce-layout__header.is-scrolled {
+    background: #FFFFFF !important;
+}
+
+@media screen and (max-width: 782px){
+.wpat.woocommerce-page #wpcontent {
+    padding-left: 0px !important;
+}
+}
+
+#customize-theme-controls .control-panel-themes .accordion-section-title .change-theme {
+   display: none !important;
+}
+
+li#accordion-section-woofood_header_style {
+    display: none !important;
+}
+
+li#accordion-panel-udb_login_customizer_panel  {
+    display: none !important;
+}
+
+li#accordion-section-woofood_login_register_modal  {
+    display: none !important;
+}
+
+li#accordion-section-header_image   {
+    display: none !important;
+}
+
+li#accordion-panel-widgets   {
+    display: none !important;
+}
+
+li#accordion-section-static_front_page    {
+    display: none !important;
+}
+
+li#accordion-panel-woocommerce    {
+    display: none !important;
+}
+
+li#udb-admin-logo-wrapper    {
+    display: none !important;
+}
+
+#qr-logo  {
+    display: none !important;
+}
+
+#qr-campaindiv  {
+    display: none !important;
+}
+ 
+a#shortcode  {
+    display: none !important;
+}
+
+label[for=min-version]
+{
+    display: none !important;
+}
+
+input[name=min-version] {
+    display: none !important;
+}
+
+.updated .success .fs-notice .fs-sticky .fs-has-title .fs-slug-qyrr .fs-type-plugin {
+    display: none !important;
+}
+
+.post-type-product .woocommerce-BlankState .woocommerce-BlankState-buttons, .post-type-shop_order .woocommerce-BlankState .woocommerce-BlankState-buttons {
+    display: none;
+}
+
+.woocommerce-layout__activity-panel-tabs .woocommerce-layout__activity-panel-tab:nth-child(1) {
+    display: none;
+}
+
+.woocommerce-layout__activity-panel-tabs .woocommerce-layout__activity-panel-tab:nth-child(4) {
+    display: none;
+}
+
+.woocommerce-BlankState-cta:nth-child(3) {
+    display: none !important;
+}
+
+li#add-post-type-post  {
+    display: none !important;
+}
+
+li#add-category  {
+    display: none !important;
+}
+
+li#woocommerce_endpoints_nav_link  {
+    display: none !important;
+}
+
+@media (max-width: 782px){
+.woocommerce-layout__header {
+    display: none !important;
+}
+}
+
+tr.bacs {
+  display: none;
+}
+
+tr.cheque {
+  display: none;
+}
+
+tr.paypal  {
+  display: none !important;
+}
+
+tr.xpay .wc-payment-gateway-method-toggle-enabled {
+   display: none !important;
+  }
+
+tr.xpay .button {
+   display: none;
+  }
+
+#customize-theme-controls .control-panel-themes {
+    border-bottom: none;
+    display: none !important;
+}
+
+.woocommerce-layout__activity-panel-tabs .woocommerce-layout__activity-panel-tab {
+    display: none !important;
+}
+
+.woocommerce-embed-page .woocommerce-layout__header {
+    display: none !important;
+}
+
+
+.woocommerce-marketing-coupons .woocommerce-card {
+    display: none !important;
+}
+
+[data-gateway_id="xpay"] .status a {
+display: none !important;
+}
+
+[data-gateway_id="xpay"] .action {
+display: none !important;
+}
+
+[data-gateway_id="xpay"] .wc-payment-gateway-method-title {
+pointer-events: none !important;
+}

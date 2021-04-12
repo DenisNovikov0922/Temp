@@ -1,0 +1,16 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 13:17 .
+drwxr-xr-x    6 1499       u1035-camd       4096 Jul 15 13:17 ..
+-rw-r--r--    1 1499       u1035-camd       7658 Jul 15 13:17 about.php
+-rw-r--r--    1 1499       u1035-camd       4602 Jul 15 13:17 admin-notices.php
+-rw-r--r--    1 1499       u1035-camd       8282 Jul 15 13:17 footer.php
+-rw-r--r--    1 1499       u1035-camd       4832 Jul 15 13:17 header.php
+-rw-r--r--    1 1499       u1035-camd       2480 Jul 15 13:17 install.php
+-rw-r--r--    1 1499       u1035-camd       3436 Jul 15 13:17 menu.php
+-rw-r--r--    1 1499       u1035-camd       7307 Jul 15 13:17 settings.php
+-rw-r--r--    1 1499       u1035-camd       7106 Jul 15 13:17 snippet-add.php
+-rw-r--r--    1 1499       u1035-camd       1176 Jul 15 13:17 snippet-delete.php
+-rw-r--r--    1 1499       u1035-camd       7943 Jul 15 13:17 snippet-edit.php
+-rw-r--r--    1 1499       u1035-camd       1241 Jul 15 13:17 snippet-status.php
+-rw-r--r--    1 1499       u1035-camd      11046 Jul 15 13:17 snippets.php
+-rw-r--r--    1 1499       u1035-camd       3073 Jul 15 13:17 suggest_feature.php
+-rw-r--r--    1 1499       u1035-camd        988 Jul 15 13:17 uninstall.php

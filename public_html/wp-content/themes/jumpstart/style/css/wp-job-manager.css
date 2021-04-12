@@ -1,0 +1,14 @@
+/* WP Job Manager */
+.job_filters {
+	margin-bottom: 30px;
+}
+#job-manager-job-dashboard table ul.job-dashboard-actions {
+	visibility: visible;
+}
+#job-manager-job-dashboard table ul.job-dashboard-actions li {
+	display: inline-block;
+}
+#job-manager-job-dashboard .job_title > a {
+	color: #333;
+	font-size: 1.25rem;
+}

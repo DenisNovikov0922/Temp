@@ -1,0 +1,9 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul  2 09:10 ..
+-rw-r--r--    1 1499       u1035-camd       6910 Jul  2 09:10 MessageInterface.php
+-rw-r--r--    1 1499       u1035-camd       4814 Jul  2 09:10 RequestInterface.php
+-rw-r--r--    1 1499       u1035-camd       2591 Jul  2 09:10 ResponseInterface.php
+-rw-r--r--    1 1499       u1035-camd      10098 Jul  2 09:10 ServerRequestInterface.php
+-rw-r--r--    1 1499       u1035-camd       4746 Jul  2 09:10 StreamInterface.php
+-rw-r--r--    1 1499       u1035-camd       4689 Jul  2 09:10 UploadedFileInterface.php
+-rw-r--r--    1 1499       u1035-camd      12607 Jul  2 09:10 UriInterface.php

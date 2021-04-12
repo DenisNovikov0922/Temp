@@ -1,0 +1,15 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:50 .
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul 15 09:50 ..
+-rw-r--r--    1 1499       u1035-camd       3023 Jul 15 09:50 addon_license_area.php
+-rw-r--r--    1 1499       u1035-camd        807 Jul 15 09:50 after_create_ticket.php
+-rw-r--r--    1 1499       u1035-camd        867 Jul 15 09:50 assign_first_responder.php
+-rw-r--r--    1 1499       u1035-camd        629 Jul 15 09:50 conditional_agent_assign_setting_pill.php
+-rw-r--r--    1 1499       u1035-camd        469 Jul 15 09:50 delete_agent_condition.php
+-rw-r--r--    1 1499       u1035-camd       3519 Jul 15 09:50 get_add_new_agent_rule.php
+-rw-r--r--    1 1499       u1035-camd       9218 Jul 15 09:50 get_caa_settings.php
+-rw-r--r--    1 1499       u1035-camd       4181 Jul 15 09:50 get_edit_condition.php
+-rw-r--r--    1 1499       u1035-camd       1210 Jul 15 09:50 license_activate.php
+-rw-r--r--    1 1499       u1035-camd        908 Jul 15 09:50 license_deactivate.php
+-rw-r--r--    1 1499       u1035-camd       1593 Jul 15 09:50 set_add_new_agent_rule.php
+-rw-r--r--    1 1499       u1035-camd       1060 Jul 15 09:50 set_edit_condition.php
+-rw-r--r--    1 1499       u1035-camd        547 Jul 15 09:50 set_other_settings.php

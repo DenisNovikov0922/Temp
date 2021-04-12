@@ -1,0 +1,381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooFood for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-08 16:38+0000\n"
+"PO-Revision-Date: 2017-07-08 16:41+0000\n"
+"Last-Translator: dcccx cxcxcxcxcxcx <xliner78@hotmail.com>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: woofood-connection.php:274
+msgctxt "taxonomy general name"
+msgid "Extra Option Categories"
+msgstr "Κατηγορίες Επιπλέον Επιλογών"
+
+#: woofood-connection.php:275
+msgctxt "taxonomy singular name"
+msgid "Extra Option Category"
+msgstr "Κατηγορία Επιπλέον Επιλογής"
+
+#: woofood-connection.php:276
+msgid "Search Extra Option Categories"
+msgstr "Αναζήτησε Κατηγορίες Επιπλέον Επιλογών"
+
+#: woofood-connection.php:277
+msgid "All Extra Option Categories"
+msgstr "Όλες οι Κατηγορίες Επιπλέον Επιλογών"
+
+#: woofood-connection.php:278
+msgid "Parent Extra Option Category"
+msgstr ""
+
+#: woofood-connection.php:280
+msgid "Edit Extra Option Category"
+msgstr "Επεξεργασία Κατηγορίας Επιπλέον Επιλογών"
+
+#: woofood-connection.php:281
+msgid "Update Extra Option Category"
+msgstr "Ενημέρωση Κατηγορίας Επιπλέον Επιλογών"
+
+#: woofood-connection.php:282
+msgid "Add New Extra Option Category"
+msgstr "Προσθήκη Νέας Κατηγορίας Επιπλέον Επιλογών"
+
+#: woofood-connection.php:283
+msgid "New Extra Option Category"
+msgstr "Νέα Κατηγορία Επιπλέον Επιλογών"
+
+#: woofood-connection.php:323
+msgid "Parent Extra Options:"
+msgstr ""
+
+#: woofood-connection.php:334
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Extra Options list navigation"
+msgstr ""
+
+#: woofood-connection.php:335
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Extra Options list"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooFood for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Online Delivery Plugin for WooCommerce"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.ramiotis.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Dimos Ramiotis"
+msgstr ""
+
+#: woofood-settings.php:30 woofood-settings.php:30
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: woofood-settings.php:31 woofood-settings.php:31
+msgid "Extra Options"
+msgstr "Επιπλέον Επιλογές"
+
+#: woofood-settings.php:32 woofood-settings.php:32 woofood-connection.php:284
+msgid "Extra Option Categories"
+msgstr "Κατηγορίες Επιπλέον Επιλογών"
+
+#: woofood-settings.php:34 woofood-settings.php:34
+msgid "Delivery Hours"
+msgstr "Ώρες Διανομής"
+
+#: woofood-settings.php:58
+msgid "WooFood Settings"
+msgstr "Ρυθμίσεις WooFood"
+
+#: woofood-settings.php:64 woofood-settings.php:108
+msgid "Settings Updated."
+msgstr "Ρυθμίσεις Ενημερώθηκαν"
+
+#: woofood-settings.php:102
+msgid "Delivery  Hours"
+msgstr "Ώρες Διανομής"
+
+#. WooFood License Number
+#: woofood-settings.php:156
+msgid "License"
+msgstr "Άδεια Χρήσης"
+
+#. WooFood License Number
+#: woofood-settings.php:162
+msgid "WooFood License number"
+msgstr "Άδεια Χρήσης WooFood"
+
+#. WooFood Delivery Time
+#: woofood-settings.php:172 woofood-connection.php:722
+#: woofood-connection.php:765
+msgid "Delivery Time"
+msgstr "Χρόνος Παράδοης"
+
+#. WooFood Delivery Time
+#: woofood-settings.php:178
+msgid "Average Delivery Time"
+msgstr "Μέσος  Χρόνος Παράδοσης"
+
+#. WooFood Delivery Time
+#: woofood-settings.php:187
+msgid "Automatic Delivery Time"
+msgstr "Αυτόματος Υπολογισμός Χρόνου Παράδοσης"
+
+#. WooFood Delivery Time
+#: woofood-settings.php:193
+msgid "Enable Automatic Delivery Time"
+msgstr "Ενεργόποιηση Αυτόματου Υπολογισμού Χρόνου Παράδοσης"
+
+#. WooFood Delivery Time
+#: woofood-settings.php:202
+msgid "Minimum amount to delivery"
+msgstr "Έλαχιστη Παραγγελία"
+
+#. WooFood Delivery Time
+#: woofood-settings.php:208
+msgid "Minimum Order amount"
+msgstr "Ελάχιστο Ποσό Παραγγελίας"
+
+#: woofood-settings.php:231
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#: woofood-settings.php:239 woofood-settings.php:256 woofood-settings.php:274
+#: woofood-settings.php:302 woofood-settings.php:319 woofood-settings.php:336
+#: woofood-settings.php:367 woofood-settings.php:384 woofood-settings.php:401
+#: woofood-settings.php:434 woofood-settings.php:451 woofood-settings.php:468
+#: woofood-settings.php:499 woofood-settings.php:515 woofood-settings.php:532
+#: woofood-settings.php:564 woofood-settings.php:580 woofood-settings.php:597
+#: woofood-settings.php:628 woofood-settings.php:645 woofood-settings.php:662
+msgid "from"
+msgstr "από"
+
+#: woofood-settings.php:247 woofood-settings.php:264 woofood-settings.php:282
+#: woofood-settings.php:310 woofood-settings.php:327 woofood-settings.php:344
+#: woofood-settings.php:375 woofood-settings.php:392 woofood-settings.php:409
+#: woofood-settings.php:442 woofood-settings.php:459 woofood-settings.php:476
+#: woofood-settings.php:507 woofood-settings.php:523 woofood-settings.php:540
+#: woofood-settings.php:572 woofood-settings.php:588 woofood-settings.php:605
+#: woofood-settings.php:636 woofood-settings.php:653 woofood-settings.php:670
+msgid "to"
+msgstr "εώς"
+
+#: woofood-settings.php:296
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: woofood-settings.php:361
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#: woofood-settings.php:428
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: woofood-settings.php:493
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#: woofood-settings.php:558
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#: woofood-settings.php:622
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#: woofood-settings.php:1053
+msgid "Enter your License number:"
+msgstr "Πληκτρολογήστε τον αριθμό της άδειας σας"
+
+#: woofood-settings.php:1059
+msgid "Average Delivery Time in minutes:"
+msgstr "Μέσος χρόνος παράδοσης σε λεπτά"
+
+#: woofood-settings.php:1064
+msgid ""
+"This will override the  Average Delivery Time and will calculate the "
+"automatically based on Process Time field of each product:"
+msgstr ""
+"Αυτό θα παρακάμψει τον μέσο χρόνο παράδοσης και θα υπολογίζει αυτόματα τον "
+"χρόνο  με βάση τον χρόνο επεξεργασίας που έχετε ορίσει σε κάθε προϊόν"
+
+#: woofood-settings.php:1069
+msgid "Customers must reach this amount to be able to checkout:"
+msgstr ""
+"Οι πελάτες θα πρέπει να φτάσουν αυτό το ποσό για να μπορούν να ολοκληρώσουν "
+"την παραγγελία τους"
+
+#: woofood-settings.php:1077
+msgid "Monday Opening hours:"
+msgstr "Ώρες Λειτουργίας την Δευτέρα"
+
+#: woofood-settings.php:1087
+msgid "Tuesday Opening hours:"
+msgstr "Ώρες Λειτουργίας την Τρίτη"
+
+#: woofood-settings.php:1096
+msgid "Wednesday Opening hours:"
+msgstr "Ώρες Λειτουργίας την Τετάρτη"
+
+#: woofood-settings.php:1104
+msgid "Thursday Opening hours:"
+msgstr "Ώρες Λειτουργίας την Πέμπτη"
+
+#: woofood-settings.php:1112
+msgid "Friday Opening hours:"
+msgstr "Ώρες Λειτουργίας την Παρασκευή"
+
+#: woofood-settings.php:1121
+msgid "Saturday Opening hours:"
+msgstr "Ώρες Λειτουργίας το Σάββατο"
+
+#: woofood-settings.php:1129
+msgid "Sunday Opening hours:"
+msgstr "Ώρες Λειτουργίας την Κυριακή"
+
+#: woofood-connection.php:84
+msgid "Select"
+msgstr "Επιλέξτε"
+
+#: woofood-connection.php:313
+msgctxt "Post type singular name"
+msgid "Extra Option"
+msgstr "Επιπλέον Επιλογή"
+
+#: woofood-connection.php:314
+msgctxt "Admin Menu text"
+msgid "Extra Options"
+msgstr "Επιπλέον Επιλογές"
+
+#: woofood-connection.php:315
+msgctxt "Add New on Toolbar"
+msgid "Extra Option"
+msgstr "Επιπλέον Επιλογή"
+
+#: woofood-connection.php:316
+msgid "Add Extra Option"
+msgstr "Προσθήκη Επιπλέον Επιλογής"
+
+#: woofood-connection.php:317
+msgid "Add New Extra Option"
+msgstr "Προσθήκη Νέας Επιπλέον Επιλογής"
+
+#: woofood-connection.php:318
+msgid "New Extra Option"
+msgstr "Νέα Επιπλέον Επιλογή"
+
+#: woofood-connection.php:319
+msgid "Edit Extra Option"
+msgstr "Επεξεργασία Επιπλέον Επιλογής"
+
+#: woofood-connection.php:320
+msgid "View Extra Option"
+msgstr "Προβολή Επιπλέον Επιλογής"
+
+#: woofood-connection.php:321
+msgid "All Extra Options"
+msgstr "Όλες οι Επιπλέον Επιλογές"
+
+#: woofood-connection.php:322
+msgid "Search Extra Options"
+msgstr "Αναζήτηση Επιπλέον Επιλογών"
+
+#: woofood-connection.php:324
+msgid "No Extra Options found."
+msgstr "Δεν βρέθηκαν Επιπλέον Επιλογές"
+
+#: woofood-connection.php:325
+msgid "No Extra Options found in Trash."
+msgstr "Δεν βρέθηκαν Επιπλέον Επιλογές στα διεγραμμένα"
+
+#: woofood-connection.php:326
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Extra Option Cover Image"
+msgstr "Εικόνα επιπλέον επιλογής"
+
+#: woofood-connection.php:327
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr "Προσθήκη εικόνα εξωφύλλου"
+
+#: woofood-connection.php:328
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr "Αφαίρεση εικόνας εξωφύλλου"
+
+#: woofood-connection.php:329
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr "Χρησιμοποίησε ως εικόνα εξωφύλλου"
+
+#: woofood-connection.php:330
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Extra Option archives"
+msgstr "Αρχείο Επιπλέον Επιλογών"
+
+#: woofood-connection.php:331
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Extra Option"
+msgstr "Πρόσθεσε το στην Επιπλέον Επιλογή"
+
+#: woofood-connection.php:332
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Extra Option"
+msgstr "Ανέβηκε σε αυτήν την επιπλέον επιλογή"
+
+#: woofood-connection.php:333
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter books list"
+msgstr "Φίλτραρε τις Επιπλέον Επιλογές"
+
+#: woofood-connection.php:372
+msgid "Extra Option Name"
+msgstr "Όνομα Επιπλέον Επιλογής"
+
+#: woofood-connection.php:373 woofood-connection.php:444
+#: woofood-connection.php:462
+msgid "Extra Price"
+msgstr "Επιπλέον Τιμή"
+
+#: woofood-connection.php:499
+msgid "Process Time(WooFood Field)"
+msgstr "Χρόνος Προετοιμασίας( Πεδίο WooFood)"
+
+#: woofood-connection.php:517
+msgid "Process Time(minutes)"
+msgstr "Χρόνος Ετοιμασίας (σε λεπτά)"
+
+#: woofood-connection.php:878
+msgid "Delivery Service is Currently Unavailable.."
+msgstr "Το Delivery δεν ειναι διαθέσιμο αυτήν την ώρα"

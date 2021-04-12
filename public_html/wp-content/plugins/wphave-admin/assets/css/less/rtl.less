@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+.wpat.rtl .wrap .wp-heading-inline + .page-title-action {
+    margin-right: 15px;
+    margin-left: 0px!important;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* ADMIN BAR (HORIZONTAL)  */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat.rtl #wpadminbar #wp-admin-bar-root-default {
+    float: none;
+}
+
+.wpat.rtl #wpadminbar #wp-admin-bar-my-account.with-avatar > .ab-empty-item img, 
+.wpat.rtl #wpadminbar #wp-admin-bar-my-account.with-avatar > a img {
+    margin: 0px 12px 0px 0px;
+}
+
+
+@media (min-width: 960px) {
+	
+	.rtl #wpcontent {
+		padding-left: 0px!important;
+		margin-left: 0px!important;
+		padding-right: 40px;
+		margin-right: @wpatMenuLeftWidth;
+	}
+	
+	.wpat .wrap {
+		margin: 40px 0px 0px 40px;
+	}
+	
+	#screen-meta, #screen-meta-links {
+		margin: 0px 0px 0px 40px;
+	}
+	
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* LEFT ADMIN MENU  */
+/**************************************************************************/
+/**************************************************************************/
+
+/* menu avatar / user container ************************/
+/*******************************************************/
+
+.rtl .adminmenu-container .adminmenu-user-name span {
+	display:run-in;
+	direction: rtl;
+	text-align: center
+}
+
+/* menu items ******************************************/
+/*******************************************************/
+
+.rtl ul#adminmenu a.wp-has-current-submenu:after, 
+.rtl ul#adminmenu > li.current > a.current:after {
+	right: auto!important;
+    left: -20px;
+    border-right-color: transparent!important;
+    border-left-color: #e8ecf5!important;
+}
+
+.rtl #adminmenu .wp-has-submenu.opensub:after {
+    border-right-color: transparent!important;
+    border-left-color: #4777CD!important;
+}
+
+.rtl #adminmenu .wp-submenu, 
+.rtl .folded #adminmenu a.wp-has-current-submenu:focus + .wp-submenu, 
+.rtl .folded #adminmenu .wp-has-current-submenu .wp-submenu {
+    border-left: 0px!important;
+    border-right: 6px solid #4777CD;
+}
+
+.rtl #adminmenu .wp-has-current-submenu .wp-submenu {
+	border-right: 0px!important;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* HEADLINES  */
+/**************************************************************************/
+/**************************************************************************/
+
+.rtl .wrap h1:after {
+  	left: auto!important;
+    right: 0px;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* TABLES  */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat.rtl .widefat th input, 
+.wpat.rtl .updates-table td input, 
+.wpat.rtl .widefat thead td input, 
+.wpat.rtl .widefat tfoot td input {
+    margin: 0px 7px 0px 0px;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* EDITOR (WYSIWYG) */
+/**************************************************************************/
+/**************************************************************************/
+
+.rtl .wp-editor-tabs {
+    right: auto;
+    left: 0px;
+}
+
+.rtl .wp-media-buttons .button, 
+.rtl .wp-media-buttons button {
+    margin: 8px 0px 8px 8px!important;
+}
+
+.quicktags-toolbar input.ed_button.button.button-small {
+    border-right: 0px!important;
+    border-left: 1px solid #dde1ea!important;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* THEME */
+/**************************************************************************/
+/**************************************************************************/
+
+@media (min-width: 960px) {
+
+	.wpat.rtl .theme-overlay .theme-backdrop {
+		left: 0px;
+		right: @wpatMenuLeftWidth;
+	}
+	
+	.wpat.rtl .theme-overlay .theme-wrap {
+		left: 0px;
+		right: calc(@wpatMenuLeftWidthDiff + 70);
+	}
+
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WP FOOTER */
+/**************************************************************************/
+/**************************************************************************/
+
+.rtl #wpfooter {
+   	left: 0px!important;
+    right: 60px;
+}
+
+.rtl #footer-upgrade {
+    text-align: left!important;
+	direction: ltr;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> OPTION PAGE STYLE */
+/**************************************************************************/
+/**************************************************************************/
+
+.rtl .wpat-page-menu ul {
+	float: right;
+}
+
+.rtl .wpat-page-menu li {
+    margin: 0px 0px 10px 10px;
+}
+
+.rtl .button.restore {
+    right: auto;
+    left: 40px;
+}
+
+.rtl .field-status {
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+.rtl .wpat-info {
+    padding-left: 0px;
+    padding-right: 25px;
+}
+
+.rtl .wpat-info:before {
+    right: 0px;
+	left: auto
+}
+
+.rtl .button.uploader {
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+.rtl label.color-picker {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> BLOCK EDITOR -> CUSTOM LEFT ADMIN MENU WIDTH = ON */
+/**************************************************************************/
+/**************************************************************************/
+
+/* gutenberg content ***********************************/
+/*******************************************************/
+
+@media (min-width: 782px) and (min-width: 960px) {
+	
+	body.rtl.auto-fold .block-editor .edit-post-layout__content {
+		margin-right: @wpatMenuLeftWidth;
+	}
+
+}
+
+/* gutenberg toolbar ***********************************/
+/*******************************************************/
+
+@media (min-width: 960px) {
+
+	body.rtl.auto-fold .block-editor .edit-post-header {
+		right: @wpatMenuLeftWidth;
+	}
+	
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> CUSTOM LEFT ADMIN MENU WIDTH = ON */
+/**************************************************************************/
+/**************************************************************************/
+
+@media (min-width: 960px) {
+
+	.rtl #adminmenu .wp-has-current-submenu .wp-submenu {
+		right: auto;
+	}
+	
+	.rtl #adminmenu .wp-submenu {
+		left: auto;
+		right: @wpatMenuLeftWidth;
+	}
+	
+	.wpat.rtl.wpat-left-menu-width #adminmenu li:not(.wp-has-current-submenu) .wp-submenu {
+		left: auto;
+		right: @wpatMenuLeftWidthDiff;
+	}
+	
+	body.rtl.auto-fold .components-notice-list {
+		left: auto;
+		right: @wpatMenuLeftWidth!important;
+	}
+
+	body.rtl.auto-fold #adminmenu .wp-menu-open .wp-submenu {
+		left: auto;
+		right: 0px!important;
+	}
+	
+	.rtl #wpcontent {
+		margin-left: 0px;
+		margin-right: @wpatMenuLeftWidth;
+	}
+
+	.rtl #wpfooter {
+		margin-left: 0px;
+		margin-right: @wpatMenuLeftWidth;
+	}
+	
+	.wpat.rtl.wpat-left-menu-width #wpfooter {
+		margin-left: 0px;
+		margin-right: @wpatMenuLeftWidthDiff;
+	}
+	
+}

@@ -1,0 +1,14 @@
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul  2 09:10 ..
+-rw-r--r--    1 1499       u1035-camd        312 Jul  2 09:10 .editorconfig
+-rw-r--r--    1 1499       u1035-camd         51 Jul  2 09:10 .gitignore
+-rw-r--r--    1 1499       u1035-camd        559 Jul  2 09:10 .scrutinizer.yml
+-rw-r--r--    1 1499       u1035-camd         81 Jul  2 09:10 .styleci.yml
+-rw-r--r--    1 1499       u1035-camd        473 Jul  2 09:10 .travis.yml
+-rw-r--r--    1 1499       u1035-camd       2969 Jul  2 09:10 CONTRIBUTING.md
+-rw-r--r--    1 1499       u1035-camd       1078 Jul  2 09:10 LICENSE
+-rw-r--r--    1 1499       u1035-camd       1554 Jul  2 09:10 README.md
+-rw-r--r--    1 1499       u1035-camd        586 Jul  2 09:10 composer.json
+-rw-r--r--    1 1499       u1035-camd       1045 Jul  2 09:10 phpunit.xml
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul  2 09:10 src
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 tests

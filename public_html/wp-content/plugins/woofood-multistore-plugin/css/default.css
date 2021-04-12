@@ -1,0 +1,121 @@
+.woofood_store_select_wrapper
+{
+    width:100%;
+    float:left;
+    display:none;
+}
+
+.woofood_store_select_wrapper.open
+{
+    display:block;
+
+}
+.woofood_store_select_wrapper p span
+{
+    float:left;
+    width:100%;
+}
+
+.woofood_multistore_select_store select
+{
+	width:100%;
+}
+
+.woofood-multistore-store-detail-row
+{
+	padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+.woofood-multistore-store-detail-header
+{
+	    padding: 30px;
+    font-size: 17px;
+}
+.woofood-multistore-store-detail-thx
+{
+	    max-width: 500px;
+    margin: auto;
+    }
+
+    .woofood-multistore-store-detail-header strong
+{
+	      background: #cc0000;
+    color: white;
+    padding: 5px;
+    line-height: 50px;
+}
+.woofood-multistore-store-detail-content
+{
+	    padding: 10px;
+    border: 1px solid #e4e2e2;
+    position: relative;
+}
+.woofood-multistore-store-content-desc
+{
+	position: absolute;
+    padding: 10px;
+    background: white;
+    top: -21px;
+    left: 38px;
+    font-weight: bold;
+    color: black;
+}
+.woofood-multistore-store-detail-row:last-child
+{
+	    border-bottom: none;
+}
+.woofood_store_select_wrapper.disabled
+{
+    pointer-events: none;
+    opacity:0.6;
+}
+button#place_order.disabled
+{
+    pointer-events: none;
+    opacity:0.6;
+}
+.availability_checker_extra_store_delivery, .availability_checker_extra_store_pickup
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+span.wooofood_select_store_availability_label
+{
+    display: flex;
+    flex: 0 100%;
+    justify-content: center;
+}
+p#extra_store_name_delivery_field, p#extra_store_name_pickup_field
+{
+        flex-wrap: wrap;
+    flex: 0 100%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+
+p#extra_store_name_delivery_field span.woocommerce-input-wrapper , p#extra_store_name_pickup_field span.woocommerce-input-wrapper 
+{
+    width:100%;
+
+}
+.availability_checker_extra_store_delivery
+{
+    display:none;
+}
+.availability_checker_extra_store_pickup
+{
+    display:none;
+}
+.availability_checker_extra_store_pickup.show
+{
+display: flex;
+}
+.availability_checker_extra_store_delivery.show
+{
+display: flex;
+}

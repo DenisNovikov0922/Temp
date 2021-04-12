@@ -1,0 +1,214 @@
+.wf_address_loading {
+    display: none;
+}
+.wf_address_field {
+margin-bottom: 10px;
+	
+}
+.wf_address_input {
+
+display: block;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+height: 46px;
+padding: 10px 16px;
+font-size: 18px;
+/* line-height: 1.3333333; */
+border-radius: 6px;
+
+
+
+}
+
+button.wf_address_changer_btn {
+    background: #ffb645;
+    background-image: linear-gradient(0deg, #ffb645, #ffe68e);
+    color: #ffffff!important;
+    box-shadow: inset 0 1px hsla(0, 0%, 100%, .6);
+    background: #ffc600;
+    background-image: linear-gradient(0deg, #faa21b, #ffc600);
+    border: 1px solid #ec9a10;
+    padding: .618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+button.wf_address_changer_btn:hover
+{
+        background: #ffb645;
+    background-image: linear-gradient(0deg, #ffb645, #ffe68e);
+    color: #ffffff !important;
+    box-shadow: inset 0 1px hsla(0, 0%, 100%, .6);
+    background: #ffc600;
+    background-image: linear-gradient(0deg, #faa21b, #ffc600);
+    border: 1px solid #ec9a10;
+    opacity: 0.7;
+}
+
+.wf_address_changer_modal{
+display: none;
+position: fixed;
+background: white;
+top: 10%;;
+width: 40%;
+left: 30%;
+right: 30%;
+height: auto;
+max-height: 100%;
+padding: 10px;
+overflow: visible;
+z-index:52;
+padding:4rem;
+  }
+
+.edit-address-icon{
+
+    color: white;
+    /* width: 24px; */
+    /* height: 24px; */
+    border: 1px solid white;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    background: #ffb645;
+    background-image: linear-gradient(0deg, #ffb645, #ffe68e);
+    color: #5a460a !important;
+    box-shadow: inset 0 1px hsla(0, 0%, 100%, .6);
+    background: #ffc600;
+    background-image: linear-gradient(0deg, #faa21b, #ffc600);
+    border: 1px solid #ec9a10;
+
+
+}
+
+.wf_address_changer_modal .close
+{
+          float: right;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 99px;
+    width: 30px;
+    height: 30px;
+    background: none !important;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    color: black;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 1;
+}
+.edit-address-icon:hover{
+
+ opacity:0.8;
+}
+
+@media  screen and (max-width: 768px) {
+
+
+	.address-change-header{
+
+overflow: hidden;
+width:100%;
+position:relative;
+top: -2px;
+padding: 10px;
+border: 1px solid black;
+margin-bottom: 15px;
+  
+}
+
+
+  .wf_address_changer_modal{
+    position: fixed;
+    background: white;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    padding: 20px;
+    overflow: auto;
+    z-index: 52;
+    left: 0px;
+    right: 0px;
+  }
+
+
+}
+
+
+@media  screen and (min-width: 1024px) {
+
+  .address-change-header{
+
+overflow: hidden;
+width:100%;
+position:relative;
+top: -2px;
+padding: 10px;
+margin-bottom: 15px;
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+
+  .wf_address_changer_modal{
+display: none;
+position: fixed;
+background: white;
+top: 10%;;
+width: 40%;
+left: 30%;
+right: 30%;
+height: auto;
+max-height: 100%;
+padding: 10px;
+overflow: visible;
+z-index:52;
+padding:4rem;
+
+  }
+}
+
+span.wf_total_address_display
+{
+        display: flex;
+    margin: auto;
+    justify-content: flex-end;
+}
+.wf_total_address_display b
+{
+        display: flex;
+    margin: auto;
+    justify-content: flex-start;
+}
+span.wf_address_changer_value
+{
+           line-height: 17px;
+    text-align: left;
+    margin-left: 14px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 1px;
+}

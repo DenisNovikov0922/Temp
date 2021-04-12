@@ -1,0 +1,13 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x    7 1499       u1035-camd       4096 Jul  2 09:10 ..
+-rw-r--r--    1 1499       u1035-camd        399 Jul  2 09:10 AlphaNumeric.php
+-rw-r--r--    1 1499       u1035-camd       2065 Jul  2 09:10 Captcha.php
+-rw-r--r--    1 1499       u1035-camd        436 Jul  2 09:10 Date.php
+-rw-r--r--    1 1499       u1035-camd        367 Jul  2 09:10 Email.php
+-rw-r--r--    1 1499       u1035-camd       5235 Jul  2 09:10 File.php
+-rw-r--r--    1 1499       u1035-camd        347 Jul  2 09:10 Numeric.php
+-rw-r--r--    1 1499       u1035-camd        504 Jul  2 09:10 RegExp.php
+-rw-r--r--    1 1499       u1035-camd        578 Jul  2 09:10 Required.php
+-rw-r--r--    1 1499       u1035-camd        733 Jul  2 09:10 SubLimitByEmail.php
+-rw-r--r--    1 1499       u1035-camd        743 Jul  2 09:10 Unique.php
+-rw-r--r--    1 1499       u1035-camd        363 Jul  2 09:10 Url.php

@@ -1,0 +1,14 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:48 .
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul 15 09:48 ..
+-rw-r--r--    1 1499       u1035-camd       8311 Jul 15 09:48 cmap.php
+-rw-r--r--    1 1499       u1035-camd       4198 Jul 15 09:48 glyf.php
+-rw-r--r--    1 1499       u1035-camd       1352 Jul 15 09:48 head.php
+-rw-r--r--    1 1499       u1035-camd       1206 Jul 15 09:48 hhea.php
+-rw-r--r--    1 1499       u1035-camd       1517 Jul 15 09:48 hmtx.php
+-rw-r--r--    1 1499       u1035-camd       1854 Jul 15 09:48 kern.php
+-rw-r--r--    1 1499       u1035-camd       1814 Jul 15 09:48 loca.php
+-rw-r--r--    1 1499       u1035-camd       1244 Jul 15 09:48 maxp.php
+-rw-r--r--    1 1499       u1035-camd       4842 Jul 15 09:48 name.php
+-rw-r--r--    1 1499       u1035-camd       1156 Jul 15 09:48 nameRecord.php
+-rw-r--r--    1 1499       u1035-camd       1574 Jul 15 09:48 os2.php
+-rw-r--r--    1 1499       u1035-camd       3048 Jul 15 09:48 post.php

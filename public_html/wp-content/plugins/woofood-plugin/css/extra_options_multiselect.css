@@ -1,0 +1,41 @@
+.extra_option_select_ui li[selected="selected"]
+{
+	    background: #cc0000;
+    color: white;
+}
+.extra_option_select_ui li[selected="selected"]:after
+{
+	    content: "enabled";
+    float: right;
+    border: 1px solid white;
+    padding: 3px;
+    color: black;
+    background: white;
+    border-radius: 3px;
+}
+.extra_option_select_ui li:not([selected="selected"]):after
+{
+	content:"disabled";
+	float:right;
+
+}
+.extra_option_select_ui li
+{
+	    padding: 10px;
+    background: white;
+    border: 1px solid #00000061;
+    cursor:pointer;
+
+
+
+}
+.extra_option_select_ui
+{
+	padding:15px;
+}
+
+
+h3.wf-extra-options-title
+{
+	text-align: center;
+}

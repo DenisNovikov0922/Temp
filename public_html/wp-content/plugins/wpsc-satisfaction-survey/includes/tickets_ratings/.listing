@@ -1,0 +1,10 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:49 .
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul 15 09:49 ..
+-rw-r--r--    1 1499       u1035-camd       5412 Jul 15 09:49 get_ratings_report.php
+-rw-r--r--    1 1499       u1035-camd       1579 Jul 15 09:49 report_rs_custom_date.php
+-rw-r--r--    1 1499       u1035-camd       1295 Jul 15 09:49 report_rs_last_30.php
+-rw-r--r--    1 1499       u1035-camd       1336 Jul 15 09:49 report_rs_last_7.php
+-rw-r--r--    1 1499       u1035-camd       1299 Jul 15 09:49 report_rs_last_month.php
+-rw-r--r--    1 1499       u1035-camd       1294 Jul 15 09:49 report_rs_last_quarter.php
+-rw-r--r--    1 1499       u1035-camd       1568 Jul 15 09:49 report_rs_this_year.php
+-rw-r--r--    1 1499       u1035-camd       2320 Jul 15 09:49 sf_reports_bt_filter.php

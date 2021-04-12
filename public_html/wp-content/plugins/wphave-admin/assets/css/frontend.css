@@ -1,0 +1,58 @@
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPHAVE ADMIN -> FRONTEND */
+/**************************************************************************/
+/**************************************************************************/
+
+#wpadminbar {
+	background: #32373c;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+#wpadminbar #wp-admin-bar-my-account.with-avatar > .ab-empty-item img, 
+#wpadminbar #wp-admin-bar-my-account.with-avatar > a img {
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    margin: -3px 0 0 12px;
+	background: none!important;
+}
+
+.rtl #wpadminbar #wp-admin-bar-my-account.with-avatar > .ab-empty-item img, 
+.rtl #wpadminbar #wp-admin-bar-my-account.with-avatar > a img {
+    margin: -3px 12px 0px 0px;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPHAVE ADMIN -> REMOVE WP TOOLBAR ICON */
+/**************************************************************************/
+/**************************************************************************/
+
+body.wpat-wp-toolbar-icon-remove #wp-admin-bar-wp-logo {
+	display: none!important;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPHAVE ADMIN -> ADD CUSTOM WP TOOLBAR ICON */
+/**************************************************************************/
+/**************************************************************************/
+
+body.wpat-toolbar-icon #wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
+	content: '';
+	/* Notice
+	/* Do not use WP LESS variable in this file, because WPLESS filter is only called in backend
+	/* Custom toolbar icon will add by inline CSS at option-frontend.php
+	//background-image: @wpatToolbarIcon;
+	*/
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	width: 23px;
+	height: 23px;
+}

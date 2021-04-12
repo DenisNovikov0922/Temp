@@ -1,0 +1,21 @@
+/* Style for printed pages  */
+#wphead,
+#adminmenumain,
+#adminmenu,
+#adminmenuback,
+#adminmenuwrap,
+#screenmeta,
+.filter,
+.postbox,
+.button,
+#footer,
+.csvlink,
+.perpage-box,
+.search-box,
+.filter-box,
+.userlistfooter,
+.report_explanation,
+input
+ { 
+	display:none;
+}

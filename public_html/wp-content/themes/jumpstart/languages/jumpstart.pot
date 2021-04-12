@@ -1,0 +1,2368 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: jumpstart\n"
+"POT-Creation-Date: 2020-05-05 18:52+0100\n"
+"PO-Revision-Date: 2019-08-30 11:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:14 404.php:20
+msgid "404 - Page Not Found"
+msgstr ""
+
+#: 404.php:21
+msgid "Whoops, it looks like the page you request wasn't found."
+msgstr ""
+
+#: 404.php:29
+msgid "Back to Home"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:328 admin/merlin_config.php:70
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:386
+#: admin/class-tgm-plugin-activation.php:827
+#: admin/class-tgm-plugin-activation.php:2533
+#: admin/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:387
+#: admin/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:388
+#: admin/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:934
+#: admin/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:1121
+#: admin/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2273
+#: admin/merlin/class-merlin.php:1066
+msgid "Required"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2717 admin/merlin_config.php:42
+#: admin/merlin_config.php:43 admin/merlin_config.php:44
+msgid "Install"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2726 admin/merlin_config.php:46
+msgid "Activate"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3509
+#: admin/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3509
+#: admin/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:415
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:561
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:566
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:675
+msgid "Welcome"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:682
+msgid "Child"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:688
+msgid "License"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:696
+msgid "Plugins"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:704 admin/merlin/class-merlin.php:1942
+msgid "Content"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:710
+msgid "Ready"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:815
+msgid "The welcome step has been displayed"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:909
+msgid "The license activation step has been displayed"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:979
+msgid "The child theme installation step has been displayed"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1067
+msgid "req"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1107
+msgid "The plugin installation step has been displayed"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1141
+msgid "Select which demo data you want to import:"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1187
+msgid "The content import step has been displayed"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1266
+msgid "The final step has been displayed"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1343
+msgid "The existing child theme was activated"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1360
+msgid "The newly generated child theme was activated"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1381
+msgid ""
+"Yikes! The theme activation failed. Please try again or contact support."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1390
+msgid "Please add your license key before attempting to activate one."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1403
+msgid "The license activation was performed with the following results"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1449 admin/merlin/class-merlin.php:1490
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1462
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1468
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1472
+msgid ""
+"This appears to be an invalid license key. Please try again or contact "
+"support."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1477
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1482
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1486
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1580
+msgid "The child theme functions.php content was generated"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1613
+msgid "The child theme style.css content was generated"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1648
+msgid ""
+"The child theme screenshot was copied to the child theme, with the following "
+"result"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1650
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1679
+msgid "Activating"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1695
+msgid "Updating"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1711 admin/merlin/class-merlin.php:1727
+#: admin/merlin/class-merlin.php:1945 admin/merlin/class-merlin.php:1958
+#: admin/merlin/class-merlin.php:1971 admin/merlin/class-merlin.php:1984
+#: admin/merlin/class-merlin.php:1997 admin/merlin/class-merlin.php:2010
+#: admin/merlin/class-merlin.php:2053
+msgid "Installing"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1719
+msgid "A plugin with the following data will be processed"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1731
+msgid "A plugin with the following data was processed"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1740 admin/merlin/class-merlin.php:1946
+#: admin/merlin/class-merlin.php:1959 admin/merlin/class-merlin.php:1972
+#: admin/merlin/class-merlin.php:1985 admin/merlin/class-merlin.php:1998
+#: admin/merlin/class-merlin.php:2011
+msgid "Success"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1763
+msgid ""
+"The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1768
+msgid "Invalid content!"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1779
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1821
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1832
+msgid "Error"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1846
+msgid ""
+"The content importer AJAX call for retrieving total content import items "
+"failed to start, because of incorrect data."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1851
+msgid "Invalid data!"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1943
+msgid "Demo content data."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1944 admin/merlin/class-merlin.php:1957
+#: admin/merlin/class-merlin.php:1970 admin/merlin/class-merlin.php:1983
+#: admin/merlin/class-merlin.php:1996 admin/merlin/class-merlin.php:2009
+msgid "Pending"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1955
+msgid "Widgets"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1956
+msgid "Sample widgets data."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1968
+msgid "Revolution Slider"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1969
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1981
+msgid "Options"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1982
+msgid "Sample theme options data."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1994
+msgid "Redux Options"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:1995
+msgid "Redux framework options."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:2007
+msgid "After import setup"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:2008
+msgid "After import setup."
+msgstr ""
+
+#: admin/merlin/class-merlin.php:2037
+msgid "The revolution slider import was executed"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:2074
+msgid "The home page was set"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:2084
+msgid "The blog page was set"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:2099
+msgid "The Hello world post status was set to draft"
+msgstr ""
+
+#: admin/merlin/class-merlin.php:2123
+msgid ""
+"This predefined demo import does not have the name parameter: "
+"import_file_name"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-customizer-importer.php:30
+msgid "The customizer import has finished successfully"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-customizer-importer.php:57
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-customizer-importer.php:70
+msgid ""
+"Error: The customizer import file does not have any content in it. Please "
+"make sure to use the correct customizer import file."
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-customizer-importer.php:80
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-customizer-importer.php:86
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-downloader.php:49
+msgid "The file was not able to save to disk, while trying to download it"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-downloader.php:66
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-downloader.php:84
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-redux-importer.php:32
+msgid "The Redux Framework data was imported"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-widget-importer.php:72
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-widget-importer.php:83
+msgid "Error: Widget import file does not have any content in it."
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-widget-importer.php:105
+msgid ""
+"Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-widget-importer.php:144
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-widget-importer.php:165
+msgid "Site does not support widget"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-widget-importer.php:198
+msgid "Widget already exists"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-widget-importer.php:256
+msgid "Imported"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-widget-importer.php:260
+msgid "Imported to Inactive"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-widget-importer.php:266
+msgid "No Title"
+msgstr ""
+
+#: admin/merlin/includes/class-merlin-widget-importer.php:328
+msgid "No results for widget import!"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:55
+msgid ""
+"The XMLReader class is missing! Please install the XMLReader PHP extension "
+"on your server"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:68
+msgid "Could not open the XML file for parsing!"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:248
+msgid "Content import start error: "
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:280
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:173
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:291
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:364
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:504
+msgid "New AJAX call!"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:135
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:514
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:577
+msgid "Invalid author mapping"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:678
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:770
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:780
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:858
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:872
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:904
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1822
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:909
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:949
+#, php-format
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1094
+msgid "Invalid file type"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1593
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1614
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1618
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1783
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1827
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1886
+#, php-format
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1895
+#, php-format
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1947
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1969
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1975
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2000
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2013
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2018
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2032
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2037
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2063
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2074
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2119
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2124
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2146
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2150
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2164
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2168
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2185
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2216
+#, php-format
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2226
+#, php-format
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2236
+#, php-format
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2244
+#, php-format
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2258
+#, php-format
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2277
+#, php-format
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2287
+#, php-format
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2322
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: admin/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2331
+#, php-format
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+
+#: admin/merlin_config.php:33
+msgid "Theme Setup"
+msgstr ""
+
+#: admin/merlin_config.php:35
+#, php-format
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: admin/merlin_config.php:36
+msgid "Return to the dashboard"
+msgstr ""
+
+#: admin/merlin_config.php:37
+msgid "Disable this wizard"
+msgstr ""
+
+#: admin/merlin_config.php:38
+msgid "Skip"
+msgstr ""
+
+#: admin/merlin_config.php:39
+msgid "Next"
+msgstr ""
+
+#: admin/merlin_config.php:40
+msgid "Start"
+msgstr ""
+
+#: admin/merlin_config.php:41
+msgid "Cancel"
+msgstr ""
+
+#: admin/merlin_config.php:45
+msgid "Import"
+msgstr ""
+
+#: admin/merlin_config.php:47
+msgid "Later"
+msgstr ""
+
+#: admin/merlin_config.php:49
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: admin/merlin_config.php:51
+#, php-format
+msgid "%s is Activated"
+msgstr ""
+
+#: admin/merlin_config.php:53
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: admin/merlin_config.php:54
+msgid "License key"
+msgstr ""
+
+#: admin/merlin_config.php:55
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: admin/merlin_config.php:56
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: admin/merlin_config.php:57
+msgid "Need help?"
+msgstr ""
+
+#: admin/merlin_config.php:59
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: admin/merlin_config.php:60
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: admin/merlin_config.php:61
+msgid ""
+"This wizard will set up your theme, install plugins, and import content. It "
+"is optional & should take only a few minutes."
+msgstr ""
+
+#: admin/merlin_config.php:62
+msgid ""
+"You may have already run this theme setup wizard. If you would like to "
+"proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: admin/merlin_config.php:63
+msgid "Install Child Theme"
+msgstr ""
+
+#: admin/merlin_config.php:64
+msgid "You're good to go!"
+msgstr ""
+
+#: admin/merlin_config.php:65
+msgid ""
+"Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: admin/merlin_config.php:66
+msgid ""
+"Your child theme has already been installed and is now activated, if it "
+"wasn't already."
+msgstr ""
+
+#: admin/merlin_config.php:67
+msgid "Learn about child themes"
+msgstr ""
+
+#: admin/merlin_config.php:68
+msgid ""
+"Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: admin/merlin_config.php:69
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: admin/merlin_config.php:71
+msgid "You're up to speed!"
+msgstr ""
+
+#: admin/merlin_config.php:72
+msgid ""
+"Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: admin/merlin_config.php:73
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press \"Next"
+"\" to continue the setup wizard."
+msgstr ""
+
+#: admin/merlin_config.php:74 admin/merlin_config.php:77
+msgid "Advanced"
+msgstr ""
+
+#: admin/merlin_config.php:75
+msgid "Import Content"
+msgstr ""
+
+#: admin/merlin_config.php:76
+msgid ""
+"Let's import content to your website, to help you get familiar with the "
+"theme."
+msgstr ""
+
+#: admin/merlin_config.php:78
+msgid "All done. Have fun!"
+msgstr ""
+
+#: admin/merlin_config.php:80
+#, php-format
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: admin/merlin_config.php:81
+msgid "Extras"
+msgstr ""
+
+#: admin/merlin_config.php:82
+msgid "View your website"
+msgstr ""
+
+#: admin/merlin_config.php:83
+msgid "Explore WordPress"
+msgstr ""
+
+#: admin/merlin_config.php:84
+msgid "Get Theme Support"
+msgstr ""
+
+#: admin/merlin_config.php:85
+msgid "Start Customizing"
+msgstr ""
+
+#: admin/theme_filters.php:574
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: admin/theme_filters.php:577
+msgid "Enter Password"
+msgstr ""
+
+#: admin/theme_filters.php:579
+msgid "Submit"
+msgstr ""
+
+#: admin/theme_functions.php:124
+msgid "Contact Form 7"
+msgstr ""
+
+#: admin/theme_functions.php:130
+msgid "Custom Metaboxes 2"
+msgstr ""
+
+#: admin/theme_functions.php:136
+msgid "WP Job Manager"
+msgstr ""
+
+#: admin/theme_functions.php:142
+msgid "Elementor"
+msgstr ""
+
+#: admin/theme_functions.php:148
+msgid "TommusRhodus Framework"
+msgstr ""
+
+#: admin/theme_functions.php:191
+msgid "Home"
+msgstr ""
+
+#: admin/theme_functions.php:207
+msgid "Careers"
+msgstr ""
+
+#: admin/theme_functions.php:212
+msgid "Testimonials"
+msgstr ""
+
+#: admin/theme_functions.php:217 admin/theme_functions.php:219
+msgid "Shop"
+msgstr ""
+
+#: admin/theme_menus_widgets.php:15
+msgid "Standard Navigation"
+msgstr ""
+
+#: admin/theme_menus_widgets.php:36
+msgid "Documentation Sidebar"
+msgstr ""
+
+#: admin/theme_menus_widgets.php:47
+msgid "Widgets Footer Column 1"
+msgstr ""
+
+#: admin/theme_menus_widgets.php:48
+msgid "If this is set, your footer will be 1 column"
+msgstr ""
+
+#: admin/theme_menus_widgets.php:59
+msgid "Widgets Footer Column 2"
+msgstr ""
+
+#: admin/theme_menus_widgets.php:60
+msgid "If this is set, your footer will be 2 columns"
+msgstr ""
+
+#: admin/theme_menus_widgets.php:71
+msgid "Widgets Footer Column 3"
+msgstr ""
+
+#: admin/theme_menus_widgets.php:72
+msgid "If this is set, your footer will be 3 columns"
+msgstr ""
+
+#: admin/theme_menus_widgets.php:83
+msgid "Widgets Footer Column 4"
+msgstr ""
+
+#: admin/theme_menus_widgets.php:84
+msgid "If this is set, your footer will be 4 columns"
+msgstr ""
+
+#: admin/theme_metaboxes.php:65
+msgid "Page Overrides"
+msgstr ""
+
+#: admin/theme_metaboxes.php:72
+msgid "Override Logo?"
+msgstr ""
+
+#: admin/theme_metaboxes.php:74
+msgid ""
+"Add an image here if you would like to show a custom logo for this page only."
+msgstr ""
+
+#: admin/theme_metaboxes.php:78
+msgid "Override Header?"
+msgstr ""
+
+#: admin/theme_metaboxes.php:79
+msgid ""
+"Header Layout is set in \"appearance\" -> \"customise\". To override this "
+"for this page only, use this control."
+msgstr ""
+
+#: admin/theme_metaboxes.php:86
+msgid "Override Footer?"
+msgstr ""
+
+#: admin/theme_metaboxes.php:87
+msgid ""
+"Footer Layout is set in \"appearance\" -> \"customise\". To override this "
+"for this page only, use this control."
+msgstr ""
+
+#: admin/theme_metaboxes.php:103
+msgid "Use custom colors?"
+msgstr ""
+
+#: admin/theme_metaboxes.php:104
+msgid "Allow the page to use the custom colour controls below."
+msgstr ""
+
+#: admin/theme_metaboxes.php:114
+msgid "Primary Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:120
+msgid "Primary Hover Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:126
+msgid "Secondary Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:132
+msgid "Light Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:138
+msgid "Dark Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:144
+msgid "Primary 2 Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:150
+msgid "Primary 2 Hover Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:156
+msgid "Primary 3 Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:162
+msgid "Primary Background Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:168
+msgid "Primary Alt Background Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:174
+msgid "Secondary Background Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:180
+msgid "Light Background Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:186
+msgid "Dark Background Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:192
+msgid "Primary 2 Background Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:198
+msgid "Primary 2 Alt Background Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:204
+msgid "Primary 3 Background Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:210
+msgid "Success Background Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:216
+msgid "Success Hover Background Colour"
+msgstr ""
+
+#: admin/theme_metaboxes.php:226
+msgid "Portfolio Item Layout Options"
+msgstr ""
+
+#: admin/theme_metaboxes.php:233
+msgid "Project Logo Image"
+msgstr ""
+
+#: admin/theme_metaboxes.php:235
+msgid "Shown on Single and Archive View"
+msgstr ""
+
+#: admin/theme_metaboxes.php:239
+msgid "Project Subtitle"
+msgstr ""
+
+#: admin/theme_metaboxes.php:247 admin/theme_metaboxes.php:342
+msgid "Meta Titles & Descriptions"
+msgstr ""
+
+#: admin/theme_metaboxes.php:249 admin/theme_metaboxes.php:344
+msgid "Add Another Entry"
+msgstr ""
+
+#: admin/theme_metaboxes.php:250 admin/theme_metaboxes.php:345
+msgid "Remove Entry"
+msgstr ""
+
+#: admin/theme_metaboxes.php:255 admin/theme_metaboxes.php:350
+msgid "Additional Item Title"
+msgstr ""
+
+#: admin/theme_metaboxes.php:256 admin/theme_metaboxes.php:351
+msgid "Title of your Additional Meta"
+msgstr ""
+
+#: admin/theme_metaboxes.php:261 admin/theme_metaboxes.php:356
+msgid "Additional Item Detail"
+msgstr ""
+
+#: admin/theme_metaboxes.php:262 admin/theme_metaboxes.php:357
+msgid "Detail of your Additional Meta"
+msgstr ""
+
+#: admin/theme_metaboxes.php:269
+msgid "Addition Detail Website Label"
+msgstr ""
+
+#: admin/theme_metaboxes.php:276
+msgid "Addition Detail Website URL"
+msgstr ""
+
+#: admin/theme_metaboxes.php:287
+msgid "Team Member Details"
+msgstr ""
+
+#: admin/theme_metaboxes.php:294
+msgid "Job Title"
+msgstr ""
+
+#: admin/theme_metaboxes.php:303
+msgid "Add Another Icon"
+msgstr ""
+
+#: admin/theme_metaboxes.php:304
+msgid "Remove Icon"
+msgstr ""
+
+#: admin/theme_metaboxes.php:316
+msgid "URL for Social Icon"
+msgstr ""
+
+#: admin/theme_metaboxes.php:317
+msgid "Enter the URL for Social Icon 1 e.g www.google.com"
+msgstr ""
+
+#: admin/theme_metaboxes.php:328
+msgid "Testimonial Item Layout Options"
+msgstr ""
+
+#: admin/theme_metaboxes.php:335
+msgid "Company Logo"
+msgstr ""
+
+#: admin/theme_metaboxes.php:368
+msgid "Post Format Data"
+msgstr ""
+
+#: admin/theme_metaboxes.php:375
+msgid "URL (Link Format)"
+msgstr ""
+
+#: admin/theme_metaboxes.php:381
+msgid "Embed ID (Video Format) - eg 40842620"
+msgstr ""
+
+#: admin/theme_metaboxes.php:387
+msgid "Media Provider (Video Format)"
+msgstr ""
+
+#: admin/theme_metaboxes.php:397
+msgid "Author (Quote Format)"
+msgstr ""
+
+#: admin/theme_metaboxes.php:407
+msgid "Standard Page Metabox (no page builder)"
+msgstr ""
+
+#: admin/theme_metaboxes.php:414
+msgid "Show Sharing Buttons?"
+msgstr ""
+
+#: admin/theme_metaboxes.php:424
+msgid "Small Print"
+msgstr ""
+
+#: admin/theme_metaboxes.php:449
+msgid "Category Metabox"
+msgstr ""
+
+#: admin/theme_metaboxes.php:455
+msgid "Icon Name"
+msgstr ""
+
+#: admin/theme_metaboxes.php:462 admin/theme_metaboxes.php:468
+msgid "Category Colour"
+msgstr ""
+
+#: admin/theme_scripts.php:1177
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: admin/tr_framework_init.php:27 admin/tr_framework_init.php:28
+#: admin/tr_framework_init.php:38
+msgid "Portfolio"
+msgstr ""
+
+#: admin/tr_framework_init.php:29 admin/tr_framework_init.php:101
+#: admin/tr_framework_init.php:173
+msgid "Add New"
+msgstr ""
+
+#: admin/tr_framework_init.php:30
+msgid "Add New Portfolio"
+msgstr ""
+
+#: admin/tr_framework_init.php:31
+msgid "Edit Portfolio"
+msgstr ""
+
+#: admin/tr_framework_init.php:32
+msgid "New Portfolio"
+msgstr ""
+
+#: admin/tr_framework_init.php:33
+msgid "View Portfolio"
+msgstr ""
+
+#: admin/tr_framework_init.php:34
+msgid "Search Portfolios"
+msgstr ""
+
+#: admin/tr_framework_init.php:35
+msgid "No portfolios found"
+msgstr ""
+
+#: admin/tr_framework_init.php:36
+msgid "No portfolios found in Trash"
+msgstr ""
+
+#: admin/tr_framework_init.php:37
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: admin/tr_framework_init.php:56
+msgid "jumpstart Portfolio Entries"
+msgstr ""
+
+#: admin/tr_framework_init.php:75 admin/tr_framework_init.php:85
+msgid "Portfolio Categories"
+msgstr ""
+
+#: admin/tr_framework_init.php:76
+msgid "Portfolio Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:77
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: admin/tr_framework_init.php:78
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: admin/tr_framework_init.php:79
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:80
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: admin/tr_framework_init.php:81
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:82
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:83
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:84
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: admin/tr_framework_init.php:99 admin/tr_framework_init.php:100
+#: admin/tr_framework_init.php:110
+msgid "Team"
+msgstr ""
+
+#: admin/tr_framework_init.php:102
+msgid "Add New Team"
+msgstr ""
+
+#: admin/tr_framework_init.php:103
+msgid "Edit Team"
+msgstr ""
+
+#: admin/tr_framework_init.php:104
+msgid "New Team"
+msgstr ""
+
+#: admin/tr_framework_init.php:105
+msgid "View Team"
+msgstr ""
+
+#: admin/tr_framework_init.php:106
+msgid "Search Teams"
+msgstr ""
+
+#: admin/tr_framework_init.php:107
+msgid "No Teams found"
+msgstr ""
+
+#: admin/tr_framework_init.php:108
+msgid "No Teams found in Trash"
+msgstr ""
+
+#: admin/tr_framework_init.php:109
+msgid "Parent Team:"
+msgstr ""
+
+#: admin/tr_framework_init.php:128
+msgid "jumpstart Team Entries"
+msgstr ""
+
+#: admin/tr_framework_init.php:147 admin/tr_framework_init.php:157
+msgid "Team Categories"
+msgstr ""
+
+#: admin/tr_framework_init.php:148
+msgid "Team Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:149
+msgid "Search Team Categories"
+msgstr ""
+
+#: admin/tr_framework_init.php:150
+msgid "All Team Categories"
+msgstr ""
+
+#: admin/tr_framework_init.php:151
+msgid "Parent Team Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:152
+msgid "Parent Team Category:"
+msgstr ""
+
+#: admin/tr_framework_init.php:153
+msgid "Edit Team Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:154
+msgid "Update Team Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:155
+msgid "Add New Team Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:156
+msgid "New Team Category Name"
+msgstr ""
+
+#: admin/tr_framework_init.php:171 admin/tr_framework_init.php:182
+msgid "Documentation"
+msgstr ""
+
+#: admin/tr_framework_init.php:172
+msgid "Documentation Item"
+msgstr ""
+
+#: admin/tr_framework_init.php:174
+msgid "Add New Documentation Item"
+msgstr ""
+
+#: admin/tr_framework_init.php:175
+msgid "Edit Documentation Item"
+msgstr ""
+
+#: admin/tr_framework_init.php:176
+msgid "New Documentation Item"
+msgstr ""
+
+#: admin/tr_framework_init.php:177
+msgid "View Documentation Item"
+msgstr ""
+
+#: admin/tr_framework_init.php:178
+msgid "Search Documentation Items"
+msgstr ""
+
+#: admin/tr_framework_init.php:179
+msgid "No Documentation Items found"
+msgstr ""
+
+#: admin/tr_framework_init.php:180
+msgid "No Documentation Items found in Trash"
+msgstr ""
+
+#: admin/tr_framework_init.php:181
+msgid "Parent Documentation Item:"
+msgstr ""
+
+#: admin/tr_framework_init.php:200
+msgid "jumpstart documentation Entries"
+msgstr ""
+
+#: admin/tr_framework_init.php:219 admin/tr_framework_init.php:229
+msgid "Documentation Categories"
+msgstr ""
+
+#: admin/tr_framework_init.php:220
+msgid "Documentation Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:221
+msgid "Search Documentation Categories"
+msgstr ""
+
+#: admin/tr_framework_init.php:222
+msgid "All Documentation Categories"
+msgstr ""
+
+#: admin/tr_framework_init.php:223
+msgid "Parent Documentation Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:224
+msgid "Parent Documentation Category:"
+msgstr ""
+
+#: admin/tr_framework_init.php:225
+msgid "Edit Documentation Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:226
+msgid "Update Documentation Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:227
+msgid "Add New Documentation Category"
+msgstr ""
+
+#: admin/tr_framework_init.php:228
+msgid "New Documentation Category Name"
+msgstr ""
+
+#: admin/tr_framework_init.php:307
+msgid "Show sharing buttons?"
+msgstr ""
+
+#: admin/tr_framework_init.php:312
+msgid "Yes, show sharing buttons"
+msgstr ""
+
+#: admin/tr_framework_init.php:313
+msgid "No, hide sharing buttons"
+msgstr ""
+
+#: admin/tr_framework_init.php:318
+msgid "Disable page fade effect on load?"
+msgstr ""
+
+#: admin/tr_framework_init.php:323
+msgid "No, Keep Page Fading Effect"
+msgstr ""
+
+#: admin/tr_framework_init.php:324
+msgid "Yes, Remove Page Fading Effect"
+msgstr ""
+
+#: admin/tr_framework_init.php:336
+msgid "Google Font URL (Default - Nunito:400,400i,600,700&display=swap)"
+msgstr ""
+
+#: admin/tr_framework_init.php:344
+msgid "Body Font Name"
+msgstr ""
+
+#: admin/tr_framework_init.php:366
+msgid "Body Text Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:373
+msgid "Primary Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:380
+msgid "Primary Hover Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:387
+msgid "Secondary Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:394
+msgid "Light Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:401
+msgid "Dark Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:408
+msgid "Primary 2 Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:415
+msgid "Primary 2 Hover Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:422
+msgid "Primary 3 Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:429
+msgid "Primary Background Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:436
+msgid "Primary Alt Background Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:443
+msgid "Secondary Background Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:450
+msgid "Light Background Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:457
+msgid "Dark Background Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:464
+msgid "Primary 2 Background Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:471
+msgid "Primary 2 Alt Background Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:478
+msgid "Primary 3 Background Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:485
+msgid "Success Background Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:492
+msgid "Sucess Hover Background Color"
+msgstr ""
+
+#: admin/tr_framework_init.php:513
+msgid "Header Layout"
+msgstr ""
+
+#: admin/tr_framework_init.php:521
+msgid "Use sticky menu?"
+msgstr ""
+
+#: admin/tr_framework_init.php:526
+msgid "Yes, Stick Menu on Scroll"
+msgstr ""
+
+#: admin/tr_framework_init.php:527
+msgid "No, Menu Stays in Place"
+msgstr ""
+
+#: admin/tr_framework_init.php:532
+msgid "Sticky Header Logo (should be the inverse of your normal logo)"
+msgstr ""
+
+#: admin/tr_framework_init.php:547
+msgid "Logo Height (in px)"
+msgstr ""
+
+#: admin/tr_framework_init.php:562
+msgid "Button Label"
+msgstr ""
+
+#: admin/tr_framework_init.php:570
+msgid "Button URL"
+msgstr ""
+
+#: admin/tr_framework_init.php:592
+msgid "Use hero section on blog?"
+msgstr ""
+
+#: admin/tr_framework_init.php:597
+msgid "Yes, Show the hero section"
+msgstr ""
+
+#: admin/tr_framework_init.php:598
+msgid "No, Hide the hero section"
+msgstr ""
+
+#: admin/tr_framework_init.php:603
+msgid "Blog Layout"
+msgstr ""
+
+#: admin/tr_framework_init.php:611
+msgid "Blog Layout Listing 3 Title"
+msgstr ""
+
+#: admin/tr_framework_init.php:619
+msgid "Blog Layout Listing 3 Subtitle"
+msgstr ""
+
+#: admin/tr_framework_init.php:627
+msgid "Blog Archive Header Layout"
+msgstr ""
+
+#: admin/tr_framework_init.php:635
+msgid "Blog Archive Logo"
+msgstr ""
+
+#: admin/tr_framework_init.php:643
+msgid "Post Archive Title"
+msgstr ""
+
+#: admin/tr_framework_init.php:651
+msgid "Post Archive Subtitle"
+msgstr ""
+
+#: admin/tr_framework_init.php:659
+msgid "Popular Searches (Comma Separated)"
+msgstr ""
+
+#: admin/tr_framework_init.php:674 admin/tr_framework_init.php:741
+msgid "Footer CTA Background"
+msgstr ""
+
+#: admin/tr_framework_init.php:682 admin/tr_framework_init.php:749
+msgid ""
+"Footer CTA (Example - <h3 class=\"display-4\">Never miss a minute</h3><div "
+"class=\"lead\">Get great content to your inbox every week. No spam.</div>"
+msgstr ""
+
+#: admin/tr_framework_init.php:689 admin/tr_framework_init.php:757
+msgid "Default Footer: CTA Form Shortcode"
+msgstr ""
+
+#: admin/tr_framework_init.php:710
+msgid "Portfolio Layout"
+msgstr ""
+
+#: admin/tr_framework_init.php:718
+msgid "Portfolio Archive Header Layout"
+msgstr ""
+
+#: admin/tr_framework_init.php:726
+msgid "Portfolio Archive Logo"
+msgstr ""
+
+#: admin/tr_framework_init.php:774
+msgid "Documentation Archive View"
+msgstr ""
+
+#: admin/tr_framework_init.php:779
+msgid "Documentation Archive Title"
+msgstr ""
+
+#: admin/tr_framework_init.php:787
+msgid "Documentation Archive Subtitle"
+msgstr ""
+
+#: admin/tr_framework_init.php:795
+msgid "Documentation Archive Header Layout"
+msgstr ""
+
+#: admin/tr_framework_init.php:803
+msgid "Documentation Archive Logo"
+msgstr ""
+
+#: admin/tr_framework_init.php:811
+msgid "Popular Searches (Comma Seperated)"
+msgstr ""
+
+#: admin/tr_framework_init.php:819
+msgid "Sidebar \"Email Us\" Address"
+msgstr ""
+
+#: admin/tr_framework_init.php:827
+msgid "Sidebar \"Call Us\" Telephone Number"
+msgstr ""
+
+#: admin/tr_framework_init.php:835
+msgid "Sidebar \"Email Us\" Link"
+msgstr ""
+
+#: admin/tr_framework_init.php:843
+msgid "Sidebar CTA Button Label"
+msgstr ""
+
+#: admin/tr_framework_init.php:851
+msgid "Sidebar CTA Button URL"
+msgstr ""
+
+#: admin/tr_framework_init.php:868
+msgid "Careers Single View"
+msgstr ""
+
+#: admin/tr_framework_init.php:873
+msgid "Apply Form Shortcode"
+msgstr ""
+
+#: admin/tr_framework_init.php:895
+msgid "Footer Layout"
+msgstr ""
+
+#: admin/tr_framework_init.php:903
+msgid ""
+"Footer Copyright Text - Use *copy* for copyright symbol & *current_year* for "
+"the current year."
+msgstr ""
+
+#: admin/tr_framework_init.php:918
+msgid "Footer Social Icon 1"
+msgstr ""
+
+#: admin/tr_framework_init.php:926
+msgid "Footer Social URL 1"
+msgstr ""
+
+#: admin/tr_framework_init.php:933
+msgid "Footer Social Icon 2"
+msgstr ""
+
+#: admin/tr_framework_init.php:941
+msgid "Footer Social URL 2"
+msgstr ""
+
+#: admin/tr_framework_init.php:948
+msgid "Footer Social Icon 3"
+msgstr ""
+
+#: admin/tr_framework_init.php:956
+msgid "Footer Social URL 3"
+msgstr ""
+
+#: admin/tr_framework_init.php:963
+msgid "Footer Social Icon 4"
+msgstr ""
+
+#: admin/tr_framework_init.php:971
+msgid "Footer Social URL 4"
+msgstr ""
+
+#: admin/tr_framework_init.php:978
+msgid "Footer Social Icon 5"
+msgstr ""
+
+#: admin/tr_framework_init.php:986
+msgid "Footer Social URL 5"
+msgstr ""
+
+#: admin/tr_framework_init.php:993
+msgid "Footer Social Icon 6"
+msgstr ""
+
+#: admin/tr_framework_init.php:1001
+msgid "Footer Social URL 6"
+msgstr ""
+
+#: admin/tr_framework_init.php:1017
+msgid "404 Page Image"
+msgstr ""
+
+#: admin/tr_framework_init.php:1022
+msgid "404 Logo"
+msgstr ""
+
+#: admin/tr_framework_init.php:1030
+msgid "404 Image"
+msgstr ""
+
+#: admin/tr_framework_init.php:1047
+msgid "Login Page Images"
+msgstr ""
+
+#: admin/tr_framework_init.php:1052
+msgid "WP Login Logo"
+msgstr ""
+
+#: admin/tr_framework_init.php:1060
+msgid "WP Login Background"
+msgstr ""
+
+#: archive-documentation.php:85
+msgid "articles in this collection"
+msgstr ""
+
+#: archive-documentation.php:86 inc/content-single-documentation.php:18
+#: taxonomy-documentation_category.php:36
+msgid "Written by"
+msgstr ""
+
+#: comments-inline.php:5 comments.php:5 inc/inline-comments.php:5
+msgid "Name"
+msgstr ""
+
+#: comments-inline.php:6 comments.php:6 inc/inline-comments.php:6
+msgid "Email Address"
+msgstr ""
+
+#: comments-inline.php:7 comments.php:7 inc/inline-comments.php:7
+msgid "Website"
+msgstr ""
+
+#: comments-inline.php:18 comments.php:25 inc/inline-comments.php:18
+msgid "0 Comments"
+msgstr ""
+
+#: comments-inline.php:19 comments.php:26 inc/inline-comments.php:19
+msgid "1 Comment"
+msgstr ""
+
+#: comments-inline.php:20 comments.php:27 inc/inline-comments.php:20
+msgid "% Comments"
+msgstr ""
+
+#: comments-inline.php:52 comments.php:51 inc/inline-comments.php:52
+msgid "Comment"
+msgstr ""
+
+#: inc/content-documentation-hero.php:31
+msgid "Search for articles"
+msgstr ""
+
+#: inc/content-documentation-hero.php:32 searchform.php:4 searchform.php:7
+msgid "Search"
+msgstr ""
+
+#: inc/content-documentation-hero.php:41
+msgid "Popular keywords:"
+msgstr ""
+
+#: inc/content-documentation-related.php:38
+msgid "Similar Articles"
+msgstr ""
+
+#: inc/content-header-inner.php:18
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/content-header-inner.php:19
+msgid "Navbar Toggler Open Icon"
+msgstr ""
+
+#: inc/content-header-inner.php:20
+msgid "Navbar Toggler Close Icon"
+msgstr ""
+
+#: inc/content-job-listing.php:6
+msgid "Back to Careers"
+msgstr ""
+
+#: inc/content-job-listing.php:15
+msgid "Apply Now"
+msgstr ""
+
+#: inc/content-job-listing.php:39
+msgid "Ready to apply?"
+msgstr ""
+
+#: inc/content-page.php:23
+msgid "Fine Print"
+msgstr ""
+
+#: inc/content-portfolio-related.php:41
+msgid "They did it with Jumpstart"
+msgstr ""
+
+#: inc/content-post-related.php:40
+msgid "More great articles"
+msgstr ""
+
+#: inc/content-side-menu.php:16 inc/content-side-menu.php:17
+msgid "Open Sidebar"
+msgstr ""
+
+#: inc/content-single-documentation.php:19
+#: taxonomy-documentation_category.php:37
+msgid "Last updated "
+msgstr ""
+
+#: inc/content-single-documentation.php:19
+#: taxonomy-documentation_category.php:37
+msgid " ago"
+msgstr ""
+
+#: inc/content-voting.php:16
+msgid "Did you find this article helpful?"
+msgstr ""
+
+#: inc/content-voting.php:21
+msgid "Yes"
+msgstr ""
+
+#: inc/content-voting.php:25
+msgid "No"
+msgstr ""
+
+#: job_manager/job-application.php:24
+msgid "Apply for job"
+msgstr ""
+
+#: job_manager/job-listings-end.php:27
+msgid "Didn't see your dream job?"
+msgstr ""
+
+#: job_manager/job-listings-end.php:27 sidebar-documentation.php:33
+msgid "Get in touch"
+msgstr ""
+
+#: job_manager/job-listings-start.php:25
+msgid "Position"
+msgstr ""
+
+#: job_manager/job-listings-start.php:28
+msgid "Department"
+msgstr ""
+
+#: job_manager/job-listings-start.php:31
+msgid "Location"
+msgstr ""
+
+#: loop/content-portfolio-card.php:27 loop/content-portfolio-featured.php:26
+#: loop/content-post-card.php:18 loop/content-post-featured.php:25
+#: loop/content-post-listing-2.php:33 loop/content-post-listing-3.php:12
+msgid "Read Story"
+msgstr ""
+
+#: search.php:11
+msgid " items found"
+msgstr ""
+
+#: search.php:13
+msgid "Showing results for: "
+msgstr ""
+
+#: sidebar-documentation.php:15
+msgid "Email Us"
+msgstr ""
+
+#: sidebar-documentation.php:24
+msgid "Call any time"
+msgstr ""
+
+#: sidebar-documentation.php:35
+msgid "Leave a message"
+msgstr ""
+
+#: taxonomy-documentation_category.php:16
+msgid "Back to Help Center"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Jumpstart"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.tommusrhodus.com/jumpstart-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Jumpstart WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tom Rhodes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.tommusrhodus.com/"
+msgstr ""

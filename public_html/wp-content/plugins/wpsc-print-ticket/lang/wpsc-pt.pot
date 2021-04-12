@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpsc-pt\n"
+"POT-Creation-Date: 2020-02-17 09:29+0530\n"
+"PO-Revision-Date: 2020-02-17 09:29+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../www/custom/plugins/print-ticket\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-wpsc-print_ticket-install.php:36
+msgid ""
+"\n"
+"\t\t\t\t\t<table id=\"tbl_header_info\">\n"
+"\t\t\t\t\t\t<tr>\n"
+"\t\t\t\t\t\t\t<td><strong>Ticket ID</strong></td>\n"
+"\t\t\t\t\t\t\t <td><strong>:</strong></td>\n"
+"\t\t\t\t\t\t\t<td>#{ticket_id}</td>\n"
+"\t\t\t\t\t\t</tr>\n"
+"\t\t\t\t\t\t<tr>\n"
+"\t\t\t\t\t\t\t<td><strong>Category</strong></td>\n"
+"\t\t\t\t\t\t\t<td><strong>:</strong></td>\n"
+"\t\t\t\t\t\t\t<td>{ticket_category}</td>\n"
+"\t\t\t\t\t\t</tr>\n"
+"\t\t\t\t\t\t<tr>\n"
+"\t\t\t\t\t\t\t<td><strong>Priority</strong></td>\n"
+"\t\t\t\t\t\t\t<td><strong>:</strong></td>\n"
+"\t\t\t\t\t\t\t<td>{ticket_priority}</td>\n"
+"\t\t\t\t\t\t</tr>  \n"
+"\t\t\t\t\t</table>"
+msgstr ""
+
+#: class-wpsc-print_ticket-install.php:57
+msgid ""
+"\n"
+"\t\t\t\t\t<strong>Name : </strong>{customer_name}<br>\n"
+"\t\t\t\t\t<strong>Email : </strong>{customer_email}<br>\n"
+"\t\t\t\t\t<strong>Date : </strong>{date_created}<br><br>\n"
+"\t\t\t\t\t<strong>Subject : </strong>{ticket_subject}<br><br>\n"
+"\t\t\t\t\t<strong>Description : </strong><br>\n"
+"\t\t\t\t\t{ticket_description}"
+msgstr ""
+
+#: class-wpsc-print_ticket-install.php:65
+#: includes/reset_default_pt_settings.php:52
+msgid "<div>I am Footer</div>"
+msgstr ""
+
+#: class-wpsc-print_ticket-install.php:68
+msgid "Print"
+msgstr ""
+
+#: includes/get_add_appearance_setting.php:16
+msgid "Print Ticket Button (Thank you page)"
+msgstr ""
+
+#: includes/get_add_appearance_setting.php:19
+msgid "Background color"
+msgstr ""
+
+#: includes/get_add_appearance_setting.php:24
+msgid "Color"
+msgstr ""
+
+#: includes/get_add_appearance_setting.php:30 includes/get_pt_settings.php:106
+msgid "Save Changes"
+msgstr ""
+
+#: includes/get_add_appearance_setting.php:31 includes/get_pt_settings.php:107
+msgid "Reset Default"
+msgstr ""
+
+#: includes/get_pt_settings.php:11
+msgid "Print Setting"
+msgstr ""
+
+#: includes/get_pt_settings.php:17
+msgid "Thank you page print button"
+msgstr ""
+
+#: includes/get_pt_settings.php:18
+msgid "Enable or Disable Print Buttton in thank you page."
+msgstr ""
+
+#: includes/get_pt_settings.php:23 includes/get_pt_settings.php:43
+msgid "Enable"
+msgstr ""
+
+#: includes/get_pt_settings.php:25 includes/get_pt_settings.php:45
+msgid "Disable"
+msgstr ""
+
+#: includes/get_pt_settings.php:31
+msgid "Print Button Label"
+msgstr ""
+
+#: includes/get_pt_settings.php:32
+msgid "Label to represent print ticket button."
+msgstr ""
+
+#: includes/get_pt_settings.php:37
+msgid "Allow Print Button for customer"
+msgstr ""
+
+#: includes/get_pt_settings.php:38
+msgid "Enable or Disable print buttton for customer."
+msgstr ""
+
+#: includes/get_pt_settings.php:52
+msgid "Print Template Settings"
+msgstr ""
+
+#: includes/get_pt_settings.php:57
+msgid "Header Height"
+msgstr ""
+
+#: includes/get_pt_settings.php:58
+msgid "Print page header height."
+msgstr ""
+
+#: includes/get_pt_settings.php:63
+msgid "Footer Height"
+msgstr ""
+
+#: includes/get_pt_settings.php:64
+msgid "Print page footer height."
+msgstr ""
+
+#: includes/get_pt_settings.php:69
+msgid "Header"
+msgstr ""
+
+#: includes/get_pt_settings.php:71 includes/get_pt_settings.php:83
+#: includes/get_pt_settings.php:95
+msgid "Visual"
+msgstr ""
+
+#: includes/get_pt_settings.php:72 includes/get_pt_settings.php:84
+#: includes/get_pt_settings.php:96
+msgid "Text"
+msgstr ""
+
+#: includes/get_pt_settings.php:76 includes/get_pt_settings.php:88
+#: includes/get_pt_settings.php:100
+msgid "Insert Macros"
+msgstr ""
+
+#: includes/get_pt_settings.php:81
+msgid "Body"
+msgstr ""
+
+#: includes/get_pt_settings.php:93
+msgid "Footer"
+msgstr ""
+
+#: includes/print_ticket_appearance_setting_pill.php:7
+msgid "Print Ticket"
+msgstr ""
+
+#: includes/pt_setting_pill.php:7
+msgid "Print Settings"
+msgstr ""
+
+#: includes/reset_default_pt_settings.php:21
+msgid ""
+"\n"
+"  <table id=\"tbl_header_info\">\n"
+"    <tr>\n"
+"      <td><strong>Ticket ID</strong></td>\n"
+"       <td><strong>:</strong></td>\n"
+"      <td>#{ticket_id}</td>\n"
+"    </tr>\n"
+"    <tr>\n"
+"      <td><strong>Category</strong></td>\n"
+"      <td><strong>:</strong></td>\n"
+"      <td>{ticket_category}</td>\n"
+"    </tr>\n"
+"    <tr>\n"
+"      <td><strong>Priority</strong></td>\n"
+"      <td><strong>:</strong></td>\n"
+"      <td>{ticket_priority}</td>\n"
+"    </tr>  \n"
+"  </table>"
+msgstr ""
+
+#: includes/reset_default_pt_settings.php:42
+msgid ""
+"\n"
+"  <strong>Name : </strong>{customer_name}<br>\n"
+"  <strong>Email : </strong>{customer_email}<br>\n"
+"  <strong>Date : </strong>{date_created}<br><br>\n"
+"  <strong>Subject : </strong>{ticket_subject}<br><br>\n"
+"  <strong>Description : </strong><br>\n"
+"  {ticket_description}"
+msgstr ""
+
+#: includes/reset_default_pt_settings.php:57
+msgid "Settings Reset."
+msgstr ""
+
+#: includes/reset_print_ticket_settings.php:21
+#: includes/set_appearance_print_ticket.php:17 includes/set_pt_settings.php:37
+msgid "Settings saved."
+msgstr ""

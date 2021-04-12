@@ -1,0 +1,22 @@
+{
+    "name": "patrickposner/qyrr",
+    "description": "qr code plugin",
+    "type": "wordpress-plugin",
+    "require": {
+    },
+    "license": "gpl",
+    "authors": [
+      {
+        "name": "Patrick Posner",
+        "email": "support@patrickposner.dev"
+      }
+    ],
+    "autoload": {
+      "classmap": [],
+      "files": [
+        "src/class-qyrr-admin.php",
+        "src/class-qyrr-meta.php",
+        "src/class-qyrr-shortcode.php"
+      ]
+    }
+  }

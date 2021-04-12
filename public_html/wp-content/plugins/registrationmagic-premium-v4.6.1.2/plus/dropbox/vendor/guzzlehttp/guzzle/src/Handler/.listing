@@ -1,0 +1,10 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x    5 1499       u1035-camd       4096 Jul  2 09:10 ..
+-rw-r--r--    1 1499       u1035-camd      20293 Jul  2 09:10 CurlFactory.php
+-rw-r--r--    1 1499       u1035-camd        702 Jul  2 09:10 CurlFactoryInterface.php
+-rw-r--r--    1 1499       u1035-camd       1263 Jul  2 09:10 CurlHandler.php
+-rw-r--r--    1 1499       u1035-camd       5590 Jul  2 09:10 CurlMultiHandler.php
+-rw-r--r--    1 1499       u1035-camd       2825 Jul  2 09:10 EasyHandle.php
+-rw-r--r--    1 1499       u1035-camd       5860 Jul  2 09:10 MockHandler.php
+-rw-r--r--    1 1499       u1035-camd       1775 Jul  2 09:10 Proxy.php
+-rw-r--r--    1 1499       u1035-camd      18267 Jul  2 09:10 StreamHandler.php

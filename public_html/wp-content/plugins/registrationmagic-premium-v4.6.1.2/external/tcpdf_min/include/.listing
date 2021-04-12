@@ -1,0 +1,10 @@
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x    6 1499       u1035-camd       4096 Jul  2 09:10 ..
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 barcodes
+-rw-r--r--    1 1499       u1035-camd       6922 Jul  2 09:10 sRGB.icc
+-rw-r--r--    1 1499       u1035-camd      14700 Jul  2 09:10 tcpdf_colors.php
+-rw-r--r--    1 1499       u1035-camd      14682 Jul  2 09:10 tcpdf_filters.php
+-rw-r--r--    1 1499       u1035-camd     313432 Jul  2 09:10 tcpdf_font_data.php
+-rw-r--r--    1 1499       u1035-camd      96177 Jul  2 09:10 tcpdf_fonts.php
+-rw-r--r--    1 1499       u1035-camd      11401 Jul  2 09:10 tcpdf_images.php
+-rw-r--r--    1 1499       u1035-camd     109534 Jul  2 09:10 tcpdf_static.php

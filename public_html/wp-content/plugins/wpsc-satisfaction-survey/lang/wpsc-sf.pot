@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpsc-sf\n"
+"POT-Creation-Date: 2020-02-17 09:31+0530\n"
+"PO-Revision-Date: 2020-02-17 09:31+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../www/custom/plugins/satisfaction-survey\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-wpsc-sf-install.php:55 class-wpsc-sf.php:222
+#: wpsc-satisfaction-survey.php:154
+msgid "Rating"
+msgstr ""
+
+#: class-wpsc-sf-install.php:72
+msgid "Terrible"
+msgstr ""
+
+#: class-wpsc-sf-install.php:78
+msgid "Bad"
+msgstr ""
+
+#: class-wpsc-sf-install.php:84
+msgid "Okey"
+msgstr ""
+
+#: class-wpsc-sf-install.php:90
+msgid "Good"
+msgstr ""
+
+#: class-wpsc-sf-install.php:96
+msgid "Excellent"
+msgstr ""
+
+#: class-wpsc-sf-install.php:102
+msgid "Thank you for your valuable feedback!"
+msgstr ""
+
+#: class-wpsc-sf-install.php:113
+msgid "Satisfaction Survey Links"
+msgstr ""
+
+#: class-wpsc-sf-install.php:117
+msgid "Last Feedback"
+msgstr ""
+
+#: class-wpsc-sf.php:260
+msgid "Feedback Notification "
+msgstr ""
+
+#: includes/addon_license_area.php:18 includes/get_sf_settings.php:24
+#: includes/sf_setting_pill.php:7
+msgid "Satisfaction Survey"
+msgstr ""
+
+#: includes/delete_rating.php:16
+msgid "Rating deleted successfully."
+msgstr ""
+
+#: includes/filter_autocomplete.php:24
+msgid "No matching data"
+msgstr ""
+
+#: includes/get_add_rating.php:12 includes/get_edit_rating.php:18
+msgid "Rating Label"
+msgstr ""
+
+#: includes/get_add_rating.php:13 includes/get_edit_rating.php:19
+msgid ""
+"Insert rating label. Please make sure label you are entering should not "
+"already exist."
+msgstr ""
+
+#: includes/get_add_rating.php:17 includes/get_edit_rating.php:23
+msgid "Color"
+msgstr ""
+
+#: includes/get_add_rating.php:29 includes/get_edit_rating.php:35
+msgid "Close"
+msgstr ""
+
+#: includes/get_add_rating.php:30 includes/get_edit_rating.php:36
+#: includes/shortcode.php:44 includes/wpsc_sf_get_ratings.php:114
+msgid "Submit"
+msgstr ""
+
+#: includes/get_sf_email_notification.php:12
+msgid "Feedback Email"
+msgstr ""
+
+#: includes/get_sf_email_notification.php:15
+msgid "Age"
+msgstr ""
+
+#: includes/get_sf_email_notification.php:16
+msgid ""
+"Select time after which feedback email should be sent to customer. Set '0' "
+"to disable email."
+msgstr ""
+
+#: includes/get_sf_email_notification.php:26
+msgid "Hours"
+msgstr ""
+
+#: includes/get_sf_email_notification.php:27
+msgid "Days"
+msgstr ""
+
+#: includes/get_sf_email_notification.php:34
+msgid "Subject"
+msgstr ""
+
+#: includes/get_sf_email_notification.php:35
+msgid "Subject for email to send."
+msgstr ""
+
+#: includes/get_sf_email_notification.php:40
+msgid "Body"
+msgstr ""
+
+#: includes/get_sf_email_notification.php:41
+msgid ""
+"Body for email to send. Use macros for ticket specific details. Macros will "
+"get replaced by its value while sending an email."
+msgstr ""
+
+#: includes/get_sf_email_notification.php:43
+msgid "Visual"
+msgstr ""
+
+#: includes/get_sf_email_notification.php:44
+msgid "Text"
+msgstr ""
+
+#: includes/get_sf_email_notification.php:48
+msgid "Insert Macros"
+msgstr ""
+
+#: includes/get_sf_email_notification.php:52 includes/get_sf_settings.php:79
+msgid "Save Changes"
+msgstr ""
+
+#: includes/get_sf_settings.php:27
+msgid "Ratings"
+msgstr ""
+
+#: includes/get_sf_settings.php:28
+msgid "+Add New"
+msgstr ""
+
+#: includes/get_sf_settings.php:50
+msgid "General Settings"
+msgstr ""
+
+#: includes/get_sf_settings.php:53
+msgid "Survey Page"
+msgstr ""
+
+#: includes/get_sf_settings.php:54
+msgid ""
+"Select page for survey where user will submit ratings and reviews for "
+"ticket. This should have shortcode [wpsc_sf]"
+msgstr ""
+
+#: includes/get_sf_settings.php:75
+msgid "Thank you text"
+msgstr ""
+
+#: includes/get_sf_settings.php:107
+msgid "Add New Rating"
+msgstr ""
+
+#: includes/get_sf_settings.php:129 includes/get_sf_settings.php:176
+msgid "Please wait ..."
+msgstr ""
+
+#: includes/get_sf_settings.php:153
+msgid "Edit Rating"
+msgstr ""
+
+#: includes/get_sf_settings.php:201
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/notification_types.php:8
+msgid "Ticket Rating"
+msgstr ""
+
+#: includes/notification_types.php:9
+msgid "Ticket Feedback"
+msgstr ""
+
+#: includes/print_feedback_thread.php:22
+#, php-format
+msgid "added feedback %1$s"
+msgstr ""
+
+#: includes/print_feedback_thread.php:27
+msgid "Delete this thread"
+msgstr ""
+
+#: includes/print_feedback_thread.php:28
+msgid "Edit this thread"
+msgstr ""
+
+#: includes/print_rating_widget.php:34 includes/print_rating_widget.php:48
+msgid "Rating not available!"
+msgstr ""
+
+#: includes/replace_macro.php:35
+msgid "No rating available"
+msgstr ""
+
+#: includes/replace_macro.php:63
+msgid "No feedback available"
+msgstr ""
+
+#: includes/save_settings.php:17 includes/set_sf_email_notification.php:23
+msgid "Settings saved."
+msgstr ""
+
+#: includes/set_add_rating.php:21
+msgid "Rating added successfully."
+msgstr ""
+
+#: includes/set_add_rating.php:23
+msgid "An error occured while creating rating."
+msgstr ""
+
+#: includes/set_more_feedback.php:37
+msgid "Feedback submitted successfully!"
+msgstr ""
+
+#: includes/set_rating_order.php:17
+msgid "Ratings order saved."
+msgstr ""
+
+#: includes/shortcode.php:41 includes/wpsc_sf_get_ratings.php:40
+msgid "More Feedback (Optional):"
+msgstr ""
+
+#: includes/shortcode.php:83 includes/wpsc_sf_get_ratings.php:86
+msgid "Please wait.."
+msgstr ""
+
+#: includes/tickets_ratings/get_ratings_report.php:17
+msgid "Report Duration"
+msgstr ""
+
+#: includes/tickets_ratings/get_ratings_report.php:22
+msgid "Last 7 Days"
+msgstr ""
+
+#: includes/tickets_ratings/get_ratings_report.php:25
+msgid "Last 30 Days"
+msgstr ""
+
+#: includes/tickets_ratings/get_ratings_report.php:28
+msgid "Last Month"
+msgstr ""
+
+#: includes/tickets_ratings/get_ratings_report.php:31
+msgid "Last Quarter"
+msgstr ""
+
+#: includes/tickets_ratings/get_ratings_report.php:34
+msgid "This Year"
+msgstr ""
+
+#: includes/tickets_ratings/get_ratings_report.php:37
+msgid "Custom Date"
+msgstr ""
+
+#: includes/tickets_ratings/get_ratings_report.php:44
+msgid "From Date"
+msgstr ""
+
+#: includes/tickets_ratings/get_ratings_report.php:50
+msgid "To Date"
+msgstr ""
+
+#: includes/tickets_ratings/get_ratings_report.php:55
+msgid "Apply"
+msgstr ""
+
+#: includes/tickets_ratings/get_ratings_report.php:56
+msgid "Print"
+msgstr ""
+
+#: includes/tickets_ratings/sf_reports_bt_filter.php:84
+msgid "No data found!"
+msgstr ""
+
+#: includes/wpsc_sf_get_ratings.php:104
+msgid "Ok"
+msgstr ""
+
+#: includes/wpsc_sf_get_ratings.php:113
+msgid "Cancel"
+msgstr ""
+
+#: includes/wpsc_sf_rating_ticket_fields.php:14
+msgid "None"
+msgstr ""

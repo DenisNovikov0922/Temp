@@ -1,0 +1,16 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x    7 1499       u1035-camd       4096 Jul  2 09:10 ..
+-rw-r--r--    1 1499       u1035-camd     158914 Jul  2 09:10 angular.min.js
+-rw-r--r--    1 1499       u1035-camd     549361 Jul  2 09:10 chartjs.js
+-rw-r--r--    1 1499       u1035-camd      30172 Jul  2 09:10 jquery.joyride-2.1.js
+-rw-r--r--    1 1499       u1035-camd      29139 Jul  2 09:10 jscolor.min.js
+-rw-r--r--    1 1499       u1035-camd       1014 Jul  2 09:10 logged_in_view.js
+-rw-r--r--    1 1499       u1035-camd      30388 Jul  2 09:10 script_rm_admin.js
+-rw-r--r--    1 1499       u1035-camd       2316 Jul  2 09:10 script_rm_form_dashboard.js
+-rw-r--r--    1 1499       u1035-camd      17540 Jul  2 09:10 script_rm_form_presentation.js
+-rw-r--r--    1 1499       u1035-camd       7752 Jul  2 09:10 script_rm_formcard_menu.js
+-rw-r--r--    1 1499       u1035-camd       3500 Jul  2 09:10 script_rm_formflow.js
+-rw-r--r--    1 1499       u1035-camd      20737 Jul  2 09:10 script_rm_tokens.js
+-rw-r--r--    1 1499       u1035-camd      11624 Jul  2 09:10 script_rm_utilities.js
+-rw-r--r--    1 1499       u1035-camd       2873 Jul  2 09:10 wickedpicker.min.css
+-rw-r--r--    1 1499       u1035-camd       9544 Jul  2 09:10 wickedpicker.min.js

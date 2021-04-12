@@ -1,0 +1,131 @@
+.wrapper.progress-bar-task *,  .wrapper.progress-bar-task {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper.progress-bar-task {
+    position: relative;
+    width: 520px;
+    max-width: 100%;
+  }
+  .wrapper.progress-bar-task:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1111;
+}
+
+  .progress-bar-task .progress-bar {
+    height: 16px;
+    width: 100%;
+    background-color: #dddada;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .wrapper.progress-bar-task + .progress-bar {
+    margin-top: 2rem;
+  }
+  
+  .progress-bar-task  .bar {
+    width: 0px;
+    height: 100%;
+    background-color: #2d32aa;
+    animation: move 2s linear infinite;
+    transition: width 2s ease-out;
+  }
+  
+  /*Lollipop background gradient animation*/
+  @keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 30px 30px;
+    }
+  }
+  
+  .progress-bar-task .perc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+  }
+  .progress-bar-task .container {
+    display: block;
+    position: relative;
+    padding-left: 65px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #000;
+    height: 50px;
+    line-height: 48px;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .progress-bar-task .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .progress-bar-task .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #dcdbd9;
+  }
+  
+  /* On mouse-over, add a grey background color */
+
+  /* When the checkbox is checked, add a blue background */
+  .progress-bar-task .container input:checked ~ .checkmark {
+    background-color: #2d32aa;
+    border-color: #2d32aa;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .progress-bar-task .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .progress-bar-task .container input:checked ~ .checkmark:after {
+    display: block;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+  }
+  
+  /* Style the checkmark/indicator */
+  .progress-bar-task .container .checkmark:after {
+    left: 18px;
+    top: 11px;
+    width: 8px;
+    height: 17px;
+    border: solid #dcdbd9;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: block;
+  }

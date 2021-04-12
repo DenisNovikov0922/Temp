@@ -1,0 +1,8 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:50 .
+drwxr-xr-x    4 1499       u1035-camd       4096 Jul 15 09:50 ..
+-rw-r--r--    1 1499       u1035-camd       1727 Jul 15 09:50 admin.php
+-rw-r--r--    1 1499       u1035-camd        693 Jul 15 09:50 canned_reply.php
+-rw-r--r--    1 1499       u1035-camd       2687 Jul 15 09:50 register_post_type.php
+-rw-r--r--    1 1499       u1035-camd        317 Jul 15 09:50 save_post_canned_reply.php
+-rw-r--r--    1 1499       u1035-camd        312 Jul 15 09:50 wpsc_canned_reply.php
+-rw-r--r--    1 1499       u1035-camd       1281 Jul 15 09:50 wpsc_submit_canned_reply_post.php

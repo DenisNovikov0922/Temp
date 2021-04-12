@@ -1,0 +1,12 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jun  1 13:49 .
+drwxr-xr-x    5 1499       u1035-camd       4096 Jun  1 13:49 ..
+-rw-r--r--    1 1499       u1035-camd        677 Jun  1 13:49 GitProcessorTest.php
+-rw-r--r--    1 1499       u1035-camd       3153 Jun  1 13:49 IntrospectionProcessorTest.php
+-rw-r--r--    1 1499       u1035-camd       1361 Jun  1 13:49 MemoryPeakUsageProcessorTest.php
+-rw-r--r--    1 1499       u1035-camd       1316 Jun  1 13:49 MemoryUsageProcessorTest.php
+-rw-r--r--    1 1499       u1035-camd       1116 Jun  1 13:49 MercurialProcessorTest.php
+-rw-r--r--    1 1499       u1035-camd        844 Jun  1 13:49 ProcessIdProcessorTest.php
+-rw-r--r--    1 1499       u1035-camd       1056 Jun  1 13:49 PsrLogMessageProcessorTest.php
+-rw-r--r--    1 1499       u1035-camd       1351 Jun  1 13:49 TagProcessorTest.php
+-rw-r--r--    1 1499       u1035-camd        755 Jun  1 13:49 UidProcessorTest.php
+-rw-r--r--    1 1499       u1035-camd       3486 Jun  1 13:49 WebProcessorTest.php

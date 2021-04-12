@@ -1,0 +1,45 @@
+.rs-update-notice-wrap {
+	display: none !important;
+}
+.gallery-settings h3:last-of-type {
+	clear: both;
+	padding-top: 20px;
+}
+.image-details h3, .media-sidebar h3 {
+	clear: both;
+	margin-top: 0;
+	padding-top: 24px;
+}
+.cmb2-textarea-code {
+	height: 60px;
+}
+.vc_license-activation-notice {
+	display: none !important;
+}
+.post-type-portfolio #formatdiv {
+	display: none;
+}
+.wpb_element_wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tommusrhodus-icons-wrapper {
+	display: none;
+}
+.tommusrhodus-icons i {
+	font-size: 44px;
+	width: 44px !important;
+	height: 44px !important;
+	margin: 0 8px 8px 0;
+	cursor: pointer;
+	float: left;
+}
+
+.tommusrhodus_post_thumb img {
+	max-height: 60px;
+	width: auto;
+}
+.menu-item-depth-0 .field-custom-icon, .menu-item-depth-0 .tommusrhodus-icons,  .menu-item-depth-0 .field-custom-icon-bg {
+	display: none;
+}

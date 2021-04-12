@@ -1,0 +1,343 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Qr\n"
+"POT-Creation-Date: 2020-01-14 17:49+0100\n"
+"PO-Revision-Date: 2020-01-14 17:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: qr.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: src/class-qr-admin.php:73
+msgctxt "Post type general name"
+msgid "QR Code"
+msgstr ""
+
+#: src/class-qr-admin.php:74
+msgctxt "Post type singular name"
+msgid "QR Code"
+msgstr ""
+
+#: src/class-qr-admin.php:75
+msgctxt "Admin Menu text"
+msgid "QR Codes"
+msgstr ""
+
+#: src/class-qr-admin.php:76
+msgctxt "Add New on Toolbar"
+msgid "QR Code"
+msgstr ""
+
+#: src/class-qr-admin.php:77
+msgid "Add New"
+msgstr ""
+
+#: src/class-qr-admin.php:78
+msgid "Add New QR Code"
+msgstr ""
+
+#: src/class-qr-admin.php:79
+msgid "New QR Code"
+msgstr ""
+
+#: src/class-qr-admin.php:80
+msgid "Edit QR Code"
+msgstr ""
+
+#: src/class-qr-admin.php:81
+msgid "View QR Code"
+msgstr ""
+
+#: src/class-qr-admin.php:82
+msgid "All QR Codes"
+msgstr ""
+
+#: src/class-qr-admin.php:83
+msgid "Search QR Codes"
+msgstr ""
+
+#: src/class-qr-admin.php:84
+msgid "Parent QR Codes:"
+msgstr ""
+
+#: src/class-qr-admin.php:85
+msgid "No QR codes found."
+msgstr ""
+
+#: src/class-qr-admin.php:86
+msgid "No QR codes found in Trash."
+msgstr ""
+
+#: src/class-qr-admin.php:87
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "QR codes archives"
+msgstr ""
+
+#: src/class-qr-admin.php:88
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into QR Code"
+msgstr ""
+
+#: src/class-qr-admin.php:89
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this QR Code"
+msgstr ""
+
+#: src/class-qr-admin.php:90
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter QR codes list"
+msgstr ""
+
+#: src/class-qr-admin.php:91
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "QR list navigation"
+msgstr ""
+
+#: src/class-qr-admin.php:92
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "QR codes list"
+msgstr ""
+
+#: src/class-qr-admin.php:120
+msgctxt "taxonomy general name"
+msgid "Campains"
+msgstr ""
+
+#: src/class-qr-admin.php:121
+msgctxt "taxonomy singular name"
+msgid "Campain"
+msgstr ""
+
+#: src/class-qr-admin.php:122
+msgid "Search Campains"
+msgstr ""
+
+#: src/class-qr-admin.php:123
+msgid "Popular Campains"
+msgstr ""
+
+#: src/class-qr-admin.php:124
+msgid "All Campains"
+msgstr ""
+
+#: src/class-qr-admin.php:127
+msgid "Edit Campain"
+msgstr ""
+
+#: src/class-qr-admin.php:128
+msgid "Update Campain"
+msgstr ""
+
+#: src/class-qr-admin.php:129
+msgid "Add New Campain"
+msgstr ""
+
+#: src/class-qr-admin.php:130
+msgid "New Campain Name"
+msgstr ""
+
+#: src/class-qr-admin.php:131
+msgid "Separate Campains with commas"
+msgstr ""
+
+#: src/class-qr-admin.php:132
+msgid "Add or remove Campains"
+msgstr ""
+
+#: src/class-qr-admin.php:133
+msgid "Choose from the most used Campains"
+msgstr ""
+
+#: src/class-qr-admin.php:134
+msgid "No Campains found."
+msgstr ""
+
+#: src/class-qr-admin.php:135
+msgid "Campains"
+msgstr ""
+
+#: src/class-qr-admin.php:158 src/class-qr-meta.php:38
+msgid "QR-Code"
+msgstr ""
+
+#: src/class-qr-admin.php:159
+msgid "Download PNG"
+msgstr ""
+
+#: src/class-qr-admin.php:179
+msgid "Download"
+msgstr ""
+
+#: src/class-qr-meta.php:36
+msgid "General"
+msgstr ""
+
+#: src/class-qr-meta.php:37
+msgid "Logo or Label"
+msgstr ""
+
+#: src/class-qr-meta.php:65
+msgid "URL"
+msgstr ""
+
+#: src/class-qr-meta.php:70 src/class-qr-meta.php:91
+msgid "Render mode"
+msgstr ""
+
+#: src/class-qr-meta.php:73 src/class-qr-meta.php:75 src/class-qr-meta.php:93
+msgid "Canvas"
+msgstr ""
+
+#: src/class-qr-meta.php:78 src/class-qr-meta.php:80
+msgid "Image"
+msgstr ""
+
+#: src/class-qr-meta.php:83 src/class-qr-meta.php:85
+msgid "Div"
+msgstr ""
+
+#: src/class-qr-meta.php:98
+msgid "Size (Px)"
+msgstr ""
+
+#: src/class-qr-meta.php:102
+msgid "Fill color"
+msgstr ""
+
+#: src/class-qr-meta.php:106
+msgid "Background color"
+msgstr ""
+
+#: src/class-qr-meta.php:110
+msgid "Min version"
+msgstr ""
+
+#: src/class-qr-meta.php:114
+msgid "Error handling level"
+msgstr ""
+
+#: src/class-qr-meta.php:117 src/class-qr-meta.php:119
+msgid "L - Low (7%)"
+msgstr ""
+
+#: src/class-qr-meta.php:122 src/class-qr-meta.php:124
+msgid "M - Medium (15%)"
+msgstr ""
+
+#: src/class-qr-meta.php:127 src/class-qr-meta.php:129
+msgid "Q - Quartile (25%)"
+msgstr ""
+
+#: src/class-qr-meta.php:132 src/class-qr-meta.php:134
+msgid "H - High (30%)"
+msgstr ""
+
+#: src/class-qr-meta.php:139
+msgid "Quiet zone"
+msgstr ""
+
+#: src/class-qr-meta.php:143
+msgid "Corner radius (%)"
+msgstr ""
+
+#: src/class-qr-meta.php:178
+msgid "Label Mode"
+msgstr ""
+
+#: src/class-qr-meta.php:181 src/class-qr-meta.php:183
+msgid "Normal"
+msgstr ""
+
+#: src/class-qr-meta.php:186 src/class-qr-meta.php:188
+msgid "Label-Strip"
+msgstr ""
+
+#: src/class-qr-meta.php:191 src/class-qr-meta.php:193
+msgid "Label-Box"
+msgstr ""
+
+#: src/class-qr-meta.php:196 src/class-qr-meta.php:198
+msgid "Logo-Strip"
+msgstr ""
+
+#: src/class-qr-meta.php:201 src/class-qr-meta.php:203
+msgid "Logo-Box"
+msgstr ""
+
+#: src/class-qr-meta.php:208
+msgid "Logo size (%)"
+msgstr ""
+
+#: src/class-qr-meta.php:212
+msgid "Position X (%)"
+msgstr ""
+
+#: src/class-qr-meta.php:216
+msgid "Position Y (%)"
+msgstr ""
+
+#: src/class-qr-meta.php:220
+msgid "Label Text"
+msgstr ""
+
+#: src/class-qr-meta.php:224
+msgid "Font"
+msgstr ""
+
+#: src/class-qr-meta.php:228
+msgid "Font-Color"
+msgstr ""
+
+#: src/class-qr-meta.php:232
+msgid "Logo-Upload"
+msgstr ""
+
+#: src/class-qr-meta.php:321
+msgid "There was an error uploading your file. The error is:"
+msgstr ""
+
+#: src/class-qr-meta.php:327
+msgid "The file type that you've uploaded is not a allowed."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Qr"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://patrickposner.dev/plugins/qr"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "QR-Code generation, management and tracking as it should be."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Patrick Posner"
+msgstr ""

@@ -1,0 +1,7 @@
+drwxr-xr-x    5 1499       u1035-camd       4096 Jul 15 09:48 .
+drwxr-xr-x   48 1499       u1035-camd       4096 Jul 20 09:03 ..
+drwxr-xr-x    5 1499       u1035-camd       4096 Jul 15 09:48 asset
+-rw-r--r--    1 1499       u1035-camd       3045 Jul 15 09:48 class-wpsc-print_ticket-install.php
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:48 includes
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul 15 09:48 lang
+-rw-r--r--    1 1499       u1035-camd       4347 Jul 15 09:48 wpsc-print-ticket.php

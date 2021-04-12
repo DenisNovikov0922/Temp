@@ -1,0 +1,17 @@
+drwxr-xr-x    6 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x   16 1499       u1035-camd       4096 Jul  2 09:10 ..
+-rw-r--r--    1 1499       u1035-camd     116703 Jul  2 09:10 CHANGELOG.TXT
+-rw-r--r--    1 1499       u1035-camd      43682 Jul  2 09:10 LICENSE.TXT
+-rw-r--r--    1 1499       u1035-camd       4767 Jul  2 09:10 README.md
+-rw-r--r--    1 1499       u1035-camd          6 Jul  2 09:10 VERSION
+-rw-r--r--    1 1499       u1035-camd       1048 Jul  2 09:10 composer.json
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 config
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 fonts
+drwxr-xr-x    3 1499       u1035-camd       4096 Jul  2 09:10 include
+-rw-r--r--    1 1499       u1035-camd     901091 Jul  2 09:10 tcpdf.php
+-rw-r--r--    1 1499       u1035-camd       7155 Jul  2 09:10 tcpdf_autoconfig.php
+-rw-r--r--    1 1499       u1035-camd      73404 Jul  2 09:10 tcpdf_barcodes_1d.php
+-rw-r--r--    1 1499       u1035-camd      14683 Jul  2 09:10 tcpdf_barcodes_2d.php
+-rw-r--r--    1 1499       u1035-camd       3327 Jul  2 09:10 tcpdf_import.php
+-rw-r--r--    1 1499       u1035-camd      27636 Jul  2 09:10 tcpdf_parser.php
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 tools

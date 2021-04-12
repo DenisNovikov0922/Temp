@@ -1,0 +1,17 @@
+/*Theme Name: WooFood
+Theme URI: https://www.wpslash.com/plugin/woofood/
+Author: WPSlash
+Author URI: https://www.wpslash.com
+Description: WooFood Online Delivery Theme
+Version: 2.1.9
+Text Domain: woofood
+Tags:*/
+
+
+.navbar-brand{
+	padding: 0px;
+}
+
+.navbar-brand > img{
+	max-width:230px;
+}

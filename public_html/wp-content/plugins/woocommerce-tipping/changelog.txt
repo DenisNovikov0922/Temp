@@ -1,0 +1,11 @@
+*** Tipping for WooCommerce Changelog ***
+2020-11-23- version 1.0.4
+* Added Support for Tax Classes
+2020-11-19- version 1.0.3
+* Added Tips on WooCommerce Reports
+2020-10-10- version 1.0.2
+* Fixed Bug on Default Tip Amount
+2020-10-07- version 1.0.1
+* Fixed Bug to Always Positive Tip Number
+2020-09-16 - version 1.0.0
+* Inital release

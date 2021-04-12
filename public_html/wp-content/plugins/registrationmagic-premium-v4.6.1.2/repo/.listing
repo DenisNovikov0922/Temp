@@ -1,0 +1,5 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x   12 1499       u1035-camd       4096 Jul  2 09:10 ..
+-rw-r--r--    1 1499       u1035-camd       2464 Jul  2 09:10 class_rm_email_repository.php
+-rw-r--r--    1 1499       u1035-camd       2198 Jul  2 09:10 class_rm_res_repository.php
+-rw-r--r--    1 1499       u1035-camd       3184 Jul  2 09:10 class_rm_user_repository.php

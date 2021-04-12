@@ -1,0 +1,411 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpsc-ep\n"
+"POT-Creation-Date: 2020-02-17 09:23+0530\n"
+"PO-Revision-Date: 2020-02-17 09:23+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../www/custom/plugins/email-piping\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-wpsc-ep-install.php:75
+msgid "Reply not added"
+msgstr ""
+
+#: class-wpsc-ep-install.php:78
+msgid ""
+"<p>Hello {customer_name},</p><p>Ticket #{ticket_id} is Closed. Further reply "
+"to closed ticket is not allowed.</p><p>Please create new ticket on our "
+"website if you need any help.</p>"
+msgstr ""
+
+#: class-wpsc-ep-install.php:90
+msgid "Not allowed!"
+msgstr ""
+
+#: class-wpsc-ep-install.php:93
+msgid ""
+"<p> Hello,</p><p>The ticket can not be created for non-registered users.</p>"
+msgstr ""
+
+#: includes/class-wpsc-ep-admin.php:118
+msgid "Forwarded From (Email Piping)"
+msgstr ""
+
+#: includes/create_ticket_email_piping.php:29
+msgid "NA"
+msgstr ""
+
+#: includes/delete_ep_rules_form_field.php:15
+msgid "Rule deleted successfully."
+msgstr ""
+
+#: includes/email_notifications/add_en_setting_tab.php:6
+msgid "Email Piping Emails"
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:12
+msgid "Close ticket warning email"
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:13
+msgid ""
+"If replies for closed ticket is disabled, this email will get sent back to "
+"customer."
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:15
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:36
+msgid "Email Subject"
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:16
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:37
+msgid "Subject for email to send."
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:21
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:42
+#: includes/settings.php:155
+msgid "Email Body"
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:22
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:43
+msgid ""
+"Body for email to send. Use macros for ticket specific details. Macros will "
+"get replaced by its value while sending an email."
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:24
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:45
+msgid "Visual"
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:25
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:46
+#: includes/settings.php:159
+msgid "Text"
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:29
+msgid "Insert Macros"
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:33
+msgid "Allowed User type warning email"
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:34
+msgid ""
+"If non register user trying to create ticket, this email will get sent back "
+"to customer."
+msgstr ""
+
+#: includes/email_notifications/wpsc_get_ep_email_notifications.php:51
+#: includes/get_edit_ep_rules_form_field.php:171
+#: includes/get_ep_rules_form_field.php:149 includes/settings.php:200
+msgid "Save Changes"
+msgstr ""
+
+#: includes/email_notifications/wpsc_set_ep_en_setting.php:25
+#: includes/set_email_piping_settings.php:52
+#: includes/set_ep_other_settings.php:40
+msgid "Setting saved!"
+msgstr ""
+
+#: includes/ep_setting_pill.php:7
+msgid "Email Piping"
+msgstr ""
+
+#: includes/ep_setting_pill.php:8 includes/get_ep_rules_settings.php:22
+msgid "Email Piping Rules"
+msgstr ""
+
+#: includes/get_edit_ep_rules_form_field.php:38
+#: includes/get_ep_rules_form_field.php:16
+msgid "Title"
+msgstr ""
+
+#: includes/get_edit_ep_rules_form_field.php:39
+#: includes/get_ep_rules_form_field.php:17
+msgid ""
+"Title to show in rule list. It will be easier to know what this rule for."
+msgstr ""
+
+#: includes/get_edit_ep_rules_form_field.php:44
+#: includes/get_ep_rules_form_field.php:22
+msgid "To Address"
+msgstr ""
+
+#: includes/get_edit_ep_rules_form_field.php:45
+msgid ""
+"Please enter the email addresses to match from which email was forworded for "
+"piping. One email per line.You can insert email pattern like *@paypal.com, "
+"admin@*, etc. If this condition matched, no further conditions checked and "
+"fields will get applied to ticket."
+msgstr ""
+
+#: includes/get_edit_ep_rules_form_field.php:50
+#: includes/get_ep_rules_form_field.php:28
+msgid "Has Words"
+msgstr ""
+
+#: includes/get_edit_ep_rules_form_field.php:51
+#: includes/get_ep_rules_form_field.php:29
+msgid ""
+"Please enter words/strings to match in email subject or body text. One "
+"string per line. You can use patterns like abc,xyz,*abc,xyz* etc. If this "
+"condition matched, fields will get applied to ticket regardless of other "
+"conditions."
+msgstr ""
+
+#: includes/get_edit_ep_rules_form_field.php:55
+#: includes/get_ep_rules_form_field.php:33
+msgid "Select Fields"
+msgstr ""
+
+#: includes/get_edit_ep_rules_form_field.php:166
+#: includes/get_ep_rules_form_field.php:143
+msgid "Additional Recepients"
+msgstr ""
+
+#: includes/get_ep_rules_form_field.php:12
+msgid "Add New Rule"
+msgstr ""
+
+#: includes/get_ep_rules_form_field.php:23
+msgid ""
+"Please enter the email addresses to match from which email was forworded for "
+"piping. One email per line. You can insert email pattern like *@paypal.com, "
+"admin@*, etc. If this condition matched, no further conditions checked and "
+"fields will get applied to ticket."
+msgstr ""
+
+#: includes/get_ep_rules_settings.php:23
+msgid "+Add New"
+msgstr ""
+
+#: includes/set_edit_ep_rules_form_field.php:105
+#: includes/set_ep_rules_form_field.php:110
+msgid "Email Piping Rule added successfully."
+msgstr ""
+
+#: includes/set_ep_rule_list_order.php:16
+msgid "List order saved."
+msgstr ""
+
+#: includes/set_ep_rules_form_field.php:112
+msgid "An error occured while creating ep rule."
+msgstr ""
+
+#: includes/settings.php:18
+msgid "Connection Settings"
+msgstr ""
+
+#: includes/settings.php:19
+msgid "Other Settings"
+msgstr ""
+
+#: includes/settings.php:30
+msgid "Piping Type"
+msgstr ""
+
+#: includes/settings.php:31
+msgid "Email piping type."
+msgstr ""
+
+#: includes/settings.php:33
+msgid "IMAP"
+msgstr ""
+
+#: includes/settings.php:34
+msgid "Gmail"
+msgstr ""
+
+#: includes/settings.php:53
+msgid "Client ID"
+msgstr ""
+
+#: includes/settings.php:54
+msgid "Google app Client ID."
+msgstr ""
+
+#: includes/settings.php:59
+msgid "Client Secret"
+msgstr ""
+
+#: includes/settings.php:60
+msgid "Google app Client Secret."
+msgstr ""
+
+#: includes/settings.php:65
+msgid "Email Address"
+msgstr ""
+
+#: includes/settings.php:66
+msgid "Google email address to pipe."
+msgstr ""
+
+#: includes/settings.php:71
+msgid "Email Address / Email Username"
+msgstr ""
+
+#: includes/settings.php:76
+msgid "Email Password"
+msgstr ""
+
+#: includes/settings.php:81
+msgid "Encryption"
+msgstr ""
+
+#: includes/settings.php:92
+msgid "Incoming Mail Server"
+msgstr ""
+
+#: includes/settings.php:97
+msgid "Port"
+msgstr ""
+
+#: includes/settings.php:103
+msgid "Save & Connect"
+msgstr ""
+
+#: includes/settings.php:112 includes/settings.php:120
+msgid "Connected!"
+msgstr ""
+
+#: includes/settings.php:115 includes/settings.php:123
+msgid "Not Connected!"
+msgstr ""
+
+#: includes/settings.php:133
+msgid "Block Emails"
+msgstr ""
+
+#: includes/settings.php:134
+msgid ""
+"Add one email per line. You can insert email pattern like *@paypal.com, "
+"admin@*, etc."
+msgstr ""
+
+#: includes/settings.php:138
+msgid "Ignore emails having these words in subject"
+msgstr ""
+
+#: includes/settings.php:139
+msgid ""
+"Add one pattern per line. You can use patterns like abc,xyz,*abc,xyz* etc."
+msgstr ""
+
+#: includes/settings.php:143
+msgid "Allowed User Emails"
+msgstr ""
+
+#: includes/settings.php:145
+msgid "Anyone (including guest users)"
+msgstr ""
+
+#: includes/settings.php:146
+msgid "Registered Users Only"
+msgstr ""
+
+#: includes/settings.php:150
+msgid "Cron Execution Time"
+msgstr ""
+
+#: includes/settings.php:152
+msgid "Minute(s)"
+msgstr ""
+
+#: includes/settings.php:156
+msgid ""
+"Set whether you want to accept email as text or html format. We recommend "
+"using text format to parse exact reply from sender. If you wish to use html "
+"format, it will load full html content along with email history (we stripe "
+"css and javascript in html for safety)."
+msgstr ""
+
+#: includes/settings.php:158
+msgid "Html"
+msgstr ""
+
+#: includes/settings.php:163
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/settings.php:164
+msgid ""
+"It is not safe to keep debug mode enabled all the time, your gmail messeges "
+"can be exposed to hackers. Enable it only when required."
+msgstr ""
+
+#: includes/settings.php:166 includes/settings.php:195
+msgid "Disable"
+msgstr ""
+
+#: includes/settings.php:167 includes/settings.php:196
+msgid "Enable"
+msgstr ""
+
+#: includes/settings.php:172
+msgid " From email in email notification to customer"
+msgstr ""
+
+#: includes/settings.php:173
+msgid ""
+"If set Original, email address to which customer sent an email originally "
+"will be used as From email in an email notification to customer for the "
+"ticket created. e.g. You have piping set for support@yourdomain.com and "
+"forwarded all incoming emails from sales@yourdomain, account@yourdomain, "
+"etc. to support@yourdomain to create ticket. In case, user sent an email to "
+"sales@yourdomain.com he will receive an email notificatification from "
+"sales@yourdomain.com instead of default set in email notification setting."
+msgstr ""
+
+#: includes/settings.php:175
+msgid "Default"
+msgstr ""
+
+#: includes/settings.php:176
+msgid "Original"
+msgstr ""
+
+#: includes/settings.php:181
+msgid "Accept Emails"
+msgstr ""
+
+#: includes/settings.php:182
+msgid ""
+"In this settings you have to define which type of emails you will reccive ."
+msgstr ""
+
+#: includes/settings.php:185
+msgid "New Emails"
+msgstr ""
+
+#: includes/settings.php:186
+msgid "Reply Emails"
+msgstr ""
+
+#: includes/settings.php:187
+msgid "All Emails"
+msgstr ""
+
+#: includes/settings.php:192
+msgid "Import CC as additional recipients"
+msgstr ""
+
+#: includes/settings.php:193
+msgid ""
+"If enabled, CC emails found in an incoming email will be added as addtional "
+"recipients to a ticket."
+msgstr ""

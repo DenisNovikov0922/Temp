@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpsc-caa\n"
+"POT-Creation-Date: 2020-02-17 09:27+0530\n"
+"PO-Revision-Date: 2020-02-17 09:27+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../www/custom/plugins/assign-agent-rules\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-wpsc-caa-install.php:46
+msgid "Conditional Agent Assign"
+msgstr ""
+
+#: includes/conditional_agent_assign_setting_pill.php:7
+#: includes/get_caa_settings.php:18
+msgid "Assign Agent Rules"
+msgstr ""
+
+#: includes/delete_agent_condition.php:16
+msgid "Condition deleted successfully."
+msgstr ""
+
+#: includes/get_add_new_agent_rule.php:25 includes/get_caa_settings.php:35
+#: includes/get_edit_condition.php:19
+msgid "Title"
+msgstr ""
+
+#: includes/get_add_new_agent_rule.php:26
+msgid ""
+"Title to show in rules list. It will be easier to know what this rule is for."
+msgstr ""
+
+#: includes/get_add_new_agent_rule.php:30 includes/get_edit_condition.php:24
+msgid "Select Agents"
+msgstr ""
+
+#: includes/get_add_new_agent_rule.php:31
+msgid "Search agents by their names.."
+msgstr ""
+
+#: includes/get_add_new_agent_rule.php:34 includes/get_edit_condition.php:28
+msgid "Search agent ..."
+msgstr ""
+
+#: includes/get_add_new_agent_rule.php:40
+msgid "Conditions"
+msgstr ""
+
+#: includes/get_add_new_agent_rule.php:41
+msgid "Set conditions to match when new ticket is created to apply this rule."
+msgstr ""
+
+#: includes/get_add_new_agent_rule.php:88 includes/get_edit_condition.php:101
+msgid "Close"
+msgstr ""
+
+#: includes/get_add_new_agent_rule.php:89 includes/get_edit_condition.php:102
+msgid "Submit"
+msgstr ""
+
+#: includes/get_caa_settings.php:11
+msgid "Assign Rules"
+msgstr ""
+
+#: includes/get_caa_settings.php:12 includes/get_caa_settings.php:71
+msgid "Other Settings"
+msgstr ""
+
+#: includes/get_caa_settings.php:19
+msgid "+ Add New"
+msgstr ""
+
+#: includes/get_caa_settings.php:36
+msgid "Assigned Agent Name"
+msgstr ""
+
+#: includes/get_caa_settings.php:37
+msgid "Actions"
+msgstr ""
+
+#: includes/get_caa_settings.php:74
+msgid "Auto assign first responder"
+msgstr ""
+
+#: includes/get_caa_settings.php:75
+msgid ""
+"First responder agent will be automatically assigned to unassigned ticket."
+msgstr ""
+
+#: includes/get_caa_settings.php:78
+msgid "Disable"
+msgstr ""
+
+#: includes/get_caa_settings.php:79
+msgid "Enable"
+msgstr ""
+
+#: includes/get_caa_settings.php:83
+msgid "Save Changes"
+msgstr ""
+
+#: includes/get_caa_settings.php:91
+msgid "Add New Agent Rule"
+msgstr ""
+
+#: includes/get_caa_settings.php:106 includes/get_caa_settings.php:160
+msgid "Title should not be empty."
+msgstr ""
+
+#: includes/get_caa_settings.php:111 includes/get_caa_settings.php:165
+msgid "At least one condition required."
+msgstr ""
+
+#: includes/get_caa_settings.php:117
+msgid "Please wait..."
+msgstr ""
+
+#: includes/get_caa_settings.php:144
+msgid "Edit Condition"
+msgstr ""
+
+#: includes/get_caa_settings.php:170
+msgid "Please wait ..."
+msgstr ""
+
+#: includes/get_caa_settings.php:197
+msgid "Are you sure to delete this condition?"
+msgstr ""
+
+#: includes/get_edit_condition.php:20
+msgid ""
+"Title to show in Agent list. It will be easier to know what this title is "
+"for."
+msgstr ""
+
+#: includes/get_edit_condition.php:25
+msgid "Insert Agent Name."
+msgstr ""
+
+#: includes/set_add_new_agent_rule.php:33
+msgid "Agent added successfully."
+msgstr ""
+
+#: includes/set_add_new_agent_rule.php:35
+msgid "An error occurred while creating agent."
+msgstr ""
+
+#: includes/set_edit_condition.php:27
+msgid "Condition updated successfully."
+msgstr ""
+
+#: includes/set_other_settings.php:14
+msgid "Setting saved!"
+msgstr ""

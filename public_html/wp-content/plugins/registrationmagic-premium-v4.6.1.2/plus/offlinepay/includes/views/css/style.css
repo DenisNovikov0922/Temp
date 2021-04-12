@@ -1,0 +1,7 @@
+#rmwc_fac_form { text-align: center;}
+#rmwc_fac_form:after {
+    content: "";
+    display: block;
+    clear:both;
+}
+#rmwc_fac_form .rm-fac-pass { margin-bottom: 10px;}

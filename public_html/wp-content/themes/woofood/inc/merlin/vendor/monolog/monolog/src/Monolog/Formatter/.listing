@@ -1,0 +1,17 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jun  1 13:49 .
+drwxr-xr-x    5 1499       u1035-camd       4096 Jun  1 13:49 ..
+-rw-r--r--    1 1499       u1035-camd       2043 Jun  1 13:49 ChromePHPFormatter.php
+-rw-r--r--    1 1499       u1035-camd       1837 Jun  1 13:49 ElasticaFormatter.php
+-rw-r--r--    1 1499       u1035-camd       2548 Jun  1 13:49 FlowdockFormatter.php
+-rw-r--r--    1 1499       u1035-camd       2118 Jun  1 13:49 FluentdFormatter.php
+-rw-r--r--    1 1499       u1035-camd        787 Jun  1 13:49 FormatterInterface.php
+-rw-r--r--    1 1499       u1035-camd       4408 Jun  1 13:49 GelfMessageFormatter.php
+-rw-r--r--    1 1499       u1035-camd       4537 Jun  1 13:49 HtmlFormatter.php
+-rw-r--r--    1 1499       u1035-camd       5482 Jun  1 13:49 JsonFormatter.php
+-rw-r--r--    1 1499       u1035-camd       5528 Jun  1 13:49 LineFormatter.php
+-rw-r--r--    1 1499       u1035-camd       1322 Jun  1 13:49 LogglyFormatter.php
+-rw-r--r--    1 1499       u1035-camd       5307 Jun  1 13:49 LogstashFormatter.php
+-rw-r--r--    1 1499       u1035-camd       3260 Jun  1 13:49 MongoDBFormatter.php
+-rw-r--r--    1 1499       u1035-camd       9402 Jun  1 13:49 NormalizerFormatter.php
+-rw-r--r--    1 1499       u1035-camd       1040 Jun  1 13:49 ScalarFormatter.php
+-rw-r--r--    1 1499       u1035-camd       3234 Jun  1 13:49 WildfireFormatter.php

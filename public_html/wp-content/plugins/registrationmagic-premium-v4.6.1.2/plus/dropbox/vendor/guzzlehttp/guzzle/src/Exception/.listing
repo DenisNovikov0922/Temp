@@ -1,0 +1,11 @@
+drwxr-xr-x    2 1499       u1035-camd       4096 Jul  2 09:10 .
+drwxr-xr-x    5 1499       u1035-camd       4096 Jul  2 09:10 ..
+-rw-r--r--    1 1499       u1035-camd        806 Jul  2 09:10 BadResponseException.php
+-rw-r--r--    1 1499       u1035-camd        161 Jul  2 09:10 ClientException.php
+-rw-r--r--    1 1499       u1035-camd        726 Jul  2 09:10 ConnectException.php
+-rw-r--r--    1 1499       u1035-camd         68 Jul  2 09:10 GuzzleException.php
+-rw-r--r--    1 1499       u1035-camd       5687 Jul  2 09:10 RequestException.php
+-rw-r--r--    1 1499       u1035-camd        588 Jul  2 09:10 SeekException.php
+-rw-r--r--    1 1499       u1035-camd        161 Jul  2 09:10 ServerException.php
+-rw-r--r--    1 1499       u1035-camd         99 Jul  2 09:10 TooManyRedirectsException.php
+-rw-r--r--    1 1499       u1035-camd        119 Jul  2 09:10 TransferException.php

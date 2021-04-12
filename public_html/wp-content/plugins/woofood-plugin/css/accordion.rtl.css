@@ -1,0 +1,115 @@
+.woofood-accordion
+{
+	width: 100%;
+    float: right;
+    margin-bottom: 3px;
+    background: white;
+}
+.woofood-accordion .panel-heading
+{    border-radius: 0px;
+    color: white;
+    padding: 0px;
+    height: 60px;
+	width: 100%;
+    background: #ff3019;
+    background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+    background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
+}
+.woofood-accordion .panel-heading .panel-title
+{
+	    width: auto;
+    float: right;
+    max-width: 90%;
+    line-height: 60px;
+    font-size: 19px;
+    margin: 0px;
+    margin-right: 17px;
+        clear: initial;
+        padding-bottom: 0px;
+}
+.woofood-accordion .accordion-plus-icon
+{
+	text-align: left;
+    line-height: 61px;
+    margin-left: 11px;
+
+}
+.woofood-accordion .accordion-plus-icon i
+{
+	color:white;
+}
+
+.woofood-accordion a .panel-heading .accordion-plus-icon i:before
+{
+	    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    transform: rotate(225deg);
+}
+.woofood-accordion .woofood-icon-plus-circled:before
+{
+	content: '\e800';
+}
+.woofood-accordion .panel-body
+{
+	padding: 0px;
+    background-color: white;
+    width:100%;
+}
+
+
+
+.woofood-accordion .fade {
+  transition: opacity 0.15s linear; }
+  @media screen and (prefers-reduced-motion: reduce) {
+   .woofood-accordion .fade {
+      transition: none; } }
+ .woofood-accordion .fade:not(.show) {
+    opacity: 0; }
+
+
+.woofood-accordion .collapse:not(.show)
+{
+  display:none;
+
+}
+.woofood-accordion .collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease; }
+  @media screen and (prefers-reduced-motion: reduce) {
+ .woofood-accordion   .collapsing {
+      transition: none; } }
+
+.woofood-accordion .panel-heading img
+{     margin: auto;
+    margin-left: 5px;
+    float: right;
+    max-width: 100px;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    padding: 12px;
+        margin-left: -20px;
+        box-sizing: border-box;
+}
+.woofood-accordion a .panel-heading .accordion-plus-icon i:before {
+  -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    transform: rotate(225deg);
+}
+
+.woofood-accordion .collapsed .panel-heading .accordion-plus-icon i:before {
+    -webkit-transform: rotate(0deg)!important;
+    -moz-transform: rotate(0deg)!important;
+    transform: rotate(0deg)!important;
+
+}
+
+.woofood-accordion .panel-heading.collapsed .accordion-plus-icon i:before {
+  -webkit-transform: none;
+    -moz-transform: none;
+    transform: none;
+}

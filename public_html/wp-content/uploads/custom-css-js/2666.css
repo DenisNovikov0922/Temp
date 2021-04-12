@@ -1,0 +1,11 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.wpat .notice-warning, .wpat .notice-warning.notice-alt, .wpat .update-nag {
+    display: none !important;
+}
+
+.woocommerce-store-alerts {
+    display: none;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

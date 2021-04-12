@@ -1,0 +1,1204 @@
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> PLUGINS STYLE */
+/**************************************************************************/
+/**************************************************************************/
+
+/**************************************************************************/
+/**************************************************************************/
+/* HIDE PLUGIN ITEMS AT HORIZONTAL WPADMINBAR */
+/**************************************************************************/
+/**************************************************************************/
+
+@media only screen and (max-width: 960px) {
+	
+	#wpadminbar #wp-admin-bar-wpseo-menu,
+	#wpadminbar #wp-admin-bar-query-monitor,
+	#wpadminbar #wp-admin-bar-autoptimize {
+		display: none!important
+	}
+	
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* ACF */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat .acf-postbox.postbox .hndle, 
+.wpat .acf-postbox.stuffbox .hndle {
+	border-bottom: 0px;
+}
+
+.wpat #acf-field-group-fields .inside,
+.wpat .acf-postbox .inside {
+	padding: 0px;
+	box-shadow: none;
+}
+
+/* acf main ********************************************/
+/*******************************************************/
+
+.wpat .acf-fields > .acf-field, 
+.wpat .inside.acf-fields > .acf-field,
+.wpat .acf-field-tab .acf-fields > .acf-field{
+    padding: 15px;
+}
+
+.wpat .acf-fields > .acf-field {
+	border-top: #dde1ea solid 1px;
+}
+
+.wpat .acf-fields.-left > .acf-field:before {
+    background: #f8f9fb;
+	border-color: #dde1ea;
+}
+
+/* acf FontAwesome icon select *************************/
+/*******************************************************/
+
+.acf-font-awesome-select .fa-icon-type span {
+	background: @wpatThemeColor;
+}
+
+.acf-font-awesome-select .fa-icon-type span.selected {
+    color: @wpatThemeColor;
+}
+
+/* acf field description *******************************/
+/*******************************************************/
+
+.wpat .acf-field p.description {
+	color: #8c8c8c;
+}
+
+/* acf button group field ******************************/
+/*******************************************************/
+
+.wpat .acf-button-group {
+    display: inline-block;
+}
+
+.wpat .acf-button-group label {
+    border: 1px solid #dde1ea;
+}
+
+.wpat .acf-button-group label.selected {
+    border-color: @wpatThemeColor;
+    background: lighten(@wpatThemeColor, 40%);
+	color: @wpatThemeColor;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+	z-index: 3;
+}
+
+.wpat .acf-button-group label:hover {
+    background: #f8f9fb;
+    border: 1px solid #dde1ea;
+}
+
+.wpat .acf-button-group label.selected:hover {
+    background: darken(#f8f9fb, 10%);
+    border: 1px solid darken(@wpatThemeColor, 10%);
+}
+
+/* acf radio button field ******************************/
+/*******************************************************/
+
+.wpat ul.acf-radio-list.acf-hl li {
+	margin: 0px 10px 10px 0px;
+}
+
+.wpat .acf-radio-list label {
+	padding: 4px 8px 4px 5px;
+	border-radius: 15px;
+	border: 1px solid #eee;
+	background: #f8f9fb;
+}
+
+.wpat .acf-radio-list label:hover {
+	background: #fff;
+}
+
+.wpat .acf-radio-list label.selected {
+	background: @wpatThemeColor;
+	color: #fff;
+	border-color: @wpatThemeColor;
+}
+
+.wpat .acf-radio-list label.selected:hover {
+	background: darken(@wpatThemeColor, 10%);
+	color: #fff;
+	border-color: darken(@wpatThemeColor, 10%);
+}
+
+.wpat .acf-radio-list input[type=radio] {
+	margin: -3px 5px 0 0;
+}
+
+/* acf switch field ************************************/
+/*******************************************************/
+
+.wpat .acf-switch {
+	height: 28px;
+    background: #f8f9fb;
+    box-shadow: none;
+	border-radius: 3px;
+	border: 1px solid #dde1ea;
+}
+
+.wpat .acf-switch:hover {
+    background: #fff;
+}
+
+.wpat .acf-switch.-on {
+	background-color: @wpatThemeColor;
+	border: 1px solid @wpatThemeColor;
+	box-shadow: none;
+}
+
+.wpat .acf-switch.-on:hover {
+	background-color: darken(@wpatThemeColor, 10%);
+	border: 1px solid darken(@wpatThemeColor, 10%);
+}
+
+.wpat .acf-switch .acf-switch-slider,
+.wpat .acf-switch:hover .acf-switch-slider {
+    border-color: #dde1ea;
+    box-shadow: none;
+}
+
+.wpat .acf-switch.-on .acf-switch-slider,
+.wpat .acf-switch.-on:hover .acf-switch-slider {
+    border-color: @wpatThemeColor;
+}
+
+.wpat .acf-switch.-on .acf-switch-slider {
+    border-color: #fff;
+}
+
+.wpat .acf-switch span {
+    padding: 3px 10px;
+}
+
+/* acf media upload field ******************************/
+/*******************************************************/
+
+.wpat .acf-image-uploader img,
+.wpat .acf-file-uploader img {
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+	border: 6px solid #fff;
+    background: #f2f4f8;
+}
+
+.wpat .acf-image-uploader .acf-actions,
+.wpat .acf-file-uploader .acf-actions {
+    top: 50%;
+	right: auto;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+	background: rgba(255,255,255,0.8);
+	padding: 4px;
+	border-radius: 20px
+}
+
+.wpat .acf-image-uploader .acf-actions a,
+.wpat .acf-file-uploader .acf-actions a {
+	margin: 0px 2px;
+	background-color: @wpatThemeColor;
+}
+
+.wpat .acf-image-uploader .acf-actions a.acf-icon.-pencil:hover,
+.wpat .acf-file-uploader .acf-actions a.acf-icon.-pencil:hover {
+	color: rgba(255,255,255,0.5);
+}
+
+.wpat .acf-image-uploader:not(.has-value) .hide-if-value,
+.wpat .acf-file-uploader:not(.has-value) .hide-if-value {
+	display: inline-block;
+    background: #f8f9fb;
+	border: 1px solid #dde1ea;
+	padding: 3px 3px 3px 8px;
+	border-radius: 3px
+}
+
+.wpat .acf-image-uploader:not(.has-value) .hide-if-value a,
+.wpat .acf-file-uploader:not(.has-value) .hide-if-value a {
+    margin-left: 10px;
+	vertical-align: baseline;
+}
+
+.wpat .acf-image-uploader:not(.has-value) .hide-if-value p,
+.wpat .acf-file-uploader:not(.has-value) .hide-if-value p {
+    margin: 0px;
+}
+
+/* acf tab group field *********************************/
+/*******************************************************/
+
+.wpat .acf-fields > .acf-tab-wrap,
+.wpat .acf-tab-wrap {
+    background-color: transparent;
+}
+
+.wpat .acf-fields > .acf-tab-wrap .acf-tab-group,
+.wpat .acf-tab-wrap .acf-tab-group {
+	padding: 10px 10px 0px 10px;
+	border-top: 0px;
+}
+
+.wpat .acf-tab-wrap .acf-tab-group li {
+	margin-top: -1px;
+    margin-bottom: 0px;
+}
+
+.wpat .acf-fields > .acf-tab-wrap .acf-tab-group li {
+    margin-bottom: -1px;
+}
+
+.wpat .acf-tab-wrap .acf-tab-group li.active {
+    margin-bottom: -1px;
+}
+
+.wpat .acf-fields > .acf-tab-wrap .acf-tab-group li.active {
+	margin-top: -1px;
+    margin-bottom: 0px;
+}
+
+.wpat #acf-term-fields .acf-tab-wrap .acf-tab-group li a, 
+.wpat .acf-tab-wrap .acf-tab-group li a {
+	border-color: #dde1ea;
+	border-bottom: 1px solid #fff;
+    background: #fff;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.wpat .acf-fields > .acf-tab-wrap .acf-tab-group li a {
+	border-color: #dde1ea;
+	border-bottom: 1px solid #f2f4f8;
+    background: #f2f4f8;
+	color: #686868;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.wpat .acf-fields > .acf-tab-wrap.-left .acf-tab-group li a,
+.wpat .acf-tab-wrap.-left .acf-tab-group li a {
+	color: @wpatThemeColor;
+}
+
+.wpat #acf-term-fields .acf-tab-wrap .acf-tab-group li a:hover,
+.wpat .acf-tab-wrap .acf-tab-group li a:hover {
+	background: darken(#f2f4f8, 5%);
+	border-bottom: 1px solid darken(#f2f4f8, 5%);
+}
+
+.wpat .acf-fields > .acf-tab-wrap .acf-tab-group li a:hover {
+    background: lighten(#dde1ea, 30%);
+	border-bottom: 1px solid lighten(#dde1ea, 30%);
+}
+
+.wpat #acf-term-fields .acf-tab-wrap .acf-tab-group li.active a,
+.wpat .acf-tab-wrap .acf-tab-group li.active a {
+    border-color: #dde1ea;
+	border-bottom: 1px solid #f2f4f8;
+    background: #f2f4f8;
+	color: #686868;
+}
+
+.wpat .acf-fields > .acf-tab-wrap .acf-tab-group li.active a {
+    padding-bottom: 6px;
+	border-bottom: 1px solid #fff;
+    background: #fff;
+}
+
+.wpat #acf-term-fields .acf-tab-wrap .acf-tab-group li.active a:hover,
+.wpat .acf-tab-wrap .acf-tab-group li.active a:hover {
+    border-bottom: 1px solid #f2f4f8;
+    background: #f2f4f8;
+}
+
+.wpat .acf-fields > .acf-tab-wrap .acf-tab-group li.active a:hover {
+	border-bottom: 1px solid #fff;
+    background: #fff;
+}
+
+.wpat .acf-table .acf-tab-group li.active a {
+    background: #fff;
+	border-bottom-color: #fff;
+}
+
+.wpat .acf-table .acf-tab-group li a {
+    background: #f2f4f8;
+}
+
+.wpat .acf-tab-wrap.-left .acf-tab-group li a {
+	background: #f8f9fb;
+	border-color: #dde1ea;
+}
+
+.wpat .edit-post-sidebar .acf-tab-group li a {
+    padding: 5px 7px;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+/* acf message field ***********************************/
+/*******************************************************/
+
+.wpat .acf-fields .acf-field-message code {
+	display: inline-block;
+}
+
+.wpat .acf-fields:not(.-left) .acf-field-message {
+	padding: 8px 15px;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.03);
+}
+
+.wpat .acf-fields:not(.-left) .acf-field-message:before {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 13px;
+	border: solid 9px transparent;
+	border-top-color: #eee;
+	margin: 0px 0px -1px -1px
+}
+
+.wpat .acf-fields:not(.-left) .acf-field-message:after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 13px;
+	border: solid 8px transparent;
+	border-top-color: #fff;
+	z-index: 1;
+}
+
+.wpat .acf-fields:not(.-left) .acf-field-message > .acf-label {
+    margin: 0px;
+}
+
+.wpat .acf-fields:not(.-left) .acf-field-message > .acf-label label {
+	display: inline-block;
+	width: auto;
+	color: @wpatThemeColor;
+    position: relative;
+    padding: 3px 0px 0px 19px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+	z-index: 2
+}
+
+.wpat .acf-fields:not(.-left) .acf-field-message > .acf-label label:before {
+    content: "\f111";
+    font-family: dashicons;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    font-size: 14px;
+}
+
+/* acf accordion field *********************************/
+/*******************************************************/
+
+.wpat .acf-accordion .acf-accordion-title {
+    font-size: 13px;
+    font-weight: 600;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.03);
+}
+
+.wpat .acf-accordion .acf-accordion-title:hover {
+	background-color: #f8f9fb;
+	color: @wpatThemeColor;
+}
+
+.wpat .acf-accordion.-open .acf-accordion-title {
+	color: @wpatThemeColor;
+}
+
+
+.wpat .acf-accordion .acf-accordion-title:hover .acf-accordion-icon {
+	color: @wpatThemeColor;
+}
+
+.wpat .acf-accordion .acf-accordion-title {
+    padding: 15px 15px!important;
+}
+
+/* acf repeater field **********************************/
+/*******************************************************/
+
+.wpat .acf-repeater > table {
+    background: #f8f9fb;
+	border-color: #dde1ea;
+}
+
+.wpat .acf-repeater .acf-row-handle.order {
+    background: #f8f9fb;
+}
+
+.wpat .acf-repeater .acf-row:hover > .acf-row-handle.order {
+    background: #fff;
+}
+
+.wpat .acf-repeater .acf-row-handle.order + td {
+    border-color: #dde1ea;
+}
+
+.wpat .acf-repeater .acf-row-handle.remove {
+    background: #f8f9fb;
+	border-color: #dde1ea;
+}
+
+.wpat .acf-repeater .acf-row:not(:first-child) td {
+    border-top: 4px solid #dde1ea;
+}
+
+.wpat .acf-repeater .acf-row-handle.order {
+	text-shadow: none;
+}
+
+.wpat .acf-repeater .acf-row:hover > .acf-row-handle.order {
+    color: @wpatThemeColor;
+}
+
+.wpat .edit-post-sidebar .acf-repeater .acf-row-handle {
+	width: 10px;
+	padding: 2px;
+}
+
+.wpat .edit-post-sidebar .acf-repeater .acf-row-handle.order {
+	font-size: 13px;
+}
+
+.wpat .edit-post-sidebar .acf-row:not(:first-child) td {
+    border-top: 1px solid #dde1ea;
+}
+
+/* acf flexible content field **************************/
+/*******************************************************/
+
+.wpat .acf-field-flexible-content .layout:not(.-collapsed),
+.wpat .acf-field-flexible-content .layout:hover {
+	border-color: @wpatThemeColor;
+}
+
+.wpat .acf-field-flexible-content .layout:not(.-collapsed) .acf-fc-layout-handle,
+.wpat .acf-field-flexible-content .layout .acf-fc-layout-handle:hover {
+	border-color: @wpatThemeColor;	
+	color: @wpatThemeColor;
+	background-color: #f8f9fb;
+}
+
+.wpat .acf-field-flexible-content .acf-flexible-content .layout:not(.-collapsed) .acf-fc-layout-order,
+.wpat .acf-field-flexible-content .acf-flexible-content .layout:hover .acf-fc-layout-order {
+	background-color: @wpatThemeColor;
+	color: #fff;
+}
+
+/* acf code tag ****************************************/
+/*******************************************************/
+
+.wpat .acf-field code {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    background: #f2f4f8;
+	border-radius: 3px;
+    font-size: 12px;
+	padding: 2px 7px 2px 5px;
+    margin: 0px 2px;
+}
+
+/* acf prepend / append label **************************/
+/*******************************************************/
+
+.wpat .acf-input-prepend, 
+.wpat .acf-input-append {
+	background: #f8f9fb;
+	border-color: #dde1ea;
+}
+
+/* acf footer box **************************************/
+/*******************************************************/
+
+.wpat .acf-box .footer {
+	background-color: @wpatThemeColor;
+	color: #fff;
+}
+
+.wpat .acf-box .footer a {
+	color: #fff;
+}
+
+/* acf tables ******************************************/
+/*******************************************************/
+
+.wpat .acf-table tr.acf-field > td.acf-label,
+.wpat .acf-tfoot {
+	background: #f8f9fb;
+	border-color: #dde1ea;
+}
+
+.wpat .acf-thead > li {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.wpat .acf-thead {
+	background: #f8f9fb;
+}
+
+.wpat .form-table > tbody > .acf-field > .acf-input {
+	padding-right: 0px!;
+}
+
+/* acf editor wrap *************************************/
+/*******************************************************/
+
+.acf-editor-wrap .wp-editor-container textarea {
+	border: 0px;
+}
+
+/* acf other *******************************************/
+/*******************************************************/
+
+.wpat .acf-fields.-sidebar:before {
+	background: #f8f9fb;
+	border-color: #dde1ea;
+}
+
+.wpat .acf-editor-wrap.delay .acf-editor-toolbar {
+	background: #f8f9fb;
+    border-color: #dde1ea;
+}
+
+.wpat .acf-url input[type="url"] {
+    padding-left: 25px;
+}
+
+.wpat .acf-field-object.open > .handle {
+    background-color: @wpatThemeColor;
+    border-color: @wpatThemeColor;
+    text-shadow: none;
+    margin: 0px;
+}
+
+.wpat .acf-field-list {
+    background: #f8f9fb;
+}
+
+/* Special style for flexible content label input by "CreativeDive Themes" */
+
+.wpat div[data-name="admin_layout_label"] {
+	color: @wpatThemeColor;
+	background-color: #f8f9fb;
+}
+
+.wpat .acf-fc-layout-handle .custom-layout-title-after {
+	color: #8c8c8c;
+}
+
+/* acf flexible content tooltip (restyled) by "CreativeDive Themes" */
+/*******************************************************/
+
+.wpat .acf-tooltip.acf-fc-popup li a:not(.disabled):hover {
+	background: @wpatThemeColor;
+}
+
+.wpat .acf-tooltip.acf-fc-popup li a:before {
+	color: @wpatThemeColor;
+}
+
+.wpat .acf-tooltip.acf-fc-popup li a:hover:before {
+	color: #fff;
+}
+
+.wpat .acf-tooltip.acf-fc-popup li a.disabled:before {
+	color: #686868;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WP REAL MEDIA LIBRARY */
+/**************************************************************************/
+/**************************************************************************/
+
+@media (min-width: 960px) {
+	
+	.wpat .rml-container {
+		margin-left: -20px;
+	}
+	
+}
+
+.wpat .rml-container .aiot-tree .aiot-fixed-header > div {
+	background: none;
+}
+
+.wpat .aiot-tree .aiot-nodes .aiot-node {
+	color: @wpatThemeColor;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* CONTACT FORM 7 */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat #contact-form-editor-tabs {
+  	padding-left: 0px;
+	border: 0px;
+}
+
+.wpat #contact-form-editor-tabs li {
+    border: 1px solid #dde1ea;
+    border-bottom: 1px solid #dde1ea;
+    background-color: #f2f4f8;
+}
+
+.wpat #contact-form-editor-tabs li:hover {
+    background-color: #fff;
+}
+
+.wpat #contact-form-editor-tabs li:first-child {
+	margin-left: 0px!important;
+}
+
+.wpat #contact-form-editor-tabs li.ui-tabs-active, 
+.wpat #contact-form-editor-tabs li.ui-tabs-active:hover {
+	border: 1px solid #dde1ea;
+	border-bottom: 1px solid #fff;
+ 	background: #fff;
+}
+
+.wpat #contact-form-editor .contact-form-editor-panel {
+    background-color: #fff;
+    border: 1px solid #dde1ea;
+    padding: 15px;
+}
+
+.wpat #contact-form-editor #tag-generator-list {
+	display: block;
+	margin-bottom: 10px;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WP FORMS */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat #wpforms-header-temp {
+	display: none;
+}
+
+.wpat .wpforms-admin-wrap .page-title {
+    background: none;
+    padding: 0px;
+	padding-bottom: 16px;
+}
+
+.wpat #wpforms-header {
+  	display: none;
+}
+
+.wpat .wpforms-admin-wrap .notice {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+.wpat .wpforms-admin-content {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.wpat .wpforms-admin-tabs {
+	background: none;
+	padding: 0px;
+}
+
+.wpat .wpforms-admin-tabs li a {
+    font-weight: 600;
+    padding: 10px 0;
+    border-color: transparent;
+}
+
+.wpat .wpforms-admin-tabs li a.active {
+    border-color: @wpatThemeColor;
+}
+
+.wpat #wpforms-builder .wpforms-toolbar {
+	text-align: left;
+}
+
+.wpat #wpforms-builder .wpforms-toolbar .wpforms-left {
+    display: none;
+}
+
+.wpat.wpforms-admin-page .wpforms-btn-orange {
+    background-color: @wpatThemeColor;
+    border-color: @wpatThemeColor;
+}
+
+.wpat #wpforms-builder .wpforms-panels-toggle button.active, 
+.wpat #wpforms-builder .wpforms-panels-toggle button.active:hover {
+    background-color: @wpatThemeColor;
+}
+
+.wpat .wpforms-setup-templates .wpforms-template-select {
+    background-color: @wpatThemeColor;
+    border: 1px solid @wpatThemeColor;
+}
+
+.wpat #wpforms-builder .wpforms-toolbar #wpforms-save {
+	background-color: @wpatThemeColor;
+    border-color: @wpatThemeColor;
+}
+
+.wpat .wpforms-setup-templates .wpforms-template.selected .wpforms-template-inner {
+    background-color: lighten(@wpatThemeColor, 50%);
+    border-color: @wpatThemeColor;
+}
+
+.wpat .wpforms-setup-templates .wpforms-template-name .selected {
+    background-color: @wpatThemeColor;
+}
+
+.wpat #wpforms-builder .wpforms-toolbar {
+    border-bottom: 1px solid #dde1ea;
+}
+
+.wpat #wpforms-builder .wpforms-panel-name {
+    background-color: #f2f4f8;
+    border-bottom: 1px solid #dde1ea;
+}
+
+.wpat #wpforms-builder .wpforms-panel-sidebar-content .wpforms-panel-sidebar {
+    background-color: #f2f4f8;
+	box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    z-index: 9;
+}
+
+.wpat #wpforms-panel-fields .wpforms-tabs {
+     border-bottom: 1px solid #dde1ea;
+}
+
+.wpat #wpforms-panel-fields .wpforms-tabs #field-options .active,
+.wpat #wpforms-panel-fields .wpforms-tabs #add-fields .active {
+    background: #f2f4f8;
+}
+
+.wpat #wpforms-panel-fields .wpforms-add-fields-heading, 
+.wpat #wpforms-panel-fields .wpforms-field-option-group-toggle {
+    border-top: 1px solid #dde1ea;
+    border-bottom: 1px solid #dde1ea;
+    font-weight: 600;
+	color: @wpatThemeColor;
+}
+
+.wpat #wpforms-panel-fields .wpforms-add-fields-group:last-of-type .wpforms-add-fields-heading,
+.wpat #wpforms-panel-fields .wpforms-field-option-group:last-of-type .wpforms-field-option-group-toggle {
+	border-bottom: 1px solid #dde1ea!important;
+}
+
+.wpat #wpforms-panel-fields .wpforms-add-fields-button {
+	background-color: @wpatThemeColor;
+}
+
+.wpat #wpforms-builder .wpforms-panel-sidebar-section:hover {
+    background-color: #fff;
+}
+
+.wpat #wpforms-builder .wpforms-panel-sidebar-section.active, 
+.wpat #wpforms-builder .wpforms-panel-sidebar-section.active:hover {
+    background-color: @wpatThemeColor;
+}
+
+.wpat #wpforms-panel-settings .wpforms-panel-content .wpforms-builder-settings-block-header {
+    background-color: #f2f4f8;
+}
+
+.wpat #wpforms-builder .wpforms-panel-full-content .wpforms-panel-content-wrap, 
+.wpat #wpforms-builder .wpforms-panel-sidebar-content .wpforms-panel-content-wrap {
+    background-color: #fff;
+    padding: 0px;
+}
+
+.wpat #wpforms-builder .wpforms-panel-full-content .wpforms-panel-content, 
+.wpat #wpforms-builder .wpforms-panel-sidebar-content .wpforms-panel-content {
+    box-shadow: none;
+}
+
+
+/**************************************************************************/
+/**************************************************************************/
+/* WP FASTEST CACHE PLUGIN */
+/**************************************************************************/
+/**************************************************************************/
+
+#wpadminbar #wp-admin-bar-wpfc-toolbar-parent > .ab-empty-item::before {
+    content: none;
+}
+
+.toplevel_page_wpfastestcacheoptions .tabGroup select, 
+.toplevel_page_wpfastestcacheoptions .tabGroup label, 
+.toplevel_page_wpfastestcacheoptions .tabGroup div {
+    font-size: 14px;
+}
+
+.toplevel_page_wpfastestcacheoptions .tabGroup {
+    background: none!important;
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.toplevel_page_wpfastestcacheoptions .tabGroup > input[type="radio"] + label {
+    border: 1px solid #dde1ea;
+    border-bottom: none;
+    margin-left: 0.5em;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #555;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 0px;
+    background: #fff
+}
+
+.toplevel_page_wpfastestcacheoptions .tabGroup > input[type="radio"]:checked + label {
+    background: none
+}
+
+.toplevel_page_wpfastestcacheoptions .tabGroup > div {
+    border-top: 1px solid #dde1ea!important;
+    margin-top: 0px;
+}
+
+.toplevel_page_wpfastestcacheoptions .tabGroup > div {
+    border: 0px;
+    background-color: transparent;
+    padding: 10px 0px;
+}
+
+.toplevel_page_wpfastestcacheoptions .tabGroup div.question {
+    text-align: left;
+    width: 230px;
+    font-weight: 600!important;
+    padding: 6px 10px 6px 0px;
+}
+
+.toplevel_page_wpfastestcacheoptions .tabGroup div.inputCon {
+    padding: 6px 10px;
+}
+
+.toplevel_page_wpfastestcacheoptions div.questionCon.qsubmit {
+    text-align: left
+}
+
+.toplevel_page_wpfastestcacheoptions .omni_admin_sidebar {
+    display: none
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WOOCOMMERCE PLUGIN */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat.woocommerce-page #wpcontent {
+	padding-left: 40px;
+}
+
+
+.wpat.woocommerce-embed-page .wrap {
+    padding: 0;
+}
+
+@media (min-width: 783px) {
+	
+	.wpat.woocommerce-page #wpbody-content {
+    	padding-left: 0;
+	}
+	
+}
+
+@media (min-width: 960px) {
+	
+	.wpat .woocommerce-layout {
+		margin-left: -40px;
+	}
+
+	.wpat.woocommerce-embed-page .wrap {
+		margin: 40px 40px 0 0;
+		padding-top: 0;
+	}
+
+	/*.wpat.wpat-spacing-on .woocommerce-layout {
+		position: absolute;
+		right: 0;
+		left: @wpatMenuLeftWidth;
+		margin-left: 0px;
+	}*/
+	
+	.wpat.wpat-spacing-on .woocommerce-layout__header {
+		position: absolute;
+		top: 0;
+	}
+	
+	.wpat.wpat-spacing-on .woocommerce-layout__activity-panel {
+		position: absolute;
+	}
+	
+}
+
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items thead th,
+#woocommerce-order-items .wc-order-data-row,
+#woocommerce-order-items .wc-order-data-row,
+.woocommerce-reports-wide .postbox div.stats_range ul, 
+.woocommerce-reports-wide .postbox h3.stats_range ul, 
+.woocommerce-reports-wrap .postbox div.stats_range ul, 
+.woocommerce-reports-wrap .postbox h3.stats_range ul {
+	background: #f8f9fb!important;
+}
+
+#woocommerce_dashboard_status .wc_status_list li a strong {
+	color: @wpatThemeColor!important;
+}
+
+ul.wc-tabs li a,
+ul.wc-tabs {
+	background: #f8f9fb!important;
+}
+
+ul.wc-tabs li a:hover {
+	background: #f2f4f8!important;
+}
+
+ul.wc-tabs li.active {
+	margin-right: -1px!important;
+}
+
+ul.wc-tabs li.active a {
+	background: #fff!important;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* BETTER SEARCH AND REPLACE PLUGIN */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat #bsr-sidebar-wrap {
+	display: none;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* AUTOPTIMIZE PLUGIN */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat #autoptimize_admin_feed .unslider {
+	display: none!important;
+}
+
+.wpat #autoptimize_admin_feed h2 {
+	margin-top: 10px;
+}
+
+.wpat #autoptimize_main .itemDetail,
+.wpat #ao_settings_form {
+	border: 0px;
+	background: none;
+	padding: 0px;
+}
+
+.wpat #wp-admin-bar-autoptimize td {
+	background: none!important;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* DEBUG BAR PLUGIN */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat #wpadminbar #wp-admin-bar-debug-bar.debug-bar-php-warning-summary .ab-item {
+	text-shadow: none;
+}
+
+.wpat #debug-bar-info {
+	border: 0px;
+	background-image: none;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* ANTISPAM BEE PLUGIN */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat .ab-column h3.icon:before { content: none!important; }
+.wpat .ab-column.ab-arrow > ul > li:before  { content: none!important; }
+.wpat .ab-column.ab-arrow > ul > li:after { content: none!important; }
+.wpat .ab-column.ab-join > ul > li:before { content: none!important; }
+.wpat .ab-column.ab-diff > ul > li:before { content: none!important; }
+
+.wpat .ab-column > ul > li {
+	background: none;
+    padding: 0px!important;
+}
+
+.wpat .ab-column--submit-service {
+	width: 100%!important
+}
+
+.wpat .ab-column--submit-service p {
+    padding: 0px!important;
+    text-align: left!important;
+    width: auto!important;
+	border: 0px!important
+}
+
+.wpat .ab-column--submit-service .button {
+    width: auto!important;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* ENVATO THEME CHECK PLUGIN */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat #theme-check .theme-check {
+	border: 0px!important
+}
+
+.wpat #theme-check .theme-check form {
+	margin-left: 0px;	
+}
+
+.wpat #theme-check .theme-check form input[type=submit],
+.wpat #theme-check .theme-check form select {
+	margin: 0px 20px 0px 0px;	
+}
+
+.wpat #theme-check .theme-check h2 {
+	background: none!important;
+	border: 0px!important;
+	margin: 30px 0px 10px 0px!important;
+	padding-left: 0px;
+}
+
+.wpat #theme-check .theme-check h3 {
+	margin-left: 0px;
+}
+
+.wpat #theme-check .theme-check p {
+	padding: 0px;
+}
+
+.wpat #theme-check .theme-check .theme-info {
+	margin: 0px;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #dde1ea!important;
+}
+
+.wpat #theme-check .theme-check ul {
+	margin: 0px;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* GOOGLE ANALYTICS DASHBOARD FOR WP */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat table.gadwp-settings-options {
+	padding: 0px!important
+}
+
+.wpat .gadwp-settings-options td {
+	padding: 0px!important
+}
+
+.wpat .gadwp-settings-options td.gadwp-settings-title {
+	padding: 20px 10px 20px 0!important
+}
+
+.wpat td.gadwp-settings-title label {
+	font-weight: 600;
+}
+
+.wpat .gadwp-settings-options td.gadwp-settings-roles, td.gadwp-settings-info {
+	padding: 15px 0px!important
+}
+
+.wpat .button-primary.gadwp-settings-switchoo {
+	width: 80px!important;
+    height: 26px!important;
+}
+
+.wpat .gadwp-settings-switchoo-label {
+	border: 0px!important
+}
+
+.wpat .gadwp-settings-switchoo-switch {
+	right: auto!important
+}
+
+.wpat .gadwp-settings-switchoo-checkbox:checked+.gadwp-settings-switchoo-label .gadwp-settings-switchoo-switch {
+	right: 0px!important
+}
+
+.wpat .gadwp-settings-switchoo-inner:before, .gadwp-settings-switchoo-inner:after {
+    height: 24px!important;
+	line-height: 24px!important
+}
+
+.wpat .gadwp-settings-switchoo-inner:before {
+	padding-left: 10px!important;
+}
+
+.wpat .gadwp-settings-switchoo-inner:after {
+	padding-right: 10px!important;
+    color: #555!important;
+}
+
+.wpat.toplevel_page_gadash_settings hr,
+.wpat .google-analytics_page_gadash_frontend_settings hr {
+	display: none!important
+}
+
+.wpat .gadwp-settings-options .submit .button {
+	margin-top: 20px
+}
+
+.wpat #gadwp-widget .inside .small-box {
+	box-shadow: none!important
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* CONTENT AWARE SIDEBARS PLUGIN */
+/**************************************************************************/
+/**************************************************************************/
+
+@media (min-width: 960px) {
+	
+	.wpat.cas-widget-manager:not(.widgets_access) #available-widgets {
+		left: @wpatMenuLeftWidth;
+	}
+	
+}
